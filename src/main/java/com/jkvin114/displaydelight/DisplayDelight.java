@@ -21,7 +21,7 @@ import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
-import vectorwing.farmersdelight.common.registry.ModCreativeTabs;
+
 
 
 // The value here should match an entry in the META-INF/neoforge.mods.toml file
@@ -108,7 +108,7 @@ public class DisplayDelight {
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
         if (event.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS
-            || event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES || event.getTabKey() == ModCreativeTabs.TAB_FARMERS_DELIGHT) {
+            || event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
             event.accept(DisplayItems.PLATE.get());
             event.accept(DisplayItems.SMALL_PLATE.get());
         }
