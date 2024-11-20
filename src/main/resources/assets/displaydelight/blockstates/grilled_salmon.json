@@ -1,0 +1,19 @@
+{
+ "variants": {
+  "facing=north": {
+   "model": "displaydelight:block/grilled_salmon"
+  },
+  "facing=south": {
+   "model": "displaydelight:block/grilled_salmon",
+   "y": 180
+  },
+  "facing=west": {
+   "model": "displaydelight:block/grilled_salmon",
+   "y": 270
+  },
+  "facing=east": {
+   "model": "displaydelight:block/grilled_salmon",
+   "y": 90
+  }
+ }
+}

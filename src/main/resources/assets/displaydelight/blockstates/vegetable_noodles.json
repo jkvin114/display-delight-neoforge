@@ -1,0 +1,19 @@
+{
+ "variants": {
+  "facing=north": {
+   "model": "displaydelight:block/vegetable_noodles"
+  },
+  "facing=south": {
+   "model": "displaydelight:block/vegetable_noodles",
+   "y": 180
+  },
+  "facing=west": {
+   "model": "displaydelight:block/vegetable_noodles",
+   "y": 270
+  },
+  "facing=east": {
+   "model": "displaydelight:block/vegetable_noodles",
+   "y": 90
+  }
+ }
+}

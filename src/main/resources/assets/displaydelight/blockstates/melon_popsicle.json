@@ -1,0 +1,19 @@
+{
+ "variants": {
+  "facing=north": {
+   "model": "displaydelight:block/melon_popsicle"
+  },
+  "facing=south": {
+   "model": "displaydelight:block/melon_popsicle",
+   "y": 180
+  },
+  "facing=west": {
+   "model": "displaydelight:block/melon_popsicle",
+   "y": 270
+  },
+  "facing=east": {
+   "model": "displaydelight:block/melon_popsicle",
+   "y": 90
+  }
+ }
+}

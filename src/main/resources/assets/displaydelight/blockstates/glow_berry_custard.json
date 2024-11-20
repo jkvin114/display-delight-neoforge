@@ -1,0 +1,19 @@
+{
+ "variants": {
+  "facing=north": {
+   "model": "displaydelight:block/glow_berry_custard"
+  },
+  "facing=south": {
+   "model": "displaydelight:block/glow_berry_custard",
+   "y": 180
+  },
+  "facing=west": {
+   "model": "displaydelight:block/glow_berry_custard",
+   "y": 270
+  },
+  "facing=east": {
+   "model": "displaydelight:block/glow_berry_custard",
+   "y": 90
+  }
+ }
+}

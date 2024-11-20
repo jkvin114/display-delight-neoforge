@@ -1,0 +1,9 @@
+{
+    "sources": [
+        {
+            "type": "directory",
+            "source": "farmers3d",
+            "prefix": "farmers3d/"
+        }
+    ]
+}

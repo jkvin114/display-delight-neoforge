@@ -1,0 +1,19 @@
+{
+ "variants": {
+  "facing=north": {
+   "model": "displaydelight:block/mixed_salad"
+  },
+  "facing=south": {
+   "model": "displaydelight:block/mixed_salad",
+   "y": 180
+  },
+  "facing=west": {
+   "model": "displaydelight:block/mixed_salad",
+   "y": 270
+  },
+  "facing=east": {
+   "model": "displaydelight:block/mixed_salad",
+   "y": 90
+  }
+ }
+}

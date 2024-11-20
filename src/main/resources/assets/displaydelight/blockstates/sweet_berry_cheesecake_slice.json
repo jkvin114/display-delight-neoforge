@@ -1,0 +1,19 @@
+{
+ "variants": {
+  "facing=north": {
+   "model": "displaydelight:block/sweet_berry_cheesecake_slice"
+  },
+  "facing=south": {
+   "model": "displaydelight:block/sweet_berry_cheesecake_slice",
+   "y": 180
+  },
+  "facing=west": {
+   "model": "displaydelight:block/sweet_berry_cheesecake_slice",
+   "y": 270
+  },
+  "facing=east": {
+   "model": "displaydelight:block/sweet_berry_cheesecake_slice",
+   "y": 90
+  }
+ }
+}

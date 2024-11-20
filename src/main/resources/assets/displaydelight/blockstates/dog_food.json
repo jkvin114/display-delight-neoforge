@@ -1,0 +1,19 @@
+{
+ "variants": {
+  "facing=north": {
+   "model": "displaydelight:block/dog_food"
+  },
+  "facing=south": {
+   "model": "displaydelight:block/dog_food",
+   "y": 180
+  },
+  "facing=west": {
+   "model": "displaydelight:block/dog_food",
+   "y": 270
+  },
+  "facing=east": {
+   "model": "displaydelight:block/dog_food",
+   "y": 90
+  }
+ }
+}

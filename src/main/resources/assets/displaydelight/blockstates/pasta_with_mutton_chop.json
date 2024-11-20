@@ -1,0 +1,19 @@
+{
+ "variants": {
+  "facing=north": {
+   "model": "displaydelight:block/pasta_with_mutton_chop"
+  },
+  "facing=south": {
+   "model": "displaydelight:block/pasta_with_mutton_chop",
+   "y": 180
+  },
+  "facing=west": {
+   "model": "displaydelight:block/pasta_with_mutton_chop",
+   "y": 270
+  },
+  "facing=east": {
+   "model": "displaydelight:block/pasta_with_mutton_chop",
+   "y": 90
+  }
+ }
+}

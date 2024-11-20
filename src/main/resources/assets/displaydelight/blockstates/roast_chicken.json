@@ -1,0 +1,19 @@
+{
+ "variants": {
+  "facing=north": {
+   "model": "displaydelight:block/roast_chicken"
+  },
+  "facing=south": {
+   "model": "displaydelight:block/roast_chicken",
+   "y": 180
+  },
+  "facing=west": {
+   "model": "displaydelight:block/roast_chicken",
+   "y": 270
+  },
+  "facing=east": {
+   "model": "displaydelight:block/roast_chicken",
+   "y": 90
+  }
+ }
+}

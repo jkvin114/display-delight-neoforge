@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "displaydelight:block/plated_salmon_roll"
+    },
+    "facing=south": {
+      "model": "displaydelight:block/plated_salmon_roll",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "displaydelight:block/plated_salmon_roll",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "displaydelight:block/plated_salmon_roll",
+      "y": 90
+    }
+  }
+}

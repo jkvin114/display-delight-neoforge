@@ -1,0 +1,19 @@
+{
+ "variants": {
+  "facing=north": {
+   "model": "displaydelight:block/bacon_and_eggs"
+  },
+  "facing=south": {
+   "model": "displaydelight:block/bacon_and_eggs",
+   "y": 180
+  },
+  "facing=west": {
+   "model": "displaydelight:block/bacon_and_eggs",
+   "y": 270
+  },
+  "facing=east": {
+   "model": "displaydelight:block/bacon_and_eggs",
+   "y": 90
+  }
+ }
+}

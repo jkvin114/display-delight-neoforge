@@ -1,0 +1,19 @@
+{
+ "variants": {
+  "facing=north": {
+   "model": "displaydelight:block/stuffed_pumpkin"
+  },
+  "facing=south": {
+   "model": "displaydelight:block/stuffed_pumpkin",
+   "y": 180
+  },
+  "facing=west": {
+   "model": "displaydelight:block/stuffed_pumpkin",
+   "y": 270
+  },
+  "facing=east": {
+   "model": "displaydelight:block/stuffed_pumpkin",
+   "y": 90
+  }
+ }
+}

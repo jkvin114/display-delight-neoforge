@@ -1,0 +1,19 @@
+{
+ "variants": {
+  "facing=north": {
+   "model": "displaydelight:block/horse_feed"
+  },
+  "facing=south": {
+   "model": "displaydelight:block/horse_feed",
+   "y": 180
+  },
+  "facing=west": {
+   "model": "displaydelight:block/horse_feed",
+   "y": 270
+  },
+  "facing=east": {
+   "model": "displaydelight:block/horse_feed",
+   "y": 90
+  }
+ }
+}

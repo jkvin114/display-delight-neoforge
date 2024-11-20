@@ -1,0 +1,19 @@
+{
+ "variants": {
+  "facing=north": {
+   "model": "displaydelight:block/roasted_mutton_chops"
+  },
+  "facing=south": {
+   "model": "displaydelight:block/roasted_mutton_chops",
+   "y": 180
+  },
+  "facing=west": {
+   "model": "displaydelight:block/roasted_mutton_chops",
+   "y": 270
+  },
+  "facing=east": {
+   "model": "displaydelight:block/roasted_mutton_chops",
+   "y": 90
+  }
+ }
+}

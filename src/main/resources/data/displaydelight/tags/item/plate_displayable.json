@@ -1,0 +1,48 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "farmersdelight:melon_popsicle",
+      "required": false
+    },{
+      "id": "farmersdelight:barbecue_stick",
+      "required": false
+    },{
+      "id": "farmersdelight:egg_sandwich",
+      "required": false
+    },{
+      "id": "farmersdelight:chicken_sandwich",
+      "required": false
+    },{
+      "id": "farmersdelight:hamburger",
+      "required": false
+    },{
+      "id": "farmersdelight:dumplings",
+      "required": false
+    },{
+      "id": "farmersdelight:bacon_sandwich",
+      "required": false
+    },{
+      "id": "farmersdelight:mutton_wrap",
+      "required": false
+    },{
+      "id": "farmersdelight:stuffed_potato",
+      "required": false
+    },{
+      "id": "farmersdelight:cabbage_rolls",
+      "required": false
+    },{
+      "id": "farmersdelight:salmon_roll",
+      "required": false
+    },{
+      "id": "farmersdelight:cod_roll",
+      "required": false
+    },{
+      "id": "farmersdelight:kelp_roll",
+      "required": false
+    },{
+      "id": "farmersdelight:kelp_roll_slice",
+      "required": false
+    }
+  ]
+}

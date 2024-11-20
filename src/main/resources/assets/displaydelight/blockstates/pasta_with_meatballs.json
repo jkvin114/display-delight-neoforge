@@ -1,0 +1,19 @@
+{
+ "variants": {
+  "facing=north": {
+   "model": "displaydelight:block/pasta_with_meatballs"
+  },
+  "facing=south": {
+   "model": "displaydelight:block/pasta_with_meatballs",
+   "y": 180
+  },
+  "facing=west": {
+   "model": "displaydelight:block/pasta_with_meatballs",
+   "y": 270
+  },
+  "facing=east": {
+   "model": "displaydelight:block/pasta_with_meatballs",
+   "y": 90
+  }
+ }
+}

@@ -1,0 +1,19 @@
+{
+ "variants": {
+  "facing=north": {
+   "model": "displaydelight:block/chocolate_pie_slice"
+  },
+  "facing=south": {
+   "model": "displaydelight:block/chocolate_pie_slice",
+   "y": 180
+  },
+  "facing=west": {
+   "model": "displaydelight:block/chocolate_pie_slice",
+   "y": 270
+  },
+  "facing=east": {
+   "model": "displaydelight:block/chocolate_pie_slice",
+   "y": 90
+  }
+ }
+}

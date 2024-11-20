@@ -1,0 +1,19 @@
+{
+ "variants": {
+  "facing=north": {
+   "model": "displaydelight:block/steak_and_potatoes"
+  },
+  "facing=south": {
+   "model": "displaydelight:block/steak_and_potatoes",
+   "y": 180
+  },
+  "facing=west": {
+   "model": "displaydelight:block/steak_and_potatoes",
+   "y": 270
+  },
+  "facing=east": {
+   "model": "displaydelight:block/steak_and_potatoes",
+   "y": 90
+  }
+ }
+}

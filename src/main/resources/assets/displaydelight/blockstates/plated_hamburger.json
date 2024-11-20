@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "displaydelight:block/plated_hamburger"
+    },
+    "facing=south": {
+      "model": "displaydelight:block/plated_hamburger",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "displaydelight:block/plated_hamburger",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "displaydelight:block/plated_hamburger",
+      "y": 90
+    }
+  }
+}

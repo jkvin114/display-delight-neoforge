@@ -1,0 +1,19 @@
+{
+ "variants": {
+  "facing=north": {
+   "model": "displaydelight:block/shepherds_pie"
+  },
+  "facing=south": {
+   "model": "displaydelight:block/shepherds_pie",
+   "y": 180
+  },
+  "facing=west": {
+   "model": "displaydelight:block/shepherds_pie",
+   "y": 270
+  },
+  "facing=east": {
+   "model": "displaydelight:block/shepherds_pie",
+   "y": 90
+  }
+ }
+}

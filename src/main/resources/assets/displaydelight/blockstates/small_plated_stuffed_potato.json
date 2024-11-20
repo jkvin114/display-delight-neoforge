@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "displaydelight:block/plated_stuffed_potato"
+    },
+    "facing=south": {
+      "model": "displaydelight:block/plated_stuffed_potato",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "displaydelight:block/plated_stuffed_potato",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "displaydelight:block/plated_stuffed_potato",
+      "y": 90
+    }
+  }
+}
