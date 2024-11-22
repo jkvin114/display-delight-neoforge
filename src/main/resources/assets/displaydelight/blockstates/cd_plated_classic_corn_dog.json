@@ -1,0 +1,34 @@
+{
+ "variants": {
+  "stacks=1,facing=north": {
+   "model": "displaydelight:block/cd_plated_classic_corn_dog_1"
+  },
+  "stacks=1,facing=south": {
+   "model": "displaydelight:block/cd_plated_classic_corn_dog_1",
+   "y": 180
+  },
+  "stacks=1,facing=west": {
+   "model": "displaydelight:block/cd_plated_classic_corn_dog_1",
+   "y": 270
+  },
+  "stacks=1,facing=east": {
+   "model": "displaydelight:block/cd_plated_classic_corn_dog_1",
+   "y": 90
+  },
+  "stacks=2,facing=north": {
+   "model": "displaydelight:block/cd_plated_classic_corn_dog_2"
+  },
+  "stacks=2,facing=south": {
+   "model": "displaydelight:block/cd_plated_classic_corn_dog_2",
+   "y": 180
+  },
+  "stacks=2,facing=west": {
+   "model": "displaydelight:block/cd_plated_classic_corn_dog_2",
+   "y": 270
+  },
+  "stacks=2,facing=east": {
+   "model": "displaydelight:block/cd_plated_classic_corn_dog_2",
+   "y": 90
+  }
+ }
+}

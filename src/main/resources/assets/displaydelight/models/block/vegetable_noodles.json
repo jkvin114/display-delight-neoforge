@@ -1,6 +1,6 @@
 {
 	"credit": "Made with Blockbench",
-	"parent": "farmers3d/bowls/flat",
+	"parent": "displaydelight:block/parent_bowl",
 	"render_type": "cutout",
 	"textures": {
 		"7": "displaydelight:block/vegetable_noodle",

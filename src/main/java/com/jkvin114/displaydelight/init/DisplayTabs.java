@@ -1,5 +1,6 @@
 package com.jkvin114.displaydelight.init;
 import com.jkvin114.displaydelight.DisplayDelight;
+import net.neoforged.fml.ModList;
 import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.minecraft.core.registries.Registries;
@@ -17,5 +18,9 @@ public class DisplayTabs {
                     .displayItems((parameters, tabData) -> {
                         tabData.accept(DisplayItems.PLATE.get());
                         tabData.accept(DisplayItems.SMALL_PLATE.get());
+
+                      /*  if (!ModList.get().isLoaded("farmersdelight")){
+
+                        }*/
             }).build());
 }

@@ -1,6 +1,6 @@
 {
 	"credit": "Made with Blockbench",
-	"render_type": "cutout",
+	"render_type": "cutout","parent": "displaydelight:block/parent_bowl",
 	"texture_size": [32, 32],
 	"textures": {
 		"5": "displaydelight:block/egg_sandwich",

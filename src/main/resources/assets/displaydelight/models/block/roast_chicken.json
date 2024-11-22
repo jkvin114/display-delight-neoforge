@@ -1,10 +1,9 @@
 {
 	"credit": "Made with Blockbench",
-	"render_type": "cutout",
+	"render_type": "cutout","parent": "displaydelight:block/parent_bowl",
 	"textures": {
 		"4": "displaydelight:block/bowl2",
 		"tray_top": "farmers3d/tray_top_veggies",
-		"particle": "farmers3d/roast_chicken_eaten",
 		"body": "farmers3d/roast_chicken_eaten",
 		"gibs": "farmers3d/roast_chicken_gibs"
 	},

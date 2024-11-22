@@ -1,0 +1,19 @@
+{
+ "variants": {
+  "facing=north": {
+   "model": "displaydelight:block/ed_small_plated_sweet_roll"
+  },
+  "facing=south": {
+   "model": "displaydelight:block/ed_small_plated_sweet_roll",
+   "y": 180
+  },
+  "facing=west": {
+   "model": "displaydelight:block/ed_small_plated_sweet_roll",
+   "y": 270
+  },
+  "facing=east": {
+   "model": "displaydelight:block/ed_small_plated_sweet_roll",
+   "y": 90
+  }
+ }
+}

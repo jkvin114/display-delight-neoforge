@@ -1,10 +1,9 @@
 {
-	"credit": "Made with Blockbench",
+	"credit": "Made with Blockbench","parent": "displaydelight:block/parent_bowl",
 	"textures": {
 		"4": "displaydelight:block/baked_potato",
 		"tray_top": "farmers3d/tray_top",
-		"tray_bottom": "farmers3d/tray_bottom",
-		"particle": "farmers3d/sweet_berry_cheesecake_inner"
+		"tray_bottom": "farmers3d/tray_bottom"
 	},
 	"elements": [
 		{

@@ -1,11 +1,11 @@
 {
 	"credit": "Made with Blockbench",
-	"parent": "farmers3d/bowls/flat",
+	"parent": "displaydelight:block/parent_bowl",
 	"render_type": "cutout",
 	"textures": {
 		"7": "displaydelight:block/vegetable_noodle",
 		"11": "displaydelight:block/mushroom_rice",
-		"particle": "farmers3d/mushroom",
+
 		"tray_top": "farmers3d/tray_top",
 		"tray_bottom": "farmers3d/tray_bottom"
 	},

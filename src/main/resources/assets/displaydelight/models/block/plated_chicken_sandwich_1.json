@@ -1,12 +1,11 @@
 {
-	"credit": "Made with Blockbench",
+	"credit": "Made with Blockbench","parent": "displaydelight:block/parent_bowl",
 	"render_type": "cutout",
 	"texture_size": [32, 32],
 	"textures": {
 		"5": "displaydelight:block/egg_sandwich",
 		"tray_top": "farmers3d/tray_top",
-		"tray_bottom": "farmers3d/tray_bottom",
-		"particle": "farmers3d/bread"
+		"tray_bottom": "farmers3d/tray_bottom"
 	},
 	"elements": [
 		{

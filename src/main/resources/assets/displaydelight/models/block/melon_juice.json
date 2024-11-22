@@ -3,7 +3,8 @@
 	"texture_size": [32, 32],
 	"textures": {
 		"3": "displaydelight:block/melon_juice",
-		"4": "displaydelight:block/glass_bottle"
+		"4": "displaydelight:block/glass_bottle",
+		"particle": "minecraft:block/glass"
 	},
 	"elements": [
 		{

@@ -24,6 +24,13 @@ public class SmallPlatedBlocks {
     public static final DeferredBlock<Block> PLATED_KELP_ROLL_SLICE =  createPlatedBlock("small_plated_kelp_roll_slice");
     public static final DeferredBlock<Block> PLATED_CABBAGE_ROLLS =  createPlatedBlock("small_plated_cabbage_rolls");
 
+
+    //EXPANDED DELIGHT
+    public static final DeferredBlock<Block> ED_SWEET_ROLL =  createPlatedBlock("ed_small_plated_sweet_roll");
+    public static final DeferredBlock<Block> ED_BERRY_SWEET_ROLL =  createPlatedBlock("ed_small_plated_berry_sweet_roll");
+    public static final DeferredBlock<Block> ED_GLOW_BERRY_SWEET_ROLL =  createPlatedBlock("ed_small_plated_glow_berry_sweet_roll");
+    public static final DeferredBlock<Block> ED_CHEESE_SLICE =  createPlatedBlock("ed_small_plated_cheese_slice");
+
     private static BlockBehaviour.Properties baseProps(){
         return BlockBehaviour.Properties.of().noOcclusion()
                 .noTerrainParticles().instabreak().pushReaction(PushReaction.DESTROY).mapColor(MapColor.COLOR_BROWN);
@@ -36,5 +43,9 @@ public class SmallPlatedBlocks {
         return new Block[]{PLATED_APPLE_PIE_SLICE.get(),PLATED_CAKE_SLICE.get(),
         PLATED_CHOCOLATE_PIE_SLICE.get(),PLATED_SWEET_BERRY_CHEESECAKE_SLICE.get(),
         PLATED_STUFFED_POTATO.get(),PLATED_COD_ROLL.get(),PLATED_SALMON_ROLL.get(),
-        PLATED_KELP_ROLL_SLICE.get(),PLATED_CABBAGE_ROLLS.get()};}
+        PLATED_KELP_ROLL_SLICE.get(),PLATED_CABBAGE_ROLLS.get(),
+
+        ED_SWEET_ROLL.get(),ED_BERRY_SWEET_ROLL.get(),ED_GLOW_BERRY_SWEET_ROLL.get(),ED_CHEESE_SLICE.get()
+
+        };}
 }

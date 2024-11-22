@@ -1,0 +1,19 @@
+{
+ "variants": {
+  "facing=north": {
+   "model": "displaydelight:block/ed_cinnamon_rice"
+  },
+  "facing=south": {
+   "model": "displaydelight:block/ed_cinnamon_rice",
+   "y": 180
+  },
+  "facing=west": {
+   "model": "displaydelight:block/ed_cinnamon_rice",
+   "y": 270
+  },
+  "facing=east": {
+   "model": "displaydelight:block/ed_cinnamon_rice",
+   "y": 90
+  }
+ }
+}

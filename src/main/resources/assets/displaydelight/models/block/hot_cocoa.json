@@ -4,7 +4,8 @@
 	"texture_size": [32, 32],
 	"textures": {
 		"4": "displaydelight:block/glass_bottle",
-		"8": "displaydelight:block/hot_cocoa"
+		"8": "displaydelight:block/hot_cocoa",
+		"particle": "minecraft:block/glass"
 	},
 	"elements": [
 		{

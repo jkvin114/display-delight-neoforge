@@ -1,5 +1,5 @@
 {
-	"credit": "Made with Blockbench",
+	"credit": "Made with Blockbench","parent": "displaydelight:block/parent_bowl",
 	"textures": {
 		"1": "farmers3d/tray_bottom",
 		"3": "displaydelight:block/mutton_wrap",

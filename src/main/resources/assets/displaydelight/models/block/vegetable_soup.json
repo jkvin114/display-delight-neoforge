@@ -1,12 +1,11 @@
 {
 	"credit": "Made with Blockbench",
-	"render_type": "cutout",
+	"render_type": "cutout","parent": "displaydelight:block/parent_bowl",
 	"textures": {
 		"2": "farmers3d/stuffed_pumpkin_details",
 		"4": "displaydelight:block/bowl2",
 		"10": "farmers3d/vegetable_soup",
-		"13": "displaydelight:block/bone_broth",
-		"particle": "item/carrot"
+		"13": "displaydelight:block/bone_broth"
 	},
 	"elements": [
 		{

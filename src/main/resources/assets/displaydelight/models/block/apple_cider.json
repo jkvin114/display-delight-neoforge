@@ -4,7 +4,7 @@
 	"textures": {
 		"4": "displaydelight:block/glass_bottle",
 		"6": "displaydelight:block/apple_cider",
-		"particle": "farmers3d/cup/1"
+		"particle": "minecraft:block/glass"
 	},
 	"elements": [
 		{

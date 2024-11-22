@@ -1,0 +1,66 @@
+{
+ "variants": {
+  "stacks=1,facing=north": {
+   "model": "displaydelight:block/plated_cookie_1"
+  },
+  "stacks=1,facing=south": {
+   "model": "displaydelight:block/plated_cookie_1",
+   "y": 180
+  },
+  "stacks=1,facing=west": {
+   "model": "displaydelight:block/plated_cookie_1",
+   "y": 270
+  },
+  "stacks=1,facing=east": {
+   "model": "displaydelight:block/plated_cookie_1",
+   "y": 90}
+  ,
+   "stacks=2,facing=north": {
+    "model": "displaydelight:block/plated_cookie_2"
+   },
+   "stacks=2,facing=south": {
+    "model": "displaydelight:block/plated_cookie_2",
+    "y": 180
+   },
+   "stacks=2,facing=west": {
+    "model": "displaydelight:block/plated_cookie_2",
+    "y": 270
+   },
+   "stacks=2,facing=east": {
+    "model": "displaydelight:block/plated_cookie_2",
+    "y": 90
+   },
+
+   "stacks=3,facing=north": {
+    "model": "displaydelight:block/plated_cookie_3"
+   },
+   "stacks=3,facing=south": {
+    "model": "displaydelight:block/plated_cookie_3",
+    "y": 180
+   },
+   "stacks=3,facing=west": {
+    "model": "displaydelight:block/plated_cookie_3",
+    "y": 270
+   },
+   "stacks=3,facing=east": {
+    "model": "displaydelight:block/plated_cookie_3",
+    "y": 90
+   },
+
+   "stacks=4,facing=north": {
+    "model": "displaydelight:block/plated_cookie_4"
+   },
+   "stacks=4,facing=south": {
+    "model": "displaydelight:block/plated_cookie_4",
+    "y": 180
+   },
+   "stacks=4,facing=west": {
+    "model": "displaydelight:block/plated_cookie_4",
+    "y": 270
+   },
+   "stacks=4,facing=east": {
+    "model": "displaydelight:block/plated_cookie_4",
+    "y": 90
+   }
+ }
+}

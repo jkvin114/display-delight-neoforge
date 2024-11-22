@@ -43,6 +43,70 @@
     },{
       "id": "farmersdelight:kelp_roll_slice",
       "required": false
+    },{
+      "id": "farmersdelight:kelp_roll_slice",
+      "required": false
+    }
+  ,{
+      "id": "farmersdelight:sweet_berry_cookie",
+      "required": false
+    },{
+      "id": "farmersdelight:honey_cookie",
+      "required": false
+    }
+
+
+  ,{
+      "id": "minecraft:pumpkin_pie",
+      "required": false
+    },{
+      "id": "minecraft:cookie",
+      "required": false
+    }
+
+
+  ,{
+      "id": "corndelight:grilled_corn",
+      "required": false
+    }
+  ,{
+      "id": "corndelight:classic_corn_dog",
+      "required": false
+    }
+  ,{
+      "id": "corndelight:taco",
+      "required": false
+    } ,
+
+
+    {
+      "id": "expandeddelight:cheese_sandwich",
+      "required": false
+    },{
+      "id": "expandeddelight:grilled_cheese",
+      "required": false
+    },{
+      "id": "expandeddelight:glow_berry_jelly_sandwich",
+      "required": false
+    },{
+      "id": "expandeddelight:sweet_berry_jelly_sandwich",
+      "required": false
+    },{
+      "id": "expandeddelight:peanut_butter_honey_sandwich",
+      "required": false
+    },{
+      "id": "expandeddelight:peanut_butter_sandwich",
+      "required": false
+    }
+  ,{
+      "id": "expandeddelight:chocolate_cookie",
+      "required": false
+    },{
+      "id": "expandeddelight:sugar_cookie",
+      "required": false
+    },{
+      "id": "expandeddelight:snickerdoodle",
+      "required": false
     }
   ]
 }

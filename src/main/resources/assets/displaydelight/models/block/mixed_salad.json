@@ -1,12 +1,11 @@
 {
 	"credit": "Made with Blockbench",
-	"render_type": "cutout",
+	"render_type": "cutout","parent": "displaydelight:block/parent_bowl",
 	"texture_size": [32, 32],
 	"textures": {
 		"1": "farmers3d/bowl",
 		"6": "displaydelight:block/grilled_salmon",
-		"8": "displaydelight:block/roasted_mutton_chops",
-		"particle": "farmers3d/bowl"
+		"8": "displaydelight:block/roasted_mutton_chops"
 	},
 	"elements": [
 		{

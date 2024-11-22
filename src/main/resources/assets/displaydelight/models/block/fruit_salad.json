@@ -1,6 +1,6 @@
 {
 	"credit": "Made with Blockbench",
-	"parent": "farmers3d/bowls/salad",
+	"parent": "displaydelight:block/parent_bowl",
 	"render_type": "cutout",
 	"texture_size": [32, 32],
 	"textures": {

@@ -18,28 +18,8 @@ public class DisplayItems {
 
 
    // public static final DeferredHolder<Item, Item> BOWL= block(DisplayBlocks.BOWL);;
-    public static final DeferredHolder<Item,Item> CAKE_SLICE = block(DisplayBlocks.CAKE_SLICE);;
-    public static final DeferredHolder<Item,Item> APPLE_PIE_SLICE = block(DisplayBlocks.APPLE_PIE_SLICE);;
-    public static final DeferredHolder<Item,Item> SWEET_BERRY_CHEESECAKE_SLICE = block(DisplayBlocks.SWEET_BERRY_CHEESECAKE_SLICE);;
-    public static final DeferredHolder<Item,Item> CHOCOLATE_PIE_SLICE = block(DisplayBlocks.CHOCOLATE_PIE_SLICE);
     public static final DeferredHolder<Item,Item> FRUIT_SALAD = block(DisplayBlocks.FRUIT_SALAD);;
-    public static final DeferredHolder<Item,Item> MELON_POPSICLE = block(DisplayBlocks.MELON_POPSICLE);;
     public static final DeferredHolder<Item,Item> GLOW_BERRY_CUSTARD = block(DisplayBlocks.GLOW_BERRY_CUSTARD);
-    public static final DeferredHolder<Item,Item> BARBECUE_STICK = block(DisplayBlocks.BARBECUE_STICK);
-    public static final DeferredHolder<Item,Item> EGG_SANDWICH = block(DisplayBlocks.EGG_SANDWICH);
-    public static final DeferredHolder<Item,Item> CHICKEN_SANDWICH = block(DisplayBlocks.CHICKEN_SANDWICH);
-    public static final DeferredHolder<Item,Item> HAMBURGER = block(DisplayBlocks.HAMBURGER);
-    public static final DeferredHolder<Item,Item> DUMPLINGS = block(DisplayBlocks.DUMPLINGS);
-
-    public static final DeferredHolder<Item,Item> BACON_SANDWICH = block(DisplayBlocks.BACON_SANDWICH);
-    public static final DeferredHolder<Item,Item> MUTTON_WRAP = block(DisplayBlocks.MUTTON_WRAP);
-    public static final DeferredHolder<Item,Item> STUFFED_POTATO = block(DisplayBlocks.STUFFED_POTATO);
-    public static final DeferredHolder<Item,Item> CABBAGE_ROLLS = block(DisplayBlocks.CABBAGE_ROLLS);
-    public static final DeferredHolder<Item,Item> SALMON_ROLL = block(DisplayBlocks.SALMON_ROLL);
-    public static final DeferredHolder<Item,Item> COD_ROLL = block(DisplayBlocks.COD_ROLL);
-    public static final DeferredHolder<Item,Item> KELP_ROLL = block(DisplayBlocks.KELP_ROLL);
-    public static final DeferredHolder<Item,Item> KELP_ROLL_SLICE = block(DisplayBlocks.KELP_ROLL_SLICE);
-    public static final DeferredHolder<Item,Item> NETHER_SALAD = block(DisplayBlocks.NETHER_SALAD);
 
     public static final DeferredHolder<Item,Item> COOKED_RICE = block(DisplayBlocks.COOKED_RICE);
     public static final DeferredHolder<Item,Item> MIXED_SALAD = block(DisplayBlocks.MIXED_SALAD);
@@ -66,8 +46,6 @@ public class DisplayItems {
     public static final DeferredHolder<Item,Item> STUFFED_PUMPKIN = block(DisplayBlocks.STUFFED_PUMPKIN);
     public static final DeferredHolder<Item,Item> HONEY_GLAZED_HAM = block(DisplayBlocks.HONEY_GLAZED_HAM);
     public static final DeferredHolder<Item,Item> SHEPHEREDS_PIE = block(DisplayBlocks.SHEPHEREDS_PIE);
-    public static final DeferredHolder<Item,Item> DOG_FOOD = block(DisplayBlocks.DOG_FOOD );
-    public static final DeferredHolder<Item,Item> HORSE_FEED = block(DisplayBlocks.HORSE_FEED);
     public static final DeferredHolder<Item,Item> APPLE_CIDER = block(DisplayBlocks.APPLE_CIDER);
     public static final DeferredHolder<Item,Item> MELON_JUICE = block(DisplayBlocks.MELON_JUICE);
     public static final DeferredHolder<Item,Item> HOT_COCOA = block(DisplayBlocks.HOT_COCOA);
@@ -99,6 +77,37 @@ public class DisplayItems {
     public static final DeferredHolder<Item,Item> SMALL_PLATED_CABBAGE_ROLLS =  block(SmallPlatedBlocks.PLATED_CABBAGE_ROLLS);
     public static final DeferredHolder<Item,Item> SMALL_PLATE =  block(DisplayBlocks.SMALL_PLATE);
 
+    //VANILA
+    public static final DeferredHolder<Item,Item> MUSHROOM_STEW = block(DisplayBlocks.MUSHROOM_STEW);
+    public static final DeferredHolder<Item,Item> RABBIT_STEW = block(DisplayBlocks.RABBIT_STEW);
+    public static final DeferredHolder<Item,Item> BEETROOT_STEW = block(DisplayBlocks.BEETROOT_STEW);
+
+    //CORN DELIGHT
+
+    public static final DeferredHolder<Item,Item> CD_NACHOS_BOWL = block(DisplayBlocks.CD_NACHOS_BOWL);
+    public static final DeferredHolder<Item,Item> CD_CREAMY_COR_DRINK = block(DisplayBlocks.CD_CREAMY_COR_DRINK);
+
+    public static final DeferredHolder<Item,Item> CD_CORNBREAD_STUFFING = block(DisplayBlocks.CD_CORNBREAD_STUFFING);
+    public static final DeferredHolder<Item,Item> CD_CORN_SOUP = block(DisplayBlocks.CD_CORN_SOUP);
+    public static final DeferredHolder<Item,Item> CD_CREAMED_CORN = block(DisplayBlocks.CD_CREAMED_CORN);
+
+    //Expanded delight
+    public static final DeferredHolder<Item,Item> ED_ASPARAGUS_SOUP = block(DisplayBlocks.ED_ASPARAGUS_SOUP);
+    public static final DeferredHolder<Item,Item> ED_ASPARAGUS_SOUP_CREAMY = block(DisplayBlocks.ED_ASPARAGUS_SOUP_CREAMY);
+    public static final DeferredHolder<Item,Item> ED_ASPARAGUS_AND_BACON_CHEESY = block(DisplayBlocks.ED_ASPARAGUS_AND_BACON_CHEESY);
+    public static final DeferredHolder<Item,Item> ED_PEPERONATA = block(DisplayBlocks.ED_PEPERONATA);
+    public static final DeferredHolder<Item,Item> ED_PEANUT_HONEY_SOUP = block(DisplayBlocks.ED_PEANUT_HONEY_SOUP);
+    public static final DeferredHolder<Item,Item> ED_MAC_AND_CHEESE = block(DisplayBlocks.ED_MAC_AND_CHEESE);
+    public static final DeferredHolder<Item,Item> ED_PEANUT_SALAD = block(DisplayBlocks.ED_PEANUT_SALAD);
+    public static final DeferredHolder<Item,Item> ED_SWEET_POTTATO_SALAD = block(DisplayBlocks.ED_SWEET_POTTATO_SALAD);
+
+    public static final DeferredHolder<Item,Item> ED_CINNAMON_RICE = block(DisplayBlocks.ED_CINNAMON_RICE);
+    public static final DeferredHolder<Item,Item> ED_CINNAMON_APPLES = block(DisplayBlocks.ED_CINNAMON_APPLES);
+
+    public static final DeferredHolder<Item,Item> ED_APPLE_JUICE = block(DisplayBlocks.ED_APPLE_JUICE);
+    public static final DeferredHolder<Item,Item> ED_SWEET_BERRY_JUICE = block(DisplayBlocks.ED_SWEET_BERRY_JUICE);
+    public static final DeferredHolder<Item,Item> ED_GLOW_BERRY_JUICE = block(DisplayBlocks.ED_GLOW_BERRY_JUICE);
+    
     private static DeferredHolder<Item, Item> block(DeferredHolder<Block, Block> block) {
         return REGISTRY.register(block.getId().getPath(), () -> {
             return new BlockItem((Block)block.get(), new Item.Properties());

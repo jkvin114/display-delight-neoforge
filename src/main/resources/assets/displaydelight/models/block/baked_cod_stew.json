@@ -1,5 +1,5 @@
 {
-	"credit": "Made with Blockbench",
+	"credit": "Made with Blockbench","parent": "displaydelight:block/parent_bowl",
 	"render_type": "cutout",
 	"textures": {
 		"4": "displaydelight:block/bowl2",

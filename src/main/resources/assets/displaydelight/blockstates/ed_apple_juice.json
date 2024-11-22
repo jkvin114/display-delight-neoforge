@@ -1,0 +1,19 @@
+{
+ "variants": {
+  "facing=north": {
+   "model": "displaydelight:block/ed_apple_juice"
+  },
+  "facing=south": {
+   "model": "displaydelight:block/ed_apple_juice",
+   "y": 180
+  },
+  "facing=west": {
+   "model": "displaydelight:block/ed_apple_juice",
+   "y": 270
+  },
+  "facing=east": {
+   "model": "displaydelight:block/ed_apple_juice",
+   "y": 90
+  }
+ }
+}

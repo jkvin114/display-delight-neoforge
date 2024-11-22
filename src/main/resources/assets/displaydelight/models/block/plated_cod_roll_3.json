@@ -1,5 +1,5 @@
 {
-	"credit": "Made with Blockbench",
+	"credit": "Made with Blockbench","parent": "displaydelight:block/parent_bowl",
 	"texture_size": [4, 7],
 	"textures": {
 		"0": "farmers3d/cod_roll",

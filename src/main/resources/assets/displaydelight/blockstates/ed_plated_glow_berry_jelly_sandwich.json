@@ -1,0 +1,19 @@
+{
+ "variants": {
+  "stacks=1,facing=north": {
+   "model": "displaydelight:block/ed_plated_glow_berry_jelly_sandwich_1"
+  },
+  "stacks=1,facing=south": {
+   "model": "displaydelight:block/ed_plated_glow_berry_jelly_sandwich_1",
+   "y": 180
+  },
+  "stacks=1,facing=west": {
+   "model": "displaydelight:block/ed_plated_glow_berry_jelly_sandwich_1",
+   "y": 270
+  },
+  "stacks=1,facing=east": {
+   "model": "displaydelight:block/ed_plated_glow_berry_jelly_sandwich_1",
+   "y": 90
+  }
+ }
+}

@@ -1,10 +1,9 @@
 {
 	"credit": "Made with Blockbench",
-	"render_type": "cutout",
+	"render_type": "cutout","parent": "displaydelight:block/parent_bowl",
 	"texture_size": [32, 32],
 	"textures": {
 		"4": "displaydelight:block/bowl2",
-		"particle": "farmers3d/roast_chicken_eaten",
 		"top": "farmers3d/shepherds_pie_top",
 		"inner": "farmers3d/shepherds_pie_inner"
 	},

@@ -4,7 +4,7 @@
 	"texture_size": [32, 32],
 	"textures": {
 		"2": "displaydelight:block/glass_bottle",
-		"particle": "displaydelight:block/glow_berry_custard",
+		"particle": "minecraft:block/glass",
 		"custard": "displaydelight:block/glow_berry_custard"
 	},
 	"elements": [

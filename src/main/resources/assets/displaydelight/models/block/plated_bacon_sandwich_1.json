@@ -1,12 +1,11 @@
 {
 	"credit": "Made with Blockbench",
-	"render_type": "cutout",
+	"render_type": "cutout","parent": "displaydelight:block/parent_bowl",
 	"texture_size": [64, 64],
 	"textures": {
 		"1": "farmers3d/tray_bottom",
 		"5": "displaydelight:block/bacon_sandwich",
-		"tray_top": "farmers3d/tray_top",
-		"particle": "farmers3d/cooked_bacon"
+		"tray_top": "farmers3d/tray_top"
 	},
 	"elements": [
 		{

@@ -1,10 +1,9 @@
 {
-	"credit": "Made with Blockbench",
+	"credit": "Made with Blockbench","parent": "displaydelight:block/parent_bowl",
 	"textures": {
 		"4": "displaydelight:block/barbecue_on_stick",
 		"tray_top": "farmers3d/tray_top",
-		"tray_bottom": "farmers3d/tray_bottom",
-		"particle": "farmers3d/cooked_chicken"
+		"tray_bottom": "farmers3d/tray_bottom"
 	},
 	"elements": [
 		{

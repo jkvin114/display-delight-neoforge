@@ -1,5 +1,5 @@
 {
-	"credit": "Made with Blockbench",
+	"credit": "Made with Blockbench","parent": "displaydelight:block/parent_bowl",
 	"textures": {
 		"0": "displaydelight:block/melon_popsicle",
 		"particle": "displaydelight:block/melon_popsicle",

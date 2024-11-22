@@ -58,6 +58,7 @@ public class DisplayEvents {
                 }
             }
 
+
             for(Block target: PlatedBlocks.getAll()){
                 List<ItemStack> drops = Block.getDrops(target.defaultBlockState(), lvl, BlockPos.containing(0, 256, 0), null);
                  if (!drops.isEmpty() && drops.getFirst().is(DisplayTags.PLATE_DISPLAYABLE)) {

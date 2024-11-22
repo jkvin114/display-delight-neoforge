@@ -13,9 +13,6 @@
       "id": "farmersdelight:mixed_salad",
       "required": false
     },{
-      "id": "farmersdelight:nether_salad",
-      "required": false
-    },{
       "id": "farmersdelight:beef_stew",
       "required": false
     },{
@@ -92,6 +89,83 @@
       "required": false
     },{
       "id": "farmersdelight:hot_cocoa",
+      "required": false
+    }
+
+  ,{
+      "id": "minecraft:mushroom_stew",
+      "required": false
+    }
+  ,{
+      "id": "minecraft:rabbit_stew",
+      "required": false
+    }
+  ,{
+      "id": "minecraft:beetroot_soup",
+      "required": false
+    }
+
+
+  ,{
+      "id": "corndelight:nachos_bowl",
+      "required": false
+    }
+  ,{
+      "id": "corndelight:corn_soup",
+      "required": false
+    }
+  ,{
+      "id": "corndelight:cornbread_stuffing",
+      "required": false
+    }
+  ,{
+      "id": "corndelight:creamed_corn",
+      "required": false
+    }
+  ,{
+      "id": "corndelight:creamy_corn_drink",
+      "required": false
+    }
+
+
+  ,{
+      "id": "expandeddelight:asparagus_soup",
+      "required": false
+    },{
+      "id": "expandeddelight:asparagus_soup_creamy",
+      "required": false
+    },{
+      "id": "expandeddelight:asparagus_and_bacon_cheesy",
+      "required": false
+    },{
+      "id": "expandeddelight:sweet_potato_salad",
+      "required": false
+    },{
+      "id": "expandeddelight:peperonata",
+      "required": false
+    },{
+      "id": "expandeddelight:peanut_salad",
+      "required": false
+    },{
+      "id": "expandeddelight:peanut_honey_soup",
+      "required": false
+    },{
+      "id": "expandeddelight:mac_and_cheese",
+      "required": false
+    },{
+      "id": "expandeddelight:cinnamon_rice",
+      "required": false
+    },{
+      "id": "expandeddelight:cinnamon_apples",
+      "required": false
+    },{
+      "id": "expandeddelight:apple_juice",
+      "required": false
+    },{
+      "id": "expandeddelight:glow_berry_juice",
+      "required": false
+    },{
+      "id": "expandeddelight:sweet_berry_juice",
       "required": false
     }
   ]

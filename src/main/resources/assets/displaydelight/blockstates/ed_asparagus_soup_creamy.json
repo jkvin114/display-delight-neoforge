@@ -1,0 +1,19 @@
+{
+ "variants": {
+  "facing=north": {
+   "model": "displaydelight:block/ed_asparagus_soup_creamy"
+  },
+  "facing=south": {
+   "model": "displaydelight:block/ed_asparagus_soup_creamy",
+   "y": 180
+  },
+  "facing=west": {
+   "model": "displaydelight:block/ed_asparagus_soup_creamy",
+   "y": 270
+  },
+  "facing=east": {
+   "model": "displaydelight:block/ed_asparagus_soup_creamy",
+   "y": 90
+  }
+ }
+}

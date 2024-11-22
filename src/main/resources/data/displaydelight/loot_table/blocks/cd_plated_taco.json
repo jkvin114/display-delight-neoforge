@@ -1,0 +1,44 @@
+{
+ "type": "minecraft:block",
+ "pools": [
+  {
+   "rolls": 1,
+   "entries": [
+    {
+     "type": "minecraft:item",
+     "functions": [
+      {
+       "add": false,
+       "conditions": [
+        {
+         "block": "displaydelight:cd_plated_taco",
+         "condition": "minecraft:block_state_property",
+         "properties": {
+          "stacks": "2"
+         }
+        }
+       ],
+       "count": 2.0,
+       "function": "minecraft:set_count"
+      }
+     ],
+     "name": "corndelight:taco"
+    }
+   ]
+  },
+  {
+   "rolls": 1,
+   "entries": [
+    {
+     "type": "minecraft:item",
+     "name": "displaydelight:food_plate"
+    }
+   ],
+   "conditions": [
+    {
+     "condition": "minecraft:survives_explosion"
+    }
+   ]
+  }
+ ]
+}

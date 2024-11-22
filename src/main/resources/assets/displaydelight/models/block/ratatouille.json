@@ -1,11 +1,10 @@
 {
 	"credit": "Made with Blockbench",
-	"parent": "farmers3d/bowls/flat",
+	"parent": "displaydelight:block/parent_bowl",
 	"render_type": "cutout",
 	"texture_size": [32, 32],
 	"textures": {
 		"8": "displaydelight:block/ratatouille",
-		"particle": "farmers3d/steak_and_potatoes",
 		"tray_top": "farmers3d/tray_top",
 		"tray_bottom": "farmers3d/tray_bottom"
 	},

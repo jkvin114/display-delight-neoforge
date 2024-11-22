@@ -1,6 +1,6 @@
 {
 	"credit": "Made with Blockbench",
-	"render_type": "cutout",
+	"render_type": "cutout","parent": "displaydelight:block/parent_bowl",
 	"textures": {
 		"4": "displaydelight:block/bowl2",
 		"9": "displaydelight:block/fish_stew"

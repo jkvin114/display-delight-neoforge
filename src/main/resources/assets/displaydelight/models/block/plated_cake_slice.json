@@ -1,11 +1,10 @@
 {
 	"credit": "Made with Blockbench",
-	"parent": "farmers3d/3d_pie_slice",
+	"parent": "displaydelight:block/parent_bowl",
 	"texture_size": [8, 8],
 	"textures": {
 		"3": "displaydelight:block/plated_cake_slice",
-		"bowl": "farmers3d/small_plate",
-		"particle": "farmers3d/cake_slice"
+		"bowl": "farmers3d/small_plate"
 	},
 	"elements": [
 		{
