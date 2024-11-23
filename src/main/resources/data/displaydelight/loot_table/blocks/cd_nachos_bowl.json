@@ -6,7 +6,7 @@
    "entries": [
     {
      "type": "minecraft:item",
-     "name": "corndelight:nachos_bowl"
+     "name": "corn_delight:nachos_bowl"
     }
    ],
    "conditions": [

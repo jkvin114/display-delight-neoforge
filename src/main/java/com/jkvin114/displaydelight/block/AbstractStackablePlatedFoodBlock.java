@@ -26,9 +26,9 @@ public abstract class AbstractStackablePlatedFoodBlock extends AbstractItemBlock
         this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH).setValue(STACKS, 1));
     }
 
-    public BlockState getStateFrom(BlockState plate,Direction direction) {
+    public BlockState getStateFrom(BlockState plate,Direction direction,int count) {
         if (plate.is(DisplayBlocks.PLATE.get())) {
-            return this.defaultBlockState().setValue(FACING, direction.getOpposite());
+            return this.defaultBlockState().setValue(FACING, direction.getOpposite()).setValue(STACKS, Math.min(count,getMaxStackable()));
         } else return this.defaultBlockState();
     }
     @Override
@@ -52,8 +52,8 @@ public abstract class AbstractStackablePlatedFoodBlock extends AbstractItemBlock
         return state.setValue(STACKS, Math.max(this.getStacks(state) - 1,1));
     }
 
-    public BlockState getIncrementedState(BlockState state) {
-        return state.setValue(STACKS, Math.min(this.getStacks(state) +1,this.getMaxStackable()));
+    public BlockState getIncrementedState(BlockState state,int count) {
+        return state.setValue(STACKS, Math.min(this.getStacks(state) +count,this.getMaxStackable()));
     }
 
     public abstract int getMaxStackable();

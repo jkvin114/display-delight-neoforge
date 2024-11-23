@@ -107,23 +107,23 @@
 
 
   ,{
-      "id": "corndelight:nachos_bowl",
+      "id": "corn_delight:nachos_bowl",
       "required": false
     }
   ,{
-      "id": "corndelight:corn_soup",
+      "id": "corn_delight:corn_soup",
       "required": false
     }
   ,{
-      "id": "corndelight:cornbread_stuffing",
+      "id": "corn_delight:cornbread_stuffing",
       "required": false
     }
   ,{
-      "id": "corndelight:creamed_corn",
+      "id": "corn_delight:creamed_corn",
       "required": false
     }
   ,{
-      "id": "corndelight:creamy_corn_drink",
+      "id": "corn_delight:creamy_corn_drink",
       "required": false
     }
 

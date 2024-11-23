@@ -6,7 +6,7 @@
    "entries": [
     {
      "type": "minecraft:item",
-     "name": "corndelight:corn_soup"
+     "name": "corn_delight:corn_soup"
     }
    ],
    "conditions": [

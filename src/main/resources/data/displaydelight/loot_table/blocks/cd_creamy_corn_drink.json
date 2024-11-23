@@ -6,7 +6,7 @@
    "entries": [
     {
      "type": "minecraft:item",
-     "name": "corndelight:creamy_corn_drink"
+     "name": "corn_delight:creamy_corn_drink"
     }
    ],
    "conditions": [

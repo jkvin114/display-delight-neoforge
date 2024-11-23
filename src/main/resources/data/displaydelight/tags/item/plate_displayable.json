@@ -66,15 +66,15 @@
 
 
   ,{
-      "id": "corndelight:grilled_corn",
+      "id": "corn_delight:grilled_corn",
       "required": false
     }
   ,{
-      "id": "corndelight:classic_corn_dog",
+      "id": "corn_delight:classic_corn_dog",
       "required": false
     }
   ,{
-      "id": "corndelight:taco",
+      "id": "corn_delight:taco",
       "required": false
     } ,
 

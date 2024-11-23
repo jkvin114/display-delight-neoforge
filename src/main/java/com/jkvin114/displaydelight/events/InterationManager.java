@@ -20,38 +20,67 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.phys.BlockHitResult;
 
+import java.util.HashSet;
+import java.util.Set;
+
 public class InterationManager {
-    public static boolean tryTakeItem(Player player, ServerLevel world, BlockHitResult rez, ItemStack itemStack) {
+    public static boolean tryTakeItemWithBareHand(Player player, ServerLevel world, BlockHitResult rez) {
         InteractionHand handy = InteractionHand.MAIN_HAND;
 
         BlockPos pos = rez.getBlockPos();
         BlockState state = world.getBlockState(pos);
         if (state.getBlock() instanceof AbstractStackablePlatedFoodBlock target) {
             Item plateItem = BlockAssociations.getPlatedItemFor(target);
-            if (itemStack.isEmpty() ||
-                    (plateItem.equals(itemStack.getItem()) && itemStack.getCount() < plateItem.getDefaultMaxStackSize())) {
+            int count = 1;
+            if(player.isCrouching()){
+                count = target.getStacks(state);
+                world.setBlock(pos, DisplayBlocks.PLATE.get().defaultBlockState(), 2);
+            }
+            else{
 
                 if (target.getStacks(state) > 1) {
+
                     BlockState newState = target.getDecrementedState(state);
                     world.setBlock(pos, newState, 2);
                 } else {
 
                     world.setBlock(pos, DisplayBlocks.PLATE.get().defaultBlockState(), 2);
                 }
-                world.playSound(null, pos, SoundEvents.CHICKEN_EGG, SoundSource.PLAYERS, 1.0F, (float) (0.8F + (Math.random() * 0.2)));
+            }
+            world.playSound(null, pos, SoundEvents.CHICKEN_EGG, SoundSource.PLAYERS, 1.0F, (float) (0.8F + (Math.random() * 0.2)));
+            // player.setItemInHand(handy, new ItemStack(plateItem,count));
+           // player.getInventory().add(new ItemStack(plateItem,count));
 
-                if (itemStack.isEmpty()) {
-                    player.setItemInHand(handy, new ItemStack(plateItem));
-                } else {
-                    itemStack.grow(1);
-                }
+            HashSet<Item> set = new HashSet<>();
+            set.add(plateItem);
 
-                player.swing(handy, true);
-                return true;
-            } else {
-                player.displayClientMessage(Component.literal("Use your bare hand or hold same item to take the item"), true);
+            if(player.getInventory().hasAnyOf(set)){
+                player.getInventory().add(new ItemStack(plateItem,count));
+            }
+            else{
+                player.setItemInHand(handy, new ItemStack(plateItem,count));
             }
 
+            player.swing(handy, true);
+            return true;
+        }
+        else if(state.getBlock() instanceof SmallPlatedFoodBlock target){
+            Item plateItem = BlockAssociations.getSmallPlatedItemFor(target);
+            world.setBlock(pos, DisplayBlocks.SMALL_PLATE.get().defaultBlockState(), 2);
+
+            world.playSound(null, pos, SoundEvents.CHICKEN_EGG, SoundSource.PLAYERS, 1.0F, (float) (0.8F + (Math.random() * 0.2)));
+            HashSet<Item> set = new HashSet<>();
+            set.add(plateItem);
+
+            if(player.getInventory().hasAnyOf(set)){
+                player.getInventory().add(new ItemStack(plateItem,1));
+            }
+            else{
+                player.setItemInHand(handy, new ItemStack(plateItem,1));
+            }
+
+            player.swing(handy, true);
+            return true;
         }
 
         return false;
@@ -60,81 +89,92 @@ public class InterationManager {
     public static boolean tryPlaceItemOnSmallPlate(Player player, ServerLevel world, BlockHitResult rez, boolean isMainHand) {
         InteractionHand handy = (isMainHand ? InteractionHand.MAIN_HAND : InteractionHand.OFF_HAND);
         ItemStack stack = player.getItemInHand(handy);
-        if (stack.is(DisplayTags.SMALL_PLATE_DISPLAYABLE)) {
-            BlockPos pos = rez.getBlockPos();
-            BlockState state = world.getBlockState(pos);
+        if (!stack.is(DisplayTags.SMALL_PLATE_DISPLAYABLE)) return false;
 
-            if (!state.is(DisplayBlocks.SMALL_PLATE.get())) return false;
+        BlockPos pos = rez.getBlockPos();
+        BlockState state = world.getBlockState(pos);
 
-            Block plateBlock = BlockAssociations.getSmallPlateBlockFor(stack.getItem());
-            if (!(plateBlock instanceof SmallPlatedFoodBlock food)) return false;
+        if (!state.is(DisplayBlocks.SMALL_PLATE.get())) return false;
 
-            UseOnContext ctx = new UseOnContext(player, handy, rez);
-            BlockState newstate = food.getStateFrom(state,ctx.getHorizontalDirection());
-            world.setBlock(pos, newstate, 2);
-            world.playSound(null, pos, state.getSoundType(world, pos, player).getPlaceSound(), SoundSource.BLOCKS, 1.0F, (float) (0.8F + (Math.random() * 0.2)));
-            if (!player.isCreative()) {
-                stack.shrink(1);
-            }
-            player.swing(handy, true);
-            return true;
+        Block plateBlock = BlockAssociations.getSmallPlateBlockFor(stack.getItem());
+        if (!(plateBlock instanceof SmallPlatedFoodBlock food)) return false;
 
+        UseOnContext ctx = new UseOnContext(player, handy, rez);
+        BlockState newstate = food.getStateFrom(state, ctx.getHorizontalDirection());
+        world.setBlock(pos, newstate, 2);
+        world.playSound(null, pos, state.getSoundType(world, pos, player).getPlaceSound(), SoundSource.BLOCKS, 1.0F, (float) (0.8F + (Math.random() * 0.2)));
+        if (!player.isCreative()) {
+            stack.shrink(1);
         }
-        return false;
+        player.swing(handy, true);
+
+        return true;
     }
     public static boolean tryPlaceItemOnPlate(Player player, ServerLevel world, BlockHitResult rez, boolean isMainHand) {
         InteractionHand handy = (isMainHand ? InteractionHand.MAIN_HAND : InteractionHand.OFF_HAND);
-        ItemStack stack = player.getItemInHand(handy);
-        if (stack.is(DisplayTags.PLATE_DISPLAYABLE)) {
-            BlockPos pos = rez.getBlockPos();
-            BlockState state = world.getBlockState(pos);
-            if (state.getBlock() instanceof AbstractStackablePlatedFoodBlock target) {
+        ItemStack handStack = player.getItemInHand(handy);
+        if (!handStack.is(DisplayTags.PLATE_DISPLAYABLE)) return false;
 
-                if (stack.is(target.getStackFor().getItem()) && target.getStacks(state) < target.getMaxStackable()) {
-                    world.setBlock(pos, target.getIncrementedState(state), 2);
-                    world.playSound(null, pos, state.getSoundType(world, pos, player).getPlaceSound(), SoundSource.BLOCKS, 1.0F, (float) (0.8F + (Math.random() * 0.2)));
-                    if (!player.isCreative()) {
-                        stack.shrink(1);
-                    }
-                    player.swing(handy, true);
-                    return true;
+        BlockPos pos = rez.getBlockPos();
+        BlockState state = world.getBlockState(pos);
+        if (state.getBlock() instanceof AbstractStackablePlatedFoodBlock target) {
+
+            if (handStack.is(target.getStackFor().getItem()) && target.getStacks(state) < target.getMaxStackable()) {
+                int count = 1;
+                if (player.isCrouching()) {
+                    int stacksLeft = target.getMaxStackable() - target.getStacks(state);
+                    count = player.isCreative() ? stacksLeft : Math.min(stacksLeft, handStack.getCount());
                 }
-            } else if (state.is(DisplayBlocks.PLATE.get())) {
-                Block plateBlock = BlockAssociations.getPlateBlockFor(stack.getItem());
-                if (!(plateBlock instanceof AbstractStackablePlatedFoodBlock food)) return false;
-                UseOnContext ctx = new UseOnContext(player, handy, rez);
-                BlockState newstate = food.getStateFrom(state,ctx.getHorizontalDirection());
-
-                world.setBlock(pos, newstate, 2);
+                world.setBlock(pos, target.getIncrementedState(state, count), 2);
                 world.playSound(null, pos, state.getSoundType(world, pos, player).getPlaceSound(), SoundSource.BLOCKS, 1.0F, (float) (0.8F + (Math.random() * 0.2)));
                 if (!player.isCreative()) {
-                    stack.shrink(1);
+                    handStack.shrink(count);
                 }
                 player.swing(handy, true);
                 return true;
             }
+        } else if (state.is(DisplayBlocks.PLATE.get())) {
+            Block plateBlock = BlockAssociations.getPlateBlockFor(handStack.getItem());
+            if (!(plateBlock instanceof AbstractStackablePlatedFoodBlock target)) return false;
+            int count = 1;
 
+            if (player.isCrouching()) {
+                int stacksLeft = target.getMaxStackable();
+                count = player.isCreative() ? stacksLeft : Math.min(stacksLeft, handStack.getCount());
+            }
+
+            UseOnContext ctx = new UseOnContext(player, handy, rez);
+            BlockState newstate = target.getStateFrom(state, ctx.getHorizontalDirection(), count);
+
+            world.setBlock(pos, newstate, 2);
+            world.playSound(null, pos, state.getSoundType(world, pos, player).getPlaceSound(), SoundSource.BLOCKS, 1.0F, (float) (0.8F + (Math.random() * 0.2)));
+            if (!player.isCreative()) {
+                handStack.shrink(count);
+            }
+            player.swing(handy, true);
+            return true;
         }
+
         return false;
     }
 
     public static boolean tryPlaceItem(Player player, ServerLevel world, BlockHitResult rez, boolean isMainHand) {
         InteractionHand handy = (isMainHand ? InteractionHand.MAIN_HAND : InteractionHand.OFF_HAND);
         ItemStack stack = player.getItemInHand(handy);
-        if (stack.is(DisplayTags.DISPLAYABLE)) {
-            if (player.isCrouching()) {
-                    BlockPos pos = rez.getBlockPos();
-                    Block target = BlockAssociations.getBlockFor(stack.getItem());
-                    if (target.asItem().useOn(new UseOnContext(player, handy, rez)) == InteractionResult.CONSUME) {
-                        world.playSound(null, pos.above(), target.defaultBlockState().getSoundType(world, pos.above(), player).getPlaceSound(), SoundSource.BLOCKS, 1.0F, (float) (0.8F + (Math.random() * 0.2)));
-                        player.swing(handy, true);
-                        return true;
-                    }
+        if (stack.is(DisplayTags.DISPLAYABLE)) return false;
 
-            } else {
-                player.displayClientMessage(Component.literal("Hold shift to place the item"), true);
+        if (player.isCrouching()) {
+            BlockPos pos = rez.getBlockPos();
+            Block target = BlockAssociations.getBlockFor(stack.getItem());
+            if (target.asItem().useOn(new UseOnContext(player, handy, rez)) == InteractionResult.CONSUME) {
+                world.playSound(null, pos.above(), target.defaultBlockState().getSoundType(world, pos.above(), player).getPlaceSound(), SoundSource.BLOCKS, 1.0F, (float) (0.8F + (Math.random() * 0.2)));
+                player.swing(handy, true);
+                return true;
             }
+        } else {
+            player.displayClientMessage(Component.literal("Hold shift to place the item"), true);
         }
+
         return false;
     }
 }

@@ -3,7 +3,7 @@
 ---
 ## Addon Namespace Abbreviations
 
-- corndelight : CD
+- corn_delight : CD
 - culturaldelights : CTD
 - delightful : DF
 - expandeddelight : ED

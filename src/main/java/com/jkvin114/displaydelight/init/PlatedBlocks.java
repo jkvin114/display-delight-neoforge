@@ -39,9 +39,9 @@ public class PlatedBlocks {
 
 
     //corn delight
-    public static final DeferredBlock<Block> CD_GRILLED_CORN = createStackablePlatedBlock("cd_grilled_corn",2);
-    public static final DeferredBlock<Block> CD_CLASSIC_CORN_DOG = createStackablePlatedBlock("cd_classic_corn_dog",2);
-    public static final DeferredBlock<Block> CD_TACO = createStackablePlatedBlock("cd_taco",2);
+    public static final DeferredBlock<Block> CD_GRILLED_CORN = createStackablePlatedBlock("cd_plated_grilled_corn",2);
+    public static final DeferredBlock<Block> CD_CLASSIC_CORN_DOG = createStackablePlatedBlock("cd_plated_classic_corn_dog",2);
+    public static final DeferredBlock<Block> CD_TACO = createStackablePlatedBlock("cd_plated_taco",2);
 
 
 //EXPANDED DELIGHT
