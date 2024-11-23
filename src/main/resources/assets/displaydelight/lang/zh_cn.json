@@ -1,0 +1,6 @@
+{
+  "block.displaydelight.food_plate": "餐盘",
+  "block.displaydelight.small_food_plate": "小餐盘",
+  "item.displaydelight.tooltip.can_placed_on": "可放置于: ",
+  "item.displaydelight.tooltip.displayable": "潜行时可直接放置"
+}
