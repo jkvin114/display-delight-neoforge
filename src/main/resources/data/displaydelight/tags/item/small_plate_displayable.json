@@ -28,7 +28,9 @@
     },{
       "id": "farmersdelight:kelp_roll_slice",
       "required": false
-    },{
+    },
+
+    {
       "id": "expandeddelight:cheese_slice",
       "required": false
     },{

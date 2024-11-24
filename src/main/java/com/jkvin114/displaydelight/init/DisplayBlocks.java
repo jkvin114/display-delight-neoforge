@@ -78,8 +78,8 @@ public class DisplayBlocks {
     public static final DeferredBlock<Block> ED_PEANUT_SALAD = createFoodBlock("ed_peanut_salad");
     public static final DeferredBlock<Block> ED_SWEET_POTTATO_SALAD = createFoodBlock("ed_sweet_potato_salad");
 
-    public static final DeferredBlock<Block> ED_CINNAMON_RICE = createFoodBlock("cinnamon_rice");
-    public static final DeferredBlock<Block> ED_CINNAMON_APPLES = createFoodBlock("cinnamon_apples");
+    public static final DeferredBlock<Block> ED_CINNAMON_RICE = createFoodBlock("ed_cinnamon_rice");
+    public static final DeferredBlock<Block> ED_CINNAMON_APPLES = createFoodBlock("ed_cinnamon_apples");
 
     public static final DeferredBlock<Block> ED_APPLE_JUICE = createDrinkFoodBlock("ed_apple_juice");
     public static final DeferredBlock<Block> ED_SWEET_BERRY_JUICE = createDrinkFoodBlock("ed_sweet_berry_juice");

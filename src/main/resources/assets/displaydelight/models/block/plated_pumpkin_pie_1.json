@@ -1,9 +1,84 @@
 {
- "render_type": "cutout",
- "texture_size": [
-  16,
-  16
- ],
- "parent": "displaydelight:block/parent_bowl",
- "elements": []
+	"credit": "Made with Blockbench",
+	"textures": {
+		"1": "farmers3d/tray_bottom",
+		"2": "farmers3d/tray_top",
+		"particle": "displaydelight:block/pumpkin_pie",
+		"pie": "displaydelight:block/pumpkin_pie"
+	},
+	"elements": [
+		{
+			"name": "tray",
+			"from": [1, 0, 1],
+			"to": [15, 2, 15],
+			"faces": {
+				"north": {"uv": [1, 11, 15, 13], "texture": "#2"},
+				"east": {"uv": [1, 11, 15, 13], "texture": "#2"},
+				"south": {"uv": [1, 11, 15, 13], "texture": "#2"},
+				"west": {"uv": [1, 11, 15, 13], "texture": "#2"},
+				"up": {"uv": [1, 1, 15, 15], "texture": "#2"},
+				"down": {"uv": [1, 1, 15, 15], "texture": "#1", "cullface": "down"}
+			}
+		},
+		{
+			"from": [3, 2, 8],
+			"to": [13, 6, 13],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, -4, 0]},
+			"faces": {
+				"north": {"uv": [2.5, 2.5, 7.5, 4.5], "texture": "#pie"},
+				"east": {"uv": [0, 2.5, 2.5, 4.5], "texture": "#pie"},
+				"south": {"uv": [10, 2.5, 15, 4.5], "texture": "#pie"},
+				"west": {"uv": [7.5, 2.5, 10, 4.5], "texture": "#pie"},
+				"up": {"uv": [7.5, 2.5, 2.5, 0], "texture": "#pie"},
+				"down": {"uv": [12.5, 0, 7.5, 2.5], "texture": "#pie"}
+			}
+		},
+		{
+			"from": [3, 2, 3],
+			"to": [8, 6, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, -4, 0]},
+			"faces": {
+				"north": {"uv": [2.5, 7, 5, 9], "texture": "#pie"},
+				"east": {"uv": [0, 7, 2.5, 9], "texture": "#pie"},
+				"south": {"uv": [7.5, 7, 10, 9], "texture": "#pie"},
+				"west": {"uv": [5, 7, 7.5, 9], "texture": "#pie"},
+				"up": {"uv": [5, 7, 2.5, 4.5], "texture": "#pie"},
+				"down": {"uv": [7.5, 4.5, 5, 7], "texture": "#pie"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 2, 0],
+			"scale": [0.425, 0.425, 0.425]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [75, -45, 0],
+			"translation": [0, 2, 0],
+			"scale": [0.425, 0.425, 0.425]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 45, 0],
+			"scale": [0.425, 0.425, 0.425]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, -45, 0],
+			"scale": [0.425, 0.425, 0.425]
+		},
+		"ground": {
+			"translation": [0, -2.5, 0]
+		},
+		"gui": {
+			"rotation": [30, 225, 0]
+		},
+		"head": {
+			"translation": [0, 8.25, 0]
+		},
+		"fixed": {
+			"rotation": [-90, 0, 0],
+			"translation": [0, 0, -1.5],
+			"scale": [1.125, 1.125, 1.125]
+		}
+	}
 }

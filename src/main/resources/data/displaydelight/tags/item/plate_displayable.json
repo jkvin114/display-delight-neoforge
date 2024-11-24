@@ -107,6 +107,15 @@
     },{
       "id": "expandeddelight:snickerdoodle",
       "required": false
+    },{
+      "id": "expandeddelight:glow_berry_sweet_roll",
+      "required": false
+    },{
+      "id": "expandeddelight:berry_sweet_roll",
+      "required": false
+    },{
+      "id": "expandeddelight:sweet_roll",
+      "required": false
     }
   ]
 }

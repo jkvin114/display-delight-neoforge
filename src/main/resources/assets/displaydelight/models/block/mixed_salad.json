@@ -1,6 +1,7 @@
 {
 	"credit": "Made with Blockbench",
-	"render_type": "cutout","parent": "displaydelight:block/parent_bowl",
+	"parent": "displaydelight:block/parent_bowl",
+	"render_type": "cutout",
 	"texture_size": [32, 32],
 	"textures": {
 		"1": "farmers3d/bowl",
@@ -176,6 +177,15 @@
 				"west": {"uv": [6, 4.5, 7.5, 6], "texture": "#8"},
 				"up": {"uv": [7, 2, 5.5, 0.50177], "rotation": 90, "texture": "#8"},
 				"down": {"uv": [1.5, 6.50177, 0, 8], "rotation": 270, "texture": "#8"}
+			}
+		},
+		{
+			"from": [6.95567, 1.75, 4.54433],
+			"to": [14.95567, 1.75, 11.54433],
+			"rotation": {"angle": 22.5, "axis": "z", "origin": [11, 2.30447, 8.04433]},
+			"faces": {
+				"up": {"uv": [4, 3.5, 0, 0], "texture": "#6"},
+				"down": {"uv": [4, 0, 0, 3.5], "texture": "#6"}
 			}
 		}
 	],
