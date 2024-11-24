@@ -1,0 +1,6 @@
+{
+  "block.displaydelight.food_plate": "Тарелка для еды",
+  "block.displaydelight.small_food_plate": "Маленькая тарелка для еды",
+  "item.displaydelight.tooltip.can_placed_on": "Можно разместить на: ",
+  "item.displaydelight.tooltip.displayable": "Можно разместить, присев"
+}
