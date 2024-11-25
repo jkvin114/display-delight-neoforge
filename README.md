@@ -1,4 +1,4 @@
-# display delight neoforge
+# display delight neoforge 1.21+
 
 ---
 ## Addon Namespace Abbreviations
