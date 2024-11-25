@@ -86,9 +86,10 @@ public class DisplayDelight {
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
+        modContainer.registerConfig(ModConfig.Type.COMMON, DisplayConfig.CONFIG, "displaydelight-common.toml");
 
         // Register our mod's ModConfigSpec so that FML can create and load the config file for us
-        modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
+       // modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
     }
 
     private void commonSetup(final FMLCommonSetupEvent event)
@@ -96,12 +97,6 @@ public class DisplayDelight {
         // Some common setup code
         LOGGER.info("HELLO FROM COMMON SETUP");
 
-        if (Config.logDirtBlock)
-            LOGGER.info("DIRT BLOCK >> {}", BuiltInRegistries.BLOCK.getKey(Blocks.DIRT));
-
-        LOGGER.info(Config.magicNumberIntroduction + Config.magicNumber);
-
-        Config.items.forEach((item) -> LOGGER.info("ITEM >> {}", item.toString()));
     }
 
     // Add the example block item to the building blocks tab

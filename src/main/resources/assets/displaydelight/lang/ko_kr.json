@@ -2,5 +2,5 @@
   "block.displaydelight.food_plate": "음식 접시",
   "block.displaydelight.small_food_plate": "작은 음식 접시",
   "item.displaydelight.tooltip.can_placed_on": "설치 가능 블록: ",
-  "item.displaydelight.tooltip.displayable": "Shift 를 누른 상태로 설치 가능"
+  "item.displaydelight.tooltip.displayable": "웅크린 상태에서 설치 가능"
 }

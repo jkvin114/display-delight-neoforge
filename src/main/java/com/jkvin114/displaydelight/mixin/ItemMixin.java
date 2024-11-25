@@ -1,5 +1,6 @@
 package com.jkvin114.displaydelight.mixin;
 
+import com.jkvin114.displaydelight.init.DisplayConfig;
 import com.jkvin114.displaydelight.init.DisplayTags;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 import org.spongepowered.asm.mixin.injection.Inject;
@@ -16,6 +17,8 @@ import java.util.List;
 public abstract class ItemMixin {
     @Inject(method = "appendHoverText", at = @At("TAIL"))
     private void applyTooltip(ItemStack stack, Item.TooltipContext context, List<Component> list, TooltipFlag flag, CallbackInfo ci) {
+        if(!DisplayConfig.TOOLTIP.get()) return;
+
         if (stack.is(DisplayTags.DISPLAYABLE)) {
             list.add(Component.translatable("item.displaydelight.tooltip.displayable").withStyle(ChatFormatting.GRAY));
         }

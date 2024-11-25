@@ -4,6 +4,7 @@ import com.jkvin114.displaydelight.block.AbstractStackablePlatedFoodBlock;
 import com.jkvin114.displaydelight.block.SmallPlatedFoodBlock;
 import com.jkvin114.displaydelight.init.BlockAssociations;
 import com.jkvin114.displaydelight.init.DisplayBlocks;
+import com.jkvin114.displaydelight.init.DisplayConfig;
 import com.jkvin114.displaydelight.init.DisplayTags;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
@@ -174,9 +175,9 @@ public class InterationManager {
                 return true;
             }
 
-        } else if(world.getBlockState(pos).isFaceSturdy(world,pos, Direction.UP) && rez.getDirection() == Direction.UP){
-
-            player.displayClientMessage(Component.translatable("item.displaydelight.tooltip.displayable"), true);
+        } else if(world.getBlockState(pos).isFaceSturdy(world,pos, Direction.UP) && rez.getDirection() == Direction.UP) {
+            if (DisplayConfig.MESSAGE.get())
+                player.displayClientMessage(Component.translatable("item.displaydelight.tooltip.displayable"), true);
         }
 
         return false;
