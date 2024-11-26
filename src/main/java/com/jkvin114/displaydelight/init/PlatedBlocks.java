@@ -59,6 +59,17 @@ public class PlatedBlocks {
     public static final DeferredBlock<Block> ED_SWEET_ROLL =  createStackablePlatedBlock("ed_plated_sweet_roll",4);
     public static final DeferredBlock<Block> ED_BERRY_SWEET_ROLL =  createStackablePlatedBlock("ed_plated_berry_sweet_roll",4);
     public static final DeferredBlock<Block> ED_GLOW_BERRY_SWEET_ROLL =  createStackablePlatedBlock("ed_plated_glow_berry_sweet_roll",4);
+    //DELIGHTFUL
+    public static final DeferredBlock<Block> DF_SMORE = createPlatedBlock("df_plated_smore");
+    public static final DeferredBlock<Block> DF_CHEESEBURGER = createPlatedBlock("df_plated_cheeseburger");
+    public static final DeferredBlock<Block> DF_DELUXE_CHEESEBURGER = createPlatedBlock("df_plated_deluxe_cheeseburger");
+    public static final DeferredBlock<Block> DF_NUT_BUTTER_AND_JELLY_SANDWICH = createPlatedBlock("df_plated_nut_butter_and_jelly_sandwich");
+
+    public static final DeferredBlock<Block> DF_COOKED_MARSHMELLOW_STICK = createStackablePlatedBlock("df_plated_cooked_marshmallow_stick",3);
+    public static final DeferredBlock<Block> DF_CANTALOUPE_POPSICLE = createStackablePlatedBlock("df_plated_cantaloupe_popsicle",2);
+    public static final DeferredBlock<Block> DF_CANTALOUPE_BREAD = createStackablePlatedBlock("df_plated_cantaloupe_bread",2);
+    public static final DeferredBlock<Block> DF_WRAPPED_CANTALOUPE = createStackablePlatedBlock("df_plated_wrapped_cantaloupe",2);
+
 
     private static BlockBehaviour.Properties baseProps(){
         return BlockBehaviour.Properties.of().noOcclusion()
@@ -105,7 +116,12 @@ public class PlatedBlocks {
                 ED_SWEET_BERRY_JELLY_SANDWICH.get(),
                 ED_GRILLED_CHEESE.get(),ED_CHOCOLATE_COOKIE.get(),
                 ED_SNICKERDOODLE.get(),ED_SUGAR_COOKIE.get(),
-                ED_SWEET_ROLL.get(),ED_GLOW_BERRY_SWEET_ROLL.get(),ED_BERRY_SWEET_ROLL.get()
+                ED_SWEET_ROLL.get(),ED_GLOW_BERRY_SWEET_ROLL.get(),ED_BERRY_SWEET_ROLL.get(),
+
+                DF_SMORE.get(),DF_CHEESEBURGER.get(),DF_DELUXE_CHEESEBURGER.get(),
+                DF_NUT_BUTTER_AND_JELLY_SANDWICH.get(),DF_COOKED_MARSHMELLOW_STICK.get(),DF_CANTALOUPE_BREAD.get(),DF_WRAPPED_CANTALOUPE.get(),
+                DF_CANTALOUPE_POPSICLE.get()
+
 
 
         };

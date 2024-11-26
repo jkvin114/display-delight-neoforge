@@ -117,5 +117,33 @@
       "id": "expandeddelight:sweet_roll",
       "required": false
     }
+
+
+
+  ,{
+      "id": "delightful:cooked_marshmallow_stick",
+      "required": false
+    },{
+      "id": "delightful:smore",
+      "required": false
+    },{
+      "id": "delightful:cheeseburger",
+      "required": false
+    },{
+      "id": "delightful:deluxe_cheeseburger",
+      "required": false
+    },{
+      "id": "delightful:cantaloupe_popsicle",
+      "required": false
+    },{
+      "id": "delightful:cantaloupe_bread",
+      "required": false
+    },{
+      "id": "delightful:wrapped_cantaloupe",
+      "required": false
+    },{
+      "id": "delightful:nut_butter_and_jelly_sandwich",
+      "required": false
+    }
   ]
 }

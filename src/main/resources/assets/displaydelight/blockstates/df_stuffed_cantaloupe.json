@@ -1,0 +1,19 @@
+{
+ "variants": {
+  "facing=north": {
+   "model": "displaydelight:block/df_stuffed_cantaloupe"
+  },
+  "facing=south": {
+   "model": "displaydelight:block/df_stuffed_cantaloupe",
+   "y": 180
+  },
+  "facing=west": {
+   "model": "displaydelight:block/df_stuffed_cantaloupe",
+   "y": 270
+  },
+  "facing=east": {
+   "model": "displaydelight:block/df_stuffed_cantaloupe",
+   "y": 90
+  }
+ }
+}

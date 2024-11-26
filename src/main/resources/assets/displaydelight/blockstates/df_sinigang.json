@@ -1,0 +1,19 @@
+{
+ "variants": {
+  "facing=north": {
+   "model": "displaydelight:block/df_sinigang"
+  },
+  "facing=south": {
+   "model": "displaydelight:block/df_sinigang",
+   "y": 180
+  },
+  "facing=west": {
+   "model": "displaydelight:block/df_sinigang",
+   "y": 270
+  },
+  "facing=east": {
+   "model": "displaydelight:block/df_sinigang",
+   "y": 90
+  }
+ }
+}

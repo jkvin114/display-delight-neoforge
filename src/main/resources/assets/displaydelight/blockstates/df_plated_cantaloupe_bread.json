@@ -1,0 +1,49 @@
+{
+ "variants": {
+  "stacks=1,facing=north": {
+   "model": "displaydelight:block/df_plated_cantaloupe_bread_1"
+  },
+  "stacks=1,facing=south": {
+   "model": "displaydelight:block/df_plated_cantaloupe_bread_1",
+   "y": 180
+  },
+  "stacks=1,facing=west": {
+   "model": "displaydelight:block/df_plated_cantaloupe_bread_1",
+   "y": 270
+  },
+  "stacks=1,facing=east": {
+   "model": "displaydelight:block/df_plated_cantaloupe_bread_1",
+   "y": 90
+  },
+  "stacks=2,facing=north": {
+   "model": "displaydelight:block/df_plated_cantaloupe_bread_2"
+  },
+  "stacks=2,facing=south": {
+   "model": "displaydelight:block/df_plated_cantaloupe_bread_2",
+   "y": 180
+  },
+  "stacks=2,facing=west": {
+   "model": "displaydelight:block/df_plated_cantaloupe_bread_2",
+   "y": 270
+  },
+  "stacks=2,facing=east": {
+   "model": "displaydelight:block/df_plated_cantaloupe_bread_2",
+   "y": 90
+  },
+  "stacks=3,facing=north": {
+   "model": "displaydelight:block/df_plated_cantaloupe_bread_3"
+  },
+  "stacks=3,facing=south": {
+   "model": "displaydelight:block/df_plated_cantaloupe_bread_3",
+   "y": 180
+  },
+  "stacks=3,facing=west": {
+   "model": "displaydelight:block/df_plated_cantaloupe_bread_3",
+   "y": 270
+  },
+  "stacks=3,facing=east": {
+   "model": "displaydelight:block/df_plated_cantaloupe_bread_3",
+   "y": 90
+  }
+ }
+}

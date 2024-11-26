@@ -1,0 +1,72 @@
+{
+ "type": "minecraft:block",
+ "pools": [
+  {
+   "rolls": 1,
+   "entries": [
+    {
+     "type": "minecraft:item",
+     "functions": [
+      {
+       "add": false,
+       "conditions": [
+        {
+         "block": "displaydelight:df_plated_cantaloupe_popsicle",
+         "condition": "minecraft:block_state_property",
+         "properties": {
+          "stacks": "2"
+         }
+        }
+       ],
+       "count": 2.0,
+       "function": "minecraft:set_count"
+      },
+      {
+       "add": false,
+       "conditions": [
+        {
+         "block": "displaydelight:df_plated_cantaloupe_popsicle",
+         "condition": "minecraft:block_state_property",
+         "properties": {
+          "stacks": "3"
+         }
+        }
+       ],
+       "count": 3.0,
+       "function": "minecraft:set_count"
+      },
+      {
+       "add": false,
+       "conditions": [
+        {
+         "block": "displaydelight:df_plated_cantaloupe_popsicle",
+         "condition": "minecraft:block_state_property",
+         "properties": {
+          "stacks": "4"
+         }
+        }
+       ],
+       "count": 4.0,
+       "function": "minecraft:set_count"
+      }
+     ],
+     "name": "delightful:cantaloupe_popsicle"
+    }
+   ]
+  },
+  {
+   "rolls": 1,
+   "entries": [
+    {
+     "type": "minecraft:item",
+     "name": "displaydelight:food_plate"
+    }
+   ],
+   "conditions": [
+    {
+     "condition": "minecraft:survives_explosion"
+    }
+   ]
+  }
+ ]
+}

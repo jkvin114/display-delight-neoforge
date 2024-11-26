@@ -84,6 +84,19 @@ public class DisplayBlocks {
     public static final DeferredBlock<Block> ED_APPLE_JUICE = createDrinkFoodBlock("ed_apple_juice");
     public static final DeferredBlock<Block> ED_SWEET_BERRY_JUICE = createDrinkFoodBlock("ed_sweet_berry_juice");
     public static final DeferredBlock<Block> ED_GLOW_BERRY_JUICE = createDrinkFoodBlock("ed_glow_berry_juice");
+//delightful
+
+    public static final DeferredBlock<Block> DF_MATCHA_ICE_CREAM = createFoodBlock("df_matcha_ice_cream");
+    public static final DeferredBlock<Block> DF_MATCHA_MILKSHAKE= createDrinkFoodBlock("df_matcha_milkshake");
+    public static final DeferredBlock<Block> DF_SALMONBERRY_ICE_CREAM = createFoodBlock("df_salmonberry_ice_cream");
+    public static final DeferredBlock<Block> DF_SALMONBERRY_MILKSHAKE = createDrinkFoodBlock("df_salmonberry_milkshake");
+    public static final DeferredBlock<Block> DF_MATCHA_LATTE = createDrinkFoodBlock("df_matcha_latte");
+    public static final DeferredBlock<Block> DF_ENDER_NECTAR = createDrinkFoodBlock("df_ender_nectar");
+    public static final DeferredBlock<Block> DF_BERRY_MATCHA_LATTE = createDrinkFoodBlock("df_berry_matcha_latte");
+    public static final DeferredBlock<Block> DF_CACTUS_CHILI = createFoodBlock("df_cactus_chili");
+    public static final DeferredBlock<Block> DF_FIELD_SALAD = createFoodBlock("df_field_salad");
+    public static final DeferredBlock<Block> DF_STUFFED_CANTALOUPE = createFoodBlock("df_stuffed_cantaloupe");
+    public static final DeferredBlock<Block> DF_SINIGANG = createFoodBlock("df_sinigang");
 
     public static Block[] getAll() {
         return new Block[]{
@@ -101,7 +114,12 @@ public class DisplayBlocks {
                 ED_ASPARAGUS_SOUP.get(),ED_ASPARAGUS_SOUP_CREAMY.get(),ED_ASPARAGUS_AND_BACON_CHEESY.get(),
                 ED_PEPERONATA.get(),ED_PEANUT_HONEY_SOUP.get(),ED_MAC_AND_CHEESE.get(),ED_PEANUT_SALAD.get(),
                 ED_SWEET_POTTATO_SALAD.get(),ED_CINNAMON_RICE.get(),ED_CINNAMON_APPLES.get(),
-                ED_APPLE_JUICE.get(),ED_SWEET_BERRY_JUICE.get(),ED_GLOW_BERRY_JUICE.get()
+                ED_APPLE_JUICE.get(),ED_SWEET_BERRY_JUICE.get(),ED_GLOW_BERRY_JUICE.get(),
+
+                DF_MATCHA_ICE_CREAM.get(),DF_MATCHA_LATTE.get(),DF_MATCHA_MILKSHAKE.get(),
+                DF_SALMONBERRY_ICE_CREAM.get(),DF_SALMONBERRY_MILKSHAKE.get(),DF_ENDER_NECTAR.get(),
+                DF_BERRY_MATCHA_LATTE.get(),DF_CACTUS_CHILI.get(),DF_FIELD_SALAD.get(),DF_STUFFED_CANTALOUPE.get(),
+                DF_SINIGANG.get()
 
         };
     }

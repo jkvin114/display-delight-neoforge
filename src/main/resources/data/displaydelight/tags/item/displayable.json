@@ -168,5 +168,42 @@
       "id": "expandeddelight:sweet_berry_juice",
       "required": false
     }
+
+
+
+  ,{
+      "id": "delightful:matcha_ice_cream",
+      "required": false
+    },{
+      "id": "delightful:matcha_milkshake",
+      "required": false
+    },{
+      "id": "delightful:salmonberry_ice_cream",
+      "required": false
+    },{
+      "id": "delightful:salmonberry_milkshake",
+      "required": false
+    },{
+      "id": "delightful:matcha_latte",
+      "required": false
+    },{
+      "id": "delightful:ender_nectar",
+      "required": false
+    },{
+      "id": "delightful:berry_matcha_latte",
+      "required": false
+    },{
+      "id": "delightful:cactus_chili",
+      "required": false
+    },{
+      "id": "delightful:field_salad",
+      "required": false
+    },{
+      "id": "delightful:stuffed_cantaloupe",
+      "required": false
+    },{
+      "id": "delightful:sinigang",
+      "required": false
+    }
   ]
 }

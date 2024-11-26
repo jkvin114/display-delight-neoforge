@@ -1,0 +1,19 @@
+{
+ "variants": {
+  "facing=north": {
+   "model": "displaydelight:block/df_small_plated_pumpkin_pie_slice"
+  },
+  "facing=south": {
+   "model": "displaydelight:block/df_small_plated_pumpkin_pie_slice",
+   "y": 180
+  },
+  "facing=west": {
+   "model": "displaydelight:block/df_small_plated_pumpkin_pie_slice",
+   "y": 270
+  },
+  "facing=east": {
+   "model": "displaydelight:block/df_small_plated_pumpkin_pie_slice",
+   "y": 90
+  }
+ }
+}
