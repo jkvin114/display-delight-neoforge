@@ -122,6 +122,19 @@ public class DisplayItems {
     public static final DeferredHolder<Item,Item> DF_STUFFED_CANTALOUPE = block(DisplayBlocks.DF_STUFFED_CANTALOUPE);
     public static final DeferredHolder<Item,Item> DF_SINIGANG = block(DisplayBlocks.DF_SINIGANG);
 
+
+    public static final DeferredHolder<Item,Item> PD_PINEAPPLE_FRIED_RICE = block(DisplayBlocks.PD_PINEAPPLE_FRIED_RICE);
+    public static final DeferredHolder<Item,Item> PD_PINEAPPLE_ICE_CREAM = block(DisplayBlocks.PD_PINEAPPLE_ICE_CREAM);
+    public static final DeferredHolder<Item,Item> PD_PINEAPPLE_MILK_SHAKE = block(DisplayBlocks.PD_PINEAPPLE_MILK_SHAKE);
+    public static final DeferredHolder<Item,Item> PD_PINEAPPLE_JUICE = block(DisplayBlocks.PD_PINEAPPLE_JUICE);
+
+
+    //ocean delight
+    public static final DeferredHolder<Item,Item> OD_BOWL_OF_GUARDIAN_SOUP = block(DisplayBlocks.OD_BOWL_OF_GUARDIAN_SOUP);
+    public static final DeferredHolder<Item,Item> OD_BRAISED_SEA_PICKLE = block(DisplayBlocks.OD_BRAISED_SEA_PICKLE);
+    public static final DeferredHolder<Item,Item> OD_SEAGRASS_SALAD = block(DisplayBlocks.OD_SEAGRASS_SALAD);
+    public static final DeferredHolder<Item,Item> OD_SQUID_RINGS = block(DisplayBlocks.OD_SQUID_RINGS);
+
     private static DeferredHolder<Item, Item> block(DeferredHolder<Block, Block> block) {
         return REGISTRY.register(block.getId().getPath(), () -> {
             return new BlockItem((Block)block.get(), new Item.Properties());

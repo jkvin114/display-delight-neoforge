@@ -145,5 +145,34 @@
       "id": "delightful:nut_butter_and_jelly_sandwich",
       "required": false
     }
+
+
+  ,{
+      "id": "oceansdelight:baked_tentacle_on_a_stick",
+      "required": false
+    },{
+      "id": "oceansdelight:elder_guardian_roll",
+      "required": false
+    },{
+      "id": "oceansdelight:fugu_roll",
+      "required": false
+    },{
+      "id": "oceansdelight:honey_fried_kelp",
+      "required": false
+    },{
+      "id": "oceansdelight:cooked_stuffed_cod",
+      "required": false
+    }
+
+  ,{
+      "id": "alexsdelight:gongylidia_bruschetta",
+      "required": false
+    },{
+      "id": "alexsdelight:bison_burger",
+      "required": false
+    },{
+      "id": "alexsdelight:bunfungus_sandwich",
+      "required": false
+    }
   ]
 }

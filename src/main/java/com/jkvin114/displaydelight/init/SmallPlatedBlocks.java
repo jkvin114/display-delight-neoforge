@@ -33,8 +33,15 @@ public class SmallPlatedBlocks {
 
 
     //DELIGHTFUL
-    public static final DeferredBlock<Block> DF_SALMONBERRY_PIE_SLICE =  createPlatedBlock("ed_small_plated_salmonberry_pie_slice");
-    public static final DeferredBlock<Block> DF_PUMPKIN_PIE_SLICE =  createPlatedBlock("ed_small_plated_pumpkin_pie_slice");
+    public static final DeferredBlock<Block> DF_SALMONBERRY_PIE_SLICE =  createPlatedBlock("df_small_plated_salmonberry_pie_slice");
+    public static final DeferredBlock<Block> DF_PUMPKIN_PIE_SLICE =  createPlatedBlock("df_small_plated_pumpkin_pie_slice");
+
+//pineapple delight
+    public static final DeferredBlock<Block> PD_PINEAPPLE_PIE_SLICE = createPlatedBlock("pd_small_plated_pineapple_pie_slice");
+
+
+    public static final DeferredBlock<Block> OD_ELDER_QUARDIAN_ROLL = createPlatedBlock("od_small_plated_elder_guardian_roll");
+    public static final DeferredBlock<Block> OD_FUGU_ROLL = createPlatedBlock("od_small_plated_fugu_roll");
 
     private static BlockBehaviour.Properties baseProps(){
         return BlockBehaviour.Properties.of().noOcclusion()
@@ -52,7 +59,9 @@ public class SmallPlatedBlocks {
 
         ED_SWEET_ROLL.get(),ED_BERRY_SWEET_ROLL.get(),ED_GLOW_BERRY_SWEET_ROLL.get(),ED_CHEESE_SLICE.get(),
 
-        DF_SALMONBERRY_PIE_SLICE.get(),DF_PUMPKIN_PIE_SLICE.get()
+        DF_SALMONBERRY_PIE_SLICE.get(),DF_PUMPKIN_PIE_SLICE.get(),
+                PD_PINEAPPLE_PIE_SLICE.get(),
+                OD_ELDER_QUARDIAN_ROLL.get(),OD_FUGU_ROLL.get()
 
         };}
 }

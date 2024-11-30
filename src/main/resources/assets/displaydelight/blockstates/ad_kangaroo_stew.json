@@ -1,0 +1,19 @@
+{
+ "variants": {
+  "facing=north": {
+   "model": "displaydelight:block/ad_kangaroo_stew"
+  },
+  "facing=south": {
+   "model": "displaydelight:block/ad_kangaroo_stew",
+   "y": 180
+  },
+  "facing=west": {
+   "model": "displaydelight:block/ad_kangaroo_stew",
+   "y": 270
+  },
+  "facing=east": {
+   "model": "displaydelight:block/ad_kangaroo_stew",
+   "y": 90
+  }
+ }
+}

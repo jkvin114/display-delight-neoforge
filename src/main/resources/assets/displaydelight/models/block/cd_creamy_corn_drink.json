@@ -4,7 +4,8 @@
 	"texture_size": [32, 32],
 	"textures": {
 		"3": "displaydelight:block/cd_creamy_corn_drink",
-		"4": "displaydelight:block/glass_bottle"
+		"4": "displaydelight:block/glass_bottle",
+		"particle": "minecraft:block/glass"
 	},
 	"elements": [
 		{

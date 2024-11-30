@@ -4,9 +4,12 @@
 ## Addon Namespace Abbreviations
 
 - corn_delight : CD
-- culturaldelights : CTD
 - delightful : DF
 - expandeddelight : ED
+- oceansdelight : OD
+- pineapple_delight : PD
+- alexdelight : AD
+- culturaldelights : CTD
 - festive_delight : FD
 - moredelight : MD
 - nether delight : ND

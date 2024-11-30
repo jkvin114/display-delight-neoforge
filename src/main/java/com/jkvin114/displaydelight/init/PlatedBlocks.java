@@ -71,6 +71,13 @@ public class PlatedBlocks {
     public static final DeferredBlock<Block> DF_WRAPPED_CANTALOUPE = createStackablePlatedBlock("df_plated_wrapped_cantaloupe",2);
 
 
+    //OCEAN DELIGHT
+    public static final DeferredBlock<Block> OD_BACKED_TENTACLE_ON_A_STICK = createStackablePlatedBlock("od_plated_baked_tentacle_on_a_stick",2);
+    public static final DeferredBlock<Block> OD_ELDER_GUARDIAN_ROLL = createStackablePlatedBlock("od_plated_elder_guardian_roll",6);
+    public static final DeferredBlock<Block> OD_FUGU_ROLL = createStackablePlatedBlock("od_plated_fugu_roll",6);
+    public static final DeferredBlock<Block> OD_HONEY_FRIED_KELP = createPlatedBlock("od_plated_honey_fried_kelp");
+    public static final DeferredBlock<Block> OD_COOKED_STUFFED_COD = createPlatedBlock("od_plated_cooked_stuffed_cod");
+
     private static BlockBehaviour.Properties baseProps(){
         return BlockBehaviour.Properties.of().noOcclusion()
                 .noTerrainParticles().instabreak().pushReaction(PushReaction.DESTROY).mapColor(MapColor.COLOR_BROWN);
@@ -120,9 +127,10 @@ public class PlatedBlocks {
 
                 DF_SMORE.get(),DF_CHEESEBURGER.get(),DF_DELUXE_CHEESEBURGER.get(),
                 DF_NUT_BUTTER_AND_JELLY_SANDWICH.get(),DF_COOKED_MARSHMELLOW_STICK.get(),DF_CANTALOUPE_BREAD.get(),DF_WRAPPED_CANTALOUPE.get(),
-                DF_CANTALOUPE_POPSICLE.get()
+                DF_CANTALOUPE_POPSICLE.get(),
 
-
+                OD_COOKED_STUFFED_COD.get(),OD_HONEY_FRIED_KELP.get(),OD_ELDER_GUARDIAN_ROLL.get(),
+                OD_FUGU_ROLL.get(),OD_BACKED_TENTACLE_ON_A_STICK.get()
 
         };
     };

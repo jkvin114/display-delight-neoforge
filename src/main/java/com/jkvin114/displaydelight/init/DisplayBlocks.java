@@ -98,6 +98,20 @@ public class DisplayBlocks {
     public static final DeferredBlock<Block> DF_STUFFED_CANTALOUPE = createFoodBlock("df_stuffed_cantaloupe");
     public static final DeferredBlock<Block> DF_SINIGANG = createFoodBlock("df_sinigang");
 
+    //pineapple delight
+    public static final DeferredBlock<Block> PD_PINEAPPLE_FRIED_RICE = createFoodBlock("pd_pineapple_fried_rice");
+    public static final DeferredBlock<Block> PD_PINEAPPLE_ICE_CREAM = createDrinkFoodBlock("pd_pineapple_ice_cream");
+    public static final DeferredBlock<Block> PD_PINEAPPLE_MILK_SHAKE = createDrinkFoodBlock("pd_pineapple_milk_shake");
+    public static final DeferredBlock<Block> PD_PINEAPPLE_JUICE = createDrinkFoodBlock("pd_pineapple_juice");
+
+
+
+    //ocean delight
+    public static final DeferredBlock<Block> OD_BOWL_OF_GUARDIAN_SOUP = createFoodBlock("od_bowl_of_guardian_soup");
+    public static final DeferredBlock<Block> OD_BRAISED_SEA_PICKLE = createFoodBlock("od_braised_sea_pickle");
+    public static final DeferredBlock<Block> OD_SEAGRASS_SALAD = createFoodBlock("od_seagrass_salad");
+    public static final DeferredBlock<Block> OD_SQUID_RINGS = createFoodBlock("od_squid_rings");
+
     public static Block[] getAll() {
         return new Block[]{
                 FRUIT_SALAD.get(),  GLOW_BERRY_CUSTARD.get(), COOKED_RICE.get(), MIXED_SALAD.get(),
@@ -119,7 +133,12 @@ public class DisplayBlocks {
                 DF_MATCHA_ICE_CREAM.get(),DF_MATCHA_LATTE.get(),DF_MATCHA_MILKSHAKE.get(),
                 DF_SALMONBERRY_ICE_CREAM.get(),DF_SALMONBERRY_MILKSHAKE.get(),DF_ENDER_NECTAR.get(),
                 DF_BERRY_MATCHA_LATTE.get(),DF_CACTUS_CHILI.get(),DF_FIELD_SALAD.get(),DF_STUFFED_CANTALOUPE.get(),
-                DF_SINIGANG.get()
+                DF_SINIGANG.get(),
+
+
+                PD_PINEAPPLE_FRIED_RICE.get(), PD_PINEAPPLE_JUICE.get(),PD_PINEAPPLE_ICE_CREAM.get(),PD_PINEAPPLE_MILK_SHAKE.get(),
+
+                OD_SQUID_RINGS.get(),OD_BRAISED_SEA_PICKLE.get(),OD_SEAGRASS_SALAD.get(),OD_BOWL_OF_GUARDIAN_SOUP.get()
 
         };
     }

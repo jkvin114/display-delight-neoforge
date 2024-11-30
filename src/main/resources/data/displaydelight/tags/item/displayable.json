@@ -205,5 +205,55 @@
       "id": "delightful:sinigang",
       "required": false
     }
+
+
+  ,{
+      "id": "pineapple_delight:pineapple_fried_rice",
+      "required": false
+    },{
+      "id": "pineapple_delight:pineapple_ice_cream",
+      "required": false
+    },{
+      "id": "pineapple_delight:pineapple_milk_shake",
+      "required": false
+    },{
+      "id": "pineapple_delight:pineapple_juice",
+      "required": false
+    }
+
+
+  ,{
+      "id": "oceansdelight:bowl_of_guardian_soup",
+      "required": false
+    },{
+      "id": "oceansdelight:braised_sea_pickle",
+      "required": false
+    },{
+      "id": "oceansdelight:seagrass_salad",
+      "required": false
+    },{
+      "id": "oceansdelight:squid_rings",
+      "required": false
+    },{
+      "id": "alexsdelight:maggot_salad",
+      "required": false
+    }
+
+  ,{
+      "id": "alexsdelight:kangaroo_stew",
+      "required": false
+    }
+  ,{
+      "id": "alexsdelight:acacia_blossom_soup",
+      "required": false
+    }
+  ,{
+      "id": "alexsdelight:lobster_pasta",
+      "required": false
+    }
+  ,{
+      "id": "alexsdelight:kangaroo_pasta",
+      "required": false
+    }
   ]
 }

@@ -1,0 +1,19 @@
+{
+ "variants": {
+  "facing=north": {
+   "model": "displaydelight:block/ad_lobster_pasta"
+  },
+  "facing=south": {
+   "model": "displaydelight:block/ad_lobster_pasta",
+   "y": 180
+  },
+  "facing=west": {
+   "model": "displaydelight:block/ad_lobster_pasta",
+   "y": 270
+  },
+  "facing=east": {
+   "model": "displaydelight:block/ad_lobster_pasta",
+   "y": 90
+  }
+ }
+}

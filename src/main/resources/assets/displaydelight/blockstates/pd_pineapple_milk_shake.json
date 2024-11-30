@@ -1,0 +1,19 @@
+{
+ "variants": {
+  "facing=north": {
+   "model": "displaydelight:block/pd_pineapple_milk_shake"
+  },
+  "facing=south": {
+   "model": "displaydelight:block/pd_pineapple_milk_shake",
+   "y": 180
+  },
+  "facing=west": {
+   "model": "displaydelight:block/pd_pineapple_milk_shake",
+   "y": 270
+  },
+  "facing=east": {
+   "model": "displaydelight:block/pd_pineapple_milk_shake",
+   "y": 90
+  }
+ }
+}

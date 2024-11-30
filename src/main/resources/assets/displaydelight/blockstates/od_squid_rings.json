@@ -1,0 +1,19 @@
+{
+ "variants": {
+  "facing=north": {
+   "model": "displaydelight:block/od_squid_rings"
+  },
+  "facing=south": {
+   "model": "displaydelight:block/od_squid_rings",
+   "y": 180
+  },
+  "facing=west": {
+   "model": "displaydelight:block/od_squid_rings",
+   "y": 270
+  },
+  "facing=east": {
+   "model": "displaydelight:block/od_squid_rings",
+   "y": 90
+  }
+ }
+}

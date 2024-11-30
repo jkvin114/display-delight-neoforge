@@ -1,0 +1,19 @@
+{
+ "variants": {
+  "facing=north": {
+   "model": "displaydelight:block/od_braised_sea_pickle"
+  },
+  "facing=south": {
+   "model": "displaydelight:block/od_braised_sea_pickle",
+   "y": 180
+  },
+  "facing=west": {
+   "model": "displaydelight:block/od_braised_sea_pickle",
+   "y": 270
+  },
+  "facing=east": {
+   "model": "displaydelight:block/od_braised_sea_pickle",
+   "y": 90
+  }
+ }
+}

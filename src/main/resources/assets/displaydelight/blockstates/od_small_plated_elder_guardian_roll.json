@@ -1,0 +1,19 @@
+{
+ "variants": {
+  "facing=north": {
+   "model": "displaydelight:block/od_small_plated_elder_guardian_roll"
+  },
+  "facing=south": {
+   "model": "displaydelight:block/od_small_plated_elder_guardian_roll",
+   "y": 180
+  },
+  "facing=west": {
+   "model": "displaydelight:block/od_small_plated_elder_guardian_roll",
+   "y": 270
+  },
+  "facing=east": {
+   "model": "displaydelight:block/od_small_plated_elder_guardian_roll",
+   "y": 90
+  }
+ }
+}
