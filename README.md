@@ -41,3 +41,13 @@
 - Translations
   - zh_cn (Thanks, UserRooster)
   - ru_ru (Thanks, Korben)
+
+
+### 1.2.0
+---
+- Added 22 foods from Delightful
+- Added 5 foods from Pineapple Delight
+- Added 9 foods from Ocean's Delight
+- Added 8 foods from Alex's Delight
+- Fixed texture glitch in bowl foods
+

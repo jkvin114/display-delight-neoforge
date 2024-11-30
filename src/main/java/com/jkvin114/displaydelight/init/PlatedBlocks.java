@@ -76,7 +76,7 @@ public class PlatedBlocks {
     public static final DeferredBlock<Block> OD_ELDER_GUARDIAN_ROLL = createStackablePlatedBlock("od_plated_elder_guardian_roll",6);
     public static final DeferredBlock<Block> OD_FUGU_ROLL = createStackablePlatedBlock("od_plated_fugu_roll",6);
     public static final DeferredBlock<Block> OD_HONEY_FRIED_KELP = createPlatedBlock("od_plated_honey_fried_kelp");
-    public static final DeferredBlock<Block> OD_COOKED_STUFFED_COD = createPlatedBlock("od_plated_cooked_stuffed_cod");
+    public static final DeferredBlock<Block> OD_COOKED_STUFFED_COD = createStackablePlatedBlock("od_plated_cooked_stuffed_cod",2);
 
     private static BlockBehaviour.Properties baseProps(){
         return BlockBehaviour.Properties.of().noOcclusion()
