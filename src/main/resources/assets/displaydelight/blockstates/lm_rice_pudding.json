@@ -1,0 +1,19 @@
+{
+ "variants": {
+  "facing=north": {
+   "model": "displaydelight:block/lm_rice_pudding"
+  },
+  "facing=south": {
+   "model": "displaydelight:block/lm_rice_pudding",
+   "y": 180
+  },
+  "facing=west": {
+   "model": "displaydelight:block/lm_rice_pudding",
+   "y": 270
+  },
+  "facing=east": {
+   "model": "displaydelight:block/lm_rice_pudding",
+   "y": 90
+  }
+ }
+}

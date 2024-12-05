@@ -1,0 +1,7 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "displaydelight:block/plated_kelp_roll_slice_5",
+	"textures": {
+		"food": "displaydelight:block/ctd_midori_roll"
+	}
+}

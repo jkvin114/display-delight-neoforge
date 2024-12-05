@@ -44,6 +44,7 @@
       "required": false
     }
 
+
   ,{
       "id": "delightful:salmonberry_pie_slice",
       "required": false
@@ -51,7 +52,6 @@
       "id": "delightful:pumpkin_pie_slice",
       "required": false
     }
-
 
   ,{
       "id": "pineapple_delight:pineapple_pie_side",
@@ -65,5 +65,34 @@
       "id": "oceansdelight:fugu_roll",
       "required": false
     }
+
+
+  ,{
+      "id": "culturaldelights:chicken_roll_slice",
+      "required": false
+    },{
+      "id": "culturaldelights:midori_roll_slice",
+      "required": false
+    },{
+      "id": "culturaldelights:pufferfish_roll",
+      "required": false
+    },{
+      "id": "culturaldelights:tropical_roll",
+      "required": false
+    },{
+      "id": "culturaldelights:rice_ball",
+      "required": false
+    },{
+      "id": "culturaldelights:egg_roll",
+      "required": false
+    },{
+      "id": "culturaldelights:calamari_roll",
+      "required": false
+    }
+  ,{
+      "id": "culturaldelights:cut_pickle",
+      "required": false
+    }
+
   ]
 }

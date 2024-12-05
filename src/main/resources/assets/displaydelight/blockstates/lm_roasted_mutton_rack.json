@@ -1,0 +1,19 @@
+{
+ "variants": {
+  "facing=north": {
+   "model": "displaydelight:block/lm_roasted_mutton_rack"
+  },
+  "facing=south": {
+   "model": "displaydelight:block/lm_roasted_mutton_rack",
+   "y": 180
+  },
+  "facing=west": {
+   "model": "displaydelight:block/lm_roasted_mutton_rack",
+   "y": 270
+  },
+  "facing=east": {
+   "model": "displaydelight:block/lm_roasted_mutton_rack",
+   "y": 90
+  }
+ }
+}

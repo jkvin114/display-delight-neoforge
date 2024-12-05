@@ -1,0 +1,19 @@
+{
+ "variants": {
+  "facing=north": {
+   "model": "displaydelight:block/lm_pufferfish_broth"
+  },
+  "facing=south": {
+   "model": "displaydelight:block/lm_pufferfish_broth",
+   "y": 180
+  },
+  "facing=west": {
+   "model": "displaydelight:block/lm_pufferfish_broth",
+   "y": 270
+  },
+  "facing=east": {
+   "model": "displaydelight:block/lm_pufferfish_broth",
+   "y": 90
+  }
+ }
+}

@@ -1,0 +1,19 @@
+{
+ "variants": {
+  "facing=north": {
+   "model": "displaydelight:block/lm_omurice"
+  },
+  "facing=south": {
+   "model": "displaydelight:block/lm_omurice",
+   "y": 180
+  },
+  "facing=west": {
+   "model": "displaydelight:block/lm_omurice",
+   "y": 270
+  },
+  "facing=east": {
+   "model": "displaydelight:block/lm_omurice",
+   "y": 90
+  }
+ }
+}

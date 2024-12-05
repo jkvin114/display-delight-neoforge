@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "displaydelight:block/fd_salmon_verrines"
+    },
+    "facing=south": {
+      "model": "displaydelight:block/fd_salmon_verrines",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "displaydelight:block/fd_salmon_verrines",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "displaydelight:block/fd_salmon_verrines",
+      "y": 90
+    }
+  }
+}

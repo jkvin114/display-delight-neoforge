@@ -1,0 +1,19 @@
+{
+ "variants": {
+  "facing=north": {
+   "model": "displaydelight:block/ctd_spicy_curry"
+  },
+  "facing=south": {
+   "model": "displaydelight:block/ctd_spicy_curry",
+   "y": 180
+  },
+  "facing=west": {
+   "model": "displaydelight:block/ctd_spicy_curry",
+   "y": 270
+  },
+  "facing=east": {
+   "model": "displaydelight:block/ctd_spicy_curry",
+   "y": 90
+  }
+ }
+}

@@ -1,0 +1,19 @@
+{
+ "variants": {
+  "facing=north": {
+   "model": "displaydelight:block/lm_pasta_with_mushroom_sauce"
+  },
+  "facing=south": {
+   "model": "displaydelight:block/lm_pasta_with_mushroom_sauce",
+   "y": 180
+  },
+  "facing=west": {
+   "model": "displaydelight:block/lm_pasta_with_mushroom_sauce",
+   "y": 270
+  },
+  "facing=east": {
+   "model": "displaydelight:block/lm_pasta_with_mushroom_sauce",
+   "y": 90
+  }
+ }
+}

@@ -1,0 +1,19 @@
+{
+ "variants": {
+  "facing=north": {
+   "model": "displaydelight:block/ctd_small_plated_calamari_roll"
+  },
+  "facing=south": {
+   "model": "displaydelight:block/ctd_small_plated_calamari_roll",
+   "y": 180
+  },
+  "facing=west": {
+   "model": "displaydelight:block/ctd_small_plated_calamari_roll",
+   "y": 270
+  },
+  "facing=east": {
+   "model": "displaydelight:block/ctd_small_plated_calamari_roll",
+   "y": 90
+  }
+ }
+}

@@ -169,8 +169,6 @@
       "required": false
     }
 
-
-
   ,{
       "id": "delightful:matcha_ice_cream",
       "required": false
@@ -196,6 +194,9 @@
       "id": "delightful:cactus_chili",
       "required": false
     },{
+      "id": "delightful:cactus_soup",
+      "required": false
+    },{
       "id": "delightful:field_salad",
       "required": false
     },{
@@ -205,6 +206,7 @@
       "id": "delightful:sinigang",
       "required": false
     }
+
 
 
   ,{
@@ -221,7 +223,6 @@
       "required": false
     }
 
-
   ,{
       "id": "oceansdelight:bowl_of_guardian_soup",
       "required": false
@@ -234,7 +235,9 @@
     },{
       "id": "oceansdelight:squid_rings",
       "required": false
-    },{
+    }
+
+  ,{
       "id": "alexsdelight:maggot_salad",
       "required": false
     }
@@ -253,6 +256,79 @@
     }
   ,{
       "id": "alexsdelight:kangaroo_pasta",
+      "required": false
+    }
+
+
+  ,{
+      "id": "culturaldelights:hearty_salad",
+      "required": false
+    }
+  ,{
+      "id": "culturaldelights:creamed_corn",
+      "required": false
+    }
+  ,{
+      "id": "culturaldelights:spicy_curry",
+      "required": false
+    }
+  ,{
+      "id": "culturaldelights:fried_eggplant_pasta",
+      "required": false
+    }
+
+
+  ,{
+      "id": "largemeals:pufferfish_broth",
+      "required": false
+    } ,{
+      "id": "largemeals:potato_soup",
+      "required": false
+    } ,{
+      "id": "largemeals:red_soup",
+      "required": false
+    } ,{
+      "id": "largemeals:tomato_egg_soup",
+      "required": false
+    } ,{
+      "id": "largemeals:cod_deluxe",
+      "required": false
+    } ,{
+      "id": "largemeals:hearty_lunch",
+      "required": false
+    } ,{
+      "id": "largemeals:chicken_curry",
+      "required": false
+    } ,{
+      "id": "largemeals:pasta_with_mushroom_sauce",
+      "required": false
+    } ,{
+      "id": "largemeals:omurice",
+      "required": false
+    } ,{
+      "id": "largemeals:mushroom_pot_pie",
+      "required": false
+    } ,{
+      "id": "largemeals:roasted_mutton_rack",
+      "required": false
+    } ,{
+      "id": "largemeals:sweet_berry_custard",
+      "required": false
+    } ,{
+      "id": "largemeals:rice_pudding",
+      "required": false
+    }
+
+  ,{
+      "id": "festive_delight:festive_chiken",
+      "required": false
+    }
+  ,{
+      "id": "festive_delight:christmas_tea",
+      "required": false
+    }
+  ,{
+      "id": "festive_delight:salmon_verrines",
       "required": false
     }
   ]

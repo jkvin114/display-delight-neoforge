@@ -3,9 +3,9 @@
 	"parent": "displaydelight:block/parent_bowl",
 	"texture_size": [32, 32],
 	"textures": {
-		"3": "delightful:block/stuffed_cantaloupe_details",
+		"3": "displaydelight:block/stuffed_cantaloupe_details",
 		"4": "displaydelight:block/bowl2",
-		"particle": "delightful:block/stuffed_cantaloupe_details",
+		"particle": "displaydelight:block/stuffed_cantaloupe_details",
 		"fruit_salad": "displaydelight:block/df_cantaloupe"
 	},
 	"elements": [

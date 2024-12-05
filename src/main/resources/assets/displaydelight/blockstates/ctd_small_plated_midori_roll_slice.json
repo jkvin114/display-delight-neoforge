@@ -1,0 +1,19 @@
+{
+ "variants": {
+  "facing=north": {
+   "model": "displaydelight:block/ctd_small_plated_midori_roll_slice"
+  },
+  "facing=south": {
+   "model": "displaydelight:block/ctd_small_plated_midori_roll_slice",
+   "y": 180
+  },
+  "facing=west": {
+   "model": "displaydelight:block/ctd_small_plated_midori_roll_slice",
+   "y": 270
+  },
+  "facing=east": {
+   "model": "displaydelight:block/ctd_small_plated_midori_roll_slice",
+   "y": 90
+  }
+ }
+}

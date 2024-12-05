@@ -1,0 +1,19 @@
+{
+ "variants": {
+  "facing=north": {
+   "model": "displaydelight:block/lm_hearty_lunch"
+  },
+  "facing=south": {
+   "model": "displaydelight:block/lm_hearty_lunch",
+   "y": 180
+  },
+  "facing=west": {
+   "model": "displaydelight:block/lm_hearty_lunch",
+   "y": 270
+  },
+  "facing=east": {
+   "model": "displaydelight:block/lm_hearty_lunch",
+   "y": 90
+  }
+ }
+}

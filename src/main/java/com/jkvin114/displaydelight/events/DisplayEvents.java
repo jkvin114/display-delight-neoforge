@@ -3,6 +3,7 @@ package com.jkvin114.displaydelight.events;
 import com.jkvin114.displaydelight.DisplayDelight;
 import com.jkvin114.displaydelight.init.*;
 
+import net.minecraft.world.item.Items;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.InteractionHand;
@@ -44,7 +45,9 @@ public class DisplayEvents {
         if(placed) event.setCanceled(true);
 
     }
-
+    private  static boolean isVanilaFood(ItemStack item){
+        return item.is(Items.MUSHROOM_STEW) || item.is(Items.RABBIT_STEW) ||item.is(Items.BEETROOT_SOUP) ;
+    }
     @SubscribeEvent
     public static void onWorldLoad(LevelEvent.Load event) {
         if (event.getLevel() instanceof ServerLevel lvl) {
@@ -52,6 +55,9 @@ public class DisplayEvents {
             for (Block target : array) {
                 List<ItemStack> drops = Block.getDrops(target.defaultBlockState(), lvl, BlockPos.containing(0, 256, 0), null);
                 if (!drops.isEmpty() && drops.getFirst().is(DisplayTags.DISPLAYABLE)) {
+
+                    if(DisplayConfig.DISABLE_VANILLA_FOODS.get() && isVanilaFood(drops.getFirst())) continue;
+
                     BlockAssociations.addToMap(drops.getFirst().getItem(), target, false);
                 }
             }

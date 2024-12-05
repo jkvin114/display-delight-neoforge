@@ -1,0 +1,19 @@
+{
+ "variants": {
+  "facing=north": {
+   "model": "displaydelight:block/lm_mushroom_pot_pie"
+  },
+  "facing=south": {
+   "model": "displaydelight:block/lm_mushroom_pot_pie",
+   "y": 180
+  },
+  "facing=west": {
+   "model": "displaydelight:block/lm_mushroom_pot_pie",
+   "y": 270
+  },
+  "facing=east": {
+   "model": "displaydelight:block/lm_mushroom_pot_pie",
+   "y": 90
+  }
+ }
+}
