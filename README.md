@@ -4,6 +4,8 @@
   <img src="https://cf.way2muchnoise.eu/full_1144296_downloads.svg" alt="Curseforge Downloads">
 </a>
 
+### [Forge 1.20.1 version](https://github.com/jkvin114/display-delight-forge-1.20.1)
+
 ---
 ## Addon Namespace Abbreviations
 
