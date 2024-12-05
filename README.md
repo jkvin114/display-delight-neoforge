@@ -1,5 +1,9 @@
 # display delight neoforge 1.21+
 
+<a href="https://www.curseforge.com/minecraft/mc-mods/display-delight">
+  <img src="https://cf.way2muchnoise.eu/full_1144296_downloads.svg" alt="Curseforge Downloads">
+</a>
+
 ---
 ## Addon Namespace Abbreviations
 
