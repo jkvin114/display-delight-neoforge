@@ -78,6 +78,34 @@ public class PlatedBlocks {
     public static final DeferredBlock<Block> OD_HONEY_FRIED_KELP = createPlatedBlock("od_plated_honey_fried_kelp");
     public static final DeferredBlock<Block> OD_COOKED_STUFFED_COD = createStackablePlatedBlock("od_plated_cooked_stuffed_cod",2);
 
+
+
+    //ALEX DELIGHT
+    public static final DeferredBlock<Block> AD_BUNFUNBUS_SANDWICH = createPlatedBlock("ad_plated_bunfungus_sandwich");
+    public static final DeferredBlock<Block> AD_BISON_BURGER = createPlatedBlock("ad_plated_bison_burger");
+    public static final DeferredBlock<Block> AD_GONGYLIDIA_BRUSCHETTA = createStackablePlatedBlock("ad_plated_gongylidia_bruschetta", 2);
+
+    //cultural delight
+    public static final DeferredBlock<Block> CTD_ELOTE = createStackablePlatedBlock("ctd_plated_elote",2);
+    public static final DeferredBlock<Block> CTD_EMPANADA = createStackablePlatedBlock("ctd_plated_empanada",2);
+    public static final DeferredBlock<Block> CTD_BEEF_BURITO = createStackablePlatedBlock("ctd_plated_beef_burrito",2);
+    public static final DeferredBlock<Block> CTD_MUTTON_SANDWICH = createPlatedBlock("ctd_plated_mutton_sandwich");
+    public static final DeferredBlock<Block> CTD_EGGPLANT_BURGER = createPlatedBlock("ctd_plated_eggplant_burger");
+    public static final DeferredBlock<Block> CTD_AVOCADO_TOAST = createPlatedBlock("ctd_plated_avocado_toast");
+    public static final DeferredBlock<Block> CTD_CHICKEN_TACO = createStackablePlatedBlock("ctd_plated_chicken_taco",2);
+    public static final DeferredBlock<Block> CTD_PORK_WRAP = createStackablePlatedBlock("ctd_plated_pork_wrap",2);
+    public static final DeferredBlock<Block> CTD_FISH_TACO = createStackablePlatedBlock("ctd_plated_fish_taco",2);
+    public static final DeferredBlock<Block> CTD_CHICKEN_ROLL = createStackablePlatedBlock("ctd_plated_chicken_roll",3);
+    public static final DeferredBlock<Block> CTD_MIDORI_ROLL = createStackablePlatedBlock("ctd_plated_midori_roll",3);
+    public static final DeferredBlock<Block> CTD_CHICKEN_ROLL_SLICE = createStackablePlatedBlock("ctd_plated_chicken_roll_slice",6);
+    public static final DeferredBlock<Block> CTD_MIDORI_ROLL_SLICE = createStackablePlatedBlock("ctd_plated_midori_roll_slice",6);
+    public static final DeferredBlock<Block> CTD_PUFFERFISH_ROLL = createStackablePlatedBlock("ctd_plated_pufferfish_roll",6);
+    public static final DeferredBlock<Block> CTD_TROPICAL_ROLL = createStackablePlatedBlock("ctd_plated_tropical_roll",6);
+    public static final DeferredBlock<Block> CTD_RICE_BALL = createStackablePlatedBlock("ctd_plated_rice_ball",4);
+    public static final DeferredBlock<Block> CTD_EGG_ROLL = createStackablePlatedBlock("ctd_plated_egg_roll",6);
+    public static final DeferredBlock<Block> CTD_CALAMARI_ROLL = createStackablePlatedBlock("ctd_plated_calamari_roll",6);
+
+    
     private static BlockBehaviour.Properties baseProps(){
         return BlockBehaviour.Properties.of().noOcclusion()
                 .noTerrainParticles().instabreak().pushReaction(PushReaction.DESTROY).mapColor(MapColor.COLOR_BROWN);
@@ -130,7 +158,13 @@ public class PlatedBlocks {
                 DF_CANTALOUPE_POPSICLE.get(),
 
                 OD_COOKED_STUFFED_COD.get(),OD_HONEY_FRIED_KELP.get(),OD_ELDER_GUARDIAN_ROLL.get(),
-                OD_FUGU_ROLL.get(),OD_BACKED_TENTACLE_ON_A_STICK.get()
+                OD_FUGU_ROLL.get(),OD_BACKED_TENTACLE_ON_A_STICK.get(),
+                AD_BISON_BURGER.get(), AD_BUNFUNBUS_SANDWICH.get(), AD_GONGYLIDIA_BRUSCHETTA.get(),
+
+                CTD_ELOTE.get(),CTD_EMPANADA.get(),CTD_BEEF_BURITO.get(),CTD_MUTTON_SANDWICH.get(),CTD_EGGPLANT_BURGER.get(),CTD_AVOCADO_TOAST.get(),
+                CTD_CHICKEN_TACO.get(),CTD_PORK_WRAP.get(),CTD_FISH_TACO.get(),CTD_CHICKEN_ROLL.get(),CTD_MIDORI_ROLL.get(),
+                CTD_CHICKEN_ROLL_SLICE.get(),CTD_MIDORI_ROLL_SLICE.get(),CTD_PUFFERFISH_ROLL.get(),CTD_TROPICAL_ROLL.get(),
+                CTD_RICE_BALL.get(),CTD_EGG_ROLL.get(),CTD_CALAMARI_ROLL.get()
 
         };
     };

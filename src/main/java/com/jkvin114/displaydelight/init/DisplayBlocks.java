@@ -97,7 +97,8 @@ public class DisplayBlocks {
     public static final DeferredBlock<Block> DF_FIELD_SALAD = createFoodBlock("df_field_salad");
     public static final DeferredBlock<Block> DF_STUFFED_CANTALOUPE = createFoodBlock("df_stuffed_cantaloupe");
     public static final DeferredBlock<Block> DF_SINIGANG = createFoodBlock("df_sinigang");
-
+    public static final DeferredBlock<Block> DF_CACTUS_SOUP = createFoodBlock("df_cactus_soup");
+    
     //pineapple delight
     public static final DeferredBlock<Block> PD_PINEAPPLE_FRIED_RICE = createFoodBlock("pd_pineapple_fried_rice");
     public static final DeferredBlock<Block> PD_PINEAPPLE_ICE_CREAM = createDrinkFoodBlock("pd_pineapple_ice_cream");
@@ -111,6 +112,40 @@ public class DisplayBlocks {
     public static final DeferredBlock<Block> OD_BRAISED_SEA_PICKLE = createFoodBlock("od_braised_sea_pickle");
     public static final DeferredBlock<Block> OD_SEAGRASS_SALAD = createFoodBlock("od_seagrass_salad");
     public static final DeferredBlock<Block> OD_SQUID_RINGS = createFoodBlock("od_squid_rings");
+
+
+    //alex delight
+    public static final DeferredBlock<Block> AD_MAGGOT_SALAD = createFoodBlock("ad_maggot_salad");
+    public static final DeferredBlock<Block> AD_KANGAROO_STEW = createFoodBlock("ad_kangaroo_stew");
+    public static final DeferredBlock<Block> AD_ACACIA_BLOSSOM_SOUP = createFoodBlock("ad_acacia_blossom_soup");
+    public static final DeferredBlock<Block> AD_LOBSTER_PASTA = createWideFoodBlock("ad_lobster_pasta");
+    public static final DeferredBlock<Block> AD_KANGAROO_PASTA = createWideFoodBlock("ad_kangaroo_pasta");
+
+    //cultural delight
+    public static final DeferredBlock<Block> CTD_HEARTY_SALAD = createFoodBlock("ctd_hearty_salad");
+    public static final DeferredBlock<Block> CTD_CREAMED_CORN = createFoodBlock("ctd_creamed_corn");
+    public static final DeferredBlock<Block> CTD_SPICY_CURRY = createFoodBlock("ctd_spicy_curry");
+    public static final DeferredBlock<Block> CTD_FRIED_EGGPLANT_PASTA = createWideFoodBlock("ctd_fried_eggplant_pasta");
+
+    //large meals
+    public static final DeferredBlock<Block> LM_PUFFERFISH_BROTH = createFoodBlock("lm_pufferfish_broth");
+    public static final DeferredBlock<Block> LM_POTATO_SOUP = createFoodBlock("lm_potato_soup");
+    public static final DeferredBlock<Block> LM_RED_SOUP = createFoodBlock("lm_red_soup");
+    public static final DeferredBlock<Block> LM_TOMATO_EGG_SOUP = createFoodBlock("lm_tomato_egg_soup");
+    public static final DeferredBlock<Block> LM_COD_DELUXE= createWideFoodBlock("lm_cod_deluxe");
+    public static final DeferredBlock<Block> LM_HEARTY_LUNCH = createWideFoodBlock("lm_hearty_lunch");
+    public static final DeferredBlock<Block> LM_CHICKEN_CURRY = createWideFoodBlock("lm_chicken_curry");
+    public static final DeferredBlock<Block> LM_PASTA_WITH_MUSHROOM_SAUCE = createWideFoodBlock("lm_pasta_with_mushroom_sauce");
+    public static final DeferredBlock<Block> LM_OMURICE = createFoodBlock("lm_omurice");
+    public static final DeferredBlock<Block> LM_MUSHROOM_POT_PIE = createFoodBlock("lm_mushroom_pot_pie");
+    public static final DeferredBlock<Block> LM_ROASTED_MUTTOH_RACK = createFoodBlock("lm_roasted_mutton_rack");
+    public static final DeferredBlock<Block> LM_SWEET_BERRY_CUSTARD = createDrinkFoodBlock("lm_sweet_berry_custard");
+    public static final DeferredBlock<Block> LM_RICE_PUDDING = createFoodBlock("lm_rice_pudding");
+
+    //festive delight
+    public static final DeferredBlock<Block> FD_FESTIVE_CHICKEN = createFoodBlock("fd_festive_chicken");
+    public static final DeferredBlock<Block> FD_CHRISTMAS_TEA = createDrinkFoodBlock("fd_christmas_tea");
+    public static final DeferredBlock<Block> FD_SALMON_VERRINES = createDrinkFoodBlock("fd_salmon_verrines");
 
     public static Block[] getAll() {
         return new Block[]{
@@ -133,12 +168,24 @@ public class DisplayBlocks {
                 DF_MATCHA_ICE_CREAM.get(),DF_MATCHA_LATTE.get(),DF_MATCHA_MILKSHAKE.get(),
                 DF_SALMONBERRY_ICE_CREAM.get(),DF_SALMONBERRY_MILKSHAKE.get(),DF_ENDER_NECTAR.get(),
                 DF_BERRY_MATCHA_LATTE.get(),DF_CACTUS_CHILI.get(),DF_FIELD_SALAD.get(),DF_STUFFED_CANTALOUPE.get(),
-                DF_SINIGANG.get(),
+                DF_SINIGANG.get(), DF_CACTUS_SOUP.get(),
 
 
                 PD_PINEAPPLE_FRIED_RICE.get(), PD_PINEAPPLE_JUICE.get(),PD_PINEAPPLE_ICE_CREAM.get(),PD_PINEAPPLE_MILK_SHAKE.get(),
 
-                OD_SQUID_RINGS.get(),OD_BRAISED_SEA_PICKLE.get(),OD_SEAGRASS_SALAD.get(),OD_BOWL_OF_GUARDIAN_SOUP.get()
+                OD_SQUID_RINGS.get(),OD_BRAISED_SEA_PICKLE.get(),OD_SEAGRASS_SALAD.get(),OD_BOWL_OF_GUARDIAN_SOUP.get(),
+
+                AD_ACACIA_BLOSSOM_SOUP.get(), AD_KANGAROO_PASTA.get(), AD_KANGAROO_STEW.get(), AD_MAGGOT_SALAD.get(),
+                AD_LOBSTER_PASTA.get(),
+
+
+                CTD_HEARTY_SALAD.get(), CTD_CREAMED_CORN.get(), CTD_SPICY_CURRY.get(), CTD_FRIED_EGGPLANT_PASTA.get(),
+                LM_PUFFERFISH_BROTH.get(), LM_POTATO_SOUP.get(), LM_RED_SOUP.get(), LM_TOMATO_EGG_SOUP.get(),
+                LM_COD_DELUXE.get(), LM_HEARTY_LUNCH.get(), LM_CHICKEN_CURRY.get(), LM_PASTA_WITH_MUSHROOM_SAUCE.get(),
+                LM_OMURICE.get(), LM_MUSHROOM_POT_PIE.get(), LM_ROASTED_MUTTOH_RACK.get(), LM_SWEET_BERRY_CUSTARD.get(),
+                LM_RICE_PUDDING.get(),
+
+                FD_CHRISTMAS_TEA.get(),FD_FESTIVE_CHICKEN.get(),FD_SALMON_VERRINES.get()
 
         };
     }

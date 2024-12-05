@@ -121,7 +121,7 @@ public class DisplayItems {
     public static final DeferredHolder<Item,Item> DF_FIELD_SALAD = block(DisplayBlocks.DF_FIELD_SALAD);
     public static final DeferredHolder<Item,Item> DF_STUFFED_CANTALOUPE = block(DisplayBlocks.DF_STUFFED_CANTALOUPE);
     public static final DeferredHolder<Item,Item> DF_SINIGANG = block(DisplayBlocks.DF_SINIGANG);
-
+    public static final DeferredHolder<Item,Item> DF_CACTUS_SOUP = block(DisplayBlocks.DF_CACTUS_SOUP);
 
     public static final DeferredHolder<Item,Item> PD_PINEAPPLE_FRIED_RICE = block(DisplayBlocks.PD_PINEAPPLE_FRIED_RICE);
     public static final DeferredHolder<Item,Item> PD_PINEAPPLE_ICE_CREAM = block(DisplayBlocks.PD_PINEAPPLE_ICE_CREAM);
@@ -135,6 +135,41 @@ public class DisplayItems {
     public static final DeferredHolder<Item,Item> OD_SEAGRASS_SALAD = block(DisplayBlocks.OD_SEAGRASS_SALAD);
     public static final DeferredHolder<Item,Item> OD_SQUID_RINGS = block(DisplayBlocks.OD_SQUID_RINGS);
 
+
+    //alex delight
+    public static final DeferredHolder<Item,Item> AD_MAGGOT_SALAD = block(DisplayBlocks.AD_MAGGOT_SALAD);
+    public static final DeferredHolder<Item,Item> AD_KANGAROO_STEW = block(DisplayBlocks.AD_KANGAROO_STEW);
+    public static final DeferredHolder<Item,Item> AD_ACACIA_BLOSSOM_SOUP = block(DisplayBlocks.AD_ACACIA_BLOSSOM_SOUP);
+    public static final DeferredHolder<Item,Item> AD_LOBSTER_PASTA = block(DisplayBlocks.AD_LOBSTER_PASTA);
+    public static final DeferredHolder<Item,Item> AD_KANGAROO_PASTA = block(DisplayBlocks.AD_KANGAROO_PASTA);
+
+    //cultural delights
+    public static final DeferredHolder<Item,Item> CTD_HEARTY_SALAD = block(DisplayBlocks.CTD_HEARTY_SALAD);
+    public static final DeferredHolder<Item,Item> CTD_CREAMED_CORN = block(DisplayBlocks.CTD_CREAMED_CORN);
+    public static final DeferredHolder<Item,Item> CTD_SPICY_CURRY = block(DisplayBlocks.CTD_SPICY_CURRY);
+    public static final DeferredHolder<Item,Item> CTD_FRIED_EGGPLANT_PASTA = block(DisplayBlocks.CTD_FRIED_EGGPLANT_PASTA);
+
+    //large meals
+    public static final DeferredHolder<Item,Item> LM_PUFFERFISH_BROTH = block(DisplayBlocks.LM_PUFFERFISH_BROTH);
+    public static final DeferredHolder<Item,Item> LM_POTATO_SOUP = block(DisplayBlocks.LM_POTATO_SOUP);
+    public static final DeferredHolder<Item,Item> LM_RED_SOUP = block(DisplayBlocks.LM_RED_SOUP);
+    public static final DeferredHolder<Item,Item> LM_TOMATO_EGG_SOUP = block(DisplayBlocks.LM_TOMATO_EGG_SOUP);
+    public static final DeferredHolder<Item,Item> LM_COD_DELUXE= block(DisplayBlocks.LM_COD_DELUXE);
+    public static final DeferredHolder<Item,Item> LM_HEARTY_LUNCH = block(DisplayBlocks.LM_HEARTY_LUNCH);
+    public static final DeferredHolder<Item,Item> LM_CHICKEN_CURRY = block(DisplayBlocks.LM_CHICKEN_CURRY);
+    public static final DeferredHolder<Item,Item> LM_PASTA_WITH_MUSHROOM_SAUCE = block(DisplayBlocks.LM_PASTA_WITH_MUSHROOM_SAUCE);
+    public static final DeferredHolder<Item,Item> LM_OMURICE = block(DisplayBlocks.LM_OMURICE);
+    public static final DeferredHolder<Item,Item> LM_MUSHROOM_POT_PIE = block(DisplayBlocks.LM_MUSHROOM_POT_PIE);
+    public static final DeferredHolder<Item,Item> LM_ROASTED_MUTTOH_RACK = block(DisplayBlocks.LM_ROASTED_MUTTOH_RACK);
+    public static final DeferredHolder<Item,Item> LM_SWEET_BERRY_CUSTARD = block(DisplayBlocks.LM_SWEET_BERRY_CUSTARD);
+    public static final DeferredHolder<Item,Item> LM_RICE_PUDDING = block(DisplayBlocks.LM_RICE_PUDDING);
+
+    //festive delight
+    public static final DeferredHolder<Item,Item> FD_FESTIVE_CHICKEN = block(DisplayBlocks.FD_FESTIVE_CHICKEN);
+    public static final DeferredHolder<Item,Item> FD_CHRISTMAS_TEA = block(DisplayBlocks.FD_CHRISTMAS_TEA);
+    public static final DeferredHolder<Item,Item> FD_SALMON_VERRINES = block(DisplayBlocks.FD_SALMON_VERRINES);
+
+    
     private static DeferredHolder<Item, Item> block(DeferredHolder<Block, Block> block) {
         return REGISTRY.register(block.getId().getPath(), () -> {
             return new BlockItem((Block)block.get(), new Item.Properties());
