@@ -54,7 +54,7 @@
 - Added 9 foods from Ocean's Delight
 - Added 8 foods from Alex's Delight
 - Added 23 foods from Cultural Delights
-- Added 8 foods from Large Meals
+- Added 13 foods from Large Meals
 - Added 3 foods from Festive Delight
 - Fixed texture glitch in bowl foods
 - Tweaked texture for mutton wrap
