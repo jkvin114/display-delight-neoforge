@@ -6,9 +6,9 @@
 	"textures": {
 		"8": "displaydelight:block/roasted_mutton_chops",
 		"9": "displaydelight:block/fish_stew",
-		"particle": "farmers3d/cooked_cod",
 		"tray_top": "displaydelight:block/tray_top_squid_ink",
-		"tray_bottom": "farmers3d/tray_bottom"
+		"tray_bottom": "farmers3d/tray_bottom",
+		"particle": "farmers3d/cooked_cod"
 	},
 	"elements": [
 		{
@@ -115,9 +115,9 @@
 			"scale": [0.5, 0.5, 0.5]
 		},
 		"gui": {
-			"rotation": [-153, 20, 180],
-			"translation": [0.25, 5.5, 0],
-			"scale": [1.3, 1.3, 1.3]
+			"rotation": [37, -135, 0],
+			"translation": [0, 4, 0],
+			"scale": [0.8, 0.8, 0.8]
 		},
 		"head": {
 			"rotation": [0, 0, 90],

@@ -1,10 +1,11 @@
 {
-	"credit": "Made with Blockbench","render_type": "cutout",
+	"credit": "Made with Blockbench",
+	"render_type": "cutout",
 	"texture_size": [32, 32],
 	"textures": {
 		"1": "displaydelight:block/pd_pineapple_milk_shake",
 		"2": "displaydelight:block/glass_bottle",
-		"particle": "minecraft:block/glass"
+		"particle": "block/glass"
 	},
 	"elements": [
 		{
@@ -154,8 +155,7 @@
 		},
 		"gui": {
 			"rotation": [-150, 20, 180],
-			"translation": [0.75, 8.75, 0],
-			"scale": [2, 2, 2]
+			"translation": [0.75, 2.5, 0]
 		},
 		"fixed": {
 			"rotation": [-90, 0, 0],

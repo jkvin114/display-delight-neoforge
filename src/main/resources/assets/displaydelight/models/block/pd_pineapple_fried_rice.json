@@ -1,5 +1,6 @@
 {
-	"credit": "Made with Blockbench","render_type":"cutout",
+	"credit": "Made with Blockbench",
+	"render_type": "cutout",
 	"texture_size": [36, 36],
 	"textures": {
 		"1": "displaydelight:block/pd_pineapple_fried_rice",
@@ -71,8 +72,8 @@
 			"scale": [0.5, 0.5, 0.5]
 		},
 		"gui": {
-			"rotation": [-153, 20, 180],
-			"translation": [0.25, 5.5, 0],
+			"rotation": [-153, -128, 180],
+			"translation": [0, 6.75, 0],
 			"scale": [1.3, 1.3, 1.3]
 		},
 		"head": {

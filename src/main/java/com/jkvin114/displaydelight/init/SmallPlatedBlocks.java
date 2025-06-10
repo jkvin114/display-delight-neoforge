@@ -1,7 +1,6 @@
 package com.jkvin114.displaydelight.init;
 
 import com.jkvin114.displaydelight.DisplayDelight;
-import com.jkvin114.displaydelight.block.SimplePlatedFoodBlock;
 import com.jkvin114.displaydelight.block.SmallPlatedFoodBlock;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.SoundType;
@@ -40,7 +39,7 @@ public class SmallPlatedBlocks {
     public static final DeferredBlock<Block> PD_PINEAPPLE_PIE_SLICE = createPlatedBlock("pd_small_plated_pineapple_pie_slice");
 
 
-    public static final DeferredBlock<Block> OD_ELDER_QUARDIAN_ROLL = createPlatedBlock("od_small_plated_elder_guardian_roll");
+    public static final DeferredBlock<Block> OD_ELDER_GUARDIAN_ROLL = createPlatedBlock("od_small_plated_elder_guardian_roll");
     public static final DeferredBlock<Block> OD_FUGU_ROLL = createPlatedBlock("od_small_plated_fugu_roll");
 
 
@@ -76,7 +75,7 @@ public class SmallPlatedBlocks {
 
                 DF_SALMONBERRY_PIE_SLICE.get(), DF_PUMPKIN_PIE_SLICE.get(),
                 PD_PINEAPPLE_PIE_SLICE.get(),
-                OD_ELDER_QUARDIAN_ROLL.get(), OD_FUGU_ROLL.get(),
+                OD_ELDER_GUARDIAN_ROLL.get(), OD_FUGU_ROLL.get(),
 
 
                 CTD_CHICKEN_ROLL_SLICE.get(), CTD_MIDORI_ROLL_SLICE.get(), CTD_PUFFERFISH_ROLL.get(),

@@ -5,12 +5,8 @@ import net.minecraft.core.registries.Registries;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
-import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredHolder;
-import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
-import net.minecraft.world.level.block.DispenserBlock;
-import java.util.function.Supplier;
 
 public class DisplayItems {
     public static final DeferredRegister<Item> REGISTRY= DeferredRegister.create(Registries.ITEM, DisplayDelight.MODID);;
@@ -265,7 +261,7 @@ public class DisplayItems {
     public static final DeferredHolder<Item,Item> PD_PINEAPPLE_PIE_SLICE = block(SmallPlatedBlocks.PD_PINEAPPLE_PIE_SLICE);
 
 
-    public static final DeferredHolder<Item,Item> OD_ELDER_QUARDIAN_ROLL = block(SmallPlatedBlocks.OD_ELDER_QUARDIAN_ROLL);
+    public static final DeferredHolder<Item,Item> OD_ELDER_GUARDIAN_ROLL_SMALL = block(SmallPlatedBlocks.OD_ELDER_GUARDIAN_ROLL);
     public static final DeferredHolder<Item,Item> OD_FUGU_ROLL_SMALL = block(SmallPlatedBlocks.OD_FUGU_ROLL);
 
 

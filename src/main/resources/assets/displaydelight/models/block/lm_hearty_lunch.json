@@ -3,9 +3,9 @@
 	"parent": "displaydelight:block/parent_bowl",
 	"textures": {
 		"2": "farmers3d/cooked_bacon",
-		"particle": "farmers3d/fried_rice",
 		"tray_top": "farmers3d/tray_top",
 		"tray_bottom": "farmers3d/tray_bottom",
+		"particle": "farmers3d/fried_rice",
 		"rice": "farmers3d/fried_rice"
 	},
 	"elements": [

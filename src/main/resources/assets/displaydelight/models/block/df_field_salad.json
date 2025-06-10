@@ -1,6 +1,8 @@
 {
-	"credit": "Made with Blockbench","render_type":"cutout",
-	"parent": "displaydelight:block/parent_bowl","ambientocclusion": false,
+	"credit": "Made with Blockbench",
+	"parent": "displaydelight:block/parent_bowl",
+	"ambientocclusion": false,
+	"render_type": "cutout",
 	"texture_size": [32, 32],
 	"textures": {
 		"1": "farmers3d/bowl",
@@ -227,7 +229,7 @@
 		},
 		"gui": {
 			"rotation": [30, 225, 0],
-			"scale": [1.25, 1.25, 1.25]
+			"translation": [0.25, 5.25, 0]
 		},
 		"head": {
 			"translation": [0, 9, 0]

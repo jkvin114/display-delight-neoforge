@@ -3,8 +3,8 @@
 	"parent": "displaydelight:block/parent_bowl",
 	"textures": {
 		"2": "displaydelight:block/ed_cinnamon_apple",
-		"salad_bowl": "farmers3d/bowl",
-		"particle": "displaydelight:block/ed_cinnamon_apple"
+		"particle": "displaydelight:block/ed_cinnamon_apple",
+		"salad_bowl": "farmers3d/bowl"
 	},
 	"elements": [
 		{
@@ -182,9 +182,8 @@
 			"scale": [0.5, 0.5, 0.5]
 		},
 		"gui": {
-			"rotation": [37, 44, 0],
-			"translation": [0, 4, 0],
-			"scale": [0.8, 0.8, 0.8]
+			"rotation": [30, 129, 0],
+			"translation": [0.25, 5.25, 0]
 		},
 		"head": {
 			"translation": [0, 9, 0]

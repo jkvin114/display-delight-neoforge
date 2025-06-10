@@ -5,8 +5,8 @@
 	"texture_size": [32, 32],
 	"textures": {
 		"3": "displaydelight:block/roasted_mutton_chops",
-		"particle": "displaydelight:block/ad_kangaroo_pasta_top",
 		"tray_bottom": "farmers3d/tray_bottom",
+		"particle": "displaydelight:block/ad_kangaroo_pasta_top",
 		"tray_top": "displaydelight:block/ad_kangaroo_pasta_top"
 	},
 	"elements": [
@@ -111,8 +111,9 @@
 			"scale": [0.5, 0.5, 0.5]
 		},
 		"gui": {
-			"rotation": [30, 225, 0],
-			"scale": [1.25, 1.25, 1.25]
+			"rotation": [37, -135, 0],
+			"translation": [0, 4, 0],
+			"scale": [0.8, 0.8, 0.8]
 		},
 		"head": {
 			"translation": [0, 9, 0]

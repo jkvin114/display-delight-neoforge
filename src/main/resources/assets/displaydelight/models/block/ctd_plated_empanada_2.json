@@ -4,8 +4,8 @@
 	"textures": {
 		"1": "farmers3d/tray_bottom",
 		"3": "displaydelight:block/ctd_empanada",
-		"tray_top": "farmers3d/tray_top",
-		"particle": "displaydelight:block/ctd_empanada"
+		"particle": "displaydelight:block/ctd_empanada",
+		"tray_top": "farmers3d/tray_top"
 	},
 	"elements": [
 		{
@@ -100,6 +100,13 @@
 			}
 		}
 	],
+	"display": {
+		"gui": {
+			"rotation": [37, 44, 0],
+			"translation": [0, 4, 0],
+			"scale": [0.8, 0.8, 0.8]
+		}
+	},
 	"groups": [
 		0,
 		{
