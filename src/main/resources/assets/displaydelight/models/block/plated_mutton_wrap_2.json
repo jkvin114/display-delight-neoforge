@@ -99,6 +99,13 @@
 			}
 		}
 	],
+	"display": {
+		"gui": {
+			"rotation": [37, 139, 0],
+			"translation": [0, 4, 0],
+			"scale": [0.8, 0.8, 0.8]
+		}
+	},
 	"groups": [
 		0,
 		{

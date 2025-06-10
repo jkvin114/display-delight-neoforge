@@ -31,18 +31,65 @@
    "y": 90
   },
   "stacks=3,facing=north": {
-   "model": "displaydelight:block/od_plated_cooked_stuffed_cod_3"
+   "model": "displaydelight:block/od_plated_cooked_stuffed_cod_2"
   },
   "stacks=3,facing=south": {
-   "model": "displaydelight:block/od_plated_cooked_stuffed_cod_3",
+   "model": "displaydelight:block/od_plated_cooked_stuffed_cod_2",
    "y": 180
   },
   "stacks=3,facing=west": {
-   "model": "displaydelight:block/od_plated_cooked_stuffed_cod_3",
+   "model": "displaydelight:block/od_plated_cooked_stuffed_cod_2",
    "y": 270
   },
   "stacks=3,facing=east": {
-   "model": "displaydelight:block/od_plated_cooked_stuffed_cod_3",
+   "model": "displaydelight:block/od_plated_cooked_stuffed_cod_2",
+   "y": 90
+  },
+  "stacks=4,facing=north": {
+   "model": "displaydelight:block/od_plated_cooked_stuffed_cod_2"
+  },
+  "stacks=4,facing=south": {
+   "model": "displaydelight:block/od_plated_cooked_stuffed_cod_2",
+   "y": 180
+  },
+  "stacks=4,facing=west": {
+   "model": "displaydelight:block/od_plated_cooked_stuffed_cod_2",
+   "y": 270
+  }, "stacks=4,facing=east": {
+   "model": "displaydelight:block/od_plated_cooked_stuffed_cod_2",
+   "y": 90
+  }
+
+
+ ,
+  "stacks=5,facing=north": {
+   "model": "displaydelight:block/od_plated_cooked_stuffed_cod_2"
+  },
+  "stacks=5,facing=south": {
+   "model": "displaydelight:block/od_plated_cooked_stuffed_cod_2",
+   "y": 180
+  },
+  "stacks=5,facing=west": {
+   "model": "displaydelight:block/od_plated_cooked_stuffed_cod_2",
+   "y": 270
+  },
+  "stacks=5,facing=east": {
+   "model": "displaydelight:block/od_plated_cooked_stuffed_cod_2",
+   "y": 90
+  },
+  "stacks=6,facing=north": {
+   "model": "displaydelight:block/od_plated_cooked_stuffed_cod_2"
+  },
+  "stacks=6,facing=south": {
+   "model": "displaydelight:block/od_plated_cooked_stuffed_cod_2",
+   "y": 180
+  },
+  "stacks=6,facing=west": {
+   "model": "displaydelight:block/od_plated_cooked_stuffed_cod_2",
+   "y": 270
+  },
+  "stacks=6,facing=east": {
+   "model": "displaydelight:block/od_plated_cooked_stuffed_cod_2",
    "y": 90
   }
  }

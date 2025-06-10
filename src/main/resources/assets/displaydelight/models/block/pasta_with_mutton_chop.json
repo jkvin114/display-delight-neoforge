@@ -5,25 +5,11 @@
 	"texture_size": [32, 32],
 	"textures": {
 		"3": "displaydelight:block/roasted_mutton_chops",
-		"8": "displaydelight:block/pasta_with_meatballs",
+		"particle": "displaydelight:block/ad_kangaroo_pasta_top",
 		"tray_bottom": "farmers3d/tray_bottom",
-		"tray_top": "displaydelight:block/tray_top_tomato",
-		"particle": "displaydelight:block/roasted_mutton_chops"
+		"tray_top": "displaydelight:block/ad_kangaroo_pasta_top"
 	},
 	"elements": [
-		{
-			"name": "tray",
-			"from": [1, 0, 1],
-			"to": [15, 2, 15],
-			"faces": {
-				"north": {"uv": [1, 11, 15, 13], "texture": "#tray_bottom"},
-				"east": {"uv": [1, 11, 15, 13], "texture": "#tray_bottom"},
-				"south": {"uv": [1, 11, 15, 13], "texture": "#tray_bottom"},
-				"west": {"uv": [1, 11, 15, 13], "texture": "#tray_bottom"},
-				"up": {"uv": [1, 1, 15, 15], "texture": "#tray_top"},
-				"down": {"uv": [1, 1, 15, 15], "texture": "#tray_bottom", "cullface": "down"}
-			}
-		},
 		{
 			"from": [4, 2, 7.5],
 			"to": [8, 4, 13.5],
@@ -75,15 +61,28 @@
 		},
 		{
 			"name": "tray",
-			"from": [3, 2, 3],
-			"to": [13, 3, 13],
-			"rotation": {"angle": 0, "axis": "y", "origin": [8, 2.5, 8]},
+			"from": [1, 0, 1],
+			"to": [15, 2, 15],
 			"faces": {
-				"north": {"uv": [5, 0.5, 10, 1], "texture": "#8"},
-				"east": {"uv": [5, 1, 10, 1.5], "texture": "#8"},
-				"south": {"uv": [0, 5, 5, 5.5], "texture": "#8"},
-				"west": {"uv": [5, 0, 10, 0.5], "texture": "#8"},
-				"up": {"uv": [5, 5, 0, 0], "rotation": 180, "texture": "#8"}
+				"north": {"uv": [1, 11, 15, 13], "texture": "#tray_bottom"},
+				"east": {"uv": [1, 11, 15, 13], "texture": "#tray_bottom"},
+				"south": {"uv": [1, 11, 15, 13], "texture": "#tray_bottom"},
+				"west": {"uv": [1, 11, 15, 13], "texture": "#tray_bottom"},
+				"up": {"uv": [1, 1, 15, 15], "texture": "#tray_top"},
+				"down": {"uv": [1, 1, 15, 15], "texture": "#tray_bottom", "cullface": "down"}
+			}
+		},
+		{
+			"name": "tray",
+			"from": [3, 1.5, 3],
+			"to": [13, 2.5, 13],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 1.5, 0]},
+			"faces": {
+				"north": {"uv": [3, 12, 13, 13], "texture": "#tray_top"},
+				"east": {"uv": [3, 10, 13, 11], "texture": "#tray_top"},
+				"south": {"uv": [3, 5, 13, 6], "texture": "#tray_top"},
+				"west": {"uv": [3, 3, 13, 4], "texture": "#tray_top"},
+				"up": {"uv": [13, 13, 3, 3], "texture": "#tray_top"}
 			}
 		}
 	],
@@ -125,13 +124,13 @@
 		}
 	},
 	"groups": [
-		0,
 		{
 			"name": "group",
 			"origin": [8, 8, 8],
 			"color": 0,
-			"children": [1, 2, 3, 4]
+			"children": [0, 1, 2, 3]
 		},
+		4,
 		5
 	]
 }

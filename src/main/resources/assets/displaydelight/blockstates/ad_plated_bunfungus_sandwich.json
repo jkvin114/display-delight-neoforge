@@ -1,48 +1,18 @@
 {
  "variants": {
-  "stacks=1,facing=north": {
+  "facing=north": {
    "model": "displaydelight:block/ad_plated_bunfungus_sandwich_1"
   },
-  "stacks=1,facing=south": {
+  "facing=south": {
    "model": "displaydelight:block/ad_plated_bunfungus_sandwich_1",
    "y": 180
   },
-  "stacks=1,facing=west": {
+  "facing=west": {
    "model": "displaydelight:block/ad_plated_bunfungus_sandwich_1",
    "y": 270
   },
-  "stacks=1,facing=east": {
+  "facing=east": {
    "model": "displaydelight:block/ad_plated_bunfungus_sandwich_1",
-   "y": 90
-  },
-  "stacks=2,facing=north": {
-   "model": "displaydelight:block/ad_plated_bunfungus_sandwich_2"
-  },
-  "stacks=2,facing=south": {
-   "model": "displaydelight:block/ad_plated_bunfungus_sandwich_2",
-   "y": 180
-  },
-  "stacks=2,facing=west": {
-   "model": "displaydelight:block/ad_plated_bunfungus_sandwich_2",
-   "y": 270
-  },
-  "stacks=2,facing=east": {
-   "model": "displaydelight:block/ad_plated_bunfungus_sandwich_2",
-   "y": 90
-  },
-  "stacks=3,facing=north": {
-   "model": "displaydelight:block/ad_plated_bunfungus_sandwich_3"
-  },
-  "stacks=3,facing=south": {
-   "model": "displaydelight:block/ad_plated_bunfungus_sandwich_3",
-   "y": 180
-  },
-  "stacks=3,facing=west": {
-   "model": "displaydelight:block/ad_plated_bunfungus_sandwich_3",
-   "y": 270
-  },
-  "stacks=3,facing=east": {
-   "model": "displaydelight:block/ad_plated_bunfungus_sandwich_3",
    "y": 90
   }
  }

@@ -61,33 +61,33 @@
    "y": 90
   },
   "stacks=5,facing=north": {
-   "model": "displaydelight:block/ctd_plated_rice_ball_5"
+   "model": "displaydelight:block/ctd_plated_rice_ball_4"
   },
   "stacks=5,facing=south": {
-   "model": "displaydelight:block/ctd_plated_rice_ball_5",
+   "model": "displaydelight:block/ctd_plated_rice_ball_4",
    "y": 180
   },
   "stacks=5,facing=west": {
-   "model": "displaydelight:block/ctd_plated_rice_ball_5",
+   "model": "displaydelight:block/ctd_plated_rice_ball_4",
    "y": 270
   },
   "stacks=5,facing=east": {
-   "model": "displaydelight:block/ctd_plated_rice_ball_5",
+   "model": "displaydelight:block/ctd_plated_rice_ball_4",
    "y": 90
   },
   "stacks=6,facing=north": {
-   "model": "displaydelight:block/ctd_plated_rice_ball_6"
+   "model": "displaydelight:block/ctd_plated_rice_ball_4"
   },
   "stacks=6,facing=south": {
-   "model": "displaydelight:block/ctd_plated_rice_ball_6",
+   "model": "displaydelight:block/ctd_plated_rice_ball_4",
    "y": 180
   },
   "stacks=6,facing=west": {
-   "model": "displaydelight:block/ctd_plated_rice_ball_6",
+   "model": "displaydelight:block/ctd_plated_rice_ball_4",
    "y": 270
   },
   "stacks=6,facing=east": {
-   "model": "displaydelight:block/ctd_plated_rice_ball_6",
+   "model": "displaydelight:block/ctd_plated_rice_ball_4",
    "y": 90
   }
  }

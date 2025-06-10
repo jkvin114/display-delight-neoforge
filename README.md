@@ -17,8 +17,10 @@
 - alexdelight : AD
 - culturaldelights : CTD
 - festive_delight : FD
-- moredelight : MD
-- nether delight : ND
+- my nethers delight : MND
+- end's delight: EDD
+- ender delight : ERD
+- Brewin and chewin : BNC
 
 ## Patch notes
 

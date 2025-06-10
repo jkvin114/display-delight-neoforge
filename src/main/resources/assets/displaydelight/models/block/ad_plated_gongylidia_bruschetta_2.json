@@ -5,9 +5,9 @@
 	"textures": {
 		"3": "displaydelight:block/ad_gongylidia_bruschetta",
 		"5": "displaydelight:block/egg_sandwich",
+		"particle": "displaydelight:block/ad_gongylidia_bruschetta",
 		"tray_top": "farmers3d/tray_top",
-		"tray_bottom": "farmers3d/tray_bottom",
-		"particle": "displaydelight:block/ad_gongylidia_bruschetta"
+		"tray_bottom": "farmers3d/tray_bottom"
 	},
 	"elements": [
 		{
@@ -152,8 +152,9 @@
 			"translation": [0, 5.25, 0]
 		},
 		"gui": {
-			"rotation": [30, 225, 0],
-			"scale": [1.25, 1.25, 1.25]
+			"rotation": [37, 44, 0],
+			"translation": [0, 4, 0],
+			"scale": [0.8, 0.8, 0.8]
 		},
 		"head": {
 			"translation": [0, 8.5, 0]

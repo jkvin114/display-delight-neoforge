@@ -62,5 +62,36 @@
       "model": "displaydelight:block/ed_plated_sweet_roll_4",
       "y": 90
     }
+  ,
+    "stacks=5,facing=north": {
+      "model": "displaydelight:block/ed_plated_sweet_roll_4"
+    },
+    "stacks=5,facing=south": {
+      "model": "displaydelight:block/ed_plated_sweet_roll_4",
+      "y": 180
+    },
+    "stacks=5,facing=west": {
+      "model": "displaydelight:block/ed_plated_sweet_roll_4",
+      "y": 270
+    },
+    "stacks=5,facing=east": {
+      "model": "displaydelight:block/ed_plated_sweet_roll_4",
+      "y": 90
+    },
+    "stacks=6,facing=north": {
+      "model": "displaydelight:block/ed_plated_sweet_roll_4"
+    },
+    "stacks=6,facing=south": {
+      "model": "displaydelight:block/ed_plated_sweet_roll_4",
+      "y": 180
+    },
+    "stacks=6,facing=west": {
+      "model": "displaydelight:block/ed_plated_sweet_roll_4",
+      "y": 270
+    },
+    "stacks=6,facing=east": {
+      "model": "displaydelight:block/ed_plated_sweet_roll_4",
+      "y": 90
+    }
   }
 }

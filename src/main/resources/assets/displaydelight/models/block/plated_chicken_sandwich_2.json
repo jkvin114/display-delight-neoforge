@@ -1,5 +1,7 @@
 {
-	"credit": "Made with Blockbench","render_type": "cutout","parent": "displaydelight:block/parent_bowl",
+	"credit": "Made with Blockbench",
+	"parent": "displaydelight:block/parent_bowl",
+	"render_type": "cutout",
 	"texture_size": [32, 32],
 	"textures": {
 		"5": "displaydelight:block/egg_sandwich",
@@ -213,8 +215,9 @@
 			"translation": [0, 5.25, 0]
 		},
 		"gui": {
-			"rotation": [30, 225, 0],
-			"scale": [1.25, 1.25, 1.25]
+			"rotation": [37, -50, 0],
+			"translation": [0, 4, 0],
+			"scale": [0.8, 0.8, 0.8]
 		},
 		"head": {
 			"translation": [0, 8.5, 0]

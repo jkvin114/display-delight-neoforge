@@ -5,8 +5,9 @@
    "rolls": 1,
    "entries": [
     {
-     "type": "minecraft:item",
-     "name": "farmersdelight:apple_cider"
+     "type": "minecraft:tag",
+     "name": "displaydelight:foods/apple_cider",
+     "expand": false
     }
    ],
    "conditions": [

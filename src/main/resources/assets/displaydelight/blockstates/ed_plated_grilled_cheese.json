@@ -1,17 +1,17 @@
 {
  "variants": {
-  "stacks=1,facing=north": {
+  "facing=north": {
    "model": "displaydelight:block/ed_plated_grilled_cheese_1"
   },
-  "stacks=1,facing=south": {
+  "facing=south": {
    "model": "displaydelight:block/ed_plated_grilled_cheese_1",
    "y": 180
   },
-  "stacks=1,facing=west": {
+  "facing=west": {
    "model": "displaydelight:block/ed_plated_grilled_cheese_1",
    "y": 270
   },
-  "stacks=1,facing=east": {
+  "facing=east": {
    "model": "displaydelight:block/ed_plated_grilled_cheese_1",
    "y": 90
   }

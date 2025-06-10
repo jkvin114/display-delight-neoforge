@@ -1,6 +1,7 @@
 package com.jkvin114.displaydelight.block;
 
 import com.jkvin114.displaydelight.init.BlockAssociations;
+import net.minecraft.world.level.block.SupportType;
 import net.minecraft.world.phys.HitResult;
 import net.minecraft.world.level.material.Fluids;
 import net.minecraft.world.level.material.FluidState;
@@ -44,7 +45,7 @@ public abstract class AbstractItemBlock extends HorizontalDirectionalBlock {
     }
     @Override
     public boolean canSurvive(BlockState state, LevelReader world, BlockPos pos) {
-        return world.getBlockState(pos.below()).isFaceSturdy(world, pos.below(), Direction.UP);
+        return world.getBlockState(pos.below()).isFaceSturdy(world, pos.below(), Direction.UP, SupportType.CENTER);
     }
     public ItemStack getStackFor() {
         return new ItemStack(BlockAssociations.getItemFor(this));

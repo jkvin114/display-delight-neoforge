@@ -1,10 +1,11 @@
 {
 	"credit": "Made with Blockbench",
-	"texture_size": [3, 16],"parent": "displaydelight:block/parent_bowl",
+	"parent": "displaydelight:block/parent_bowl",
+	"texture_size": [3, 16],
 	"textures": {
-		"particle": "farmers3d/kelp_roll",
 		"tray_top": "farmers3d/tray_top",
 		"tray_bottom": "farmers3d/tray_bottom",
+		"particle": "farmers3d/kelp_roll",
 		"food": "farmers3d/kelp_roll"
 	},
 	"elements": [
@@ -131,9 +132,9 @@
 			"scale": [0.5, 0.5, 0.5]
 		},
 		"gui": {
-			"rotation": [30, 225, 0],
-			"translation": [-1.5, 11, 0],
-			"scale": [2.25, 2.25, 2.25]
+			"rotation": [37, 44, 0],
+			"translation": [0, 4, 0],
+			"scale": [0.8, 0.8, 0.8]
 		},
 		"head": {
 			"translation": [0.5, 14.5, 0.5]

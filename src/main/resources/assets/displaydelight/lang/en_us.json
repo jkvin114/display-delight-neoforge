@@ -2,5 +2,6 @@
   "block.displaydelight.food_plate": "Food Plate",
   "block.displaydelight.small_food_plate": "Small Food Plate",
   "item.displaydelight.tooltip.can_placed_on": "Can be plated on: ",
-  "item.displaydelight.tooltip.displayable": "Can be placed while sneaking"
+  "item.displaydelight.tooltip.displayable": "Can be placed while sneaking",
+  "block.displaydelight.hot_cocoa": "Hot Cocoa"
 }

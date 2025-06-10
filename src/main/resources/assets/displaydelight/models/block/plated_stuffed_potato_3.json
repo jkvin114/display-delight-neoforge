@@ -1,5 +1,6 @@
 {
-	"credit": "Made with Blockbench","parent": "displaydelight:block/parent_bowl",
+	"credit": "Made with Blockbench",
+	"parent": "displaydelight:block/parent_bowl",
 	"textures": {
 		"4": "displaydelight:block/baked_potato",
 		"tray_top": "farmers3d/tray_top",
@@ -120,9 +121,9 @@
 			"translation": [0, 5, 0]
 		},
 		"gui": {
-			"rotation": [35, -42, 0],
-			"translation": [-0.5, 1.75, 0],
-			"scale": [0.7, 0.7, 0.7]
+			"rotation": [37, -50, 0],
+			"translation": [0, 4, 0],
+			"scale": [0.8, 0.8, 0.8]
 		},
 		"head": {
 			"rotation": [-90, 0, 0],

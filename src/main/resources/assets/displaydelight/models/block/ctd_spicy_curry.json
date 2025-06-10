@@ -147,7 +147,7 @@
 				"east": {"uv": [0, 1, 1, 8], "texture": "#salad_bowl"},
 				"south": {"uv": [16, 0, 9, 1], "rotation": 270, "texture": "#salad_bowl"},
 				"west": {"uv": [16, 0, 9, 1], "rotation": 270, "texture": "#salad_bowl"},
-				"up": {"uv": [0, 0, 0, 0], "texture": "#salad_bowl"}
+				"up": {"uv": [0, 0, 1, 1], "texture": "#salad_bowl"}
 			}
 		}
 	],

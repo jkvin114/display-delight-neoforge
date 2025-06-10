@@ -8,12 +8,13 @@ import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.LevelReader;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.HorizontalDirectionalBlock;
+import net.minecraft.world.level.block.SupportType;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.VoxelShape;
 
-public class EmptyPlateBlock extends HorizontalDirectionalBlock {
+public class EmptyPlateBlock extends Block {
     public static final MapCodec<EmptyPlateBlock> CODEC = simpleCodec(EmptyPlateBlock::new);
 
     public EmptyPlateBlock(Properties properties) {
@@ -22,13 +23,13 @@ public class EmptyPlateBlock extends HorizontalDirectionalBlock {
     }
 
     @Override
-    protected MapCodec<? extends HorizontalDirectionalBlock> codec() {
+    protected MapCodec<? extends Block> codec() {
         return CODEC;
     }
 
     @Override
     public boolean canSurvive(BlockState state, LevelReader world, BlockPos pos) {
-        return world.getBlockState(pos.below()).isFaceSturdy(world, pos.below(), Direction.UP);
+        return world.getBlockState(pos.below()).isFaceSturdy(world, pos.below(), Direction.UP, SupportType.CENTER);
     }
     @Override
     public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {

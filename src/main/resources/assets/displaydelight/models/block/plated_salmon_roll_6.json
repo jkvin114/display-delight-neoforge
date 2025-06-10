@@ -1,6 +1,7 @@
 {
 	"credit": "Made with Blockbench",
-	"texture_size": [4, 7],"parent": "displaydelight:block/parent_bowl",
+	"parent": "displaydelight:block/parent_bowl",
+	"texture_size": [4, 7],
 	"textures": {
 		"0": "farmers3d/salmon_roll",
 		"tray_top": "farmers3d/tray_top",
@@ -130,9 +131,9 @@
 			"scale": [0.5, 0.5, 0.5]
 		},
 		"gui": {
-			"rotation": [30, -45, 0],
-			"translation": [0, 9.5, 0],
-			"scale": [2, 2, 2]
+			"rotation": [37, -50, 0],
+			"translation": [0, 4, 0],
+			"scale": [0.8, 0.8, 0.8]
 		},
 		"head": {
 			"translation": [0, 21, -2.5],

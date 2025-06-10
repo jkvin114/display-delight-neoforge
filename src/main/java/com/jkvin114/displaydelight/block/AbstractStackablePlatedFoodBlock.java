@@ -23,7 +23,7 @@ public abstract class AbstractStackablePlatedFoodBlock extends AbstractItemBlock
 
     public AbstractStackablePlatedFoodBlock(BlockBehaviour.Properties props) {
         super(props);
-        this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH).setValue(STACKS, 1));
+        this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH).setValue(STACKS, 6));
     }
 
     public BlockState getStateFrom(BlockState plate,Direction direction,int count) {

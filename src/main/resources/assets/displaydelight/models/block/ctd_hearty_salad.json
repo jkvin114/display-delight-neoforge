@@ -3,8 +3,8 @@
 	"parent": "displaydelight:block/parent_bowl",
 	"textures": {
 		"2": "displaydelight:block/ctd_hearty_salad",
-		"salad_bowl": "farmers3d/bowl",
-		"particle": "displaydelight:block/ctd_hearty_salad"
+		"particle": "displaydelight:block/ctd_hearty_salad",
+		"salad_bowl": "farmers3d/bowl"
 	},
 	"elements": [
 		{
@@ -113,7 +113,19 @@
 				"east": {"uv": [0, 1, 1, 8], "texture": "#salad_bowl"},
 				"south": {"uv": [16, 0, 9, 1], "rotation": 270, "texture": "#salad_bowl"},
 				"west": {"uv": [16, 0, 9, 1], "rotation": 270, "texture": "#salad_bowl"},
-				"up": {"uv": [0, 0, 0, 0], "texture": "#salad_bowl"}
+				"up": {"uv": [0, 0, 1, 1], "texture": "#salad_bowl"}
+			}
+		},
+		{
+			"from": [7.5, -0.5, 12],
+			"to": [8.5, 6.5, 13],
+			"rotation": {"angle": 45, "axis": "x", "origin": [8, 3.5, 12.5]},
+			"faces": {
+				"north": {"uv": [16, 0, 9, 1], "rotation": 270, "texture": "#salad_bowl"},
+				"east": {"uv": [0, 1, 1, 8], "texture": "#salad_bowl"},
+				"south": {"uv": [16, 0, 9, 1], "rotation": 270, "texture": "#salad_bowl"},
+				"west": {"uv": [16, 0, 9, 1], "rotation": 270, "texture": "#salad_bowl"},
+				"up": {"uv": [0, 0, 1, 1], "texture": "#salad_bowl"}
 			}
 		},
 		{
@@ -247,6 +259,7 @@
 		12,
 		13,
 		14,
-		15
+		15,
+		16
 	]
 }

@@ -1,0 +1,6 @@
+{
+  "block.displaydelight.food_plate": "お皿",
+  "block.displaydelight.small_food_plate": "小さいお皿",
+  "item.displaydelight.tooltip.can_placed_on": "以下に設置可能: ",
+  "item.displaydelight.tooltip.displayable": "スニーク右クリックで設置可能"
+}
