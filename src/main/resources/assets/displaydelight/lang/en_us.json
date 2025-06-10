@@ -5,6 +5,10 @@
   "item.displaydelight.tooltip.displayable": "Can be placed while sneaking",
 
 
+  "block.displaydelight.mushroom_stew": "Mushroom Stew Block",
+  "block.displaydelight.rabbit_stew": "Rabbit Stew Block",
+  "block.displaydelight.beetroot_soup": "Beetroot Soup Block",
+
   "block.displaydelight.hot_cocoa": "Hot Cocoa Block",
   "block.displaydelight.ad_acacia_blossom_soup": "Acacia Blossom Soup Block"
 ,"block.displaydelight.ad_kangaroo_pasta": "Kangaroo Pasta Block"
@@ -83,7 +87,7 @@
 ,"block.displaydelight.df_sinigang": "Sinigang Block"
 ,"block.displaydelight.df_small_plated_pumpkin_pie_slice": "Small Plated Pumpkin Pie Slice Block"
 ,"block.displaydelight.df_small_plated_salmonberry_pie_slice": "Small Plated Salmonberry Pie Slice Block"
-,"block.displaydelight.df_stuffed_cantaloupe": "Stuffed Cantaloupe Block"
+,"block.displaydelight.df_stuffed_cantaloupe": "Bowl of Stuffed Cantaloupe Block"
 ,"block.displaydelight.dog_food": "Dog Food Block"
 ,"block.displaydelight.ed_apple_juice": "Apple Juice Block"
 ,"block.displaydelight.ed_asparagus_and_bacon_cheesy": "Asparagus and Bacon Cheesy Block"
@@ -115,26 +119,26 @@
 ,"block.displaydelight.ed_sweet_berry_juice": "Sweet Berry Juice Block"
 ,"block.displaydelight.ed_sweet_potato_salad": "Sweet Potato Salad Block"
 ,"block.displaydelight.fd_christmas_tea": "Christmas Tea Block"
-,"block.displaydelight.fd_festive_chicken": "Festive Chicken Block"
+,"block.displaydelight.fd_festive_chicken": "Plate of Festive Chicken Block"
 ,"block.displaydelight.fd_salmon_verrines": "Salmon Verrines Block"
 ,"block.displaydelight.fish_stew": "Fish Stew Block"
 ,"block.displaydelight.fried_rice": "Fried Rice Block"
 ,"block.displaydelight.fruit_salad": "Fruit Salad Block"
 ,"block.displaydelight.glow_berry_custard": "Glow Berry Custard Block"
 ,"block.displaydelight.grilled_salmon": "Grilled Salmon Block"
-,"block.displaydelight.honey_glazed_ham": "Honey Glazed Ham Block"
+,"block.displaydelight.honey_glazed_ham": "Plate of Honey Glazed Ham Block"
 ,"block.displaydelight.horse_feed": "Horse Feed Block"
 ,"block.displaydelight.lm_chicken_curry": "Chicken Curry Block"
 ,"block.displaydelight.lm_cod_deluxe": "Cod Deluxe Block"
 ,"block.displaydelight.lm_hearty_lunch": "Hearty Lunch Block"
-,"block.displaydelight.lm_mushroom_pot_pie": "Mushroom Pot Pie Block"
-,"block.displaydelight.lm_omurice": "Omurice Block"
+,"block.displaydelight.lm_mushroom_pot_pie": "Plate of Mushroom Pot Pie Block"
+,"block.displaydelight.lm_omurice": "Plate of Omurice Block"
 ,"block.displaydelight.lm_pasta_with_mushroom_sauce": "Pasta with Mushroom Sauce Block"
 ,"block.displaydelight.lm_potato_soup": "Potato Soup Block"
 ,"block.displaydelight.lm_pufferfish_broth": "Pufferfish Broth Block"
 ,"block.displaydelight.lm_red_soup": "Red Soup Block"
 ,"block.displaydelight.lm_rice_pudding": "Rice Pudding Block"
-,"block.displaydelight.lm_roasted_mutton_rack": "Roasted Mutton Rack Block"
+,"block.displaydelight.lm_roasted_mutton_rack": "Plate of Roasted Mutton Rack Block"
 ,"block.displaydelight.lm_sweet_berry_custard": "Sweet Berry Custard Block"
 ,"block.displaydelight.lm_tomato_egg_soup": "Tomato Egg Soup Block"
 ,"block.displaydelight.melon_juice": "Melon Juice Block"
@@ -181,9 +185,9 @@
 ,"block.displaydelight.plated_sweet_berry_cookie": "Plated Sweet Berry Cookie Block"
 ,"block.displaydelight.pumpkin_soup": "Pumpkin Soup Block"
 ,"block.displaydelight.ratatouille": "Ratatouille Block"
-,"block.displaydelight.roasted_mutton_chops": "Roasted Mutton Chops Block"
-,"block.displaydelight.roast_chicken": "Roast Chicken Block"
-,"block.displaydelight.shepherds_pie": "Shepherds Pie Block"
+,"block.displaydelight.roasted_mutton_chops": "Plate of Roasted Mutton Chops Block"
+,"block.displaydelight.roast_chicken": "Plate of Roast Chicken Block"
+,"block.displaydelight.shepherds_pie": "Plate of Shepherds Pie Block"
 ,"block.displaydelight.small_plated_apple_pie_slice": "Small Plated Apple Pie Slice Block"
 ,"block.displaydelight.small_plated_cabbage_rolls": "Small Plated Cabbage Rolls Block"
 ,"block.displaydelight.small_plated_cake_slice": "Small Plated Cake Slice Block"
@@ -195,7 +199,7 @@
 ,"block.displaydelight.small_plated_sweet_berry_cheesecake_slice": "Small Plated Sweet Berry Cheesecake Slice Block"
 ,"block.displaydelight.squid_ink_pasta": "Squid Ink Pasta Block"
 ,"block.displaydelight.steak_and_potatoes": "Steak and Potatoes Block"
-,"block.displaydelight.stuffed_pumpkin": "Stuffed Pumpkin Block"
+,"block.displaydelight.stuffed_pumpkin": "Bowl of Stuffed Pumpkin Block"
 ,"block.displaydelight.vegetable_noodles": "Vegetable Noodles Block"
 ,"block.displaydelight.vegetable_soup": "Vegetable Soup Block"
 }
