@@ -1,18 +1,18 @@
 {
   "variants": {
     "facing=north": {
-      "model": "displaydelight:block/plated_chocolate_pie_slice"
+      "model": "displaydelight:block/small_plated_chocolate_pie_slice"
     },
     "facing=south": {
-      "model": "displaydelight:block/plated_chocolate_pie_slice",
+      "model": "displaydelight:block/small_plated_chocolate_pie_slice",
       "y": 180
     },
     "facing=west": {
-      "model": "displaydelight:block/plated_chocolate_pie_slice",
+      "model": "displaydelight:block/small_plated_chocolate_pie_slice",
       "y": 270
     },
     "facing=east": {
-      "model": "displaydelight:block/plated_chocolate_pie_slice",
+      "model": "displaydelight:block/small_plated_chocolate_pie_slice",
       "y": 90
     }
   }

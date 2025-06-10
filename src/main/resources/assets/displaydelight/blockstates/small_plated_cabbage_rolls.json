@@ -1,18 +1,18 @@
 {
   "variants": {
     "facing=north": {
-      "model": "displaydelight:block/plated_cabbage_rolls"
+      "model": "displaydelight:block/small_plated_cabbage_rolls"
     },
     "facing=south": {
-      "model": "displaydelight:block/plated_cabbage_rolls",
+      "model": "displaydelight:block/small_plated_cabbage_rolls",
       "y": 180
     },
     "facing=west": {
-      "model": "displaydelight:block/plated_cabbage_rolls",
+      "model": "displaydelight:block/small_plated_cabbage_rolls",
       "y": 270
     },
     "facing=east": {
-      "model": "displaydelight:block/plated_cabbage_rolls",
+      "model": "displaydelight:block/small_plated_cabbage_rolls",
       "y": 90
     }
   }

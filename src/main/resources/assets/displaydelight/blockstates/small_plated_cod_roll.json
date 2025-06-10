@@ -1,18 +1,18 @@
 {
   "variants": {
     "facing=north": {
-      "model": "displaydelight:block/plated_cod_roll"
+      "model": "displaydelight:block/small_plated_cod_roll"
     },
     "facing=south": {
-      "model": "displaydelight:block/plated_cod_roll",
+      "model": "displaydelight:block/small_plated_cod_roll",
       "y": 180
     },
     "facing=west": {
-      "model": "displaydelight:block/plated_cod_roll",
+      "model": "displaydelight:block/small_plated_cod_roll",
       "y": 270
     },
     "facing=east": {
-      "model": "displaydelight:block/plated_cod_roll",
+      "model": "displaydelight:block/small_plated_cod_roll",
       "y": 90
     }
   }
