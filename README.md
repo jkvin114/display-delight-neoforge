@@ -63,3 +63,16 @@
 - Fixed texture glitch in bowl foods
 - Tweaked texture for mutton wrap
 - Added config to disable vanilla item placement
+
+### 1.3.0
+
+---
+
+- Added creative tab
+- You can grab any displayed food block item you want, even if the required mod/addon is not installed.
+  - displayed food block items are not obtainable in survival
+  - If required mod/addon is not installed, displayed food block item will not drop anything
+- Added all item models
+- Technical changes
+  - EmptyPlateBlock and EmptySmallPlateBlock no longer extends HorizontalDirectionBlock
+  - default stack of StackablePlateFoodBlock is set to 6
