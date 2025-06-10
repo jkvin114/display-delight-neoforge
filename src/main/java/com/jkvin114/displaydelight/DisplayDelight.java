@@ -1,7 +1,12 @@
 package com.jkvin114.displaydelight;
 
 import com.jkvin114.displaydelight.init.*;
+import net.minecraft.core.registries.Registries;
+import net.minecraft.network.chat.Component;
+import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
+import net.minecraft.world.item.ItemStack;
+import net.neoforged.neoforge.registries.DeferredRegister;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -22,6 +27,7 @@ import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
 
+import java.util.function.Supplier;
 
 
 // The value here should match an entry in the META-INF/neoforge.mods.toml file
@@ -59,6 +65,23 @@ public class DisplayDelight {
             }).build());
 
      */
+    public static final DeferredRegister<CreativeModeTab> CREATIVE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, DisplayDelight.MODID);
+
+
+    public static final Supplier<CreativeModeTab> DISPLAY_DELIGHT_TAB = CREATIVE_TABS.register(DisplayDelight.MODID, () -> CreativeModeTab.builder()
+            //Set the title of the tab. Don't forget to add a translation!
+            .title(Component.literal("Display Delight"))
+            //Set the icon of the tab.
+            .icon(() -> new ItemStack(DisplayItems.GRILLED_SALMON))
+            //Add your items to the tab.
+            .displayItems((params, output) -> {
+                output.accept(DisplayItems.PLATE.get());
+                output.accept(DisplayItems.SMALL_PLATE.get());
+            })
+            .build()
+    );
+
+
 
     // The constructor for the mod class is the first code that is run when your mod is loaded.
     // FML will recognize some parameter types like IEventBus or ModContainer and pass them in automatically.
@@ -77,7 +100,7 @@ public class DisplayDelight {
         // Register the Deferred Register to the mod event bus so items get registered
       //  ITEMS.register(modEventBus);
         // Register the Deferred Register to the mod event bus so tabs get registered
-        //CREATIVE_MODE_TABS.register(modEventBus);
+        CREATIVE_TABS.register(modEventBus);
 
         // Register ourselves for server and other game events we are interested in.
         // Note that this is necessary if and only if we want *this* class (ExampleMod) to respond directly to events.
