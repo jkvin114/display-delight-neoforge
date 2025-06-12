@@ -1,0 +1,1 @@
+{"variants":{"facing=north":{"model":"displaydelight:block/erd_small_plated_chorus_pie_slice"},"facing=south":{"model":"displaydelight:block/erd_small_plated_chorus_pie_slice","y":180},"facing=west":{"model":"displaydelight:block/erd_small_plated_chorus_pie_slice","y":270},"facing=east":{"model":"displaydelight:block/erd_small_plated_chorus_pie_slice","y":90}}}

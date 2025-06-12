@@ -233,5 +233,101 @@
       "id": "culturaldelights:calamari_roll",
       "required": false
     }
+
+  ,{
+      "id": "brewinandchewin:ham_and_cheese_sandwich",
+      "required": false
+    }
+  ,{
+      "id": "expandeddelight:cranberry_goat_cheese_toast",
+      "required": false
+    },{
+      "id": "aquaculturedelight:catfish_barbecue",
+      "required": false
+    }
+  ,{
+      "id": "endersdelight:uncanny_cookies",
+      "required": false
+    }
+  ,{
+      "id": "endersdelight:crispy_skewer",
+      "required": false
+    }
+  ,{
+      "id": "endersdelight:strange_eclair",
+      "required": false
+    }
+  ,{
+      "id": "endersdelight:crawling_sandwich",
+      "required": false
+    }
+  ,{
+      "id": "ends_delight:stuffed_rice_cake",
+      "required": false
+    }
+  ,{
+      "id": "ends_delight:chorus_flower_pie",
+      "required": false
+    }
+  ,{
+      "id": "ends_delight:ender_bamboo_rice",
+      "required": false
+    }
+  ,{
+      "id": "ends_delight:chorus_fruit_popsicle",
+      "required": false
+    }
+  ,{
+      "id": "ends_delight:end_barbecue_stick",
+      "required": false
+    }
+  ,{
+      "id": "mynethersdelight:stuffed_pepper",
+      "required": false
+    }
+  ,{
+      "id": "mynethersdelight:hotdog_with_mixed_salad",
+      "required": false
+    }
+  ,{
+      "id": "mynethersdelight:hotdog_with_nether_salad",
+      "required": false
+    }
+  ,{
+      "id": "mynethersdelight:chilidog",
+      "required": false
+    }
+  ,{
+      "id": "mynethersdelight:spicy_cotton",
+      "required": false
+    }
+  ,{
+      "id": "mynethersdelight:fries_ghasta",
+      "required": false
+    }
+  ,{
+      "id": "mynethersdelight:deviled_egg",
+      "required": false
+    }
+  ,{
+      "id": "mynethersdelight:spicy_skewer",
+      "required": false
+    }
+  ,{
+      "id": "mynethersdelight:red_loin_on_a_stick",
+      "required": false
+    }
+  ,{
+      "id": "mynethersdelight:nether_burger",
+      "required": false
+    }
+  ,{
+      "id": "mynethersdelight:burnt_roll",
+      "required": false
+    }
+  ,{
+      "id": "mynethersdelight:hot_cream_cone",
+      "required": false
+    }
   ]
 }

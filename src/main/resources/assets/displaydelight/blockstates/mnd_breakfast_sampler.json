@@ -1,0 +1,1 @@
+{"variants":{"facing=north":{"model":"displaydelight:block/mnd_breakfast_sampler"},"facing=south":{"model":"displaydelight:block/mnd_breakfast_sampler","y":180},"facing=west":{"model":"displaydelight:block/mnd_breakfast_sampler","y":270},"facing=east":{"model":"displaydelight:block/mnd_breakfast_sampler","y":90}}}

@@ -1,0 +1,1 @@
+{"variants":{"facing=north":{"model":"displaydelight:block/acd_tuna_spaghetti"},"facing=south":{"model":"displaydelight:block/acd_tuna_spaghetti","y":180},"facing=west":{"model":"displaydelight:block/acd_tuna_spaghetti","y":270},"facing=east":{"model":"displaydelight:block/acd_tuna_spaghetti","y":90}}}

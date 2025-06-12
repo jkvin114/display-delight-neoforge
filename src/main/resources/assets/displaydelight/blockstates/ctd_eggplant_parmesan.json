@@ -1,0 +1,1 @@
+{"variants":{"facing=north":{"model":"displaydelight:block/ctd_eggplant_parmesan"},"facing=south":{"model":"displaydelight:block/ctd_eggplant_parmesan","y":180},"facing=west":{"model":"displaydelight:block/ctd_eggplant_parmesan","y":270},"facing=east":{"model":"displaydelight:block/ctd_eggplant_parmesan","y":90}}}

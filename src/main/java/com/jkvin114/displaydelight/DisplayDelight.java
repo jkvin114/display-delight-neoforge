@@ -161,6 +161,10 @@ public class DisplayDelight {
                 output.accept(DisplayItems.CTD_CREAMED_CORN.get());
                 output.accept(DisplayItems.CTD_SPICY_CURRY.get());
                 output.accept(DisplayItems.CTD_FRIED_EGGPLANT_PASTA.get());
+                output.accept(DisplayItems.CTD_POACHED_EGGPLANTS.get());
+                output.accept(DisplayItems.CTD_EGGPLANT_PARMESAN.get());
+
+
                 output.accept(DisplayItems.CTD_ELOTE.get());
                 output.accept(DisplayItems.CTD_EMPANADA.get());
                 output.accept(DisplayItems.CTD_BEEF_BURITO.get());
@@ -186,6 +190,7 @@ public class DisplayDelight {
                 output.accept(DisplayItems.CTD_EGG_ROLL_SMALL.get());
                 output.accept(DisplayItems.CTD_CALAMARI_ROLL_SMALL.get());
                 output.accept(DisplayItems.CTD_CUT_PICKLE.get());
+
                 output.accept(DisplayItems.DF_MATCHA_ICE_CREAM.get());
                 output.accept(DisplayItems.DF_MATCHA_MILKSHAKE.get());
                 output.accept(DisplayItems.DF_SALMONBERRY_ICE_CREAM.get());
@@ -221,6 +226,7 @@ public class DisplayDelight {
                 output.accept(DisplayItems.ED_APPLE_JUICE.get());
                 output.accept(DisplayItems.ED_SWEET_BERRY_JUICE.get());
                 output.accept(DisplayItems.ED_GLOW_BERRY_JUICE.get());
+                output.accept(DisplayItems.ED_CRANBERRY_JUICE.get());
                 output.accept(DisplayItems.ED_PEANUT_BUTTER_SANDWICH.get());
                 output.accept(DisplayItems.ED_PEANUT_BUTTER_AND_HONEY_SANDWICH.get());
                 output.accept(DisplayItems.ED_GLOW_BERRY_JELLY_SANDWICH.get());
@@ -237,6 +243,13 @@ public class DisplayDelight {
                 output.accept(DisplayItems.ED_BERRY_SWEET_ROLL_SMALL.get());
                 output.accept(DisplayItems.ED_GLOW_BERRY_SWEET_ROLL_SMALL.get());
                 output.accept(DisplayItems.ED_CHEESE_SLICE.get());
+                output.accept(DisplayItems.ED_CRANBERRY_CHICKEN.get());
+                output.accept(DisplayItems.ED_ASPARAGUS_MUSHROOM_PASTA.get());
+                output.accept(DisplayItems.ED_SWEET_POTATO_CASSEROLE.get());
+                output.accept(DisplayItems.ED_PLATED_CRANBERRY_GOAT_CHEESE_TOAST.get());
+                output.accept(DisplayItems.ED_SMALL_PLATED_CRANBERRY_COBBLER_SLICE.get());
+                output.accept(DisplayItems.ED_SMALL_PLATED_HONEYED_GOAT_CHEESE_TART_SLICE.get());
+
                 output.accept(DisplayItems.FD_FESTIVE_CHICKEN.get());
                 output.accept(DisplayItems.FD_CHRISTMAS_TEA.get());
                 output.accept(DisplayItems.FD_SALMON_VERRINES.get());
@@ -269,6 +282,121 @@ public class DisplayDelight {
                 output.accept(DisplayItems.OD_COOKED_STUFFED_COD.get());
                 output.accept(DisplayItems.OD_ELDER_GUARDIAN_ROLL_SMALL.get());
                 output.accept(DisplayItems.OD_FUGU_ROLL_SMALL.get());
+
+                output.accept(DisplayItems.BNC_FIERY_FONDUE.get());
+                output.accept(DisplayItems.BNC_SCARLET_PIEROGI.get());
+                output.accept(DisplayItems.BNC_HORROR_LASAGNA.get());
+                output.accept(DisplayItems.BNC_CHEESY_PASTA.get());
+                output.accept(DisplayItems.BNC_CREAMY_ONION_SOUP.get());
+                output.accept(DisplayItems.BNC_VEGETABLE_OMELET.get());
+                output.accept(DisplayItems.BNC_PLATED_HAM_AND_CHEESE_SANDWICH.get());
+                output.accept(DisplayItems.BNC_SMALL_PLATED_QUICHE_SLICE.get());
+
+                output.accept(DisplayItems.ACD_POOR_FISHER_CHOWDER.get());
+                output.accept(DisplayItems.ACD_JELLYFISH_JELLY.get());
+                output.accept(DisplayItems.ACD_UNUSUAL_FISH_SOUP.get());
+                output.accept(DisplayItems.ACD_BASS_STEW.get());
+                output.accept(DisplayItems.ACD_FISH_CHORBA.get());
+                output.accept(DisplayItems.ACD_FISH_AND_CHIPS.get());
+                output.accept(DisplayItems.ACD_HALASZLE.get());
+                output.accept(DisplayItems.ACD_CRISPY_NORI_KELP.get());
+                output.accept(DisplayItems.ACD_BAKED_POLLOCK_WITH_CARROTS.get());
+                output.accept(DisplayItems.ACD_LARGE_FISH_WITH_VEGETABLES.get());
+                output.accept(DisplayItems.ACD_ROLLMOPS.get());
+                output.accept(DisplayItems.ACD_TUNA_SPAGHETTI.get());
+                output.accept(DisplayItems.ACD_HALIBUT_WITH_TARTAR_SAUCE.get());
+                output.accept(DisplayItems.ACD_BUCKLING.get());
+                output.accept(DisplayItems.ACD_TURTLE_MEAT_DISH.get());
+                output.accept(DisplayItems.ACD_PLATED_CATFISH_BARBECUE.get());
+
+                output.accept(DisplayItems.ACD_SMALL_PLATED_RAW_FISH_FILLET_ROLL.get());
+                output.accept(DisplayItems.ACD_SMALL_PLATED_FRIED_PERCH_ROLL.get());
+
+                output.accept(DisplayItems.ERD_CHORUS_JUICE.get());
+                output.accept(DisplayItems.ERD_AMBERVEIL_STEW.get());
+                output.accept(DisplayItems.ERD_AMBERVEILED_CURRY.get());
+                output.accept(DisplayItems.ERD_CHORUS_STEW.get());
+                output.accept(DisplayItems.ERD_TWISTED_CEREAL.get());
+                output.accept(DisplayItems.ERD_ENDERMITE_STEW.get());
+                output.accept(DisplayItems.ERD_ENDER_PAELLA.get());
+                output.accept(DisplayItems.ERD_CHICKEN_CURRY.get());
+                output.accept(DisplayItems.ERD_STEAK_FRIES.get());
+                output.accept(DisplayItems.ERD_VEIL_OF_FLAMES_RISOTTO.get());
+                output.accept(DisplayItems.ERD_PEARL_PASTA.get());
+                output.accept(DisplayItems.ERD_STUFFED_SHULKER_BOWL.get());
+                output.accept(DisplayItems.ERD_PLATED_UNCANNY_COOKIES.get());
+                output.accept(DisplayItems.ERD_PLATED_CRISPY_SKEWER.get());
+                output.accept(DisplayItems.ERD_PLATED_STRANGE_ECLAIR.get());
+                output.accept(DisplayItems.ERD_PLATED_CRAWLING_SANDWICH.get());
+                output.accept(DisplayItems.ERD_SMALL_PLATED_CHORUS_PIE_SLICE.get());
+
+                output.accept(DisplayItems.EDD_DRAGON_BREATH_AND_CHORUS_SOUP.get());
+                output.accept(DisplayItems.EDD_SHULKER_SOUP.get());
+                output.accept(DisplayItems.EDD_ENDER_NOODLE.get());
+                output.accept(DisplayItems.EDD_ENDERMAN_GRISTLE_STEW.get());
+                output.accept(DisplayItems.EDD_STIR_FRIED_SHULKER_MEAT.get());
+                output.accept(DisplayItems.EDD_ROASTED_DRAGON_STEAK.get());
+                output.accept(DisplayItems.EDD_END_MIXED_SALAD.get());
+                output.accept(DisplayItems.EDD_ASSORTED_SALAD.get());
+                output.accept(DisplayItems.EDD_ENDER_CONGEE.get());
+                output.accept(DisplayItems.EDD_CHORUS_FRUIT_MILK_TEA.get());
+                output.accept(DisplayItems.EDD_CHORUS_FRUIT_WINE.get());
+                output.accept(DisplayItems.EDD_BUBBLE_TEA.get());
+                output.accept(DisplayItems.EDD_DRAGON_BREATH_SODA.get());
+                output.accept(DisplayItems.EDD_CHORUS_FLOWER_TEA.get());
+                output.accept(DisplayItems.EDD_GRILLED_SHULKER.get());
+                output.accept(DisplayItems.EDD_STEAMED_DRAGON_EGG_BLOCK.get());
+                output.accept(DisplayItems.EDD_DRAGON_MEAT_STEW.get());
+                output.accept(DisplayItems.EDD_STEAMED_DRAGON_EGG.get());
+                output.accept(DisplayItems.EDD_DRAGON_LEG_WITH_SAUCE.get());
+                output.accept(DisplayItems.EDD_PLATED_STUFFED_RICE_CAKE.get());
+                output.accept(DisplayItems.EDD_PLATED_CHORUS_FLOWER_PIE.get());
+                output.accept(DisplayItems.EDD_PLATED_ENDER_BAMBOO_RICE.get());
+                output.accept(DisplayItems.EDD_PLATED_CHORUS_FRUIT_POPSICLE.get());
+                output.accept(DisplayItems.EDD_PLATED_END_BARBECUE_STICK.get());
+                output.accept(DisplayItems.EDD_SMALL_PLATED_CHORUS_FRUIT_PIE_SLICE.get());
+
+                output.accept(DisplayItems.MND_SIZZLING_PUDDING.get());
+                output.accept(DisplayItems.MND_ROCK_SOUP.get());
+                output.accept(DisplayItems.MND_SPICY_NOODLE_SOUP.get());
+                output.accept(DisplayItems.MND_STRIDER_STEW.get());
+                output.accept(DisplayItems.MND_GHAST_SALAD.get());
+                output.accept(DisplayItems.MND_DRIED_GHAST_WITH_MILK.get());
+                output.accept(DisplayItems.MND_SAUSAGE_AND_POTATOES.get());
+                output.accept(DisplayItems.MND_SPICY_HOGLIN_STEW.get());
+                output.accept(DisplayItems.MND_EGG_SOUP.get());
+                output.accept(DisplayItems.MND_BREAKFAST_SAMPLER.get());
+                output.accept(DisplayItems.MND_FRIED_HOGLIN_CHOP.get());
+                output.accept(DisplayItems.MND_TWISTED_GHASTA.get());
+                output.accept(DisplayItems.MND_STRIDER_WITH_GRILLED_FUNGUS.get());
+                output.accept(DisplayItems.MND_SCOTCH_EGGS.get());
+                output.accept(DisplayItems.MND_GIANT_TAKOYAKI.get());
+                output.accept(DisplayItems.MND_BLUE_TENDERLOIN_STEAK.get());
+                output.accept(DisplayItems.MND_CRIMSON_STROGANOFF.get());
+                output.accept(DisplayItems.MND_SPICY_CURRY.get());
+                output.accept(DisplayItems.MND_BLEEDING_TARTAR.get());
+                output.accept(DisplayItems.MND_HOT_WINGS.get());
+                output.accept(DisplayItems.MND_PLATE_OF_GHASTA_WITH_CREAM.get());
+                output.accept(DisplayItems.MND_PLATE_OF_STUFFED_HOGLIN_SNOUT.get());
+                output.accept(DisplayItems.MND_PLATE_OF_STUFFED_HOGLIN_HAM.get());
+                output.accept(DisplayItems.MND_PLATE_OF_STUFFED_HOGLIN.get());
+                output.accept(DisplayItems.MND_PLATE_OF_COLD_STRIDERLOAF.get());
+                output.accept(DisplayItems.MND_PLATE_OF_STRIDERLOAF.get());
+
+                output.accept(DisplayItems.MND_PLATED_STUFFED_PEPPER.get());
+                output.accept(DisplayItems.MND_PLATED_HOTDOG_WITH_MIXED_SALAD.get());
+                output.accept(DisplayItems.MND_PLATED_HOTDOG_WITH_NETHER_SALAD.get());
+                output.accept(DisplayItems.MND_PLATED_CHILIDOG.get());
+                output.accept(DisplayItems.MND_PLATED_SPICY_COTTON.get());
+                output.accept(DisplayItems.MND_PLATED_FRIES_GHASTA.get());
+                output.accept(DisplayItems.MND_PLATED_DEVILED_EGG.get());
+                output.accept(DisplayItems.MND_PLATED_SPICY_SKEWER.get());
+                output.accept(DisplayItems.MND_PLATED_RED_LOIN_ON_A_STICK.get());
+                output.accept(DisplayItems.MND_PLATED_NETHER_BURGER.get());
+                output.accept(DisplayItems.MND_PLATED_BURNT_ROLL.get());
+                output.accept(DisplayItems.MND_PLATED_HOT_CREAM_CONE.get());
+
+                output.accept(DisplayItems.MND_SMALL_PLATED_MAGMA_CAKE_SLICE.get());
 
             })
             .build()

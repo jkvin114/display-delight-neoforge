@@ -1,0 +1,1 @@
+{"variants":{"facing=north":{"model":"displaydelight:block/edd_ender_congee"},"facing=south":{"model":"displaydelight:block/edd_ender_congee","y":180},"facing=west":{"model":"displaydelight:block/edd_ender_congee","y":270},"facing=east":{"model":"displaydelight:block/edd_ender_congee","y":90}}}

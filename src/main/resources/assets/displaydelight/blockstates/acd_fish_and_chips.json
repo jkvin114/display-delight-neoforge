@@ -1,0 +1,1 @@
+{"variants":{"facing=north":{"model":"displaydelight:block/acd_fish_and_chips"},"facing=south":{"model":"displaydelight:block/acd_fish_and_chips","y":180},"facing=west":{"model":"displaydelight:block/acd_fish_and_chips","y":270},"facing=east":{"model":"displaydelight:block/acd_fish_and_chips","y":90}}}

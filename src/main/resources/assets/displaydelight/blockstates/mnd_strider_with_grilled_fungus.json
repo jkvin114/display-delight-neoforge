@@ -1,0 +1,1 @@
+{"variants":{"facing=north":{"model":"displaydelight:block/mnd_strider_with_grilled_fungus"},"facing=south":{"model":"displaydelight:block/mnd_strider_with_grilled_fungus","y":180},"facing=west":{"model":"displaydelight:block/mnd_strider_with_grilled_fungus","y":270},"facing=east":{"model":"displaydelight:block/mnd_strider_with_grilled_fungus","y":90}}}

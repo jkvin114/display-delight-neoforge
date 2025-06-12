@@ -1,0 +1,1 @@
+{"variants":{"facing=north":{"model":"displaydelight:block/acd_turtle_meat_dish"},"facing=south":{"model":"displaydelight:block/acd_turtle_meat_dish","y":180},"facing=west":{"model":"displaydelight:block/acd_turtle_meat_dish","y":270},"facing=east":{"model":"displaydelight:block/acd_turtle_meat_dish","y":90}}}

@@ -1,0 +1,1 @@
+{"variants":{"facing=north":{"model":"displaydelight:block/ed_cranberry_chicken"},"facing=south":{"model":"displaydelight:block/ed_cranberry_chicken","y":180},"facing=west":{"model":"displaydelight:block/ed_cranberry_chicken","y":270},"facing=east":{"model":"displaydelight:block/ed_cranberry_chicken","y":90}}}

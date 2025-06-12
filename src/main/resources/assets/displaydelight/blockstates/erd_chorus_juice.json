@@ -1,0 +1,1 @@
+{"variants":{"facing=north":{"model":"displaydelight:block/erd_chorus_juice"},"facing=south":{"model":"displaydelight:block/erd_chorus_juice","y":180},"facing=west":{"model":"displaydelight:block/erd_chorus_juice","y":270},"facing=east":{"model":"displaydelight:block/erd_chorus_juice","y":90}}}

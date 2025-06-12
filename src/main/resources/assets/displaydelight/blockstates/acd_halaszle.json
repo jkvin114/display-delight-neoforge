@@ -1,0 +1,1 @@
+{"variants":{"facing=north":{"model":"displaydelight:block/acd_halaszle"},"facing=south":{"model":"displaydelight:block/acd_halaszle","y":180},"facing=west":{"model":"displaydelight:block/acd_halaszle","y":270},"facing=east":{"model":"displaydelight:block/acd_halaszle","y":90}}}

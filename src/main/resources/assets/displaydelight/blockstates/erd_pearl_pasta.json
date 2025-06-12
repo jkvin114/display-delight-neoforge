@@ -1,0 +1,1 @@
+{"variants":{"facing=north":{"model":"displaydelight:block/erd_pearl_pasta"},"facing=south":{"model":"displaydelight:block/erd_pearl_pasta","y":180},"facing=west":{"model":"displaydelight:block/erd_pearl_pasta","y":270},"facing=east":{"model":"displaydelight:block/erd_pearl_pasta","y":90}}}

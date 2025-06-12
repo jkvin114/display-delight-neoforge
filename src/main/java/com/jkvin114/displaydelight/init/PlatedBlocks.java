@@ -105,7 +105,31 @@ public class PlatedBlocks {
     public static final DeferredBlock<Block> CTD_EGG_ROLL = createStackablePlatedBlock("ctd_plated_egg_roll",6);
     public static final DeferredBlock<Block> CTD_CALAMARI_ROLL = createStackablePlatedBlock("ctd_plated_calamari_roll",6);
 
-    
+    public static final DeferredBlock<Block> ACD_PLATED_CATFISH_BARBECUE = createPlatedBlock("acd_plated_catfish_barbecue");
+    public static final DeferredBlock<Block> BNC_PLATED_HAM_AND_CHEESE_SANDWICH = createPlatedBlock("bnc_plated_ham_and_cheese_sandwich");
+    public static final DeferredBlock<Block> ED_PLATED_CRANBERRY_GOAT_CHEESE_TOAST = createPlatedBlock("ed_plated_cranberry_goat_cheese_toast");
+    public static final DeferredBlock<Block> ERD_PLATED_UNCANNY_COOKIES = createPlatedBlock("erd_plated_uncanny_cookies");
+    public static final DeferredBlock<Block> ERD_PLATED_CRISPY_SKEWER = createPlatedBlock("erd_plated_crispy_skewer");
+    public static final DeferredBlock<Block> ERD_PLATED_STRANGE_ECLAIR = createPlatedBlock("erd_plated_strange_eclair");
+    public static final DeferredBlock<Block> ERD_PLATED_CRAWLING_SANDWICH = createPlatedBlock("erd_plated_crawling_sandwich");
+    public static final DeferredBlock<Block> EDD_PLATED_STUFFED_RICE_CAKE = createPlatedBlock("edd_plated_stuffed_rice_cake");
+    public static final DeferredBlock<Block> EDD_PLATED_CHORUS_FLOWER_PIE = createPlatedBlock("edd_plated_chorus_flower_pie");
+    public static final DeferredBlock<Block> EDD_PLATED_ENDER_BAMBOO_RICE = createPlatedBlock("edd_plated_ender_bamboo_rice");
+    public static final DeferredBlock<Block> EDD_PLATED_CHORUS_FRUIT_POPSICLE = createPlatedBlock("edd_plated_chorus_fruit_popsicle");
+    public static final DeferredBlock<Block> EDD_PLATED_END_BARBECUE_STICK = createPlatedBlock("edd_plated_end_barbecue_stick");
+    public static final DeferredBlock<Block> MND_PLATED_STUFFED_PEPPER = createPlatedBlock("mnd_plated_stuffed_pepper");
+    public static final DeferredBlock<Block> MND_PLATED_HOTDOG_WITH_MIXED_SALAD = createPlatedBlock("mnd_plated_hotdog_with_mixed_salad");
+    public static final DeferredBlock<Block> MND_PLATED_HOTDOG_WITH_NETHER_SALAD = createPlatedBlock("mnd_plated_hotdog_with_nether_salad");
+    public static final DeferredBlock<Block> MND_PLATED_CHILIDOG = createPlatedBlock("mnd_plated_chilidog");
+    public static final DeferredBlock<Block> MND_PLATED_SPICY_COTTON = createPlatedBlock("mnd_plated_spicy_cotton");
+    public static final DeferredBlock<Block> MND_PLATED_FRIES_GHASTA = createPlatedBlock("mnd_plated_fries_ghasta");
+    public static final DeferredBlock<Block> MND_PLATED_DEVILED_EGG = createPlatedBlock("mnd_plated_deviled_egg");
+    public static final DeferredBlock<Block> MND_PLATED_SPICY_SKEWER = createPlatedBlock("mnd_plated_spicy_skewer");
+    public static final DeferredBlock<Block> MND_PLATED_RED_LOIN_ON_A_STICK = createPlatedBlock("mnd_plated_red_loin_on_a_stick");
+    public static final DeferredBlock<Block> MND_PLATED_NETHER_BURGER = createPlatedBlock("mnd_plated_nether_burger");
+    public static final DeferredBlock<Block> MND_PLATED_BURNT_ROLL = createPlatedBlock("mnd_plated_burnt_roll");
+    public static final DeferredBlock<Block> MND_PLATED_HOT_CREAM_CONE = createPlatedBlock("mnd_plated_hot_cream_cone");
+
     private static BlockBehaviour.Properties baseProps(){
         return BlockBehaviour.Properties.of().noOcclusion()
                 .noTerrainParticles().instabreak().pushReaction(PushReaction.DESTROY).mapColor(MapColor.COLOR_BROWN);
@@ -164,7 +188,13 @@ public class PlatedBlocks {
                 CTD_ELOTE.get(),CTD_EMPANADA.get(),CTD_BEEF_BURITO.get(),CTD_MUTTON_SANDWICH.get(),CTD_EGGPLANT_BURGER.get(),CTD_AVOCADO_TOAST.get(),
                 CTD_CHICKEN_TACO.get(),CTD_PORK_WRAP.get(),CTD_FISH_TACO.get(),CTD_CHICKEN_ROLL.get(),CTD_MIDORI_ROLL.get(),
                 CTD_CHICKEN_ROLL_SLICE.get(),CTD_MIDORI_ROLL_SLICE.get(),CTD_PUFFERFISH_ROLL.get(),CTD_TROPICAL_ROLL.get(),
-                CTD_RICE_BALL.get(),CTD_EGG_ROLL.get(),CTD_CALAMARI_ROLL.get()
+                CTD_RICE_BALL.get(),CTD_EGG_ROLL.get(),CTD_CALAMARI_ROLL.get(),
+
+                ACD_PLATED_CATFISH_BARBECUE.get(),BNC_PLATED_HAM_AND_CHEESE_SANDWICH.get(),ED_PLATED_CRANBERRY_GOAT_CHEESE_TOAST.get(),ERD_PLATED_UNCANNY_COOKIES.get(),
+                ERD_PLATED_CRISPY_SKEWER.get(),ERD_PLATED_STRANGE_ECLAIR.get(),ERD_PLATED_CRAWLING_SANDWICH.get(),EDD_PLATED_STUFFED_RICE_CAKE.get(),EDD_PLATED_CHORUS_FLOWER_PIE.get(),
+                EDD_PLATED_ENDER_BAMBOO_RICE.get(),EDD_PLATED_CHORUS_FRUIT_POPSICLE.get(),EDD_PLATED_END_BARBECUE_STICK.get(),MND_PLATED_STUFFED_PEPPER.get(),MND_PLATED_HOTDOG_WITH_MIXED_SALAD.get(),
+                MND_PLATED_HOTDOG_WITH_NETHER_SALAD.get(),MND_PLATED_CHILIDOG.get(),MND_PLATED_SPICY_COTTON.get(),MND_PLATED_FRIES_GHASTA.get(),MND_PLATED_DEVILED_EGG.get(),MND_PLATED_SPICY_SKEWER.get(),
+                MND_PLATED_RED_LOIN_ON_A_STICK.get(),MND_PLATED_NETHER_BURGER.get(),MND_PLATED_BURNT_ROLL.get(),MND_PLATED_HOT_CREAM_CONE.get()
 
         };
     };

@@ -1,0 +1,1 @@
+{"variants":{"facing=north":{"model":"displaydelight:block/ctd_poached_eggplants"},"facing=south":{"model":"displaydelight:block/ctd_poached_eggplants","y":180},"facing=west":{"model":"displaydelight:block/ctd_poached_eggplants","y":270},"facing=east":{"model":"displaydelight:block/ctd_poached_eggplants","y":90}}}

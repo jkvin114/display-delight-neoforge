@@ -1,0 +1,1 @@
+{"variants":{"facing=north":{"model":"displaydelight:block/acd_fish_chorba"},"facing=south":{"model":"displaydelight:block/acd_fish_chorba","y":180},"facing=west":{"model":"displaydelight:block/acd_fish_chorba","y":270},"facing=east":{"model":"displaydelight:block/acd_fish_chorba","y":90}}}

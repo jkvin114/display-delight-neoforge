@@ -1,0 +1,1 @@
+{"variants":{"facing=north":{"model":"displaydelight:block/mnd_small_plated_magma_cake_slice"},"facing=south":{"model":"displaydelight:block/mnd_small_plated_magma_cake_slice","y":180},"facing=west":{"model":"displaydelight:block/mnd_small_plated_magma_cake_slice","y":270},"facing=east":{"model":"displaydelight:block/mnd_small_plated_magma_cake_slice","y":90}}}

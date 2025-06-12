@@ -147,6 +147,98 @@ public class DisplayBlocks {
     public static final DeferredBlock<Block> FD_CHRISTMAS_TEA = createDrinkFoodBlock("fd_christmas_tea");
     public static final DeferredBlock<Block> FD_SALMON_VERRINES = createDrinkFoodBlock("fd_salmon_verrines");
 
+    public static final DeferredBlock<Block> BNC_FIERY_FONDUE = createFoodBlock("bnc_fiery_fondue");
+    public static final DeferredBlock<Block> BNC_SCARLET_PIEROGI = createWideFoodBlock("bnc_scarlet_pierogi");
+    public static final DeferredBlock<Block> BNC_HORROR_LASAGNA = createWideFoodBlock("bnc_horror_lasagna");
+    public static final DeferredBlock<Block> BNC_CHEESY_PASTA = createWideFoodBlock("bnc_cheesy_pasta");
+    public static final DeferredBlock<Block> BNC_CREAMY_ONION_SOUP = createFoodBlock("bnc_creamy_onion_soup");
+    public static final DeferredBlock<Block> BNC_VEGETABLE_OMELET = createFoodBlock("bnc_vegetable_omelet");
+
+    public static final DeferredBlock<Block> ED_CRANBERRY_JUICE = createDrinkFoodBlock("ed_cranberry_juice");
+    public static final DeferredBlock<Block> ED_CRANBERRY_CHICKEN = createWideFoodBlock("ed_cranberry_chicken");
+    public static final DeferredBlock<Block> ED_ASPARAGUS_MUSHROOM_PASTA = createWideFoodBlock("ed_asparagus_mushroom_pasta");
+    public static final DeferredBlock<Block> ED_SWEET_POTATO_CASSEROLE = createWideFoodBlock("ed_sweet_potato_casserole");
+
+    public static final DeferredBlock<Block> CTD_POACHED_EGGPLANTS = createFoodBlock("ctd_poached_eggplants");
+    public static final DeferredBlock<Block> CTD_EGGPLANT_PARMESAN = createFoodBlock("ctd_eggplant_parmesan");
+
+    public static final DeferredBlock<Block> ACD_POOR_FISHER_CHOWDER = createFoodBlock("acd_poor_fisher_chowder");
+    public static final DeferredBlock<Block> ACD_JELLYFISH_JELLY = createFoodBlock("acd_jellyfish_jelly");
+    public static final DeferredBlock<Block> ACD_UNUSUAL_FISH_SOUP = createFoodBlock("acd_unusual_fish_soup");
+    public static final DeferredBlock<Block> ACD_BASS_STEW = createFoodBlock("acd_bass_stew");
+    public static final DeferredBlock<Block> ACD_FISH_CHORBA = createFoodBlock("acd_fish_chorba");
+    public static final DeferredBlock<Block> ACD_FISH_AND_CHIPS = createFoodBlock("acd_fish_and_chips");
+    public static final DeferredBlock<Block> ACD_HALASZLE = createFoodBlock("acd_halaszle");
+    public static final DeferredBlock<Block> ACD_CRISPY_NORI_KELP = createFoodBlock("acd_crispy_nori_kelp");
+    public static final DeferredBlock<Block> ACD_BAKED_POLLOCK_WITH_CARROTS = createWideFoodBlock("acd_baked_pollock_with_carrots");
+    public static final DeferredBlock<Block> ACD_LARGE_FISH_WITH_VEGETABLES = createWideFoodBlock("acd_large_fish_with_vegetables");
+    public static final DeferredBlock<Block> ACD_ROLLMOPS = createWideFoodBlock("acd_rollmops");
+    public static final DeferredBlock<Block> ACD_TUNA_SPAGHETTI = createWideFoodBlock("acd_tuna_spaghetti");
+    public static final DeferredBlock<Block> ACD_HALIBUT_WITH_TARTAR_SAUCE = createWideFoodBlock("acd_halibut_with_tartar_sauce");
+    public static final DeferredBlock<Block> ACD_BUCKLING = createWideFoodBlock("acd_buckling");
+    public static final DeferredBlock<Block> ACD_TURTLE_MEAT_DISH = createWideFoodBlock("acd_turtle_meat_dish");
+
+    public static final DeferredBlock<Block> ERD_CHORUS_JUICE = createDrinkFoodBlock("erd_chorus_juice");
+    public static final DeferredBlock<Block> ERD_AMBERVEIL_STEW = createFoodBlock("erd_amberveil_stew");
+    public static final DeferredBlock<Block> ERD_AMBERVEILED_CURRY = createFoodBlock("erd_amberveiled_curry");
+    public static final DeferredBlock<Block> ERD_CHORUS_STEW = createFoodBlock("erd_chorus_stew");
+    public static final DeferredBlock<Block> ERD_TWISTED_CEREAL = createFoodBlock("erd_twisted_cereal");
+    public static final DeferredBlock<Block> ERD_ENDERMITE_STEW = createFoodBlock("erd_endermite_stew");
+    public static final DeferredBlock<Block> ERD_ENDER_PAELLA = createWideFoodBlock("erd_ender_paella");
+    public static final DeferredBlock<Block> ERD_CHICKEN_CURRY = createWideFoodBlock("erd_chicken_curry");
+    public static final DeferredBlock<Block> ERD_STEAK_FRIES = createWideFoodBlock("erd_steak_fries");
+    public static final DeferredBlock<Block> ERD_VEIL_OF_FLAMES_RISOTTO = createWideFoodBlock("erd_veil_of_flames_risotto");
+    public static final DeferredBlock<Block> ERD_PEARL_PASTA = createWideFoodBlock("erd_pearl_pasta");
+    public static final DeferredBlock<Block> ERD_STUFFED_SHULKER_BOWL = createFoodBlock("erd_stuffed_shulker_bowl");
+
+    public static final DeferredBlock<Block> EDD_DRAGON_BREATH_AND_CHORUS_SOUP = createFoodBlock("edd_dragon_breath_and_chorus_soup");
+    public static final DeferredBlock<Block> EDD_SHULKER_SOUP = createFoodBlock("edd_shulker_soup");
+    public static final DeferredBlock<Block> EDD_ENDER_NOODLE = createFoodBlock("edd_ender_noodle");
+    public static final DeferredBlock<Block> EDD_ENDERMAN_GRISTLE_STEW = createFoodBlock("edd_enderman_gristle_stew");
+    public static final DeferredBlock<Block> EDD_STIR_FRIED_SHULKER_MEAT = createWideFoodBlock("edd_stir_fried_shulker_meat");
+    public static final DeferredBlock<Block> EDD_ROASTED_DRAGON_STEAK = createWideFoodBlock("edd_roasted_dragon_steak");
+    public static final DeferredBlock<Block> EDD_END_MIXED_SALAD = createFoodBlock("edd_end_mixed_salad");
+    public static final DeferredBlock<Block> EDD_ASSORTED_SALAD = createFoodBlock("edd_assorted_salad");
+    public static final DeferredBlock<Block> EDD_ENDER_CONGEE = createFoodBlock("edd_ender_congee");
+    public static final DeferredBlock<Block> EDD_CHORUS_FRUIT_MILK_TEA = createDrinkFoodBlock("edd_chorus_fruit_milk_tea");
+    public static final DeferredBlock<Block> EDD_CHORUS_FRUIT_WINE = createDrinkFoodBlock("edd_chorus_fruit_wine");
+    public static final DeferredBlock<Block> EDD_BUBBLE_TEA = createDrinkFoodBlock("edd_bubble_tea");
+    public static final DeferredBlock<Block> EDD_DRAGON_BREATH_SODA = createDrinkFoodBlock("edd_dragon_breath_soda");
+    public static final DeferredBlock<Block> EDD_CHORUS_FLOWER_TEA = createDrinkFoodBlock("edd_chorus_flower_tea");
+    public static final DeferredBlock<Block> EDD_GRILLED_SHULKER = createFoodBlock("edd_grilled_shulker");
+    public static final DeferredBlock<Block> EDD_STEAMED_DRAGON_EGG_BLOCK = createFoodBlock("edd_steamed_dragon_egg_block");
+    public static final DeferredBlock<Block> EDD_DRAGON_MEAT_STEW = createFoodBlock("edd_dragon_meat_stew");
+    public static final DeferredBlock<Block> EDD_STEAMED_DRAGON_EGG = createFoodBlock("edd_steamed_dragon_egg");
+    public static final DeferredBlock<Block> EDD_DRAGON_LEG_WITH_SAUCE = createFoodBlock("edd_dragon_leg_with_sauce");
+
+    public static final DeferredBlock<Block> MND_SIZZLING_PUDDING = createFoodBlock("mnd_sizzling_pudding");
+    public static final DeferredBlock<Block> MND_ROCK_SOUP = createFoodBlock("mnd_rock_soup");
+    public static final DeferredBlock<Block> MND_SPICY_NOODLE_SOUP = createFoodBlock("mnd_spicy_noodle_soup");
+    public static final DeferredBlock<Block> MND_STRIDER_STEW = createFoodBlock("mnd_strider_stew");
+    public static final DeferredBlock<Block> MND_GHAST_SALAD = createFoodBlock("mnd_ghast_salad");
+    public static final DeferredBlock<Block> MND_DRIED_GHAST_WITH_MILK = createFoodBlock("mnd_dried_ghast_with_milk");
+    public static final DeferredBlock<Block> MND_SAUSAGE_AND_POTATOES = createFoodBlock("mnd_sausage_and_potatoes");
+    public static final DeferredBlock<Block> MND_SPICY_HOGLIN_STEW = createFoodBlock("mnd_spicy_hoglin_stew");
+    public static final DeferredBlock<Block> MND_EGG_SOUP = createFoodBlock("mnd_egg_soup");
+    public static final DeferredBlock<Block> MND_BREAKFAST_SAMPLER = createWideFoodBlock("mnd_breakfast_sampler");
+    public static final DeferredBlock<Block> MND_FRIED_HOGLIN_CHOP = createWideFoodBlock("mnd_fried_hoglin_chop");
+    public static final DeferredBlock<Block> MND_TWISTED_GHASTA = createWideFoodBlock("mnd_twisted_ghasta");
+    public static final DeferredBlock<Block> MND_STRIDER_WITH_GRILLED_FUNGUS = createWideFoodBlock("mnd_strider_with_grilled_fungus");
+    public static final DeferredBlock<Block> MND_SCOTCH_EGGS = createWideFoodBlock("mnd_scotch_eggs");
+    public static final DeferredBlock<Block> MND_GIANT_TAKOYAKI = createWideFoodBlock("mnd_giant_takoyaki");
+    public static final DeferredBlock<Block> MND_BLUE_TENDERLOIN_STEAK = createWideFoodBlock("mnd_blue_tenderloin_steak");
+    public static final DeferredBlock<Block> MND_CRIMSON_STROGANOFF = createWideFoodBlock("mnd_crimson_stroganoff");
+    public static final DeferredBlock<Block> MND_SPICY_CURRY = createWideFoodBlock("mnd_spicy_curry");
+    public static final DeferredBlock<Block> MND_BLEEDING_TARTAR = createWideFoodBlock("mnd_bleeding_tartar");
+    public static final DeferredBlock<Block> MND_HOT_WINGS = createWideFoodBlock("mnd_hot_wings");
+
+    public static final DeferredBlock<Block> MND_PLATE_OF_GHASTA_WITH_CREAM = createFoodBlock("mnd_plate_of_ghasta_with_cream");
+    public static final DeferredBlock<Block> MND_PLATE_OF_STUFFED_HOGLIN_SNOUT = createFoodBlock("mnd_plate_of_stuffed_hoglin_snout");
+    public static final DeferredBlock<Block> MND_PLATE_OF_STUFFED_HOGLIN_HAM = createFoodBlock("mnd_plate_of_stuffed_hoglin_ham");
+    public static final DeferredBlock<Block> MND_PLATE_OF_STUFFED_HOGLIN = createFoodBlock("mnd_plate_of_stuffed_hoglin");
+    public static final DeferredBlock<Block> MND_PLATE_OF_COLD_STRIDERLOAF = createFoodBlock("mnd_plate_of_cold_striderloaf");
+    public static final DeferredBlock<Block> MND_PLATE_OF_STRIDERLOAF = createFoodBlock("mnd_plate_of_striderloaf");
+
     public static Block[] getAll() {
         return new Block[]{
                 FRUIT_SALAD.get(),  GLOW_BERRY_CUSTARD.get(), COOKED_RICE.get(), MIXED_SALAD.get(),
@@ -185,7 +277,25 @@ public class DisplayBlocks {
                 LM_OMURICE.get(), LM_MUSHROOM_POT_PIE.get(), LM_ROASTED_MUTTOH_RACK.get(), LM_SWEET_BERRY_CUSTARD.get(),
                 LM_RICE_PUDDING.get(),
 
-                FD_CHRISTMAS_TEA.get(),FD_FESTIVE_CHICKEN.get(),FD_SALMON_VERRINES.get()
+                FD_CHRISTMAS_TEA.get(),FD_FESTIVE_CHICKEN.get(),FD_SALMON_VERRINES.get(),BNC_FIERY_FONDUE.get(),BNC_SCARLET_PIEROGI.get(),BNC_HORROR_LASAGNA.get(),
+                BNC_CHEESY_PASTA.get(),BNC_CREAMY_ONION_SOUP.get(),BNC_VEGETABLE_OMELET.get(),ED_CRANBERRY_JUICE.get(),ED_CRANBERRY_CHICKEN.get(),
+                ED_ASPARAGUS_MUSHROOM_PASTA.get(),ED_SWEET_POTATO_CASSEROLE.get(),CTD_POACHED_EGGPLANTS.get(),CTD_EGGPLANT_PARMESAN.get(),
+                ACD_POOR_FISHER_CHOWDER.get(),ACD_JELLYFISH_JELLY.get(),ACD_UNUSUAL_FISH_SOUP.get(),ACD_BASS_STEW.get(),ACD_FISH_CHORBA.get(),
+                ACD_FISH_AND_CHIPS.get(),ACD_HALASZLE.get(),ACD_CRISPY_NORI_KELP.get(),ACD_BAKED_POLLOCK_WITH_CARROTS.get(),ACD_LARGE_FISH_WITH_VEGETABLES.get()
+                ,ACD_ROLLMOPS.get(),ACD_TUNA_SPAGHETTI.get(),ACD_HALIBUT_WITH_TARTAR_SAUCE.get(),ACD_BUCKLING.get(),ACD_TURTLE_MEAT_DISH.get(),
+                ERD_CHORUS_JUICE.get(),ERD_AMBERVEIL_STEW.get(),ERD_AMBERVEILED_CURRY.get(),ERD_CHORUS_STEW.get(),ERD_TWISTED_CEREAL.get(),
+                ERD_ENDERMITE_STEW.get(),ERD_ENDER_PAELLA.get(),ERD_CHICKEN_CURRY.get(),ERD_STEAK_FRIES.get(),ERD_VEIL_OF_FLAMES_RISOTTO.get(),
+                ERD_PEARL_PASTA.get(),ERD_STUFFED_SHULKER_BOWL.get(),EDD_DRAGON_BREATH_AND_CHORUS_SOUP.get(),EDD_SHULKER_SOUP.get(),EDD_ENDER_NOODLE.get(),
+                EDD_ENDERMAN_GRISTLE_STEW.get(),EDD_STIR_FRIED_SHULKER_MEAT.get(),EDD_ROASTED_DRAGON_STEAK.get(),EDD_END_MIXED_SALAD.get(),
+                EDD_ASSORTED_SALAD.get(),EDD_ENDER_CONGEE.get(),EDD_CHORUS_FRUIT_MILK_TEA.get(),EDD_CHORUS_FRUIT_WINE.get(),EDD_BUBBLE_TEA.get(),
+                EDD_DRAGON_BREATH_SODA.get(),EDD_CHORUS_FLOWER_TEA.get(),EDD_GRILLED_SHULKER.get(),EDD_STEAMED_DRAGON_EGG_BLOCK.get(),
+                EDD_DRAGON_MEAT_STEW.get(),EDD_STEAMED_DRAGON_EGG.get(),EDD_DRAGON_LEG_WITH_SAUCE.get(),MND_SIZZLING_PUDDING.get(),MND_ROCK_SOUP.get(),
+                MND_SPICY_NOODLE_SOUP.get(),MND_STRIDER_STEW.get(),MND_GHAST_SALAD.get(),MND_DRIED_GHAST_WITH_MILK.get(),MND_SAUSAGE_AND_POTATOES.get(),
+                MND_SPICY_HOGLIN_STEW.get(),MND_EGG_SOUP.get(),MND_BREAKFAST_SAMPLER.get(),MND_FRIED_HOGLIN_CHOP.get(),MND_TWISTED_GHASTA.get(),
+                MND_STRIDER_WITH_GRILLED_FUNGUS.get(),MND_SCOTCH_EGGS.get(),MND_GIANT_TAKOYAKI.get(),MND_BLUE_TENDERLOIN_STEAK.get(),
+                MND_CRIMSON_STROGANOFF.get(),MND_SPICY_CURRY.get(),MND_BLEEDING_TARTAR.get(),MND_HOT_WINGS.get(),MND_PLATE_OF_GHASTA_WITH_CREAM.get(),
+                MND_PLATE_OF_STUFFED_HOGLIN_SNOUT.get(),MND_PLATE_OF_STUFFED_HOGLIN_HAM.get(),MND_PLATE_OF_STUFFED_HOGLIN.get(),
+                MND_PLATE_OF_COLD_STRIDERLOAF.get(),MND_PLATE_OF_STRIDERLOAF.get()
 
         };
     }

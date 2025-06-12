@@ -1,0 +1,1 @@
+{"variants":{"facing=north":{"model":"displaydelight:block/acd_bass_stew"},"facing=south":{"model":"displaydelight:block/acd_bass_stew","y":180},"facing=west":{"model":"displaydelight:block/acd_bass_stew","y":270},"facing=east":{"model":"displaydelight:block/acd_bass_stew","y":90}}}

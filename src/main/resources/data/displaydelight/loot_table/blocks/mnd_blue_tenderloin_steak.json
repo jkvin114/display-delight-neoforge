@@ -1,0 +1,1 @@
+{"type":"minecraft:block","pools":[{"rolls":1,"entries":[{"type":"minecraft:item","name":"mynethersdelight:blue_tenderloin_steak"}],"conditions":[{"condition":"minecraft:survives_explosion"}]}]}

@@ -1,0 +1,1 @@
+{"variants":{"facing=north":{"model":"displaydelight:block/acd_buckling"},"facing=south":{"model":"displaydelight:block/acd_buckling","y":180},"facing=west":{"model":"displaydelight:block/acd_buckling","y":270},"facing=east":{"model":"displaydelight:block/acd_buckling","y":90}}}

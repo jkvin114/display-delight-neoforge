@@ -1,0 +1,1 @@
+{"type":"minecraft:block","pools":[{"rolls":1,"entries":[{"type":"minecraft:item","name":"ends_delight:dragon_breath_and_chorus_soup"}],"conditions":[{"condition":"minecraft:survives_explosion"}]}]}

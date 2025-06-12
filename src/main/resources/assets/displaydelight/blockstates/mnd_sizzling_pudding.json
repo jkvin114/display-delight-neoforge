@@ -1,0 +1,1 @@
+{"variants":{"facing=north":{"model":"displaydelight:block/mnd_sizzling_pudding"},"facing=south":{"model":"displaydelight:block/mnd_sizzling_pudding","y":180},"facing=west":{"model":"displaydelight:block/mnd_sizzling_pudding","y":270},"facing=east":{"model":"displaydelight:block/mnd_sizzling_pudding","y":90}}}

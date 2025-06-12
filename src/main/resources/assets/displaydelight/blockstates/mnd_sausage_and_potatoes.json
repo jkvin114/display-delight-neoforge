@@ -1,0 +1,1 @@
+{"variants":{"facing=north":{"model":"displaydelight:block/mnd_sausage_and_potatoes"},"facing=south":{"model":"displaydelight:block/mnd_sausage_and_potatoes","y":180},"facing=west":{"model":"displaydelight:block/mnd_sausage_and_potatoes","y":270},"facing=east":{"model":"displaydelight:block/mnd_sausage_and_potatoes","y":90}}}

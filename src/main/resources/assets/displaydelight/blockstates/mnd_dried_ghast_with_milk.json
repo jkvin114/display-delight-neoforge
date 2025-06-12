@@ -1,0 +1,1 @@
+{"variants":{"facing=north":{"model":"displaydelight:block/mnd_dried_ghast_with_milk"},"facing=south":{"model":"displaydelight:block/mnd_dried_ghast_with_milk","y":180},"facing=west":{"model":"displaydelight:block/mnd_dried_ghast_with_milk","y":270},"facing=east":{"model":"displaydelight:block/mnd_dried_ghast_with_milk","y":90}}}

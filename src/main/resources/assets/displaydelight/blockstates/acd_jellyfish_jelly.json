@@ -1,0 +1,1 @@
+{"variants":{"facing=north":{"model":"displaydelight:block/acd_jellyfish_jelly"},"facing=south":{"model":"displaydelight:block/acd_jellyfish_jelly","y":180},"facing=west":{"model":"displaydelight:block/acd_jellyfish_jelly","y":270},"facing=east":{"model":"displaydelight:block/acd_jellyfish_jelly","y":90}}}

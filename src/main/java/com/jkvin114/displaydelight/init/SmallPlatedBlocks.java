@@ -53,6 +53,15 @@ public class SmallPlatedBlocks {
     public static final DeferredBlock<Block> CTD_CALAMARI_ROLL = createPlatedBlock("ctd_small_plated_calamari_roll");
     public static final DeferredBlock<Block> CTD_CUT_PICKLE = createPlatedBlock("ctd_small_plated_cut_pickle");
 
+    public static final DeferredBlock<Block> BNC_SMALL_PLATED_QUICHE_SLICE = createPlatedBlock("bnc_small_plated_quiche_slice");
+    public static final DeferredBlock<Block> ED_SMALL_PLATED_CRANBERRY_COBBLER_SLICE = createPlatedBlock("ed_small_plated_cranberry_cobbler_slice");
+    public static final DeferredBlock<Block> ED_SMALL_PLATED_HONEYED_GOAT_CHEESE_TART_SLICE = createPlatedBlock("ed_small_plated_honeyed_goat_cheese_tart_slice");
+    public static final DeferredBlock<Block> ACD_SMALL_PLATED_RAW_FISH_FILLET_ROLL = createPlatedBlock("acd_small_plated_raw_fish_fillet_roll");
+    public static final DeferredBlock<Block> ACD_SMALL_PLATED_FRIED_PERCH_ROLL = createPlatedBlock("acd_small_plated_fried_perch_roll");
+    public static final DeferredBlock<Block> ERD_SMALL_PLATED_CHORUS_PIE_SLICE = createPlatedBlock("erd_small_plated_chorus_pie_slice");
+    public static final DeferredBlock<Block> EDD_SMALL_PLATED_CHORUS_FRUIT_PIE_SLICE = createPlatedBlock("edd_small_plated_chorus_fruit_pie_slice");
+    public static final DeferredBlock<Block> MND_SMALL_PLATED_MAGMA_CAKE_SLICE = createPlatedBlock("mnd_small_plated_magma_cake_slice");
+
 
     private static BlockBehaviour.Properties baseProps() {
         return BlockBehaviour.Properties.of().noOcclusion()
@@ -79,8 +88,10 @@ public class SmallPlatedBlocks {
 
 
                 CTD_CHICKEN_ROLL_SLICE.get(), CTD_MIDORI_ROLL_SLICE.get(), CTD_PUFFERFISH_ROLL.get(),
-                CTD_TROPICAL_ROLL.get(), CTD_RICE_BALL.get(), CTD_EGG_ROLL.get(), CTD_CALAMARI_ROLL.get(), CTD_CUT_PICKLE.get()
+                CTD_TROPICAL_ROLL.get(), CTD_RICE_BALL.get(), CTD_EGG_ROLL.get(), CTD_CALAMARI_ROLL.get(), CTD_CUT_PICKLE.get(),
 
+                BNC_SMALL_PLATED_QUICHE_SLICE.get(),ED_SMALL_PLATED_CRANBERRY_COBBLER_SLICE.get(),ED_SMALL_PLATED_HONEYED_GOAT_CHEESE_TART_SLICE.get(),ACD_SMALL_PLATED_RAW_FISH_FILLET_ROLL.get(),
+                ACD_SMALL_PLATED_FRIED_PERCH_ROLL.get(),ERD_SMALL_PLATED_CHORUS_PIE_SLICE.get(),EDD_SMALL_PLATED_CHORUS_FRUIT_PIE_SLICE.get(),MND_SMALL_PLATED_MAGMA_CAKE_SLICE.get()
         };
     }
 }

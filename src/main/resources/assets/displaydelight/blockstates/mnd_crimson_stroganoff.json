@@ -1,0 +1,1 @@
+{"variants":{"facing=north":{"model":"displaydelight:block/mnd_crimson_stroganoff"},"facing=south":{"model":"displaydelight:block/mnd_crimson_stroganoff","y":180},"facing=west":{"model":"displaydelight:block/mnd_crimson_stroganoff","y":270},"facing=east":{"model":"displaydelight:block/mnd_crimson_stroganoff","y":90}}}

@@ -94,5 +94,37 @@
       "required": false
     }
 
+  ,{
+      "id": "brewinandchewin:quiche_slice",
+      "required": false
+    }
+  ,{
+      "id": "expandeddelight:cranberry_cobbler_slice",
+      "required": false
+    }
+  ,{
+      "id": "expandeddelight:honeyed_goat_cheese_tart_slice",
+      "required": false
+    }
+  ,{
+      "id": "aquaculturedelight:raw_fish_fillet_roll",
+      "required": false
+    }
+  ,{
+      "id": "aquaculturedelight:fried_perch_roll",
+      "required": false
+    }
+  ,{
+      "id": "endersdelight:chorus_pie_slice",
+      "required": false
+    }
+  ,{
+      "id": "ends_delight:chorus_fruit_pie_slice",
+      "required": false
+    }
+  ,{
+      "id": "mynethersdelight:magma_cake_slice",
+      "required": false
+    }
   ]
 }

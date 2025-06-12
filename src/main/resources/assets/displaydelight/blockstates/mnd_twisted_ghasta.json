@@ -1,0 +1,1 @@
+{"variants":{"facing=north":{"model":"displaydelight:block/mnd_twisted_ghasta"},"facing=south":{"model":"displaydelight:block/mnd_twisted_ghasta","y":180},"facing=west":{"model":"displaydelight:block/mnd_twisted_ghasta","y":270},"facing=east":{"model":"displaydelight:block/mnd_twisted_ghasta","y":90}}}

@@ -1,0 +1,1 @@
+{"variants":{"facing=north":{"model":"displaydelight:block/erd_ender_paella"},"facing=south":{"model":"displaydelight:block/erd_ender_paella","y":180},"facing=west":{"model":"displaydelight:block/erd_ender_paella","y":270},"facing=east":{"model":"displaydelight:block/erd_ender_paella","y":90}}}

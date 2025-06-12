@@ -1,0 +1,1 @@
+{"variants":{"facing=north":{"model":"displaydelight:block/mnd_bleeding_tartar"},"facing=south":{"model":"displaydelight:block/mnd_bleeding_tartar","y":180},"facing=west":{"model":"displaydelight:block/mnd_bleeding_tartar","y":270},"facing=east":{"model":"displaydelight:block/mnd_bleeding_tartar","y":90}}}

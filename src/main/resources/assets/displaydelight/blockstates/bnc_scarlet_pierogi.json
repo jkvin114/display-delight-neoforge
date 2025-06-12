@@ -1,0 +1,1 @@
+{"variants":{"facing=north":{"model":"displaydelight:block/bnc_scarlet_pierogi"},"facing=south":{"model":"displaydelight:block/bnc_scarlet_pierogi","y":180},"facing=west":{"model":"displaydelight:block/bnc_scarlet_pierogi","y":270},"facing=east":{"model":"displaydelight:block/bnc_scarlet_pierogi","y":90}}}

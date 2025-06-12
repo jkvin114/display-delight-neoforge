@@ -1,0 +1,1 @@
+{"type":"minecraft:block","pools":[{"rolls":1,"entries":[{"type":"minecraft:item","name":"aquaculturedelight:crispy_nori_kelp"}],"conditions":[{"condition":"minecraft:survives_explosion"}]}]}

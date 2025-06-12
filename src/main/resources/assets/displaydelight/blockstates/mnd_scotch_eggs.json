@@ -1,0 +1,1 @@
+{"variants":{"facing=north":{"model":"displaydelight:block/mnd_scotch_eggs"},"facing=south":{"model":"displaydelight:block/mnd_scotch_eggs","y":180},"facing=west":{"model":"displaydelight:block/mnd_scotch_eggs","y":270},"facing=east":{"model":"displaydelight:block/mnd_scotch_eggs","y":90}}}
