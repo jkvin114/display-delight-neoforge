@@ -36,7 +36,7 @@ public class SmallPlatedBlocks {
     public static final DeferredBlock<Block> DF_PUMPKIN_PIE_SLICE = createPlatedBlock("df_small_plated_pumpkin_pie_slice");
 
     //pineapple delight
-    public static final DeferredBlock<Block> PD_PINEAPPLE_PIE_SLICE = createPlatedBlock("pd_small_plated_pineapple_pie_slice");
+    public static final DeferredBlock<Block> PD_PINEAPPLE_PIE_SIDE = createPlatedBlock("pd_small_plated_pineapple_pie_side");
 
 
     public static final DeferredBlock<Block> OD_ELDER_GUARDIAN_ROLL = createPlatedBlock("od_small_plated_elder_guardian_roll");
@@ -83,7 +83,7 @@ public class SmallPlatedBlocks {
                 ED_SWEET_ROLL.get(), ED_BERRY_SWEET_ROLL.get(), ED_GLOW_BERRY_SWEET_ROLL.get(), ED_CHEESE_SLICE.get(),
 
                 DF_SALMONBERRY_PIE_SLICE.get(), DF_PUMPKIN_PIE_SLICE.get(),
-                PD_PINEAPPLE_PIE_SLICE.get(),
+                PD_PINEAPPLE_PIE_SIDE.get(),
                 OD_ELDER_GUARDIAN_ROLL.get(), OD_FUGU_ROLL.get(),
 
 

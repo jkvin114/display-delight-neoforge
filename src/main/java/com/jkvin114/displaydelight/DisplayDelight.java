@@ -69,7 +69,8 @@ public class DisplayDelight {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, DisplayDelight.MODID);
 
 
-    public static final Supplier<CreativeModeTab> DISPLAY_DELIGHT_TAB = CREATIVE_TABS.register(DisplayDelight.MODID, () -> CreativeModeTab.builder()
+    public static final Supplier<CreativeModeTab> DISPLAY_DELIGHT_TAB =
+            CREATIVE_TABS.register(DisplayDelight.MODID, () -> CreativeModeTab.builder()
             //Set the title of the tab. Don't forget to add a translation!
             .title(Component.literal("Display Delight"))
             //Set the icon of the tab.

@@ -95,9 +95,6 @@ public class BlockAssociations {
     }
 
 
-    private static boolean isVanilaFood(ItemStack item){
-        return item.is(Items.MUSHROOM_STEW) || item.is(Items.RABBIT_STEW) ||item.is(Items.BEETROOT_SOUP) ;
-    }
     private static String getNamespace(String s){
         for (String key : COMPAT_NAMESPACES.keySet()) {
             //skip the first empty prefix
@@ -109,11 +106,6 @@ public class BlockAssociations {
         return  "";
     }
 
-    public static List<String> removePrefixes(List<String> strings, List<String> prefixes) {
-        return strings.stream()
-                .map(s -> removeFirstPrefix(s, prefixes))
-                .toList();
-    }
 
     private static String removeFirstPrefix(String s, Iterable<String> prefixes) {
         for (String prefix : prefixes) {
