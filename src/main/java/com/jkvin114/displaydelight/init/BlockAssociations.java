@@ -1,11 +1,23 @@
 package com.jkvin114.displaydelight.init;
 
+import com.jkvin114.displaydelight.DisplayDelight;
+import net.minecraft.core.BlockPos;
+import net.minecraft.core.Holder;
+import net.minecraft.core.registries.BuiltInRegistries;
+import net.minecraft.core.registries.Registries;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.server.level.ServerLevel;
+import net.minecraft.tags.TagKey;
+import net.minecraft.world.item.BlockItem;
+import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.Item;
-import java.util.Map;
-import java.util.HashMap;
+
+import java.util.*;
+
+import static com.jkvin114.displaydelight.DisplayDelight.LOGGER;
 
 public class BlockAssociations {
     public static Map<Item, Block> blockMap = new HashMap<>();
@@ -16,6 +28,33 @@ public class BlockAssociations {
 
     public static Map<Item, Block> smallplateBlockMap = new HashMap<>();
     public static Map<Block, Item> smallplateItemMap = new HashMap<>();
+    private static final String FARMERSDELIGHT = "farmersdelight";
+    private static final String MINECRAFT = "minecraft";
+
+    private static final String[] TypePrefixes = new String[]{
+            "plated_","small_plated_",""
+    };
+    private static final Set<String> VanilaFoods = Set.of(
+            "mushroom_stew", "rabbit_stew", "beetroot_soup",
+            "pumpkin_pie", "cookie"
+    );
+    private static final Map<String, String> COMPAT_NAMESPACES = new HashMap<>() {{
+        put("", "");
+        put("cd_", "corn_delight");
+        put("ed_", "expandeddelight");
+        put("df_", "delightful");
+        put("pd_", "pineapple_delight");
+        put("od_", "oceansdelight");
+        put("ad_", "alexsdelight");
+        put("ctd_", "culturaldelights");
+        put("lm_", "largemeals");
+        put("fd_", "festive_delight");
+        put("bnc_", "brewinandchewin");
+        put("acd_", "aquaculturedelight");
+        put("erd_", "endersdelight");
+        put("edd_", "ends_delight");
+        put("mnd_", "mynethersdelight");
+    }};
 
     public static Block getBlockFor(Item i) {
         return blockMap.getOrDefault(i, Blocks.AIR);
@@ -53,5 +92,134 @@ public class BlockAssociations {
             blockMap.putIfAbsent(i, b);
             itemMap.putIfAbsent(b, i);
         }
+    }
+
+
+    private static boolean isVanilaFood(ItemStack item){
+        return item.is(Items.MUSHROOM_STEW) || item.is(Items.RABBIT_STEW) ||item.is(Items.BEETROOT_SOUP) ;
+    }
+    private static String getNamespace(String s){
+        for (String key : COMPAT_NAMESPACES.keySet()) {
+            //skip the first empty prefix
+            if(!key.isEmpty() && s.startsWith(key)){
+                return COMPAT_NAMESPACES.get(key);
+            }
+        }
+        //if prefix is empty or not found return empty string
+        return  "";
+    }
+
+    public static List<String> removePrefixes(List<String> strings, List<String> prefixes) {
+        return strings.stream()
+                .map(s -> removeFirstPrefix(s, prefixes))
+                .toList();
+    }
+
+    private static String removeFirstPrefix(String s, Iterable<String> prefixes) {
+        for (String prefix : prefixes) {
+            if (s.startsWith(prefix)) {
+                return s.substring(prefix.length());
+            }
+        }
+        return s; // no prefix found
+    }
+
+    private  static String removePrefix(String s, String prefix){
+        if (s.startsWith(prefix)) {
+            return s.substring(prefix.length());
+        }
+        return  s;
+    }
+    public static boolean isItemInTag(Item item, TagKey<Item> tag) {
+        ItemStack s = new ItemStack(item);
+        return s.is(tag);
+    }
+
+    public static void initialize(Iterable<Item> allItems){
+        ArrayList<String> allPrefixes = new ArrayList<>();
+        for(String cp:COMPAT_NAMESPACES.keySet()){
+            for (String tp : TypePrefixes){
+                allPrefixes.add(cp+tp);
+            }
+        }
+
+        for (Item item: allItems){
+            if(!(item instanceof BlockItem)) continue;;
+            if(item.equals(DisplayItems.PLATE.get() )|| item.equals(DisplayItems.SMALL_PLATE.get() )) continue;
+
+
+            try{
+                String itemId = BuiltInRegistries.ITEM.getKey(item).getPath();
+
+                String foodName = removeFirstPrefix(itemId,allPrefixes);
+                String foodNameWithPlate = removeFirstPrefix(itemId, COMPAT_NAMESPACES.keySet());
+                String fullNamespace = getNamespace(itemId);
+                boolean isVanila = false;
+
+                if(fullNamespace.isEmpty()){
+                    if(VanilaFoods.contains(foodName)){
+                        fullNamespace = MINECRAFT;
+                        isVanila = true;
+                    }
+                    else {
+                        fullNamespace = FARMERSDELIGHT;
+                    }
+                }
+
+                LOGGER.info("Registering {} as {} from {}", itemId, foodName, fullNamespace);
+
+                Item registeredFoodItem = BuiltInRegistries.ITEM.get(ResourceLocation.fromNamespaceAndPath(fullNamespace,foodName));
+                if(registeredFoodItem == Items.AIR) {
+                    LOGGER.warn("{}:{} is not found from registry", fullNamespace, foodName);
+                    continue;
+                }
+
+                if(foodNameWithPlate.startsWith("plated_")){
+                    if(isItemInTag(registeredFoodItem,DisplayTags.PLATE_DISPLAYABLE)){
+                        BlockAssociations.addToMap(registeredFoodItem, ((BlockItem) item).getBlock(), true);
+                    }
+                }
+                else if(foodNameWithPlate.startsWith("small_plated_")){
+                    if(isItemInTag(registeredFoodItem,DisplayTags.SMALL_PLATE_DISPLAYABLE)){
+                        BlockAssociations.addSmallPlateToMap(registeredFoodItem, ((BlockItem) item).getBlock());
+                    }
+                }
+                else{
+                    if(isItemInTag(registeredFoodItem,DisplayTags.DISPLAYABLE)){
+                        if(DisplayConfig.DISABLE_VANILLA_FOODS.get() && isVanila) continue;
+                        BlockAssociations.addToMap(registeredFoodItem, ((BlockItem) item).getBlock(), false);
+                    }
+                }
+            }
+            catch (Exception e){
+                LOGGER.error("Failed to set block association for {}", BuiltInRegistries.ITEM.getKey(item).getPath(), e);
+            }
+        }
+
+//
+//
+//        Block[] array = DisplayBlocks.getAll();
+//        for (Block target : array) {
+//            List<ItemStack> drops = Block.getDrops(target.defaultBlockState(), lvl, BlockPos.containing(0, 256, 0), null);
+//            if (!drops.isEmpty() && drops.getFirst().is(DisplayTags.DISPLAYABLE)) {
+//
+//                if(DisplayConfig.DISABLE_VANILLA_FOODS.get() && isVanilaFood(drops.getFirst())) continue;
+//
+//                BlockAssociations.addToMap(drops.getFirst().getItem(), target, false);
+//            }
+//        }
+//
+//        for(Block target: PlatedBlocks.getAll()){
+//            List<ItemStack> drops = Block.getDrops(target.defaultBlockState(), lvl, BlockPos.containing(0, 256, 0), null);
+//            if (!drops.isEmpty() && drops.getFirst().is(DisplayTags.PLATE_DISPLAYABLE)) {
+//                BlockAssociations.addToMap(drops.getFirst().getItem(), target, true);
+//            }
+//        }
+//        for(Block target: SmallPlatedBlocks.getAll()){
+//            List<ItemStack> drops = Block.getDrops(target.defaultBlockState(), lvl, BlockPos.containing(0, 256, 0), null);
+//            if (!drops.isEmpty() && drops.getFirst().is(DisplayTags.SMALL_PLATE_DISPLAYABLE)) {
+//                BlockAssociations.addSmallPlateToMap(drops.getFirst().getItem(), target);
+//            }
+//        }
     }
 }

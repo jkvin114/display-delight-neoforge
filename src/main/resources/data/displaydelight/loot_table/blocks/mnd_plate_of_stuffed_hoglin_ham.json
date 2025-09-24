@@ -1,1 +1,0 @@
-{"type":"minecraft:block","pools":[{"rolls":1,"entries":[{"type":"minecraft:item","name":"mynethersdelight:plate_of_stuffed_hoglin_ham"}],"conditions":[{"condition":"minecraft:survives_explosion"}]}]}

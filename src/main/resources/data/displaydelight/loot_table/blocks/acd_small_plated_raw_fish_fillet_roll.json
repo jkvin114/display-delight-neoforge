@@ -1,1 +1,0 @@
-{"type":"minecraft:block","pools":[{"rolls":1,"entries":[{"type":"minecraft:item","name":"aquaculturedelight:raw_fish_fillet_roll"}],"conditions":[{"condition":"minecraft:survives_explosion"}]},{"rolls":1,"entries":[{"type":"minecraft:item","name":"displaydelight:small_food_plate"}],"conditions":[{"condition":"minecraft:survives_explosion"}]}]}

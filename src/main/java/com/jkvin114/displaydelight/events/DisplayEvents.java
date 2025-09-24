@@ -45,36 +45,10 @@ public class DisplayEvents {
         if(placed) event.setCanceled(true);
 
     }
-    private  static boolean isVanilaFood(ItemStack item){
-        return item.is(Items.MUSHROOM_STEW) || item.is(Items.RABBIT_STEW) ||item.is(Items.BEETROOT_SOUP) ;
-    }
     @SubscribeEvent
     public static void onWorldLoad(LevelEvent.Load event) {
         if (event.getLevel() instanceof ServerLevel lvl) {
-            Block[] array = DisplayBlocks.getAll();
-            for (Block target : array) {
-                List<ItemStack> drops = Block.getDrops(target.defaultBlockState(), lvl, BlockPos.containing(0, 256, 0), null);
-                if (!drops.isEmpty() && drops.getFirst().is(DisplayTags.DISPLAYABLE)) {
-
-                    if(DisplayConfig.DISABLE_VANILLA_FOODS.get() && isVanilaFood(drops.getFirst())) continue;
-
-                    BlockAssociations.addToMap(drops.getFirst().getItem(), target, false);
-                }
-            }
-
-
-            for(Block target: PlatedBlocks.getAll()){
-                List<ItemStack> drops = Block.getDrops(target.defaultBlockState(), lvl, BlockPos.containing(0, 256, 0), null);
-                 if (!drops.isEmpty() && drops.getFirst().is(DisplayTags.PLATE_DISPLAYABLE)) {
-                    BlockAssociations.addToMap(drops.getFirst().getItem(), target, true);
-                }
-            }
-            for(Block target: SmallPlatedBlocks.getAll()){
-                List<ItemStack> drops = Block.getDrops(target.defaultBlockState(), lvl, BlockPos.containing(0, 256, 0), null);
-                if (!drops.isEmpty() && drops.getFirst().is(DisplayTags.SMALL_PLATE_DISPLAYABLE)) {
-                    BlockAssociations.addSmallPlateToMap(drops.getFirst().getItem(), target);
-                }
-            }
+            BlockAssociations.initialize(DisplayItems.GetAll());
         }
     }
 

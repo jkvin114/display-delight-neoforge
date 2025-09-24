@@ -1,1 +1,0 @@
-{"type":"minecraft:block","pools":[{"rolls":1,"entries":[{"type":"minecraft:item","name":"mynethersdelight:sausage_and_potatoes"}],"conditions":[{"condition":"minecraft:survives_explosion"}]}]}

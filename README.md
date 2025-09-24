@@ -21,7 +21,8 @@
 - end's delight: EDD
 - ender delight : ERD
 - Brewin and chewin : BNC
-
+- large meals : LM
+- aquaculture delight : ACD
 ## Patch notes
 
 ### 1.1.0

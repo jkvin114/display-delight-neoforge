@@ -46,10 +46,15 @@ public abstract class AbstractStackablePlatedFoodBlock extends AbstractItemBlock
     }
 
     public int getStacks(BlockState state) {
-        return state.getValue(STACKS);
+        return Math.min(this.getMaxStackable(),state.getValue(STACKS));
     }
     public BlockState getDecrementedState(BlockState state) {
-        return state.setValue(STACKS, Math.max(this.getStacks(state) - 1,1));
+        int stk = this.getStacks(state) - 1;
+        if(this.getStacks(state) >= this.getMaxStackable()){
+            stk = this.getMaxStackable() - 1;
+        }
+
+        return state.setValue(STACKS, Math.max(1,stk));
     }
 
     public BlockState getIncrementedState(BlockState state,int count) {
