@@ -80,9 +80,6 @@
       "id": "culturaldelights:tropical_roll",
       "required": false
     },{
-      "id": "culturaldelights:rice_ball",
-      "required": false
-    },{
       "id": "culturaldelights:egg_roll",
       "required": false
     },{

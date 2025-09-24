@@ -7,6 +7,7 @@ import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.LevelReader;
 import net.minecraft.world.level.block.state.properties.IntegerProperty;
@@ -33,7 +34,11 @@ public abstract class AbstractStackablePlatedFoodBlock extends AbstractItemBlock
     }
     @Override
     public ItemStack getCloneItemStack(BlockState state, HitResult target, LevelReader world, BlockPos pos, Player player) {
-        return this.getStackFor();
+        ItemStack stk= this.getStackFor();
+        if(stk.getItem().equals(Items.AIR)){
+            stk = new ItemStack(state.getBlock().asItem());
+        }
+        return  stk;
     }
 
     public ItemStack getStackFor() {

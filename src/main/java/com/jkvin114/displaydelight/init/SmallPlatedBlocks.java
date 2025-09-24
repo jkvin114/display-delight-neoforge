@@ -48,7 +48,7 @@ public class SmallPlatedBlocks {
     public static final DeferredBlock<Block> CTD_MIDORI_ROLL_SLICE = createPlatedBlock("ctd_small_plated_midori_roll_slice");
     public static final DeferredBlock<Block> CTD_PUFFERFISH_ROLL = createPlatedBlock("ctd_small_plated_pufferfish_roll");
     public static final DeferredBlock<Block> CTD_TROPICAL_ROLL = createPlatedBlock("ctd_small_plated_tropical_roll");
-    public static final DeferredBlock<Block> CTD_RICE_BALL = createPlatedBlock("ctd_small_plated_rice_ball");
+  //  public static final DeferredBlock<Block> CTD_RICE_BALL = createPlatedBlock("ctd_small_plated_rice_ball");
     public static final DeferredBlock<Block> CTD_EGG_ROLL = createPlatedBlock("ctd_small_plated_egg_roll");
     public static final DeferredBlock<Block> CTD_CALAMARI_ROLL = createPlatedBlock("ctd_small_plated_calamari_roll");
     public static final DeferredBlock<Block> CTD_CUT_PICKLE = createPlatedBlock("ctd_small_plated_cut_pickle");

@@ -1,18 +1,18 @@
 {
  "variants": {
   "facing=north": {
-   "model": "displaydelight:block/pd_small_plated_pineapple_pie_slice"
+   "model": "displaydelight:block/pd_small_plated_pineapple_pie_side"
   },
   "facing=south": {
-   "model": "displaydelight:block/pd_small_plated_pineapple_pie_slice",
+   "model": "displaydelight:block/pd_small_plated_pineapple_pie_side",
    "y": 180
   },
   "facing=west": {
-   "model": "displaydelight:block/pd_small_plated_pineapple_pie_slice",
+   "model": "displaydelight:block/pd_small_plated_pineapple_pie_side",
    "y": 270
   },
   "facing=east": {
-   "model": "displaydelight:block/pd_small_plated_pineapple_pie_slice",
+   "model": "displaydelight:block/pd_small_plated_pineapple_pie_side",
    "y": 90
   }
  }

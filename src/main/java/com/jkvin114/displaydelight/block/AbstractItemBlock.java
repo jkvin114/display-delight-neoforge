@@ -38,7 +38,11 @@ public abstract class AbstractItemBlock extends HorizontalDirectionalBlock {
 
     @Override
     public ItemStack getCloneItemStack(BlockState state, HitResult target, LevelReader world, BlockPos pos, Player player) {
-        return this.getStackFor();
+        ItemStack stk= this.getStackFor();
+        if(stk.getItem().equals(Items.AIR)){
+            stk = new ItemStack(state.getBlock().asItem());
+        }
+        return  stk;
     }
 
     @Override
