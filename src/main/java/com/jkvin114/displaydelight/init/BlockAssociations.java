@@ -109,7 +109,7 @@ public class BlockAssociations {
 
     private static String removeFirstPrefix(String s, Iterable<String> prefixes) {
         for (String prefix : prefixes) {
-            if (s.startsWith(prefix)) {
+            if (!prefix.isEmpty() && s.startsWith(prefix)) {
                 return s.substring(prefix.length());
             }
         }
