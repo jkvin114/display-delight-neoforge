@@ -1,6 +1,7 @@
 package com.jkvin114.displaydelight.init;
 
 import com.jkvin114.displaydelight.DisplayDelight;
+import com.jkvin114.displaydelight.item.FoodBlockItem;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Holder;
 import net.minecraft.core.registries.BuiltInRegistries;
@@ -14,6 +15,7 @@ import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.Item;
+import net.neoforged.fml.ModList;
 
 import java.util.*;
 
@@ -56,6 +58,24 @@ public class BlockAssociations {
         put("mnd_", "mynethersdelight");
     }};
 
+    private static final Map<String, String> FULL_MODNAMES = new HashMap<>() {{
+        put(FARMERSDELIGHT, "Farmer's Delight");
+        put("corn_delight", "Corn Delight");
+        put("expandeddelight", "Expanded Delight");
+        put("delightful", "Delightful");
+        put("pineapple_delight", "Pineapple Delight");
+        put("oceansdelight", "Ocean's Delight");
+        put("alexsdelight", "Alex's Delight");
+
+        put("culturaldelights", "Cultural Delights");
+        put("largemeals", "Large Meals");
+        put("festive_delight", "Festive Delight");
+        put("brewinandchewin", "Brewin' and Chewin'");
+        put("aquaculturedelight", "Aquaculture Delight");
+        put("endersdelight", "Ender Delight");
+        put("ends_delight", "End's Delight");
+        put("mynethersdelight", "My Nether's Delight");
+    }};
     public static Block getBlockFor(Item i) {
         return blockMap.getOrDefault(i, Blocks.AIR);
     }
@@ -136,7 +156,7 @@ public class BlockAssociations {
         }
 
         for (Item item: allItems){
-            if(!(item instanceof BlockItem)) continue;;
+            if(!(item instanceof FoodBlockItem)) continue;;
             if(item.equals(DisplayItems.PLATE.get() )|| item.equals(DisplayItems.SMALL_PLATE.get() )) continue;
 
 
@@ -156,6 +176,11 @@ public class BlockAssociations {
                     else {
                         fullNamespace = FARMERSDELIGHT;
                     }
+                }
+
+                if(!isVanila && !ModList.get().isLoaded(fullNamespace)){
+                    String name = FULL_MODNAMES.getOrDefault(fullNamespace,"");
+                    ((FoodBlockItem) item).setRequiredModName(name);
                 }
 
                 LOGGER.info("Registering {} as {} from {}", itemId, foodName, fullNamespace);

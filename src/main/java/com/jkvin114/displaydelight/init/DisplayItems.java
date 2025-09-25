@@ -1,6 +1,7 @@
 package com.jkvin114.displaydelight.init;
 
 import com.jkvin114.displaydelight.DisplayDelight;
+import com.jkvin114.displaydelight.item.FoodBlockItem;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -15,9 +16,9 @@ public class DisplayItems {
     public static List<DeferredHolder<Item, Item>> items = new ArrayList<>() ;
 
     public static final DeferredRegister<Item> REGISTRY= DeferredRegister.create(Registries.ITEM, DisplayDelight.MODID);;
-    public static final DeferredHolder<Item, Item> PLATE = block(DisplayBlocks.PLATE);;
+    public static final DeferredHolder<Item, Item> PLATE = plateblock(DisplayBlocks.PLATE);;
 
-    public static final DeferredHolder<Item,Item> SMALL_PLATE =  block(DisplayBlocks.SMALL_PLATE);
+    public static final DeferredHolder<Item,Item> SMALL_PLATE =  plateblock(DisplayBlocks.SMALL_PLATE);
 
    // public static final DeferredHolder<Item, Item> BOWL= block(DisplayBlocks.BOWL);;
     public static final DeferredHolder<Item,Item> FRUIT_SALAD = block(DisplayBlocks.FRUIT_SALAD);;
@@ -403,9 +404,16 @@ public class DisplayItems {
     public static final DeferredHolder<Item,Item> EDD_SMALL_PLATED_CHORUS_FRUIT_PIE_SLICE = block(SmallPlatedBlocks.EDD_SMALL_PLATED_CHORUS_FRUIT_PIE_SLICE);
     public static final DeferredHolder<Item,Item> MND_SMALL_PLATED_MAGMA_CAKE_SLICE = block(SmallPlatedBlocks.MND_SMALL_PLATED_MAGMA_CAKE_SLICE);
 
-    private static DeferredHolder<Item, Item> block(DeferredHolder<Block, Block> block) {
+    private static DeferredHolder<Item, Item> plateblock(DeferredHolder<Block, Block> block) {
         DeferredHolder<Item, Item> item = REGISTRY.register(block.getId().getPath(), () -> {
             return new BlockItem((Block)block.get(), new Item.Properties());
+        });
+        items.add(item);
+        return  item;
+
+    }private static DeferredHolder<Item, Item> block(DeferredHolder<Block, Block> block) {
+        DeferredHolder<Item, Item> item = REGISTRY.register(block.getId().getPath(), () -> {
+            return new FoodBlockItem((Block)block.get(), new Item.Properties());
         });
         items.add(item);
         return  item;
