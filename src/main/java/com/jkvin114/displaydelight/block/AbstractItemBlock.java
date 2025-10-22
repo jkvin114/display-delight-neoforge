@@ -29,11 +29,13 @@ import org.jetbrains.annotations.NotNull;
 
 import java.util.List;
 
+
 public abstract class AbstractItemBlock extends HorizontalDirectionalBlock {
 
     public AbstractItemBlock(BlockBehaviour.Properties props) {
         super(props);
         this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH));
+
     }
 
     @Override

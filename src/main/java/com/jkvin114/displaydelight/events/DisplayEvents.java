@@ -4,15 +4,17 @@ import com.jkvin114.displaydelight.DisplayDelight;
 import com.jkvin114.displaydelight.init.*;
 
 import net.minecraft.world.item.Items;
-import net.minecraft.world.level.block.Block;
+
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.core.BlockPos;
+import net.minecraft.world.level.block.CopperBulbBlock;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.neoforge.event.entity.player.PlayerInteractEvent;
 import net.neoforged.neoforge.event.level.LevelEvent;
+import net.neoforged.neoforge.registries.datamaps.builtin.Waxable;
 
 import java.util.List;
 
@@ -34,6 +36,7 @@ public class DisplayEvents {
         if(!placed && event.getItemStack().is(DisplayTags.SMALL_PLATE_DISPLAYABLE)){
             placed=InterationManager.tryPlaceItemOnSmallPlate(event.getEntity(), level, event.getHitVec(), event.getHand() == InteractionHand.MAIN_HAND);
         }
+
 
         if(!placed && event.getItemStack().is(DisplayTags.PLATE_DISPLAYABLE)){
             placed=InterationManager.tryPlaceItemOnPlate(event.getEntity(), level, event.getHitVec(), event.getHand() == InteractionHand.MAIN_HAND);

@@ -72,7 +72,7 @@ public class BlockAssociations {
         put("festive_delight", "Festive Delight");
         put("brewinandchewin", "Brewin' and Chewin'");
         put("aquaculturedelight", "Aquaculture Delight");
-        put("endersdelight", "Ender Delight");
+        put("endersdelight", "Ender's Delight");
         put("ends_delight", "End's Delight");
         put("mynethersdelight", "My Nether's Delight");
     }};

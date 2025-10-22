@@ -52,7 +52,7 @@ public class DisplayBlocks {
     public static final DeferredBlock<Block> SHEPHEREDS_PIE = createFoodBlock("shepherds_pie");
     public static final DeferredBlock<Block> APPLE_CIDER = createDrinkFoodBlock("apple_cider");
     public static final DeferredBlock<Block> MELON_JUICE = createDrinkFoodBlock("melon_juice");
-    public static final DeferredBlock<Block> HOT_COCOA = createDrinkFoodBlock("hot_cocoa");
+    public static final DeferredBlock<Block> HOT_COCOA = createHotDrinkFoodBlock("hot_cocoa");
 
     //VANILA
     public static final DeferredBlock<Block> MUSHROOM_STEW = createFoodBlock("mushroom_stew");
@@ -62,7 +62,7 @@ public class DisplayBlocks {
     //CORN DELIGHT
 
     public static final DeferredBlock<Block> CD_NACHOS_BOWL = createFoodBlock("cd_nachos_bowl");
-    public static final DeferredBlock<Block> CD_CREAMY_COR_DRINK = createDrinkFoodBlock("cd_creamy_corn_drink");
+    public static final DeferredBlock<Block> CD_CREAMY_COR_DRINK = createHotDrinkFoodBlock("cd_creamy_corn_drink");
 
     public static final DeferredBlock<Block> CD_CORNBREAD_STUFFING = createFoodBlock("cd_cornbread_stuffing");
     public static final DeferredBlock<Block> CD_CORN_SOUP = createFoodBlock("cd_corn_soup");
@@ -90,8 +90,8 @@ public class DisplayBlocks {
     public static final DeferredBlock<Block> DF_MATCHA_MILKSHAKE= createDrinkFoodBlock("df_matcha_milkshake");
     public static final DeferredBlock<Block> DF_SALMONBERRY_ICE_CREAM = createFoodBlock("df_salmonberry_ice_cream");
     public static final DeferredBlock<Block> DF_SALMONBERRY_MILKSHAKE = createDrinkFoodBlock("df_salmonberry_milkshake");
-    public static final DeferredBlock<Block> DF_MATCHA_LATTE = createDrinkFoodBlock("df_matcha_latte");
-    public static final DeferredBlock<Block> DF_ENDER_NECTAR = createDrinkFoodBlock("df_ender_nectar");
+    public static final DeferredBlock<Block> DF_MATCHA_LATTE = createHotDrinkFoodBlock("df_matcha_latte");
+    public static final DeferredBlock<Block> DF_ENDER_NECTAR = createHotDrinkFoodBlock("df_ender_nectar");
     public static final DeferredBlock<Block> DF_BERRY_MATCHA_LATTE = createDrinkFoodBlock("df_berry_matcha_latte");
     public static final DeferredBlock<Block> DF_CACTUS_CHILI = createFoodBlock("df_cactus_chili");
     public static final DeferredBlock<Block> DF_FIELD_SALAD = createFoodBlock("df_field_salad");
@@ -144,7 +144,7 @@ public class DisplayBlocks {
 
     //festive delight
     public static final DeferredBlock<Block> FD_FESTIVE_CHICKEN = createFoodBlock("fd_festive_chicken");
-    public static final DeferredBlock<Block> FD_CHRISTMAS_TEA = createDrinkFoodBlock("fd_christmas_tea");
+    public static final DeferredBlock<Block> FD_CHRISTMAS_TEA = createHotDrinkFoodBlock("fd_christmas_tea");
     public static final DeferredBlock<Block> FD_SALMON_VERRINES = createDrinkFoodBlock("fd_salmon_verrines");
 
     public static final DeferredBlock<Block> BNC_FIERY_FONDUE = createFoodBlock("bnc_fiery_fondue");
@@ -200,13 +200,12 @@ public class DisplayBlocks {
     public static final DeferredBlock<Block> EDD_END_MIXED_SALAD = createFoodBlock("edd_end_mixed_salad");
     public static final DeferredBlock<Block> EDD_ASSORTED_SALAD = createFoodBlock("edd_assorted_salad");
     public static final DeferredBlock<Block> EDD_ENDER_CONGEE = createFoodBlock("edd_ender_congee");
-    public static final DeferredBlock<Block> EDD_CHORUS_FRUIT_MILK_TEA = createDrinkFoodBlock("edd_chorus_fruit_milk_tea");
+    public static final DeferredBlock<Block> EDD_CHORUS_FRUIT_MILK_TEA = createHotDrinkFoodBlock("edd_chorus_fruit_milk_tea");
     public static final DeferredBlock<Block> EDD_CHORUS_FRUIT_WINE = createDrinkFoodBlock("edd_chorus_fruit_wine");
-    public static final DeferredBlock<Block> EDD_BUBBLE_TEA = createDrinkFoodBlock("edd_bubble_tea");
+    public static final DeferredBlock<Block> EDD_BUBBLE_TEA = createHotDrinkFoodBlock("edd_bubble_tea");
     public static final DeferredBlock<Block> EDD_DRAGON_BREATH_SODA = createDrinkFoodBlock("edd_dragon_breath_soda");
-    public static final DeferredBlock<Block> EDD_CHORUS_FLOWER_TEA = createDrinkFoodBlock("edd_chorus_flower_tea");
+    public static final DeferredBlock<Block> EDD_CHORUS_FLOWER_TEA = createHotDrinkFoodBlock("edd_chorus_flower_tea");
     public static final DeferredBlock<Block> EDD_GRILLED_SHULKER = createFoodBlock("edd_grilled_shulker");
-    public static final DeferredBlock<Block> EDD_STEAMED_DRAGON_EGG_BLOCK = createFoodBlock("edd_steamed_dragon_egg_block");
     public static final DeferredBlock<Block> EDD_DRAGON_MEAT_STEW = createFoodBlock("edd_dragon_meat_stew");
     public static final DeferredBlock<Block> EDD_STEAMED_DRAGON_EGG = createFoodBlock("edd_steamed_dragon_egg");
     public static final DeferredBlock<Block> EDD_DRAGON_LEG_WITH_SAUCE = createFoodBlock("edd_dragon_leg_with_sauce");
@@ -288,7 +287,7 @@ public class DisplayBlocks {
                 ERD_PEARL_PASTA.get(),ERD_STUFFED_SHULKER_BOWL.get(),EDD_DRAGON_BREATH_AND_CHORUS_SOUP.get(),EDD_SHULKER_SOUP.get(),EDD_ENDER_NOODLE.get(),
                 EDD_ENDERMAN_GRISTLE_STEW.get(),EDD_STIR_FRIED_SHULKER_MEAT.get(),EDD_ROASTED_DRAGON_STEAK.get(),EDD_END_MIXED_SALAD.get(),
                 EDD_ASSORTED_SALAD.get(),EDD_ENDER_CONGEE.get(),EDD_CHORUS_FRUIT_MILK_TEA.get(),EDD_CHORUS_FRUIT_WINE.get(),EDD_BUBBLE_TEA.get(),
-                EDD_DRAGON_BREATH_SODA.get(),EDD_CHORUS_FLOWER_TEA.get(),EDD_GRILLED_SHULKER.get(),EDD_STEAMED_DRAGON_EGG_BLOCK.get(),
+                EDD_DRAGON_BREATH_SODA.get(),EDD_CHORUS_FLOWER_TEA.get(),EDD_GRILLED_SHULKER.get(),
                 EDD_DRAGON_MEAT_STEW.get(),EDD_STEAMED_DRAGON_EGG.get(),EDD_DRAGON_LEG_WITH_SAUCE.get(),MND_SIZZLING_PUDDING.get(),MND_ROCK_SOUP.get(),
                 MND_SPICY_NOODLE_SOUP.get(),MND_STRIDER_STEW.get(),MND_GHAST_SALAD.get(),MND_DRIED_GHAST_WITH_MILK.get(),MND_SAUSAGE_AND_POTATOES.get(),
                 MND_SPICY_HOGLIN_STEW.get(),MND_EGG_SOUP.get(),MND_BREAKFAST_SAMPLER.get(),MND_FRIED_HOGLIN_CHOP.get(),MND_TWISTED_GHASTA.get(),
@@ -302,7 +301,11 @@ public class DisplayBlocks {
     private  static BlockBehaviour.Properties baseProps(){
       return   BlockBehaviour.Properties.of().noOcclusion().noTerrainParticles().instabreak().pushReaction(PushReaction.DESTROY).mapColor(MapColor.NONE);
     }
-
+    private static DeferredBlock<Block> createHotDrinkFoodBlock(String name){
+        return  REGISTRY.register(name,
+                ()->new HotDrinkBlock(baseProps()
+                        .sound(SoundType.GLASS)));
+    }
     private static DeferredBlock<Block> createDrinkFoodBlock(String name){
         return  REGISTRY.register(name,
                 ()->new DrinkBlock(baseProps()

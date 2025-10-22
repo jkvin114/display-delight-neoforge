@@ -19,6 +19,8 @@ import net.minecraft.world.phys.HitResult;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.VoxelShape;
 
+
+
 public abstract class AbstractStackablePlatedFoodBlock extends AbstractItemBlock {
     public static final IntegerProperty STACKS = DisplayProperties.STACKS;
 

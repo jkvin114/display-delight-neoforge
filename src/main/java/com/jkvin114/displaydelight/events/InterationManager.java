@@ -34,7 +34,7 @@ public class InterationManager {
         if (state.getBlock() instanceof AbstractStackablePlatedFoodBlock target) {
             Item plateItem = BlockAssociations.getPlatedItemFor(target);
             int count = 1;
-            if(player.isCrouching()){
+            if(player.isShiftKeyDown()){
                 count = target.getStacks(state);
                 world.setBlock(pos, DisplayBlocks.PLATE.get().defaultBlockState(), 2);
             }
@@ -123,7 +123,7 @@ public class InterationManager {
 
             if (handStack.is(target.getStackFor().getItem()) && target.getStacks(state) < target.getMaxStackable()) {
                 int count = 1;
-                if (player.isCrouching()) {
+                if (player.isShiftKeyDown()) {
                     int stacksLeft = target.getMaxStackable() - target.getStacks(state);
                     count = player.isCreative() ? stacksLeft : Math.min(stacksLeft, handStack.getCount());
                 }
@@ -140,7 +140,7 @@ public class InterationManager {
             if (!(plateBlock instanceof AbstractStackablePlatedFoodBlock target)) return false;
             int count = 1;
 
-            if (player.isCrouching()) {
+            if (player.isShiftKeyDown()) {
                 int stacksLeft = target.getMaxStackable();
                 count = player.isCreative() ? stacksLeft : Math.min(stacksLeft, handStack.getCount());
             }
@@ -166,7 +166,7 @@ public class InterationManager {
         if (!stack.is(DisplayTags.DISPLAYABLE)) return false;
         BlockPos pos = rez.getBlockPos();
 
-        if (player.isCrouching()) {
+        if (player.isShiftKeyDown()) {
 
             Block target = BlockAssociations.getBlockFor(stack.getItem());
             if (target.asItem().useOn(new UseOnContext(player, handy, rez)) == InteractionResult.CONSUME) {

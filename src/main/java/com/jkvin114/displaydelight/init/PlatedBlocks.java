@@ -108,15 +108,16 @@ public class PlatedBlocks {
     public static final DeferredBlock<Block> ACD_PLATED_CATFISH_BARBECUE = createPlatedBlock("acd_plated_catfish_barbecue");
     public static final DeferredBlock<Block> BNC_PLATED_HAM_AND_CHEESE_SANDWICH = createPlatedBlock("bnc_plated_ham_and_cheese_sandwich");
     public static final DeferredBlock<Block> ED_PLATED_CRANBERRY_GOAT_CHEESE_TOAST = createPlatedBlock("ed_plated_cranberry_goat_cheese_toast");
-    public static final DeferredBlock<Block> ERD_PLATED_UNCANNY_COOKIES = createPlatedBlock("erd_plated_uncanny_cookies");
-    public static final DeferredBlock<Block> ERD_PLATED_CRISPY_SKEWER = createPlatedBlock("erd_plated_crispy_skewer");
-    public static final DeferredBlock<Block> ERD_PLATED_STRANGE_ECLAIR = createPlatedBlock("erd_plated_strange_eclair");
-    public static final DeferredBlock<Block> ERD_PLATED_CRAWLING_SANDWICH = createPlatedBlock("erd_plated_crawling_sandwich");
-    public static final DeferredBlock<Block> EDD_PLATED_STUFFED_RICE_CAKE = createPlatedBlock("edd_plated_stuffed_rice_cake");
+    public static final DeferredBlock<Block> ERD_PLATED_UNCANNY_COOKIES = createStackablePlatedBlock("erd_plated_uncanny_cookies",4);
+    public static final DeferredBlock<Block> ERD_PLATED_CRISPY_SKEWER = createStackablePlatedBlock("erd_plated_crispy_skewer",3);
+    public static final DeferredBlock<Block> ERD_PLATED_STRANGE_ECLAIR = createStackablePlatedBlock("erd_plated_strange_eclair",3);
+    public static final DeferredBlock<Block> ERD_PLATED_CRAWLING_SANDWICH = createStackablePlatedBlock("erd_plated_crawling_sandwich",2);
+    public static final DeferredBlock<Block> EDD_PLATED_STUFFED_RICE_CAKE = createStackablePlatedBlock("edd_plated_stuffed_rice_cake",3);
     public static final DeferredBlock<Block> EDD_PLATED_CHORUS_FLOWER_PIE = createPlatedBlock("edd_plated_chorus_flower_pie");
-    public static final DeferredBlock<Block> EDD_PLATED_ENDER_BAMBOO_RICE = createPlatedBlock("edd_plated_ender_bamboo_rice");
-    public static final DeferredBlock<Block> EDD_PLATED_CHORUS_FRUIT_POPSICLE = createPlatedBlock("edd_plated_chorus_fruit_popsicle");
-    public static final DeferredBlock<Block> EDD_PLATED_END_BARBECUE_STICK = createPlatedBlock("edd_plated_end_barbecue_stick");
+    public static final DeferredBlock<Block> EDD_PLATED_ENDER_BAMBOO_RICE = createStackablePlatedBlock("edd_plated_ender_bamboo_rice",2);
+    public static final DeferredBlock<Block> EDD_PLATED_CHORUS_FRUIT_POPSICLE = createStackablePlatedBlock("edd_plated_chorus_fruit_popsicle",2);
+    public static final DeferredBlock<Block> EDD_PLATED_END_BARBECUE_STICK = createStackablePlatedBlock("edd_plated_end_barbecue_stick",3);
+
     public static final DeferredBlock<Block> MND_PLATED_STUFFED_PEPPER = createPlatedBlock("mnd_plated_stuffed_pepper");
     public static final DeferredBlock<Block> MND_PLATED_HOTDOG_WITH_MIXED_SALAD = createPlatedBlock("mnd_plated_hotdog_with_mixed_salad");
     public static final DeferredBlock<Block> MND_PLATED_HOTDOG_WITH_NETHER_SALAD = createPlatedBlock("mnd_plated_hotdog_with_nether_salad");

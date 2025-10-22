@@ -99,6 +99,7 @@ public class DisplayDelight {
         DisplayItems.REGISTRY.register(modEventBus);
         PlatedBlocks.REGISTRY.register(modEventBus);
         SmallPlatedBlocks.REGISTRY.register(modEventBus);
+      //  DisplayParticleTypes.PARTICLE_TYPES.register(modEventBus);
      //   DisplayTabs.REGISTRY.register(modEventBus);
 
         // Register the Deferred Register to the mod event bus so items get registered
