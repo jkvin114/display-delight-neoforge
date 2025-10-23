@@ -13,6 +13,9 @@
       "id": "farmersdelight:mixed_salad",
       "required": false
     },{
+    "id": "farmersdelight:nether_salad",
+    "required": false
+  },{
       "id": "farmersdelight:beef_stew",
       "required": false
     },{

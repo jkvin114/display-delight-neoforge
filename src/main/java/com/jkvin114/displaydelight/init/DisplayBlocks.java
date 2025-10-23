@@ -26,6 +26,7 @@ public class DisplayBlocks {
     public static final DeferredBlock<Block> GLOW_BERRY_CUSTARD = createDrinkFoodBlock("glow_berry_custard");
     public static final DeferredBlock<Block> FRUIT_SALAD = createFoodBlock("fruit_salad");
     public static final DeferredBlock<Block> COOKED_RICE = createFoodBlock("cooked_rice");
+    public static final DeferredBlock<Block> NETHER_SALAD = createFoodBlock("nether_salad");
     public static final DeferredBlock<Block> MIXED_SALAD = createFoodBlock("mixed_salad");
     public static final DeferredBlock<Block> BEEF_STEW = createFoodBlock("beef_stew");
     public static final DeferredBlock<Block> CHICKEN_SOUP = createFoodBlock("chicken_soup");
@@ -240,7 +241,7 @@ public class DisplayBlocks {
 
     public static Block[] getAll() {
         return new Block[]{
-                FRUIT_SALAD.get(),  GLOW_BERRY_CUSTARD.get(), COOKED_RICE.get(), MIXED_SALAD.get(),
+                NETHER_SALAD.get(),  FRUIT_SALAD.get(),  GLOW_BERRY_CUSTARD.get(), COOKED_RICE.get(), MIXED_SALAD.get(),
                 BEEF_STEW.get(), CHICKEN_SOUP.get(), VEGETABLE_SOUP.get(), FISH_STEW.get(), FRIED_RICE.get(), PUMPKIN_SOUP.get(),
                 BAKED_COD_STEW.get(), NOODLE_SOUP.get(), BONE_BROTH.get(), BACON_AND_EGGS.get(), PASTA_WITH_MEATBALLS.get(),
                 PASTA_WITH_MUTTON_CHOP.get(), ROASTED_MUTTON_CHOPS.get(), STEAK_AND_POTATOES.get(), VEGETABLE_NOODLES.get(), RATATOUILLE.get(),
