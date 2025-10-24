@@ -9,6 +9,7 @@ import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.tags.TagKey;
+import net.minecraft.util.RandomSource;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.block.Blocks;
@@ -18,6 +19,7 @@ import net.minecraft.world.item.Item;
 import net.neoforged.fml.ModList;
 
 import java.util.*;
+import java.util.stream.Stream;
 
 import static com.jkvin114.displaydelight.DisplayDelight.LOGGER;
 
@@ -76,6 +78,19 @@ public class BlockAssociations {
         put("ends_delight", "End's Delight");
         put("mynethersdelight", "My Nether's Delight");
     }};
+
+    public static final List<Item> TRADEABLE_DRINKS = new ArrayList<>();
+    public static final List<Item> TRADEABLE_FOODS = new ArrayList<>();
+    public static final List<Item> TRADEABLE_PLATES = new ArrayList<>();
+    public static final List<Item> TRADEABLE_SMALL_PLATES = new ArrayList<>();
+
+    private static Item[] ALL_ITEMS = new Item[]{};
+
+    public static Item getRandomItem(RandomSource random){
+        return ALL_ITEMS[random.nextInt(ALL_ITEMS.length)];
+    }
+
+
     public static Block getBlockFor(Item i) {
         return blockMap.getOrDefault(i, Blocks.AIR);
     }
@@ -181,6 +196,19 @@ public class BlockAssociations {
                 if(!isVanila && !ModList.get().isLoaded(fullNamespace)){
                     String name = FULL_MODNAMES.getOrDefault(fullNamespace,"");
                     ((FoodBlockItem) item).setRequiredModName(name);
+
+                    if(((FoodBlockItem) item).isDrink){
+                        TRADEABLE_DRINKS.add(item);
+                    }
+                    else if(foodNameWithPlate.startsWith("plated_")){
+                        TRADEABLE_PLATES.add(item);
+                    }else if(foodNameWithPlate.startsWith("small_plated_")){
+                        TRADEABLE_SMALL_PLATES.add(item);
+                    }
+                    else{
+                        TRADEABLE_FOODS.add(item);
+                    }
+
                 }
 
                 LOGGER.info("Registering {} as {} from {}", itemId, foodName, fullNamespace);
@@ -213,6 +241,11 @@ public class BlockAssociations {
             }
         }
 
+        List<Item> combined = new ArrayList<>();
+        combined.addAll(blockMap.keySet());
+        combined.addAll(plateBlockMap.keySet());
+        combined.addAll(smallplateBlockMap.keySet());
+        ALL_ITEMS = combined.toArray(Item[]::new);
 //
 //
 //        Block[] array = DisplayBlocks.getAll();

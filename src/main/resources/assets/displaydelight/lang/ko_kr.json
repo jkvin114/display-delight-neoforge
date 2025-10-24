@@ -3,6 +3,6 @@
   "block.displaydelight.small_food_plate": "작은 음식 접시",
   "item.displaydelight.tooltip.can_placed_on": "설치 가능 블록: ",
   "item.displaydelight.tooltip.displayable": "웅크린 상태에서 설치 가능",
-  "item.displaydelight.tooltip.requires_mod": "%1$s 모드가 필요합니다"
+  "item.displaydelight.tooltip.from_mod": "%1$s 모드에서 등장"
 
 }

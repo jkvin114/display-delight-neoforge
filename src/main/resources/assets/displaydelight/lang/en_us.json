@@ -3,7 +3,7 @@
   "block.displaydelight.small_food_plate": "Small Food Plate",
   "item.displaydelight.tooltip.can_placed_on": "Can be plated on: ",
   "item.displaydelight.tooltip.displayable": "Can be placed while sneaking",
-  "item.displaydelight.tooltip.requires_mod": "Requires %1$s mod",
+  "item.displaydelight.tooltip.from_mod": "Appears in %1$s mod",
 
 
   "block.displaydelight.mushroom_stew": "Mushroom Stew Block",

@@ -1,5 +1,6 @@
 package com.jkvin114.displaydelight.block;
 import com.jkvin114.displaydelight.DisplayDelight;
+import com.jkvin114.displaydelight.init.DisplayConfig;
 import net.minecraft.core.RegistryAccess;
 import net.minecraft.world.item.enchantment.Enchantment;
 import net.minecraft.world.item.enchantment.Enchantments;
@@ -64,15 +65,18 @@ public abstract class AbstractItemBlock extends HorizontalDirectionalBlock {
 
         boolean silktouch=false;
 
-        try{
-            var enchantmentRegistry = params.getLevel().registryAccess().registryOrThrow(Registries.ENCHANTMENT);
-            ItemStack tool = params.getParameter(LootContextParams.TOOL);
-            if(tool.getEnchantmentLevel(enchantmentRegistry.getHolderOrThrow(Enchantments.SILK_TOUCH)) > 0){
-                silktouch=true;
+        if(DisplayConfig.SILKTOUCH_DROPS_FOOD_BLOCK_ITEM.get()){
+            try{
+                var enchantmentRegistry = params.getLevel().registryAccess().registryOrThrow(Registries.ENCHANTMENT);
+                ItemStack tool = params.getParameter(LootContextParams.TOOL);
+                if(tool.getEnchantmentLevel(enchantmentRegistry.getHolderOrThrow(Enchantments.SILK_TOUCH)) > 0){
+                    silktouch=true;
+                }
+            } catch (Exception e) {
+                DisplayDelight.LOGGER.error(e.toString());
             }
-        } catch (Exception e) {
-            DisplayDelight.LOGGER.error(e.toString());
         }
+
 
 
         Block block = state.getBlock();

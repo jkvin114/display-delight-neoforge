@@ -16,10 +16,16 @@ public class FoodBlockItem extends BlockItem {
 
     String requiredModName = "";
 
+    public final boolean isDrink;
+
     public FoodBlockItem(Block pBlock, Item.Properties pProperties) {
         super(pBlock, pProperties);
+        isDrink = false;
     }
-
+    public FoodBlockItem(Block pBlock, Item.Properties pProperties,boolean isDrink) {
+        super(pBlock, pProperties);
+        this.isDrink=isDrink;
+    }
 
     public void setRequiredModName(String modname){
         requiredModName=modname;
@@ -28,7 +34,7 @@ public class FoodBlockItem extends BlockItem {
     @Override
     public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
         if(!requiredModName.isEmpty())
-            tooltipComponents.add(Component.translatable("item.displaydelight.tooltip.requires_mod",requiredModName).withStyle(ChatFormatting.RED));
+            tooltipComponents.add(Component.translatable("item.displaydelight.tooltip.from_mod",requiredModName).withStyle(ChatFormatting.GOLD));
 
         super.appendHoverText(stack, context,tooltipComponents,tooltipFlag);
     }

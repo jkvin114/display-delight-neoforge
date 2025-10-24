@@ -17,6 +17,7 @@ import net.minecraft.world.InteractionResult;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.context.UseOnContext;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.BlockState;
@@ -33,6 +34,10 @@ public class InterationManager {
         BlockState state = world.getBlockState(pos);
         if (state.getBlock() instanceof AbstractStackablePlatedFoodBlock target) {
             Item plateItem = BlockAssociations.getPlatedItemFor(target);
+            if(plateItem == Items.AIR && !player.isCreative()){
+                return false;
+            }
+
             int count = 1;
             if(player.isShiftKeyDown()){
                 count = target.getStacks(state);
@@ -68,6 +73,11 @@ public class InterationManager {
         }
         else if(state.getBlock() instanceof SmallPlatedFoodBlock target){
             Item plateItem = BlockAssociations.getSmallPlatedItemFor(target);
+            if(plateItem == Items.AIR && !player.isCreative()){
+                return false;
+            }
+
+
             world.setBlock(pos, DisplayBlocks.SMALL_PLATE.get().defaultBlockState(), 2);
 
             world.playSound(null, pos, SoundEvents.CHICKEN_EGG, SoundSource.PLAYERS, 1.0F, (float) (0.8F + (Math.random() * 0.2)));

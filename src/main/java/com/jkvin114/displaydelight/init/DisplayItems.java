@@ -29,10 +29,10 @@ public class DisplayItems {
     public static final DeferredHolder<Item,Item> PLATED_PUMPKIN_PIE = block(PlatedBlocks.PLATED_PUMPKIN_PIE);
 
 
-    public static final DeferredHolder<Item,Item> GLOW_BERRY_CUSTARD = block(DisplayBlocks.GLOW_BERRY_CUSTARD);
-    public static final DeferredHolder<Item,Item> APPLE_CIDER = block(DisplayBlocks.APPLE_CIDER);
-    public static final DeferredHolder<Item,Item> MELON_JUICE = block(DisplayBlocks.MELON_JUICE);
-    public static final DeferredHolder<Item,Item> HOT_COCOA = block(DisplayBlocks.HOT_COCOA);
+    public static final DeferredHolder<Item,Item> GLOW_BERRY_CUSTARD = drinkblock(DisplayBlocks.GLOW_BERRY_CUSTARD);
+    public static final DeferredHolder<Item,Item> APPLE_CIDER = drinkblock(DisplayBlocks.APPLE_CIDER);
+    public static final DeferredHolder<Item,Item> MELON_JUICE = drinkblock(DisplayBlocks.MELON_JUICE);
+    public static final DeferredHolder<Item,Item> HOT_COCOA = drinkblock(DisplayBlocks.HOT_COCOA);
 
     public static final DeferredHolder<Item,Item> COOKED_RICE = block(DisplayBlocks.COOKED_RICE);
 
@@ -107,7 +107,7 @@ public class DisplayItems {
 
     //CORN DELIGHT
 
-    public static final DeferredHolder<Item,Item> CD_CREAMY_COR_DRINK = block(DisplayBlocks.CD_CREAMY_COR_DRINK);
+    public static final DeferredHolder<Item,Item> CD_CREAMY_COR_DRINK = drinkblock(DisplayBlocks.CD_CREAMY_COR_DRINK);
 
     public static final DeferredHolder<Item,Item> CD_CORNBREAD_STUFFING = block(DisplayBlocks.CD_CORNBREAD_STUFFING);
     public static final DeferredHolder<Item,Item> CD_CORN_SOUP = block(DisplayBlocks.CD_CORN_SOUP);
@@ -121,10 +121,10 @@ public class DisplayItems {
     //Expanded delight
 
     
-    public static final DeferredHolder<Item,Item> ED_APPLE_JUICE = block(DisplayBlocks.ED_APPLE_JUICE);
-    public static final DeferredHolder<Item,Item> ED_SWEET_BERRY_JUICE = block(DisplayBlocks.ED_SWEET_BERRY_JUICE);
-    public static final DeferredHolder<Item,Item> ED_GLOW_BERRY_JUICE = block(DisplayBlocks.ED_GLOW_BERRY_JUICE);
-    public static final DeferredHolder<Item,Item> ED_CRANBERRY_JUICE = block(DisplayBlocks.ED_CRANBERRY_JUICE);
+    public static final DeferredHolder<Item,Item> ED_APPLE_JUICE = drinkblock(DisplayBlocks.ED_APPLE_JUICE);
+    public static final DeferredHolder<Item,Item> ED_SWEET_BERRY_JUICE = drinkblock(DisplayBlocks.ED_SWEET_BERRY_JUICE);
+    public static final DeferredHolder<Item,Item> ED_GLOW_BERRY_JUICE = drinkblock(DisplayBlocks.ED_GLOW_BERRY_JUICE);
+    public static final DeferredHolder<Item,Item> ED_CRANBERRY_JUICE = drinkblock(DisplayBlocks.ED_CRANBERRY_JUICE);
 
     public static final DeferredHolder<Item,Item> ED_ASPARAGUS_SOUP = block(DisplayBlocks.ED_ASPARAGUS_SOUP);
     public static final DeferredHolder<Item,Item> ED_ASPARAGUS_SOUP_CREAMY = block(DisplayBlocks.ED_ASPARAGUS_SOUP_CREAMY);
@@ -170,11 +170,11 @@ public class DisplayItems {
     public static final DeferredHolder<Item,Item> ED_GLOW_BERRY_SWEET_ROLL_SMALL = block(SmallPlatedBlocks.ED_GLOW_BERRY_SWEET_ROLL);
 
     //delightful
-    public static final DeferredHolder<Item,Item> DF_MATCHA_MILKSHAKE = block(DisplayBlocks.DF_MATCHA_MILKSHAKE);
-    public static final DeferredHolder<Item,Item> DF_SALMONBERRY_MILKSHAKE = block(DisplayBlocks.DF_SALMONBERRY_MILKSHAKE);
-    public static final DeferredHolder<Item,Item> DF_MATCHA_LATTE = block(DisplayBlocks.DF_MATCHA_LATTE);
-    public static final DeferredHolder<Item,Item> DF_ENDER_NECTAR = block(DisplayBlocks.DF_ENDER_NECTAR);
-    public static final DeferredHolder<Item,Item> DF_BERRY_MATCHA_LATTE = block(DisplayBlocks.DF_BERRY_MATCHA_LATTE);
+    public static final DeferredHolder<Item,Item> DF_MATCHA_MILKSHAKE = drinkblock(DisplayBlocks.DF_MATCHA_MILKSHAKE);
+    public static final DeferredHolder<Item,Item> DF_SALMONBERRY_MILKSHAKE = drinkblock(DisplayBlocks.DF_SALMONBERRY_MILKSHAKE);
+    public static final DeferredHolder<Item,Item> DF_MATCHA_LATTE = drinkblock(DisplayBlocks.DF_MATCHA_LATTE);
+    public static final DeferredHolder<Item,Item> DF_ENDER_NECTAR = drinkblock(DisplayBlocks.DF_ENDER_NECTAR);
+    public static final DeferredHolder<Item,Item> DF_BERRY_MATCHA_LATTE = drinkblock(DisplayBlocks.DF_BERRY_MATCHA_LATTE);
 
 
     public static final DeferredHolder<Item,Item> DF_MATCHA_ICE_CREAM = block(DisplayBlocks.DF_MATCHA_ICE_CREAM);
@@ -201,9 +201,9 @@ public class DisplayItems {
     public static final DeferredHolder<Item,Item> DF_PUMPKIN_PIE_SLICE = block(SmallPlatedBlocks.DF_PUMPKIN_PIE_SLICE);
 
 //pineapple delight
-    public static final DeferredHolder<Item,Item> PD_PINEAPPLE_ICE_CREAM = block(DisplayBlocks.PD_PINEAPPLE_ICE_CREAM);
-    public static final DeferredHolder<Item,Item> PD_PINEAPPLE_MILK_SHAKE = block(DisplayBlocks.PD_PINEAPPLE_MILK_SHAKE);
-    public static final DeferredHolder<Item,Item> PD_PINEAPPLE_JUICE = block(DisplayBlocks.PD_PINEAPPLE_JUICE);
+    public static final DeferredHolder<Item,Item> PD_PINEAPPLE_ICE_CREAM = drinkblock(DisplayBlocks.PD_PINEAPPLE_ICE_CREAM);
+    public static final DeferredHolder<Item,Item> PD_PINEAPPLE_MILK_SHAKE = drinkblock(DisplayBlocks.PD_PINEAPPLE_MILK_SHAKE);
+    public static final DeferredHolder<Item,Item> PD_PINEAPPLE_JUICE = drinkblock(DisplayBlocks.PD_PINEAPPLE_JUICE);
 
     public static final DeferredHolder<Item,Item> PD_PINEAPPLE_FRIED_RICE = block(DisplayBlocks.PD_PINEAPPLE_FRIED_RICE);
     public static final DeferredHolder<Item,Item> PD_PINEAPPLE_PIE_SLICE = block(SmallPlatedBlocks.PD_PINEAPPLE_PIE_SIDE);
@@ -278,7 +278,7 @@ public class DisplayItems {
     //large meals
 
 
-    public static final DeferredHolder<Item,Item> LM_SWEET_BERRY_CUSTARD = block(DisplayBlocks.LM_SWEET_BERRY_CUSTARD);
+    public static final DeferredHolder<Item,Item> LM_SWEET_BERRY_CUSTARD = drinkblock(DisplayBlocks.LM_SWEET_BERRY_CUSTARD);
 
     public static final DeferredHolder<Item,Item> LM_PUFFERFISH_BROTH = block(DisplayBlocks.LM_PUFFERFISH_BROTH);
     public static final DeferredHolder<Item,Item> LM_RICE_PUDDING = block(DisplayBlocks.LM_RICE_PUDDING);
@@ -299,8 +299,8 @@ public class DisplayItems {
 
     //festive delight
 
-    public static final DeferredHolder<Item,Item> FD_CHRISTMAS_TEA = block(DisplayBlocks.FD_CHRISTMAS_TEA);
-    public static final DeferredHolder<Item,Item> FD_SALMON_VERRINES = block(DisplayBlocks.FD_SALMON_VERRINES);
+    public static final DeferredHolder<Item,Item> FD_CHRISTMAS_TEA = drinkblock(DisplayBlocks.FD_CHRISTMAS_TEA);
+    public static final DeferredHolder<Item,Item> FD_SALMON_VERRINES = drinkblock(DisplayBlocks.FD_SALMON_VERRINES);
     public static final DeferredHolder<Item,Item> FD_FESTIVE_CHICKEN = block(DisplayBlocks.FD_FESTIVE_CHICKEN);
 
     //brewin and chewin
@@ -337,7 +337,7 @@ public class DisplayItems {
 
 
     //ender delight
-    public static final DeferredHolder<Item,Item> ERD_CHORUS_JUICE = block(DisplayBlocks.ERD_CHORUS_JUICE);
+    public static final DeferredHolder<Item,Item> ERD_CHORUS_JUICE = drinkblock(DisplayBlocks.ERD_CHORUS_JUICE);
 
     public static final DeferredHolder<Item,Item> ERD_AMBERVEIL_STEW = block(DisplayBlocks.ERD_AMBERVEIL_STEW);
     public static final DeferredHolder<Item,Item> ERD_AMBERVEILED_CURRY = block(DisplayBlocks.ERD_AMBERVEILED_CURRY);
@@ -363,11 +363,11 @@ public class DisplayItems {
 
     //ends delight
 
-    public static final DeferredHolder<Item,Item> EDD_CHORUS_FRUIT_MILK_TEA = block(DisplayBlocks.EDD_CHORUS_FRUIT_MILK_TEA);
-    public static final DeferredHolder<Item,Item> EDD_CHORUS_FRUIT_WINE = block(DisplayBlocks.EDD_CHORUS_FRUIT_WINE);
-    public static final DeferredHolder<Item,Item> EDD_BUBBLE_TEA = block(DisplayBlocks.EDD_BUBBLE_TEA);
-    public static final DeferredHolder<Item,Item> EDD_DRAGON_BREATH_SODA = block(DisplayBlocks.EDD_DRAGON_BREATH_SODA);
-    public static final DeferredHolder<Item,Item> EDD_CHORUS_FLOWER_TEA = block(DisplayBlocks.EDD_CHORUS_FLOWER_TEA);
+    public static final DeferredHolder<Item,Item> EDD_CHORUS_FRUIT_MILK_TEA = drinkblock(DisplayBlocks.EDD_CHORUS_FRUIT_MILK_TEA);
+    public static final DeferredHolder<Item,Item> EDD_CHORUS_FRUIT_WINE = drinkblock(DisplayBlocks.EDD_CHORUS_FRUIT_WINE);
+    public static final DeferredHolder<Item,Item> EDD_BUBBLE_TEA = drinkblock(DisplayBlocks.EDD_BUBBLE_TEA);
+    public static final DeferredHolder<Item,Item> EDD_DRAGON_BREATH_SODA = drinkblock(DisplayBlocks.EDD_DRAGON_BREATH_SODA);
+    public static final DeferredHolder<Item,Item> EDD_CHORUS_FLOWER_TEA = drinkblock(DisplayBlocks.EDD_CHORUS_FLOWER_TEA);
 
 
     public static final DeferredHolder<Item,Item> EDD_DRAGON_BREATH_AND_CHORUS_SOUP = block(DisplayBlocks.EDD_DRAGON_BREATH_AND_CHORUS_SOUP);
@@ -461,7 +461,14 @@ public class DisplayItems {
         return  item;
 
     }
+    private static DeferredHolder<Item, Item> drinkblock(DeferredHolder<Block, Block> block) {
+        DeferredHolder<Item, Item> item = REGISTRY.register(block.getId().getPath(), () -> {
+            return new FoodBlockItem((Block)block.get(), new Item.Properties(),true);
+        });
+        items.add(item);
+        return  item;
 
+    }
     public static Iterable<Item> GetAll(){
         return items.stream().map(DeferredHolder::get).toList();
     }
