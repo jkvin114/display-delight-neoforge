@@ -1,6 +1,7 @@
 package com.jkvin114.displaydelight.init;
 
 import com.jkvin114.displaydelight.DisplayDelight;
+import com.jkvin114.displaydelight.block.FieryPlatedFoodBlock;
 import com.jkvin114.displaydelight.block.SimplePlatedFoodBlock;
 import com.jkvin114.displaydelight.block.StackablePlateFoodBlock;
 import net.minecraft.world.level.block.Block;
@@ -105,7 +106,7 @@ public class PlatedBlocks {
     public static final DeferredBlock<Block> CTD_EGG_ROLL = createStackablePlatedBlock("ctd_plated_egg_roll",6);
     public static final DeferredBlock<Block> CTD_CALAMARI_ROLL = createStackablePlatedBlock("ctd_plated_calamari_roll",6);
 
-    public static final DeferredBlock<Block> ACD_PLATED_CATFISH_BARBECUE = createPlatedBlock("acd_plated_catfish_barbecue");
+    public static final DeferredBlock<Block> ACD_PLATED_CATFISH_BARBECUE = createStackablePlatedBlock("acd_plated_catfish_barbecue",3);
     public static final DeferredBlock<Block> BNC_PLATED_HAM_AND_CHEESE_SANDWICH = createPlatedBlock("bnc_plated_ham_and_cheese_sandwich");
     public static final DeferredBlock<Block> ED_PLATED_CRANBERRY_GOAT_CHEESE_TOAST = createPlatedBlock("ed_plated_cranberry_goat_cheese_toast");
     public static final DeferredBlock<Block> ERD_PLATED_UNCANNY_COOKIES = createStackablePlatedBlock("erd_plated_uncanny_cookies",4);
@@ -118,24 +119,27 @@ public class PlatedBlocks {
     public static final DeferredBlock<Block> EDD_PLATED_CHORUS_FRUIT_POPSICLE = createStackablePlatedBlock("edd_plated_chorus_fruit_popsicle",2);
     public static final DeferredBlock<Block> EDD_PLATED_END_BARBECUE_STICK = createStackablePlatedBlock("edd_plated_end_barbecue_stick",3);
 
-    public static final DeferredBlock<Block> MND_PLATED_STUFFED_PEPPER = createPlatedBlock("mnd_plated_stuffed_pepper");
-    public static final DeferredBlock<Block> MND_PLATED_HOTDOG_WITH_MIXED_SALAD = createPlatedBlock("mnd_plated_hotdog_with_mixed_salad");
-    public static final DeferredBlock<Block> MND_PLATED_HOTDOG_WITH_NETHER_SALAD = createPlatedBlock("mnd_plated_hotdog_with_nether_salad");
-    public static final DeferredBlock<Block> MND_PLATED_CHILIDOG = createPlatedBlock("mnd_plated_chilidog");
+    public static final DeferredBlock<Block> MND_PLATED_STUFFED_PEPPER = createStackablePlatedBlock("mnd_plated_stuffed_pepper",2);
+    public static final DeferredBlock<Block> MND_PLATED_HOTDOG_WITH_MIXED_SALAD = createStackablePlatedBlock("mnd_plated_hotdog_with_mixed_salad",2);
+    public static final DeferredBlock<Block> MND_PLATED_HOTDOG_WITH_NETHER_SALAD = createStackablePlatedBlock("mnd_plated_hotdog_with_nether_salad",2);
+    public static final DeferredBlock<Block> MND_PLATED_CHILIDOG = createFieryStackablePlatedBlock("mnd_plated_chilidog",2);
     public static final DeferredBlock<Block> MND_PLATED_SPICY_COTTON = createPlatedBlock("mnd_plated_spicy_cotton");
-    public static final DeferredBlock<Block> MND_PLATED_FRIES_GHASTA = createPlatedBlock("mnd_plated_fries_ghasta");
-    public static final DeferredBlock<Block> MND_PLATED_DEVILED_EGG = createPlatedBlock("mnd_plated_deviled_egg");
-    public static final DeferredBlock<Block> MND_PLATED_SPICY_SKEWER = createPlatedBlock("mnd_plated_spicy_skewer");
-    public static final DeferredBlock<Block> MND_PLATED_RED_LOIN_ON_A_STICK = createPlatedBlock("mnd_plated_red_loin_on_a_stick");
+    public static final DeferredBlock<Block> MND_PLATED_FRIES_GHASTA = createStackablePlatedBlock("mnd_plated_fries_ghasta",2);
+    public static final DeferredBlock<Block> MND_PLATED_SPICY_SKEWER = createStackablePlatedBlock("mnd_plated_spicy_skewer",2);
+    public static final DeferredBlock<Block> MND_PLATED_RED_LOIN_ON_A_STICK = createStackablePlatedBlock("mnd_plated_red_loin_on_a_stick",3);
     public static final DeferredBlock<Block> MND_PLATED_NETHER_BURGER = createPlatedBlock("mnd_plated_nether_burger");
-    public static final DeferredBlock<Block> MND_PLATED_BURNT_ROLL = createPlatedBlock("mnd_plated_burnt_roll");
-    public static final DeferredBlock<Block> MND_PLATED_HOT_CREAM_CONE = createPlatedBlock("mnd_plated_hot_cream_cone");
+    public static final DeferredBlock<Block> MND_PLATED_BACON_WRAPPED_SAUSAGE_STICK = createStackablePlatedBlock("mnd_plated_bacon-wrapped_sausage_on_a_stick",2);
 
     private static BlockBehaviour.Properties baseProps(){
         return BlockBehaviour.Properties.of().noOcclusion()
                 .noTerrainParticles().instabreak().pushReaction(PushReaction.DESTROY).mapColor(MapColor.COLOR_BROWN);
     }
 
+    private static DeferredBlock<Block> createFieryStackablePlatedBlock(String name,int maxStacks){
+        return  REGISTRY.register(name,
+                ()->new FieryPlatedFoodBlock(baseProps()
+                        .sound(SoundType.WOOD),maxStacks));
+    }
     private static DeferredBlock<Block> createStackablePlatedBlock(String name,int maxStacks){
         return  REGISTRY.register(name,
                 ()->new StackablePlateFoodBlock(baseProps()
@@ -194,8 +198,8 @@ public class PlatedBlocks {
                 ACD_PLATED_CATFISH_BARBECUE.get(),BNC_PLATED_HAM_AND_CHEESE_SANDWICH.get(),ED_PLATED_CRANBERRY_GOAT_CHEESE_TOAST.get(),ERD_PLATED_UNCANNY_COOKIES.get(),
                 ERD_PLATED_CRISPY_SKEWER.get(),ERD_PLATED_STRANGE_ECLAIR.get(),ERD_PLATED_CRAWLING_SANDWICH.get(),EDD_PLATED_STUFFED_RICE_CAKE.get(),EDD_PLATED_CHORUS_FLOWER_PIE.get(),
                 EDD_PLATED_ENDER_BAMBOO_RICE.get(),EDD_PLATED_CHORUS_FRUIT_POPSICLE.get(),EDD_PLATED_END_BARBECUE_STICK.get(),MND_PLATED_STUFFED_PEPPER.get(),MND_PLATED_HOTDOG_WITH_MIXED_SALAD.get(),
-                MND_PLATED_HOTDOG_WITH_NETHER_SALAD.get(),MND_PLATED_CHILIDOG.get(),MND_PLATED_SPICY_COTTON.get(),MND_PLATED_FRIES_GHASTA.get(),MND_PLATED_DEVILED_EGG.get(),MND_PLATED_SPICY_SKEWER.get(),
-                MND_PLATED_RED_LOIN_ON_A_STICK.get(),MND_PLATED_NETHER_BURGER.get(),MND_PLATED_BURNT_ROLL.get(),MND_PLATED_HOT_CREAM_CONE.get()
+                MND_PLATED_HOTDOG_WITH_NETHER_SALAD.get(),MND_PLATED_CHILIDOG.get(),MND_PLATED_SPICY_COTTON.get(),MND_PLATED_FRIES_GHASTA.get(),MND_PLATED_SPICY_SKEWER.get(),
+                MND_PLATED_RED_LOIN_ON_A_STICK.get(),MND_PLATED_NETHER_BURGER.get(),MND_PLATED_BACON_WRAPPED_SAUSAGE_STICK.get()
 
         };
     };

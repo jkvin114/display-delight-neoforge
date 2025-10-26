@@ -306,10 +306,6 @@
       "required": false
     }
   ,{
-      "id": "mynethersdelight:deviled_egg",
-      "required": false
-    }
-  ,{
       "id": "mynethersdelight:spicy_skewer",
       "required": false
     }
@@ -320,14 +316,10 @@
   ,{
       "id": "mynethersdelight:nether_burger",
       "required": false
-    }
-  ,{
-      "id": "mynethersdelight:burnt_roll",
+    },{
+      "id": "mynethersdelight:bacon-wrapped_sausage_on_a_stick",
       "required": false
     }
-  ,{
-      "id": "mynethersdelight:hot_cream_cone",
-      "required": false
-    }
+
   ]
 }

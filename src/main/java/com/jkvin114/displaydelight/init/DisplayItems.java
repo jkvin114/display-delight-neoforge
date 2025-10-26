@@ -334,7 +334,10 @@ public class DisplayItems {
     public static final DeferredHolder<Item,Item> ACD_HALIBUT_WITH_TARTAR_SAUCE = block(DisplayBlocks.ACD_HALIBUT_WITH_TARTAR_SAUCE);
     public static final DeferredHolder<Item,Item> ACD_BUCKLING = block(DisplayBlocks.ACD_BUCKLING);
     public static final DeferredHolder<Item,Item> ACD_TURTLE_MEAT_DISH = block(DisplayBlocks.ACD_TURTLE_MEAT_DISH);
+    public static final DeferredHolder<Item,Item> ACD_PLATED_CATFISH_BARBECUE = block(PlatedBlocks.ACD_PLATED_CATFISH_BARBECUE);
 
+    public static final DeferredHolder<Item,Item> ACD_SMALL_PLATED_RAW_FISH_FILLET_ROLL = block(SmallPlatedBlocks.ACD_SMALL_PLATED_RAW_FISH_FILLET_ROLL);
+    public static final DeferredHolder<Item,Item> ACD_SMALL_PLATED_FRIED_PERCH_ROLL = block(SmallPlatedBlocks.ACD_SMALL_PLATED_FRIED_PERCH_ROLL);
 
     //ender delight
     public static final DeferredHolder<Item,Item> ERD_CHORUS_JUICE = drinkblock(DisplayBlocks.ERD_CHORUS_JUICE);
@@ -427,23 +430,19 @@ public class DisplayItems {
 
 
 
-    public static final DeferredHolder<Item,Item> ACD_PLATED_CATFISH_BARBECUE = block(PlatedBlocks.ACD_PLATED_CATFISH_BARBECUE);
     public static final DeferredHolder<Item,Item> MND_PLATED_STUFFED_PEPPER = block(PlatedBlocks.MND_PLATED_STUFFED_PEPPER);
     public static final DeferredHolder<Item,Item> MND_PLATED_HOTDOG_WITH_MIXED_SALAD = block(PlatedBlocks.MND_PLATED_HOTDOG_WITH_MIXED_SALAD);
     public static final DeferredHolder<Item,Item> MND_PLATED_HOTDOG_WITH_NETHER_SALAD = block(PlatedBlocks.MND_PLATED_HOTDOG_WITH_NETHER_SALAD);
     public static final DeferredHolder<Item,Item> MND_PLATED_CHILIDOG = block(PlatedBlocks.MND_PLATED_CHILIDOG);
     public static final DeferredHolder<Item,Item> MND_PLATED_SPICY_COTTON = block(PlatedBlocks.MND_PLATED_SPICY_COTTON);
     public static final DeferredHolder<Item,Item> MND_PLATED_FRIES_GHASTA = block(PlatedBlocks.MND_PLATED_FRIES_GHASTA);
-    public static final DeferredHolder<Item,Item> MND_PLATED_DEVILED_EGG = block(PlatedBlocks.MND_PLATED_DEVILED_EGG);
+    public static final DeferredHolder<Item,Item> MND_PLATED_BACON_WRAPPED_SAUSAGE_STICK = block(PlatedBlocks.MND_PLATED_BACON_WRAPPED_SAUSAGE_STICK);
     public static final DeferredHolder<Item,Item> MND_PLATED_SPICY_SKEWER = block(PlatedBlocks.MND_PLATED_SPICY_SKEWER);
     public static final DeferredHolder<Item,Item> MND_PLATED_RED_LOIN_ON_A_STICK = block(PlatedBlocks.MND_PLATED_RED_LOIN_ON_A_STICK);
     public static final DeferredHolder<Item,Item> MND_PLATED_NETHER_BURGER = block(PlatedBlocks.MND_PLATED_NETHER_BURGER);
-    public static final DeferredHolder<Item,Item> MND_PLATED_BURNT_ROLL = block(PlatedBlocks.MND_PLATED_BURNT_ROLL);
-    public static final DeferredHolder<Item,Item> MND_PLATED_HOT_CREAM_CONE = block(PlatedBlocks.MND_PLATED_HOT_CREAM_CONE);
 
 
-    public static final DeferredHolder<Item,Item> ACD_SMALL_PLATED_RAW_FISH_FILLET_ROLL = block(SmallPlatedBlocks.ACD_SMALL_PLATED_RAW_FISH_FILLET_ROLL);
-    public static final DeferredHolder<Item,Item> ACD_SMALL_PLATED_FRIED_PERCH_ROLL = block(SmallPlatedBlocks.ACD_SMALL_PLATED_FRIED_PERCH_ROLL);
+
     public static final DeferredHolder<Item,Item> MND_SMALL_PLATED_MAGMA_CAKE_SLICE = block(SmallPlatedBlocks.MND_SMALL_PLATED_MAGMA_CAKE_SLICE);
 
     private static DeferredHolder<Item, Item> plateblock(DeferredHolder<Block, Block> block) {
