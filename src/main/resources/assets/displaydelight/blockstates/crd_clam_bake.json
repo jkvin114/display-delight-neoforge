@@ -1,0 +1,19 @@
+{
+ "variants": {
+  "facing=north": {
+   "model": "displaydelight:block/crd_clam_bake"
+  },
+  "facing=south": {
+   "model": "displaydelight:block/crd_clam_bake",
+   "y": 180
+  },
+  "facing=west": {
+   "model": "displaydelight:block/crd_clam_bake",
+   "y": 270
+  },
+  "facing=east": {
+   "model": "displaydelight:block/crd_clam_bake",
+   "y": 90
+  }
+ }
+}

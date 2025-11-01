@@ -2,6 +2,7 @@ package com.jkvin114.displaydelight.init;
 
 import com.jkvin114.displaydelight.DisplayDelight;
 import com.jkvin114.displaydelight.block.SmallPlatedFoodBlock;
+import com.jkvin114.displaydelight.block.fiery.FierySmallPlatedFoodBlock;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -60,7 +61,7 @@ public class SmallPlatedBlocks {
     public static final DeferredBlock<Block> ACD_SMALL_PLATED_FRIED_PERCH_ROLL = createPlatedBlock("acd_small_plated_fried_perch_roll");
     public static final DeferredBlock<Block> ERD_SMALL_PLATED_CHORUS_PIE_SLICE = createPlatedBlock("erd_small_plated_chorus_pie_slice");
     public static final DeferredBlock<Block> EDD_SMALL_PLATED_CHORUS_FRUIT_PIE_SLICE = createPlatedBlock("edd_small_plated_chorus_fruit_pie_slice");
-    public static final DeferredBlock<Block> MND_SMALL_PLATED_MAGMA_CAKE_SLICE = createPlatedBlock("mnd_small_plated_magma_cake_slice");
+    public static final DeferredBlock<Block> MND_SMALL_PLATED_MAGMA_CAKE_SLICE = createFieryPlatedBlock("mnd_small_plated_magma_cake_slice");
 
 
     private static BlockBehaviour.Properties baseProps() {
@@ -74,6 +75,11 @@ public class SmallPlatedBlocks {
                         .sound(SoundType.WOOD)));
     }
 
+    private static DeferredBlock<Block> createFieryPlatedBlock(String name) {
+        return REGISTRY.register(name,
+                () -> new FierySmallPlatedFoodBlock(baseProps()
+                        .sound(SoundType.WOOD)));
+    }
     public static Block[] getAll() {
         return new Block[]{PLATED_APPLE_PIE_SLICE.get(), PLATED_CAKE_SLICE.get(),
                 PLATED_CHOCOLATE_PIE_SLICE.get(), PLATED_SWEET_BERRY_CHEESECAKE_SLICE.get(),

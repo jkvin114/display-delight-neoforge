@@ -7,6 +7,7 @@ import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.neoforged.neoforge.registries.DeferredHolder;
+import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
 import java.util.ArrayList;
@@ -401,6 +402,25 @@ public class DisplayItems {
     public static final DeferredHolder<Item,Item> EDD_SMALL_PLATED_CHORUS_FRUIT_PIE_SLICE = block(SmallPlatedBlocks.EDD_SMALL_PLATED_CHORUS_FRUIT_PIE_SLICE);
 
 
+    public static final DeferredHolder<Item,Item> CRD_KELP_SHAKE = block(DisplayBlocks.CRD_KELP_SHAKE);
+    public static final DeferredHolder<Item,Item> CRD_COCONUT_PUDDING = block(DisplayBlocks.CRD_COCONUT_PUDDING);;
+    public static final DeferredHolder<Item,Item> CRD_COOCNUT_MILK = block(DisplayBlocks.CRD_COOCNUT_MILK);
+
+    public static final DeferredHolder<Item,Item> CRD_SEAFOOD_GUMBO = block(DisplayBlocks.CRD_SEAFOOD_GUMBO);
+    public static final DeferredHolder<Item,Item> CRD_SHRIMP_FRIED_RICE =block(DisplayBlocks.CRD_SHRIMP_FRIED_RICE);
+    public static final DeferredHolder<Item,Item> CRD_CORAL_CRUNCH = block(DisplayBlocks.CRD_CORAL_CRUNCH);
+    public static final DeferredHolder<Item,Item> CRD_CLAM_CHOWDER = block(DisplayBlocks.CRD_CLAM_CHOWDER);
+    public static final DeferredHolder<Item,Item> CRD_BISQUE = block(DisplayBlocks.CRD_BISQUE);
+    public static final DeferredHolder<Item,Item> CRD_CLAM_BAKE = block(DisplayBlocks.CRD_CLAM_BAKE);
+    public static final DeferredHolder<Item,Item> CRD_SURF_AND_TURF = block(DisplayBlocks.CRD_SURF_AND_TURF);
+
+
+
+    public static final DeferredHolder<Item,Item> CRD_FROG_LEG_KEBAB = block(PlatedBlocks.CRD_FROG_LEG_KEBAB);
+    public static final DeferredHolder<Item,Item> CRD_SQUID_KEBAB =block(PlatedBlocks.CRD_SQUID_KEBAB);
+    public static final DeferredHolder<Item,Item> CRD_SHRIMP_SKEWER = block(PlatedBlocks.CRD_SHRIMP_SKEWER);
+    public static final DeferredHolder<Item,Item> CRD_FISH_STICK =block(PlatedBlocks.CRD_FISH_STICK);
+    public static final DeferredHolder<Item,Item> CRD_STUFFED_NAUTILUS_SHELL =block(PlatedBlocks.CRD_STUFFED_NAUTILUS_SHELL);
     public static final DeferredHolder<Item,Item> MND_SIZZLING_PUDDING = block(DisplayBlocks.MND_SIZZLING_PUDDING);
     public static final DeferredHolder<Item,Item> MND_ROCK_SOUP = block(DisplayBlocks.MND_ROCK_SOUP);
     public static final DeferredHolder<Item,Item> MND_SPICY_NOODLE_SOUP = block(DisplayBlocks.MND_SPICY_NOODLE_SOUP);
@@ -441,29 +461,35 @@ public class DisplayItems {
     public static final DeferredHolder<Item,Item> MND_PLATED_RED_LOIN_ON_A_STICK = block(PlatedBlocks.MND_PLATED_RED_LOIN_ON_A_STICK);
     public static final DeferredHolder<Item,Item> MND_PLATED_NETHER_BURGER = block(PlatedBlocks.MND_PLATED_NETHER_BURGER);
 
-
-
     public static final DeferredHolder<Item,Item> MND_SMALL_PLATED_MAGMA_CAKE_SLICE = block(SmallPlatedBlocks.MND_SMALL_PLATED_MAGMA_CAKE_SLICE);
 
+    public static final DeferredHolder<Item,Item> ND_STRIDER_MOSS_STEW = blockNoCreativeTab(DisplayBlocks.ND_STRIDER_MOSS_STEW);
+    public static final DeferredHolder<Item,Item> ND_WARPED_MOLDY_MEAT =  blockNoCreativeTab(DisplayBlocks.ND_WARPED_MOLDY_MEAT);
+    public static final DeferredHolder<Item,Item> ND_GRILLED_STRIDER =  blockNoCreativeTab(DisplayBlocks.ND_GRILLED_STRIDER);
+    public static final DeferredHolder<Item,Item> ND_PLATE_OF_STUFFED_HOGLIN_SNOUT =  blockNoCreativeTab(DisplayBlocks.ND_PLATE_OF_STUFFED_HOGLIN_SNOUT);
+    public static final DeferredHolder<Item,Item> ND_PLATE_OF_STUFFED_HOGLIN_HAM =  blockNoCreativeTab(DisplayBlocks.ND_PLATE_OF_STUFFED_HOGLIN_HAM);
+    public static final DeferredHolder<Item,Item> ND_PLATE_OF_STUFFED_HOGLIN_ROAST =  blockNoCreativeTab(DisplayBlocks.ND_PLATE_OF_STUFFED_HOGLIN_ROAST);
+     static final DeferredHolder<Item,Item> ND_NETHER_SKEWER =  blockNoCreativeTab(PlatedBlocks.ND_NETHER_SKEWER);
+    
     private static DeferredHolder<Item, Item> plateblock(DeferredHolder<Block, Block> block) {
-        DeferredHolder<Item, Item> item = REGISTRY.register(block.getId().getPath(), () -> {
-            return new BlockItem((Block)block.get(), new Item.Properties());
-        });
+        DeferredHolder<Item, Item> item = REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
         items.add(item);
         return  item;
 
-    }private static DeferredHolder<Item, Item> block(DeferredHolder<Block, Block> block) {
-        DeferredHolder<Item, Item> item = REGISTRY.register(block.getId().getPath(), () -> {
-            return new FoodBlockItem((Block)block.get(), new Item.Properties());
-        });
+    }private static DeferredHolder<Item, Item> blockNoCreativeTab(DeferredHolder<Block, Block> block) {
+        DeferredHolder<Item, Item> item = REGISTRY.register(block.getId().getPath(), () -> new FoodBlockItem(block.get(), new Item.Properties()));
+
+        return  item;
+
+    }
+    private static DeferredHolder<Item, Item> block(DeferredHolder<Block, Block> block) {
+        DeferredHolder<Item, Item> item = REGISTRY.register(block.getId().getPath(), () -> new FoodBlockItem(block.get(), new Item.Properties()));
         items.add(item);
         return  item;
 
     }
     private static DeferredHolder<Item, Item> drinkblock(DeferredHolder<Block, Block> block) {
-        DeferredHolder<Item, Item> item = REGISTRY.register(block.getId().getPath(), () -> {
-            return new FoodBlockItem((Block)block.get(), new Item.Properties(),true);
-        });
+        DeferredHolder<Item, Item> item = REGISTRY.register(block.getId().getPath(), () -> new FoodBlockItem(block.get(), new Item.Properties(),true));
         items.add(item);
         return  item;
 

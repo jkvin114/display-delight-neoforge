@@ -2,6 +2,8 @@ package com.jkvin114.displaydelight.init;
 
 import com.jkvin114.displaydelight.DisplayDelight;
 import com.jkvin114.displaydelight.block.*;
+import com.jkvin114.displaydelight.block.fiery.FieryFoodBlock;
+import com.jkvin114.displaydelight.block.fiery.FieryWideFoodBlock;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -212,13 +214,13 @@ public class DisplayBlocks {
     public static final DeferredBlock<Block> EDD_DRAGON_LEG_WITH_SAUCE = createFoodBlock("edd_dragon_leg_with_sauce");
 
     public static final DeferredBlock<Block> MND_SIZZLING_PUDDING = createFoodBlock("mnd_sizzling_pudding");
-    public static final DeferredBlock<Block> MND_ROCK_SOUP = createFoodBlock("mnd_rock_soup");
-    public static final DeferredBlock<Block> MND_SPICY_NOODLE_SOUP = createFoodBlock("mnd_spicy_noodle_soup");
+    public static final DeferredBlock<Block> MND_ROCK_SOUP = createFieryFoodBlock("mnd_rock_soup");
+    public static final DeferredBlock<Block> MND_SPICY_NOODLE_SOUP = createFieryFoodBlock("mnd_spicy_noodle_soup");
     public static final DeferredBlock<Block> MND_STRIDER_STEW = createFoodBlock("mnd_strider_stew");
     public static final DeferredBlock<Block> MND_GHAST_SALAD = createFoodBlock("mnd_ghast_salad");
     public static final DeferredBlock<Block> MND_DRIED_GHAST_WITH_MILK = createFoodBlock("mnd_dried_ghast_with_milk");
     public static final DeferredBlock<Block> MND_SAUSAGE_AND_POTATOES = createFoodBlock("mnd_sausage_and_potatoes");
-    public static final DeferredBlock<Block> MND_SPICY_HOGLIN_STEW = createFoodBlock("mnd_spicy_hoglin_stew");
+    public static final DeferredBlock<Block> MND_SPICY_HOGLIN_STEW = createFieryFoodBlock("mnd_spicy_hoglin_stew");
     public static final DeferredBlock<Block> MND_EGG_SOUP = createFoodBlock("mnd_egg_soup");
     public static final DeferredBlock<Block> MND_BREAKFAST_SAMPLER = createWideFoodBlock("mnd_breakfast_sampler");
     public static final DeferredBlock<Block> MND_FRIED_HOGLIN_CHOP = createWideFoodBlock("mnd_fried_hoglin_chop");
@@ -228,9 +230,9 @@ public class DisplayBlocks {
     public static final DeferredBlock<Block> MND_GIANT_TAKOYAKI = createWideFoodBlock("mnd_giant_takoyaki");
     public static final DeferredBlock<Block> MND_BLUE_TENDERLOIN_STEAK = createWideFoodBlock("mnd_blue_tenderloin_steak");
     public static final DeferredBlock<Block> MND_CRIMSON_STROGANOFF = createWideFoodBlock("mnd_crimson_stroganoff");
-    public static final DeferredBlock<Block> MND_SPICY_CURRY = createWideFoodBlock("mnd_spicy_curry");
+    public static final DeferredBlock<Block> MND_SPICY_CURRY = createFieryWideFoodBlock("mnd_spicy_curry");
     public static final DeferredBlock<Block> MND_BLEEDING_TARTAR = createWideFoodBlock("mnd_bleeding_tartar");
-    public static final DeferredBlock<Block> MND_HOT_WINGS = createWideFoodBlock("mnd_hot_wings");
+    public static final DeferredBlock<Block> MND_HOT_WINGS = createFieryWideFoodBlock("mnd_hot_wings");
 
     public static final DeferredBlock<Block> MND_PLATE_OF_GHASTA_WITH_CREAM = createFoodBlock("mnd_plate_of_ghasta_with_cream");
     public static final DeferredBlock<Block> MND_PLATE_OF_STUFFED_HOGLIN_SNOUT = createFoodBlock("mnd_plate_of_stuffed_hoglin_snout");
@@ -238,6 +240,26 @@ public class DisplayBlocks {
     public static final DeferredBlock<Block> MND_PLATE_OF_STUFFED_HOGLIN = createFoodBlock("mnd_plate_of_stuffed_hoglin");
     public static final DeferredBlock<Block> MND_PLATE_OF_COLD_STRIDERLOAF = createFoodBlock("mnd_plate_of_cold_striderloaf");
     public static final DeferredBlock<Block> MND_PLATE_OF_STRIDERLOAF = createFoodBlock("mnd_plate_of_striderloaf");
+
+    public static final DeferredBlock<Block> CRD_KELP_SHAKE = createDrinkFoodBlock("crd_kelp_shake");
+    public static final DeferredBlock<Block> CRD_COCONUT_PUDDING = createDrinkFoodBlock("crd_coconut_pudding");
+    public static final DeferredBlock<Block> CRD_COOCNUT_MILK = createDrinkFoodBlock("crd_coconut_milk");
+
+    public static final DeferredBlock<Block> CRD_CLAM_BAKE = createWideFoodBlock("crd_clam_bake");
+    public static final DeferredBlock<Block> CRD_SURF_AND_TURF = createWideFoodBlock("crd_surf_and_turf");
+
+    public static final DeferredBlock<Block> CRD_SEAFOOD_GUMBO = createFoodBlock("crd_seafood_gumbo");
+    public static final DeferredBlock<Block> CRD_SHRIMP_FRIED_RICE = createFoodBlock("crd_shrimp_fried_rice");
+    public static final DeferredBlock<Block> CRD_CORAL_CRUNCH = createFoodBlock("crd_coral_crunch");
+    public static final DeferredBlock<Block> CRD_CLAM_CHOWDER = createFoodBlock("crd_clam_chowder");
+    public static final DeferredBlock<Block> CRD_BISQUE = createFoodBlock("crd_bisque");
+    public static final DeferredBlock<Block> ND_PLATE_OF_STUFFED_HOGLIN_SNOUT = createFoodBlock("nd_plate_of_stuffed_hoglin_snout");
+    public static final DeferredBlock<Block> ND_PLATE_OF_STUFFED_HOGLIN_HAM = createFoodBlock("nd_plate_of_stuffed_hoglin_ham");
+    public static final DeferredBlock<Block> ND_PLATE_OF_STUFFED_HOGLIN_ROAST = createFoodBlock("nd_plate_of_stuffed_hoglin_roast");
+    public static final DeferredBlock<Block> ND_STRIDER_MOSS_STEW = createFoodBlock("nd_strider_moss_stew");
+    public static final DeferredBlock<Block> ND_WARPED_MOLDY_MEAT = createWideFoodBlock("nd_warped_moldy_meat");
+    public static final DeferredBlock<Block> ND_GRILLED_STRIDER = createWideFoodBlock("nd_grilled_strider");
+
 
     public static Block[] getAll() {
         return new Block[]{
@@ -320,6 +342,16 @@ public class DisplayBlocks {
     private static DeferredBlock<Block> createFoodBlock(String name){
         return  REGISTRY.register(name,
                 ()->new FoodBlock(baseProps()
+                        .sound(SoundType.WOOD)));
+    }
+    private static DeferredBlock<Block> createFieryWideFoodBlock(String name){
+        return  REGISTRY.register(name,
+                ()->new FieryWideFoodBlock(baseProps()
+                        .sound(SoundType.WOOD)));
+    }
+    private static DeferredBlock<Block> createFieryFoodBlock(String name){
+        return  REGISTRY.register(name,
+                ()->new FieryFoodBlock(baseProps()
                         .sound(SoundType.WOOD)));
     }
 }

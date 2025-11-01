@@ -319,7 +319,24 @@
     },{
       "id": "mynethersdelight:bacon-wrapped_sausage_on_a_stick",
       "required": false
+    },{
+      "id": "crabbersdelight:stuffed_nautilus_shell",
+      "required": false
+    },{
+      "id": "crabbersdelight:fish_stick",
+      "required": false
+    },{
+      "id": "crabbersdelight:shrimp_skewer",
+      "required": false
+    },{
+      "id": "crabbersdelight:squid_kebab",
+      "required": false
+    },{
+      "id": "crabbersdelight:frog_leg_kebab",
+      "required": false
+    },{
+      "id": "nethersdelight:nether_skewer",
+      "required": false
     }
-
   ]
 }

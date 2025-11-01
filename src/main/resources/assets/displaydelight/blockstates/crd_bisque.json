@@ -1,0 +1,19 @@
+{
+ "variants": {
+  "facing=north": {
+   "model": "displaydelight:block/crd_bisque"
+  },
+  "facing=south": {
+   "model": "displaydelight:block/crd_bisque",
+   "y": 180
+  },
+  "facing=west": {
+   "model": "displaydelight:block/crd_bisque",
+   "y": 270
+  },
+  "facing=east": {
+   "model": "displaydelight:block/crd_bisque",
+   "y": 90
+  }
+ }
+}

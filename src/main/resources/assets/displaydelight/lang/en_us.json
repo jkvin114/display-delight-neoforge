@@ -320,6 +320,34 @@
 ,"block.displaydelight.erd_small_plated_chorus_pie_slice": "Small Plated Chorus Pie Slice Block"
 ,"block.displaydelight.edd_small_plated_chorus_fruit_pie_slice": "Small Plated Chorus Fruit Pie Slice Block"
 ,"block.displaydelight.mnd_small_plated_magma_cake_slice": "Small Plated Magma Cake Slice Block",
-  "block.displaydelight.mnd_plated_bacon-wrapped_sausage_on_a_stick": "Plated Bacon-Wrapped Sausage on a Stick"
+  "block.displaydelight.mnd_plated_bacon-wrapped_sausage_on_a_stick": "Plated Bacon-Wrapped Sausage on a Stick",
+  "block.displaydelight.crd_clam_bake": "Clam Bake Block",
+"block.displaydelight.crd_clam_chowder": "Clam Chowder Block",
+"block.displaydelight.crd_coconut_milk": "Coconut Milk Block",
+"block.displaydelight.crd_coconut_pudding": "Coconut Pudding Block",
+"block.displaydelight.crd_coral_crunch": "Coral Crunch Block",
+"block.displaydelight.crd_kelp_shake": "Kelp Shake Block",
+"block.displaydelight.crd_plated_fish_stick": "Plated Fish Stick Block",
+"block.displaydelight.crd_plated_frog_leg_kebab": "Plated Frog Leg Kebab Block",
+"block.displaydelight.crd_plated_shrimp_skewer": "Plated Shrimp Skewer Block",
+"block.displaydelight.crd_plated_squid_kebab": "Plated Squid Kebab Block",
+"block.displaydelight.crd_plated_stuffed_nautilus_shell": "Plated Stuffed Nautilus Shell Block",
+"block.displaydelight.crd_seafood_gumbo": "Seafood Gumbo Block",
+"block.displaydelight.crd_shrimp_fried_rice": "Shrimp Fried Rice Block",
+"block.displaydelight.crd_surf_and_turf": "Surf 'n Turf Block",
+"block.displaydelight.nd_grilled_strider": "Ground Strider Block",
+"block.displaydelight.nd_plated_nether_skewer": "Plated Nether Skewer Block",
+"block.displaydelight.nd_plate_of_stuffed_hoglin_ham"   : "Plate Of Stuffed Hoglin Ham Block",
+"block.displaydelight.nd_plate_of_stuffed_hoglin_roast" : "Plate Of Stuffed Hoglin Roast Block",
+"block.displaydelight.nd_plate_of_stuffed_hoglin_snout" : "Plate Of Stuffed Hoglin Snout Block",
+"block.displaydelight.nd_strider_moss_stew": "Strider Moss Stew Block",
+"block.displaydelight.nd_warped_moldy_meat": "Warped Moldy Meat Block",
+
+
+  "displaydelight.jei.info.foodblockitems": "Food block items can be obtained by breaking placed food blocks with silk touch tools, or buying from wandering trader.",
+
+  "displaydelight.jei.info.food_plate": "A decorative item where you can place on finger foods from Farmer's Delight and other add-ons",
+
+  "displaydelight.jei.info.small_food_plate": "A decorative item where you can place on smaller finger foods from Farmer's Delight and other add-ons."
 }
 

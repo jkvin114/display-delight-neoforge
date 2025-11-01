@@ -1,0 +1,19 @@
+{
+ "variants": {
+  "facing=north": {
+   "model": "displaydelight:block/mnd_plate_of_stuffed_hoglin_ham"
+  },
+  "facing=south": {
+   "model": "displaydelight:block/mnd_plate_of_stuffed_hoglin_ham",
+   "y": 180
+  },
+  "facing=west": {
+   "model": "displaydelight:block/mnd_plate_of_stuffed_hoglin_ham",
+   "y": 270
+  },
+  "facing=east": {
+   "model": "displaydelight:block/mnd_plate_of_stuffed_hoglin_ham",
+   "y": 90
+  }
+ }
+}

@@ -94,7 +94,7 @@
 			"rotation": {"angle": 45, "axis": "x", "origin": [2, 0, 0]},
 			"faces": {
 				"north": {"uv": [11, 0, 14, 5], "texture": "#0"},
-				"south": {"uv": [6, 0, 9, 5], "texture": "#missing"}
+				"south": {"uv": [14, 0, 11, 5], "texture": "#0"}
 			}
 		},
 		{

@@ -23,6 +23,9 @@
 - Brewin and chewin : BNC
 - large meals : LM
 - aquaculture delight : ACD
+- nether's delight : ND
+- crabber's delight : CRD
+
 ## Patch notes
 
 ### 1.1.0

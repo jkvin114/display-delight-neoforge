@@ -42,6 +42,10 @@ public class BlockAssociations {
             "mushroom_stew", "rabbit_stew", "beetroot_soup",
             "pumpkin_pie", "cookie"
     );
+    private static final Set<String> NO_WANDERING_TRADER = Set.of(
+            "nethersdelight"
+    );
+
     private static final Map<String, String> COMPAT_NAMESPACES = new HashMap<>() {{
         put("", "");
         put("cd_", "corn_delight");
@@ -58,6 +62,8 @@ public class BlockAssociations {
         put("erd_", "endersdelight");
         put("edd_", "ends_delight");
         put("mnd_", "mynethersdelight");
+        put("nd_", "nethersdelight");
+        put("crd_", "crabbersdelight");
     }};
 
     private static final Map<String, String> FULL_MODNAMES = new HashMap<>() {{
@@ -77,6 +83,8 @@ public class BlockAssociations {
         put("endersdelight", "Ender's Delight");
         put("ends_delight", "End's Delight");
         put("mynethersdelight", "My Nether's Delight");
+        put("nethersdelight", "Nether's Delight");
+        put("crabbersdelight", "Crabber's Delight");
     }};
 
     public static final List<Item> TRADEABLE_DRINKS = new ArrayList<>();
@@ -196,22 +204,29 @@ public class BlockAssociations {
                 if(!isVanila && !ModList.get().isLoaded(fullNamespace)){
                     String name = FULL_MODNAMES.getOrDefault(fullNamespace,"");
                     ((FoodBlockItem) item).setRequiredModName(name);
+                    boolean soldByTrader  =true;
 
-                    if(((FoodBlockItem) item).isDrink){
-                        TRADEABLE_DRINKS.add(item);
-                    }
-                    else if(foodNameWithPlate.startsWith("plated_")){
-                        TRADEABLE_PLATES.add(item);
-                    }else if(foodNameWithPlate.startsWith("small_plated_")){
-                        TRADEABLE_SMALL_PLATES.add(item);
-                    }
-                    else{
-                        TRADEABLE_FOODS.add(item);
+                    //exclude nethersdelight foods from wandering trader trades
+                    if(NO_WANDERING_TRADER.contains(fullNamespace)){
+                        soldByTrader  =false;
                     }
 
+                    if(soldByTrader){
+                        if(((FoodBlockItem) item).isDrink){
+                            TRADEABLE_DRINKS.add(item);
+                        }
+                        else if(foodNameWithPlate.startsWith("plated_")){
+                            TRADEABLE_PLATES.add(item);
+                        }else if(foodNameWithPlate.startsWith("small_plated_")){
+                            TRADEABLE_SMALL_PLATES.add(item);
+                        }
+                        else{
+                            TRADEABLE_FOODS.add(item);
+                        }
+                    }
                 }
 
-                LOGGER.info("Registering {} as {} from {}", itemId, foodName, fullNamespace);
+          //      LOGGER.info("Registering {} as {} from {}", itemId, foodName, fullNamespace);
 
                 Item registeredFoodItem = BuiltInRegistries.ITEM.get(ResourceLocation.fromNamespaceAndPath(fullNamespace,foodName));
                 if(registeredFoodItem == Items.AIR) {

@@ -670,6 +670,54 @@
   ,{
       "id": "mynethersdelight:plate_of_striderloaf",
       "required": false
+    },{
+      "id": "crabbersdelight:kelp_shake",
+      "required": false
+    },{
+      "id": "crabbersdelight:coconut_pudding",
+      "required": false
+    },{
+      "id": "crabbersdelight:coconut_milk",
+      "required": false
+    },{
+      "id": "crabbersdelight:clam_bake",
+      "required": false
+    },{
+      "id": "crabbersdelight:surf_and_turf",
+      "required": false
+    },{
+      "id": "crabbersdelight:seafood_gumbo",
+      "required": false
+    },{
+      "id": "crabbersdelight:shrimp_fried_rice",
+      "required": false
+    },{
+      "id": "crabbersdelight:coral_crunch",
+      "required": false
+    },{
+      "id": "crabbersdelight:clam_chowder",
+      "required": false
+    },{
+      "id": "crabbersdelight:bisque",
+      "required": false
+    },{
+      "id": "nethersdelight:plate_of_stuffed_hoglin_snout",
+      "required": false
+    },{
+      "id": "nethersdelight:plate_of_stuffed_hoglin_ham",
+      "required": false
+    },{
+      "id": "nethersdelight:plate_of_stuffed_hoglin_roast",
+      "required": false
+    },{
+      "id": "nethersdelight:strider_moss_stew",
+      "required": false
+    },{
+      "id": "nethersdelight:warped_moldy_meat",
+      "required": false
+    },{
+      "id": "nethersdelight:grilled_strider",
+      "required": false
     }
   ]
 }

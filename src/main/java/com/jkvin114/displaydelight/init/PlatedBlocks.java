@@ -1,7 +1,7 @@
 package com.jkvin114.displaydelight.init;
 
 import com.jkvin114.displaydelight.DisplayDelight;
-import com.jkvin114.displaydelight.block.FieryPlatedFoodBlock;
+import com.jkvin114.displaydelight.block.fiery.FieryPlatedFoodBlock;
 import com.jkvin114.displaydelight.block.SimplePlatedFoodBlock;
 import com.jkvin114.displaydelight.block.StackablePlateFoodBlock;
 import net.minecraft.world.level.block.Block;
@@ -129,6 +129,15 @@ public class PlatedBlocks {
     public static final DeferredBlock<Block> MND_PLATED_RED_LOIN_ON_A_STICK = createStackablePlatedBlock("mnd_plated_red_loin_on_a_stick",3);
     public static final DeferredBlock<Block> MND_PLATED_NETHER_BURGER = createPlatedBlock("mnd_plated_nether_burger");
     public static final DeferredBlock<Block> MND_PLATED_BACON_WRAPPED_SAUSAGE_STICK = createStackablePlatedBlock("mnd_plated_bacon-wrapped_sausage_on_a_stick",2);
+
+    public static final DeferredBlock<Block> ND_NETHER_SKEWER = createStackablePlatedBlock("nd_plated_nether_skewer",2);
+
+    public static final DeferredBlock<Block> CRD_FROG_LEG_KEBAB = createPlatedBlock("crd_plated_frog_leg_kebab");
+    public static final DeferredBlock<Block> CRD_SQUID_KEBAB = createPlatedBlock("crd_plated_squid_kebab");
+    public static final DeferredBlock<Block> CRD_SHRIMP_SKEWER = createPlatedBlock("crd_plated_shrimp_skewer");
+    public static final DeferredBlock<Block> CRD_FISH_STICK = createPlatedBlock("crd_plated_fish_stick");
+    public static final DeferredBlock<Block> CRD_STUFFED_NAUTILUS_SHELL = createPlatedBlock("crd_plated_stuffed_nautilus_shell");
+
 
     private static BlockBehaviour.Properties baseProps(){
         return BlockBehaviour.Properties.of().noOcclusion()

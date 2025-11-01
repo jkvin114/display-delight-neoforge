@@ -5,9 +5,9 @@
 	"render_type": "cutout",
 	"textures": {
 		"0": "displaydelight:block/mnd_hot_wings",
+		"particle": "displaydelight:block/mnd_hot_wings",
 		"tray_top": "farmers3d/tray_top",
-		"tray_bottom": "farmers3d/tray_bottom",
-		"particle": "displaydelight:block/mnd_hot_wings"
+		"tray_bottom": "farmers3d/tray_bottom"
 	},
 	"elements": [
 		{
@@ -70,7 +70,7 @@
 			"faces": {
 				"north": {"uv": [7, 3, 10, 6], "texture": "#0"},
 				"east": {"uv": [10, 0, 7, 3], "texture": "#0"},
-				"south": {"uv": [12, 0, 15, 3], "texture": "#0"},
+				"south": {"uv": [7, 0, 10, 3], "texture": "#0"},
 				"west": {"uv": [7, 0, 10, 3], "texture": "#0"},
 				"up": {"uv": [10, 6, 7, 3], "texture": "#0"},
 				"down": {"uv": [10, 3, 7, 6], "texture": "#0"}

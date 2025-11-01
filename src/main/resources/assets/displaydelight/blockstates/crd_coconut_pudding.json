@@ -1,0 +1,19 @@
+{
+ "variants": {
+  "facing=north": {
+   "model": "displaydelight:block/crd_coconut_pudding"
+  },
+  "facing=south": {
+   "model": "displaydelight:block/crd_coconut_pudding",
+   "y": 180
+  },
+  "facing=west": {
+   "model": "displaydelight:block/crd_coconut_pudding",
+   "y": 270
+  },
+  "facing=east": {
+   "model": "displaydelight:block/crd_coconut_pudding",
+   "y": 90
+  }
+ }
+}

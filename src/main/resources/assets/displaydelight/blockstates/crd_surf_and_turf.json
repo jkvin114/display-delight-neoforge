@@ -1,0 +1,19 @@
+{
+ "variants": {
+  "facing=north": {
+   "model": "displaydelight:block/crd_surf_and_turf"
+  },
+  "facing=south": {
+   "model": "displaydelight:block/crd_surf_and_turf",
+   "y": 180
+  },
+  "facing=west": {
+   "model": "displaydelight:block/crd_surf_and_turf",
+   "y": 270
+  },
+  "facing=east": {
+   "model": "displaydelight:block/crd_surf_and_turf",
+   "y": 90
+  }
+ }
+}

@@ -1,0 +1,19 @@
+{
+ "variants": {
+  "facing=north": {
+   "model": "displaydelight:block/crd_plated_frog_leg_kebab_1"
+  },
+  "facing=south": {
+   "model": "displaydelight:block/crd_plated_frog_leg_kebab_1",
+   "y": 180
+  },
+  "facing=west": {
+   "model": "displaydelight:block/crd_plated_frog_leg_kebab_1",
+   "y": 270
+  },
+  "facing=east": {
+   "model": "displaydelight:block/crd_plated_frog_leg_kebab_1",
+   "y": 90
+  }
+ }
+}
