@@ -1,18 +1,92 @@
 {
  "variants": {
-  "facing=north": {
+  "stacks=1,facing=north": {
    "model": "displaydelight:block/crd_plated_shrimp_skewer_1"
   },
-  "facing=south": {
+  "stacks=1,facing=south": {
    "model": "displaydelight:block/crd_plated_shrimp_skewer_1",
    "y": 180
   },
-  "facing=west": {
+  "stacks=1,facing=west": {
    "model": "displaydelight:block/crd_plated_shrimp_skewer_1",
    "y": 270
   },
-  "facing=east": {
+  "stacks=1,facing=east": {
    "model": "displaydelight:block/crd_plated_shrimp_skewer_1",
+   "y": 90
+  },
+  "stacks=2,facing=north": {
+   "model": "displaydelight:block/crd_plated_shrimp_skewer_2"
+  },
+  "stacks=2,facing=south": {
+   "model": "displaydelight:block/crd_plated_shrimp_skewer_2",
+   "y": 180
+  },
+  "stacks=2,facing=west": {
+   "model": "displaydelight:block/crd_plated_shrimp_skewer_2",
+   "y": 270
+  },
+  "stacks=2,facing=east": {
+   "model": "displaydelight:block/crd_plated_shrimp_skewer_2",
+   "y": 90
+  },
+  "stacks=3,facing=north": {
+   "model": "displaydelight:block/crd_plated_shrimp_skewer_2"
+  },
+  "stacks=3,facing=south": {
+   "model": "displaydelight:block/crd_plated_shrimp_skewer_2",
+   "y": 180
+  },
+  "stacks=3,facing=west": {
+   "model": "displaydelight:block/crd_plated_shrimp_skewer_2",
+   "y": 270
+  },
+  "stacks=3,facing=east": {
+   "model": "displaydelight:block/crd_plated_shrimp_skewer_2",
+   "y": 90
+  },
+  "stacks=4,facing=north": {
+   "model": "displaydelight:block/crd_plated_shrimp_skewer_2"
+  },
+  "stacks=4,facing=south": {
+   "model": "displaydelight:block/crd_plated_shrimp_skewer_2",
+   "y": 180
+  },
+  "stacks=4,facing=west": {
+   "model": "displaydelight:block/crd_plated_shrimp_skewer_2",
+   "y": 270
+  },"stacks=4,facing=east": {
+   "model": "displaydelight:block/crd_plated_shrimp_skewer_2",
+   "y": 90
+  },
+  "stacks=5,facing=north": {
+   "model": "displaydelight:block/crd_plated_shrimp_skewer_2"
+  },
+  "stacks=5,facing=south": {
+   "model": "displaydelight:block/crd_plated_shrimp_skewer_2",
+   "y": 180
+  },
+  "stacks=5,facing=west": {
+   "model": "displaydelight:block/crd_plated_shrimp_skewer_2",
+   "y": 270
+  },
+  "stacks=5,facing=east": {
+   "model": "displaydelight:block/crd_plated_shrimp_skewer_2",
+   "y": 90
+  },
+  "stacks=6,facing=north": {
+   "model": "displaydelight:block/crd_plated_shrimp_skewer_2"
+  },
+  "stacks=6,facing=south": {
+   "model": "displaydelight:block/crd_plated_shrimp_skewer_2",
+   "y": 180
+  },
+  "stacks=6,facing=west": {
+   "model": "displaydelight:block/crd_plated_shrimp_skewer_2",
+   "y": 270
+  },
+  "stacks=6,facing=east": {
+   "model": "displaydelight:block/crd_plated_shrimp_skewer_2",
    "y": 90
   }
  }

@@ -327,7 +327,9 @@
 "block.displaydelight.crd_coconut_pudding": "Coconut Pudding Block",
 "block.displaydelight.crd_coral_crunch": "Coral Crunch Block",
 "block.displaydelight.crd_kelp_shake": "Kelp Shake Block",
-"block.displaydelight.crd_plated_fish_stick": "Plated Fish Stick Block",
+  "block.displaydelight.crd_bisque": "Bisque Block",
+
+  "block.displaydelight.crd_plated_fish_stick": "Plated Fish Stick Block",
 "block.displaydelight.crd_plated_frog_leg_kebab": "Plated Frog Leg Kebab Block",
 "block.displaydelight.crd_plated_shrimp_skewer": "Plated Shrimp Skewer Block",
 "block.displaydelight.crd_plated_squid_kebab": "Plated Squid Kebab Block",

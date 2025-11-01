@@ -134,7 +134,7 @@ public class PlatedBlocks {
 
     public static final DeferredBlock<Block> CRD_FROG_LEG_KEBAB = createPlatedBlock("crd_plated_frog_leg_kebab");
     public static final DeferredBlock<Block> CRD_SQUID_KEBAB = createPlatedBlock("crd_plated_squid_kebab");
-    public static final DeferredBlock<Block> CRD_SHRIMP_SKEWER = createPlatedBlock("crd_plated_shrimp_skewer");
+    public static final DeferredBlock<Block> CRD_SHRIMP_SKEWER = createStackablePlatedBlock("crd_plated_shrimp_skewer",2);
     public static final DeferredBlock<Block> CRD_FISH_STICK = createPlatedBlock("crd_plated_fish_stick");
     public static final DeferredBlock<Block> CRD_STUFFED_NAUTILUS_SHELL = createPlatedBlock("crd_plated_stuffed_nautilus_shell");
 
