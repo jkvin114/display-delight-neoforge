@@ -4,7 +4,7 @@
   <img src="https://cf.way2muchnoise.eu/full_1144296_downloads.svg" alt="Curseforge Downloads">
 </a>
 
-[![Modrinth Downloads](https://img.shields.io/modrinth/dt/display-delight)](https://www.curseforge.com/minecraft/mc-mods/display-delight)
+[![Modrinth Downloads](https://img.shields.io/modrinth/dt/display-delight)](https://modrinth.com/mod/display-delight)
 
 ### [Forge/Neoforge 1.20.1 version](https://github.com/jkvin114/displaydelight-1.20.1-neoforge)
 
