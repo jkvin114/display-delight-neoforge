@@ -32,7 +32,7 @@ public class SmallPlatedFoodBlock extends AbstractItemBlock{
 
     public SmallPlatedFoodBlock(Properties props) {
         super(props);
-        this.registerDefaultState(this.stateDefinition.any().setValue(PLATE_HIDDEN, false));
+        this.registerDefaultState(this.stateDefinition.any().setValue(PLATE_HIDDEN, false).setValue(SUPPORT,false));
     }
 
     public BlockState getStateFrom(LevelAccessor level, BlockState plate,BlockPos pos, Direction direction) {

@@ -282,43 +282,43 @@
 
 
   ,{
-      "id": "largemeals:pufferfish_broth",
+      "id": "large_meals:pufferfish_broth",
       "required": false
     } ,{
-      "id": "largemeals:potato_soup",
+      "id": "large_meals:potato_soup",
       "required": false
     } ,{
-      "id": "largemeals:red_soup",
+      "id": "large_meals:red_soup",
       "required": false
     } ,{
-      "id": "largemeals:tomato_egg_soup",
+      "id": "large_meals:tomato_egg_soup",
       "required": false
     } ,{
-      "id": "largemeals:cod_deluxe",
+      "id": "large_meals:cod_deluxe",
       "required": false
     } ,{
-      "id": "largemeals:hearty_lunch",
+      "id": "large_meals:hearty_lunch",
       "required": false
     } ,{
-      "id": "largemeals:chicken_curry",
+      "id": "large_meals:chicken_curry",
       "required": false
     } ,{
-      "id": "largemeals:pasta_with_mushroom_sauce",
+      "id": "large_meals:pasta_with_mushroom_sauce",
       "required": false
     } ,{
-      "id": "largemeals:omurice",
+      "id": "large_meals:omurice",
       "required": false
     } ,{
-      "id": "largemeals:mushroom_pot_pie",
+      "id": "large_meals:mushroom_pot_pie",
       "required": false
     } ,{
-      "id": "largemeals:roasted_mutton_rack",
+      "id": "large_meals:roasted_mutton_rack",
       "required": false
     } ,{
-      "id": "largemeals:sweet_berry_custard",
+      "id": "large_meals:sweet_berry_custard",
       "required": false
     } ,{
-      "id": "largemeals:rice_pudding",
+      "id": "large_meals:rice_pudding",
       "required": false
     }
 

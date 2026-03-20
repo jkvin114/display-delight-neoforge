@@ -55,7 +55,7 @@ public class BlockAssociations {
         put("od_", "oceansdelight");
         put("ad_", "alexsdelight");
         put("ctd_", "culturaldelights");
-        put("lm_", "largemeals");
+        put("lm_", "large_meals");
         put("fd_", "festive_delight");
         put("bnc_", "brewinandchewin");
         put("acd_", "aquaculturedelight");
@@ -76,7 +76,7 @@ public class BlockAssociations {
         put("alexsdelight", "Alex's Delight");
 
         put("culturaldelights", "Cultural Delights");
-        put("largemeals", "Large Meals");
+        put("large_meals", "Large Meals");
         put("festive_delight", "Festive Delight");
         put("brewinandchewin", "Brewin' and Chewin'");
         put("aquaculturedelight", "Aquaculture Delight");

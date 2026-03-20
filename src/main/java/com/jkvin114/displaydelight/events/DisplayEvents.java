@@ -1,7 +1,7 @@
 package com.jkvin114.displaydelight.events;
 
 import com.jkvin114.displaydelight.DisplayDelight;
-import com.jkvin114.displaydelight.client.renderer.ShowcaseRenderer;
+
 import com.jkvin114.displaydelight.init.*;
 
 import net.minecraft.network.protocol.game.ClientboundBlockUpdatePacket;
