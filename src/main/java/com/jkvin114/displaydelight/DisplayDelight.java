@@ -7,8 +7,10 @@ import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
+import net.neoforged.fml.loading.FMLEnvironment;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import org.slf4j.Logger;
+import com.jkvin114.displaydelight.client.renderer.ClientEvents;
 
 import com.mojang.logging.LogUtils;
 import net.minecraft.commands.arguments.selector.options.EntitySelectorOptions;
@@ -94,11 +96,16 @@ public class DisplayDelight {
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
 
+        if (FMLEnvironment.dist.isClient()) {
+            modEventBus.addListener(ClientEvents::init);
+        }
         // Register the Deferred Register to the mod event bus so blocks get registered
         DisplayBlocks.REGISTRY.register(modEventBus);
         DisplayItems.REGISTRY.register(modEventBus);
         PlatedBlocks.REGISTRY.register(modEventBus);
         SmallPlatedBlocks.REGISTRY.register(modEventBus);
+       // ShowcaseBlocks.BLOCK_ENTITY_TYPES.register(modEventBus);
+       // ShowcaseBlocks.BLOCKS.register(modEventBus);
       //  DisplayParticleTypes.PARTICLE_TYPES.register(modEventBus);
      //   DisplayTabs.REGISTRY.register(modEventBus);
 

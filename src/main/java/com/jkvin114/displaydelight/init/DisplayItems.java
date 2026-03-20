@@ -469,14 +469,16 @@ public class DisplayItems {
     public static final DeferredHolder<Item,Item> ND_PLATE_OF_STUFFED_HOGLIN_SNOUT =  blockNoCreativeTab(DisplayBlocks.ND_PLATE_OF_STUFFED_HOGLIN_SNOUT);
     public static final DeferredHolder<Item,Item> ND_PLATE_OF_STUFFED_HOGLIN_HAM =  blockNoCreativeTab(DisplayBlocks.ND_PLATE_OF_STUFFED_HOGLIN_HAM);
     public static final DeferredHolder<Item,Item> ND_PLATE_OF_STUFFED_HOGLIN_ROAST =  blockNoCreativeTab(DisplayBlocks.ND_PLATE_OF_STUFFED_HOGLIN_ROAST);
-     static final DeferredHolder<Item,Item> ND_NETHER_SKEWER =  blockNoCreativeTab(PlatedBlocks.ND_NETHER_SKEWER);
+    public static final DeferredHolder<Item,Item> ND_NETHER_SKEWER =  blockNoCreativeTab(PlatedBlocks.ND_NETHER_SKEWER);
     
     private static DeferredHolder<Item, Item> plateblock(DeferredHolder<Block, Block> block) {
         DeferredHolder<Item, Item> item = REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
         items.add(item);
         return  item;
 
-    }private static DeferredHolder<Item, Item> blockNoCreativeTab(DeferredHolder<Block, Block> block) {
+    }
+
+    private static DeferredHolder<Item, Item> blockNoCreativeTab(DeferredHolder<Block, Block> block) {
         DeferredHolder<Item, Item> item = REGISTRY.register(block.getId().getPath(), () -> new FoodBlockItem(block.get(), new Item.Properties()));
 
         return  item;

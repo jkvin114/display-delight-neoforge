@@ -1,7 +1,16 @@
 {
-  "variants": {
-    "": {
-      "model": "displaydelight:block/food_plate"
+  "multipart": [
+    {
+      "apply": {
+        "model": "displaydelight:block/wood_support"
+      },
+      "when": {
+        "support": "true"
+      }
+    },{
+      "apply": {
+        "model": "displaydelight:block/food_plate"
+      }
     }
-  }
+  ]
 }

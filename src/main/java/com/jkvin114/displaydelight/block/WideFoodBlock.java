@@ -14,6 +14,7 @@ public class WideFoodBlock extends  FoodBlock {
 
     @Override
     public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
+      //  if(state.getValue(AbstractItemBlock.SUPPORT)) return box(0,0,0,16,16,16);
         return box(1, 0, 1, 15, 4, 15);
     }
 }

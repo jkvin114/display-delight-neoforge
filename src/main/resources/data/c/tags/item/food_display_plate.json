@@ -1,0 +1,6 @@
+{
+  "replace": false,
+  "values": [{
+    "id": "displaydelight:food_plate",
+    "required": false
+  }]}

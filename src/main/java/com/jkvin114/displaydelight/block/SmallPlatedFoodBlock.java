@@ -2,6 +2,7 @@ package com.jkvin114.displaydelight.block;
 
 import com.jkvin114.displaydelight.init.BlockAssociations;
 import com.jkvin114.displaydelight.init.DisplayBlocks;
+import com.jkvin114.displaydelight.init.DisplayProperties;
 import com.mojang.serialization.MapCodec;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
@@ -11,24 +12,33 @@ import net.minecraft.world.item.Items;
 import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.world.item.context.UseOnContext;
 import net.minecraft.world.level.BlockGetter;
+import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.LevelReader;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.HorizontalDirectionalBlock;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.StateDefinition;
+import net.minecraft.world.level.block.state.properties.BooleanProperty;
+import net.minecraft.world.level.block.state.properties.IntegerProperty;
 import net.minecraft.world.phys.HitResult;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.VoxelShape;
 
+import static com.jkvin114.displaydelight.block.BlockHelper.needSupport;
+
 public class SmallPlatedFoodBlock extends AbstractItemBlock{
     public static final MapCodec<SmallPlatedFoodBlock> CODEC = simpleCodec(SmallPlatedFoodBlock::new);
+    public static final BooleanProperty PLATE_HIDDEN = DisplayProperties.PLATE_HIDDEN;
 
     public SmallPlatedFoodBlock(Properties props) {
         super(props);
+        this.registerDefaultState(this.stateDefinition.any().setValue(PLATE_HIDDEN, false));
     }
-    public BlockState getStateFrom(BlockState plate, Direction direction) {
+
+    public BlockState getStateFrom(LevelAccessor level, BlockState plate,BlockPos pos, Direction direction) {
         if (plate.is(DisplayBlocks.SMALL_PLATE.get())) {
-            return this.defaultBlockState().setValue(FACING, direction.getOpposite());
+            return this.defaultBlockState().setValue(FACING, direction.getOpposite())
+                    .setValue(AbstractItemBlock.SUPPORT,needSupport(level,pos));
         } else return this.defaultBlockState();
     }
     @Override
@@ -44,19 +54,27 @@ public class SmallPlatedFoodBlock extends AbstractItemBlock{
     }
     @Override
     public boolean canSurvive(BlockState state, LevelReader world, BlockPos pos) {
-        return world.getBlockState(pos.below()).isFaceSturdy(world, pos.below(), Direction.UP);
+        return  true;
     }
     @Override
     protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {
-        builder.add(FACING);
+        super.createBlockStateDefinition(builder);
+        builder.add(PLATE_HIDDEN);
+
     }
 
+    public boolean hasPlate(BlockState state){
+        return  !state.getValue(SmallPlatedFoodBlock.PLATE_HIDDEN);
+    }
     @Override
     public BlockState getStateForPlacement(BlockPlaceContext context) {
         return this.defaultBlockState().setValue(FACING, context.getHorizontalDirection().getOpposite());
     }
     @Override
     public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
+
+   //     if(state.getValue(AbstractItemBlock.SUPPORT)) return box(0,0,0,16,16,16);
+
         return box(4, 0, 4, 12, 5, 12);}
 
     @Override

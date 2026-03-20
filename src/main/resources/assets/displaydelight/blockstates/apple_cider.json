@@ -1,19 +1,43 @@
+
 {
- "variants": {
-  "facing=north": {
-   "model": "displaydelight:block/apple_cider"
-  },
-  "facing=south": {
-   "model": "displaydelight:block/apple_cider",
-   "y": 180
-  },
-  "facing=west": {
-   "model": "displaydelight:block/apple_cider",
-   "y": 270
-  },
-  "facing=east": {
-   "model": "displaydelight:block/apple_cider",
-   "y": 90
+ "multipart": [
+  {
+   "apply": {
+    "model": "displaydelight:block/wood_support"
+   },
+   "when": {
+    "support": "true"
+   }
+  },{
+   "apply": {
+    "model": "displaydelight:block/apple_cider"
+   },
+   "when": {
+    "AND":[{"facing":"north"}]
+   }
+  },{
+   "apply": {
+    "model": "displaydelight:block/apple_cider",
+    "y": 180
+   },
+   "when": {
+    "AND":[{"facing":"south"}]
+   }
+  },{
+   "apply": {
+    "model": "displaydelight:block/apple_cider",
+    "y": 270
+   },
+   "when": {
+    "AND":[{"facing":"west"}]
+   }
+  },{
+   "apply": {
+    "model": "displaydelight:block/apple_cider","y": 90
+   },
+   "when": {
+    "AND":[{"facing":"east"}]
+   }
   }
- }
+ ]
 }

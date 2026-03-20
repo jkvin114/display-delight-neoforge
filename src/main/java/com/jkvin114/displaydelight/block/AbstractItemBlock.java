@@ -1,6 +1,7 @@
 package com.jkvin114.displaydelight.block;
 import com.jkvin114.displaydelight.DisplayDelight;
 import com.jkvin114.displaydelight.init.DisplayConfig;
+import com.jkvin114.displaydelight.init.DisplayProperties;
 import net.minecraft.core.RegistryAccess;
 import net.minecraft.world.item.enchantment.Enchantment;
 import net.minecraft.world.item.enchantment.Enchantments;
@@ -11,7 +12,8 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.enchantment.EnchantmentHelper;
 import net.minecraft.world.item.enchantment.Enchantments;
-import net.minecraft.world.level.block.SupportType;
+import net.minecraft.world.level.LevelAccessor;
+import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.storage.loot.LootParams;
 import net.minecraft.world.level.storage.loot.parameters.LootContextParams;
 import net.minecraft.world.phys.HitResult;
@@ -22,9 +24,6 @@ import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
-import net.minecraft.world.level.block.SimpleWaterloggedBlock;
-import net.minecraft.world.level.block.HorizontalDirectionalBlock;
-import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.LevelReader;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.context.BlockPlaceContext;
@@ -37,13 +36,16 @@ import org.jetbrains.annotations.NotNull;
 
 import java.util.List;
 
+import static com.jkvin114.displaydelight.block.BlockHelper.needSupport;
+
 
 public abstract class AbstractItemBlock extends HorizontalDirectionalBlock {
 
+    public static final BooleanProperty SUPPORT = DisplayProperties.SUPPORT;
+
     public AbstractItemBlock(BlockBehaviour.Properties props) {
         super(props);
-        this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH));
-
+        this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH).setValue(SUPPORT, false));
     }
 
     @Override
@@ -57,7 +59,8 @@ public abstract class AbstractItemBlock extends HorizontalDirectionalBlock {
 
     @Override
     protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {
-        builder.add(FACING);
+        builder.add(FACING,SUPPORT);
+
     }
     @Override
     protected @NotNull List<ItemStack> getDrops(BlockState state, LootParams.Builder params) {
@@ -81,29 +84,32 @@ public abstract class AbstractItemBlock extends HorizontalDirectionalBlock {
 
         Block block = state.getBlock();
         Item foodItem = getStackFor().getItem();
-        boolean fallBack = false;
+        boolean silktouchApplied = false;
 
         if (block instanceof AbstractStackablePlatedFoodBlock platedFoodBlock) {
 
             //silk touch only applies to blocks with max stacks
             if (foodItem.equals(Items.AIR) ||
-                    (silktouch &&  platedFoodBlock.getStacks(state) >= platedFoodBlock.getMaxStackable())){
+                    (silktouch
+                            && platedFoodBlock.getStacks(state) >= platedFoodBlock.getMaxStackable())
+                            && platedFoodBlock.hasPlate(state)){
                 foodItem = this.asItem();
-                fallBack = true;
+                silktouchApplied = true;
             }
 
-            droppedStacks.add(new ItemStack(foodItem, !fallBack ? platedFoodBlock.getStacks(state) : 1));
+            droppedStacks.add(new ItemStack(foodItem, !silktouchApplied ? platedFoodBlock.getStacks(state) : 1));
 
-            if (!fallBack) droppedStacks.add(new ItemStack(DisplayItems.PLATE));
+            if (!silktouchApplied && platedFoodBlock.hasPlate(state)) droppedStacks.add(new ItemStack(DisplayItems.PLATE));
 
-        } else if (block instanceof SmallPlatedFoodBlock) {
+        } else if (block instanceof SmallPlatedFoodBlock platedFoodBlock) {
 
-            if (foodItem.equals(Items.AIR) || silktouch) {
+            if (foodItem.equals(Items.AIR) ||
+                    (silktouch && platedFoodBlock.hasPlate(state))) {
                 foodItem = this.asItem();
-                fallBack = true;
+                silktouchApplied = true;
             }
             droppedStacks.add(new ItemStack(foodItem));
-            if (!fallBack) droppedStacks.add(new ItemStack(DisplayItems.SMALL_PLATE));
+            if (!silktouchApplied && platedFoodBlock.hasPlate(state)) droppedStacks.add(new ItemStack(DisplayItems.SMALL_PLATE));
 
         } else {
 
@@ -119,11 +125,30 @@ public abstract class AbstractItemBlock extends HorizontalDirectionalBlock {
 
     @Override
     public BlockState getStateForPlacement(BlockPlaceContext context) {
-        return this.defaultBlockState().setValue(FACING, context.getHorizontalDirection().getOpposite());
+        Level level = context.getLevel();
+        BlockPos below=context.getClickedPos().below();
+        BlockState stateBelow = level.getBlockState(below);
+
+        return this.defaultBlockState().setValue(FACING, context.getHorizontalDirection().getOpposite())
+                .setValue(SUPPORT,needSupport(level,below,stateBelow));
+
     }
+
+    @Override
+    public @NotNull BlockState updateShape(BlockState state, Direction direction,
+                                           BlockState neighborState, LevelAccessor level,
+                                           BlockPos pos, BlockPos neighborPos) {
+        if (direction == Direction.DOWN) {
+            return state.setValue(SUPPORT, needSupport(level,neighborPos,neighborState));
+        }
+        return super.updateShape(state, direction, neighborState, level, pos, neighborPos);
+    }
+
+
     @Override
     public boolean canSurvive(BlockState state, LevelReader world, BlockPos pos) {
-        return world.getBlockState(pos.below()).isFaceSturdy(world, pos.below(), Direction.UP, SupportType.CENTER);
+        //return world.getBlockState(pos.below()).isFaceSturdy(world, pos.below(), Direction.UP, SupportType.CENTER);
+        return true;
     }
     public ItemStack getStackFor() {
         return new ItemStack(BlockAssociations.getItemFor(this));

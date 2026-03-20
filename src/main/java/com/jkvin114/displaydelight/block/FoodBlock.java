@@ -33,6 +33,8 @@ public class FoodBlock extends AbstractItemBlock {
 
     @Override
     public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
+    //    if(state.getValue(AbstractItemBlock.SUPPORT)) return box(0,0,0,16,16,16);
+
         return box(3, 0, 3, 13, 6, 13);
     }
 }

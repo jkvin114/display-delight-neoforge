@@ -2,10 +2,7 @@ package com.jkvin114.displaydelight.events;
 
 import com.jkvin114.displaydelight.block.AbstractStackablePlatedFoodBlock;
 import com.jkvin114.displaydelight.block.SmallPlatedFoodBlock;
-import com.jkvin114.displaydelight.init.BlockAssociations;
-import com.jkvin114.displaydelight.init.DisplayBlocks;
-import com.jkvin114.displaydelight.init.DisplayConfig;
-import com.jkvin114.displaydelight.init.DisplayTags;
+import com.jkvin114.displaydelight.init.*;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.network.chat.Component;
@@ -19,14 +16,116 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.context.UseOnContext;
+import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.phys.BlockHitResult;
 
 import java.util.HashSet;
-import java.util.Set;
 
 public class InterationManager {
+
+
+    static  boolean isCompatLoaded(AbstractStackablePlatedFoodBlock target){
+         return  BlockAssociations.getPlatedItemFor(target) != Items.AIR;
+    }
+
+    static  boolean isCompatLoaded(SmallPlatedFoodBlock target){
+        return  BlockAssociations.getSmallPlatedItemFor(target) != Items.AIR;
+    }
+
+    public static boolean tryTakePlateWithAxe(Player player, ServerLevel world, BlockHitResult rez) {
+
+        BlockPos pos = rez.getBlockPos();
+        BlockState state = world.getBlockState(pos);
+        if (state.getBlock() instanceof AbstractStackablePlatedFoodBlock target && target.hasPlate(state)){
+
+
+            BlockState newState =state.setValue(AbstractStackablePlatedFoodBlock.PLATE_HIDDEN,true);
+            world.setBlock(pos, newState, 2);
+
+            if(isCompatLoaded(target))
+                Block.popResource(world, pos, new ItemStack(DisplayItems.PLATE,1));
+
+            world.playSound(null, pos, SoundEvents.AXE_STRIP, SoundSource.PLAYERS, 1.0F, (float) (0.8F + (Math.random() * 0.2)));
+
+            return  true;
+        }
+        else if (state.getBlock() instanceof SmallPlatedFoodBlock target && target.hasPlate(state)){
+
+            BlockState newState = state.setValue(SmallPlatedFoodBlock.PLATE_HIDDEN,true);
+            world.setBlock(pos, newState, 2);
+            if(isCompatLoaded(target))
+                Block.popResource(world, pos, new ItemStack(DisplayItems.SMALL_PLATE,1));
+
+            world.playSound(null, pos, SoundEvents.AXE_STRIP, SoundSource.PLAYERS, 1.0F, (float) (0.8F + (Math.random() * 0.2)));
+
+            return  true;
+        }
+        return  false;
+    }
+    public static boolean testInsertPlate(Player player, Level world, BlockHitResult rez, InteractionHand handy){
+
+        BlockPos pos = rez.getBlockPos();
+        BlockState state = world.getBlockState(pos);
+        ItemStack stack = player.getItemInHand(handy);
+        if (stack.getItem() == DisplayItems.PLATE.get() && state.getBlock() instanceof AbstractStackablePlatedFoodBlock target
+                && !target.hasPlate(state)){
+
+            return  true;
+        }
+        if (stack.getItem() == DisplayItems.SMALL_PLATE.get() && state.getBlock() instanceof SmallPlatedFoodBlock target
+                && !target.hasPlate(state)){
+
+            return  true;
+        }
+        return  false;
+    }
+
+
+    public static boolean tryInsertPlate(Player player, ServerLevel world, BlockHitResult rez, InteractionHand handy) {
+
+        BlockPos pos = rez.getBlockPos();
+        BlockState state = world.getBlockState(pos);
+
+        ItemStack stack = player.getItemInHand(handy);
+        if (state.getBlock() instanceof AbstractStackablePlatedFoodBlock target
+                && !target.hasPlate(state)){
+
+            BlockState newState =state.setValue(AbstractStackablePlatedFoodBlock.PLATE_HIDDEN,false);
+            world.setBlock(pos, newState, 2);
+
+            world.playSound(null, pos,  state.getSoundType(world, pos, player).getPlaceSound(), SoundSource.PLAYERS, 1.0F, (float) (0.8F + (Math.random() * 0.2)));
+
+            if (!player.isCreative() && isCompatLoaded(target)) {
+                stack.shrink(1);
+            }
+            return  true;
+        }
+        return  false;
+    }
+    public static boolean tryInsertSmallPlate(Player player, ServerLevel world, BlockHitResult rez, InteractionHand handy) {
+        BlockPos pos = rez.getBlockPos();
+        BlockState state = world.getBlockState(pos);
+
+        ItemStack stack = player.getItemInHand(handy);
+        if (state.getBlock() instanceof SmallPlatedFoodBlock target
+                && !target.hasPlate(state)){
+
+            BlockState newState =state.setValue(SmallPlatedFoodBlock.PLATE_HIDDEN,false);
+            world.setBlock(pos, newState, 2);
+
+            world.playSound(null, pos,  state.getSoundType(world, pos, player).getPlaceSound(), SoundSource.PLAYERS, 1.0F, (float) (0.8F + (Math.random() * 0.2)));
+
+            if (!player.isCreative() && isCompatLoaded(target)) {
+                stack.shrink(1);
+            }
+            return  true;
+        }
+        return  false;
+
+    }
     public static boolean tryTakeItemWithBareHand(Player player, ServerLevel world, BlockHitResult rez) {
         InteractionHand handy = InteractionHand.MAIN_HAND;
 
@@ -41,7 +140,9 @@ public class InterationManager {
             int count = 1;
             if(player.isShiftKeyDown()){
                 count = target.getStacks(state);
-                world.setBlock(pos, DisplayBlocks.PLATE.get().defaultBlockState(), 2);
+
+
+                world.setBlock(pos,target.hasPlate(state) ?  DisplayBlocks.PLATE.get().defaultBlockState(): Blocks.AIR.defaultBlockState(), 2);
             }
             else{
 
@@ -51,7 +152,7 @@ public class InterationManager {
                     world.setBlock(pos, newState, 2);
                 } else {
 
-                    world.setBlock(pos, DisplayBlocks.PLATE.get().defaultBlockState(), 2);
+                    world.setBlock(pos,target.hasPlate(state) ? DisplayBlocks.PLATE.get().defaultBlockState(): Blocks.AIR.defaultBlockState(), 2);
                 }
             }
             world.playSound(null, pos, SoundEvents.CHICKEN_EGG, SoundSource.PLAYERS, 1.0F, (float) (0.8F + (Math.random() * 0.2)));
@@ -78,7 +179,7 @@ public class InterationManager {
             }
 
 
-            world.setBlock(pos, DisplayBlocks.SMALL_PLATE.get().defaultBlockState(), 2);
+            world.setBlock(pos,target.hasPlate(state) ?  DisplayBlocks.SMALL_PLATE.get().defaultBlockState() : Blocks.AIR.defaultBlockState(), 2);
 
             world.playSound(null, pos, SoundEvents.CHICKEN_EGG, SoundSource.PLAYERS, 1.0F, (float) (0.8F + (Math.random() * 0.2)));
             HashSet<Item> set = new HashSet<>();
@@ -106,13 +207,13 @@ public class InterationManager {
         BlockPos pos = rez.getBlockPos();
         BlockState state = world.getBlockState(pos);
 
-        if (!state.is(DisplayBlocks.SMALL_PLATE.get())) return false;
+        if (!state.is(DisplayTags.SMALL_FOOD_DISPLAY_PLATES)) return false;
 
         Block plateBlock = BlockAssociations.getSmallPlateBlockFor(stack.getItem());
         if (!(plateBlock instanceof SmallPlatedFoodBlock food)) return false;
 
         UseOnContext ctx = new UseOnContext(player, handy, rez);
-        BlockState newstate = food.getStateFrom(state, ctx.getHorizontalDirection());
+        BlockState newstate = food.getStateFrom(world,state,pos, ctx.getHorizontalDirection());
         world.setBlock(pos, newstate, 2);
         world.playSound(null, pos, state.getSoundType(world, pos, player).getPlaceSound(), SoundSource.BLOCKS, 1.0F, (float) (0.8F + (Math.random() * 0.2)));
         if (!player.isCreative()) {
@@ -145,7 +246,7 @@ public class InterationManager {
                 player.swing(handy, true);
                 return true;
             }
-        } else if (state.is(DisplayBlocks.PLATE.get())) {
+        } else if (state.is(DisplayTags.FOOD_DISPLAY_PLATES)) {
             Block plateBlock = BlockAssociations.getPlateBlockFor(handStack.getItem());
             if (!(plateBlock instanceof AbstractStackablePlatedFoodBlock target)) return false;
             int count = 1;
@@ -156,7 +257,7 @@ public class InterationManager {
             }
 
             UseOnContext ctx = new UseOnContext(player, handy, rez);
-            BlockState newstate = target.getStateFrom(state, ctx.getHorizontalDirection(), count);
+            BlockState newstate = target.getStateFrom(world,state,pos, ctx.getHorizontalDirection(), count);
 
             world.setBlock(pos, newstate, 2);
             world.playSound(null, pos, state.getSoundType(world, pos, player).getPlaceSound(), SoundSource.BLOCKS, 1.0F, (float) (0.8F + (Math.random() * 0.2)));
