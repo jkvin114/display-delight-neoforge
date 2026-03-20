@@ -67,10 +67,6 @@ public class SmallPlatedFoodBlock extends AbstractItemBlock{
         return  !state.getValue(SmallPlatedFoodBlock.PLATE_HIDDEN);
     }
     @Override
-    public BlockState getStateForPlacement(BlockPlaceContext context) {
-        return this.defaultBlockState().setValue(FACING, context.getHorizontalDirection().getOpposite());
-    }
-    @Override
     public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 
    //     if(state.getValue(AbstractItemBlock.SUPPORT)) return box(0,0,0,16,16,16);
