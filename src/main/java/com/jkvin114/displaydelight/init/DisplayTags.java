@@ -15,6 +15,7 @@ public class DisplayTags {
 
 
     public static final TagKey<Item> DISPLAYABLE = ItemTags.create(ResourceLocation.fromNamespaceAndPath(DisplayDelight.MODID, "displayable"));
+    public static final TagKey<Block> SUPPORT_EXCEPTIONS = BlockTags.create(ResourceLocation.fromNamespaceAndPath(DisplayDelight.MODID, "support_exceptions"));
 
     public static final TagKey<Block> FOOD_DISPLAY_PLATES = commonBlockTag("food_display_plate");
     public static final TagKey<Block> SMALL_FOOD_DISPLAY_PLATES = commonBlockTag("small_food_display_plate");
