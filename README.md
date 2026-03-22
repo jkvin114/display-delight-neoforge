@@ -122,10 +122,10 @@
   - Fixed loot table log spamming issue for 1.20.1 version
   - Corrected block id : pd_small_plated_pineapple_pie_slice -> pd_small_plated_pineapple_pie_side
 
-### 1.5.0 & 1.5.1
+### 1.5.0 - 1.5.1
 - Added feature to hide plate for plated foods.
- - Use(right-click) any axe to hide plate.
- - Use corresponding food plate item to put the plate back
-- Food blocks that aren't placed on sturdy face shows support below the food block.
+  - Use(right-click) any axe to hide plate.
+  - Use corresponding food plate item to put the plate back
 - Updated to support 1.21.1 port of Large Meals
-
+- Food blocks that aren't placed on 'sturdy' top face shows support table below the food block.
+  - Exceptions can be configured in block tags `displaydelight:support_exceptions`
