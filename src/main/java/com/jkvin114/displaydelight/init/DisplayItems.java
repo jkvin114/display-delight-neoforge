@@ -208,6 +208,7 @@ public class DisplayItems {
 
     public static final DeferredHolder<Item,Item> PD_PINEAPPLE_FRIED_RICE = block(DisplayBlocks.PD_PINEAPPLE_FRIED_RICE);
     public static final DeferredHolder<Item,Item> PD_PINEAPPLE_PIE_SLICE = block(SmallPlatedBlocks.PD_PINEAPPLE_PIE_SIDE);
+    public static final DeferredHolder<Item,Item> PD_PINEAPPLE_CAKE_SLICE = block(SmallPlatedBlocks.PD_PINEAPPLE_CAKE_SLICE);
 
     //ocean delight
     public static final DeferredHolder<Item,Item> OD_BRAISED_SEA_PICKLE = block(DisplayBlocks.OD_BRAISED_SEA_PICKLE);
