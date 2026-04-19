@@ -226,7 +226,11 @@ public class BlockAssociations {
                     }
                 }
 
-          //      LOGGER.info("Registering {} as {} from {}", itemId, foodName, fullNamespace);
+
+                //adjust for id mismatch
+                if(foodName.equals("festive_chicken") && fullNamespace.equals("festive_delight")){
+                    foodName = "festive_chiken";
+                }
 
                 Item registeredFoodItem = BuiltInRegistries.ITEM.get(ResourceLocation.fromNamespaceAndPath(fullNamespace,foodName));
                 if(registeredFoodItem == Items.AIR) {
