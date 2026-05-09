@@ -56,6 +56,8 @@ public class DisplayBlocks {
     public static final DeferredBlock<Block> APPLE_CIDER = createDrinkFoodBlock("apple_cider");
     public static final DeferredBlock<Block> MELON_JUICE = createDrinkFoodBlock("melon_juice");
     public static final DeferredBlock<Block> HOT_COCOA = createHotDrinkFoodBlock("hot_cocoa");
+    public static final DeferredBlock<Block> GLEAMING_SALAD = createFoodBlock("gleaming_salad");
+    public static final DeferredBlock<Block> ONION_SOUP = createFoodBlock("onion_soup");
 
     //VANILA
     public static final DeferredBlock<Block> MUSHROOM_STEW = createFoodBlock("mushroom_stew");

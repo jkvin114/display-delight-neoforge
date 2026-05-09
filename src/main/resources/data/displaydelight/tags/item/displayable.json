@@ -93,7 +93,13 @@
     },{
       "id": "farmersdelight:hot_cocoa",
       "required": false
-    }
+    },{
+    "id": "farmersdelight:gleaming_salad",
+    "required": false
+  },{
+    "id": "farmersdelight:onion_soup",
+    "required": false
+  }
 
   ,{
       "id": "minecraft:mushroom_stew",

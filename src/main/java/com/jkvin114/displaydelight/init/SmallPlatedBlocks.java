@@ -23,7 +23,7 @@ public class SmallPlatedBlocks {
     public static final DeferredBlock<Block> PLATED_SALMON_ROLL = createPlatedBlock("small_plated_salmon_roll");
     public static final DeferredBlock<Block> PLATED_KELP_ROLL_SLICE = createPlatedBlock("small_plated_kelp_roll_slice");
     public static final DeferredBlock<Block> PLATED_CABBAGE_ROLLS = createPlatedBlock("small_plated_cabbage_rolls");
-
+    public static final DeferredBlock<Block> PLATED_PUMPKIN_PIE_SLICE = createPlatedBlock("small_plated_pumpkin_pie_slice");
 
     //EXPANDED DELIGHT
     public static final DeferredBlock<Block> ED_SWEET_ROLL = createPlatedBlock("ed_small_plated_sweet_roll");
