@@ -1,4 +1,5 @@
 {
+	"format_version": "1.21.11",
 	"credit": "Made with Blockbench",
 	"parent": "displaydelight:block/small_plated_chocolate_pie_slice",
 	"textures": {

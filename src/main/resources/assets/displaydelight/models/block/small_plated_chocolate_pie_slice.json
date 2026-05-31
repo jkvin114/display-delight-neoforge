@@ -4,6 +4,8 @@
 	"parent": "displaydelight:block/parent_bowl",
 	"textures": {
 		"4": "displaydelight:block/chocolate_pie",
+		"side": "displaydelight:block/pie_side",
+		"particle": "displaydelight:block/pie_side",
 		"bowl": "displaydelight:block/small_plate"
 	},
 	"elements": [
@@ -39,8 +41,8 @@
 			"faces": {
 				"north": {"uv": [0, 6, 6, 10], "texture": "#4"},
 				"east": {"uv": [6, 0, 12, 4], "texture": "#4"},
-				"south": {"uv": [8, 12, 14, 16], "texture": "#4"},
-				"west": {"uv": [2, 12, 8, 16], "texture": "#4"},
+				"south": {"uv": [8, 12, 14, 16], "texture": "#side"},
+				"west": {"uv": [2, 12, 8, 16], "texture": "#side"},
 				"up": {"uv": [6, 6, 0, 0], "rotation": 90, "texture": "#4"}
 			}
 		}
