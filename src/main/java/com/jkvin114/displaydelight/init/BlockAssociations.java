@@ -234,7 +234,7 @@ public class BlockAssociations {
 
                 Item registeredFoodItem = BuiltInRegistries.ITEM.get(ResourceLocation.fromNamespaceAndPath(fullNamespace,foodName));
                 if(registeredFoodItem == Items.AIR) {
-                    LOGGER.warn("{}:{} is not found from registry", fullNamespace, foodName);
+                    //LOGGER.warn("{}:{} is not found from registry", fullNamespace, foodName);
                     continue;
                 }
 
