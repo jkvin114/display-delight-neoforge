@@ -2,6 +2,6 @@
 	"credit": "Made with Blockbench",
 	"parent": "displaydelight:block/small_plated_salmon_roll",
 	"textures": {
-		"1": "farmers3d/cod_roll"
+		"1": "displaydelight:block/cod_roll"
 	}
 }

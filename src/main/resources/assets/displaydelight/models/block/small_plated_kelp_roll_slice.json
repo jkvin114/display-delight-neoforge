@@ -4,8 +4,8 @@
 	"parent": "displaydelight:block/parent_bowl",
 	"texture_size": [8, 8],
 	"textures": {
-		"2": "farmers3d/kelp_roll",
-		"bowl": "farmers3d/small_plate"
+		"2": "displaydelight:block/kelp_roll",
+		"bowl": "displaydelight:block/small_plate"
 	},
 	"elements": [
 		{

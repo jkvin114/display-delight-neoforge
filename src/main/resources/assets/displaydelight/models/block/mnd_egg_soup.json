@@ -4,7 +4,6 @@
 	"parent": "displaydelight:block/parent_bowl",
 	"render_type": "cutout",
 	"textures": {
-		"2": "farmers3d/stuffed_pumpkin_details",
 		"3": "displaydelight:block/mnd_soups",
 		"4": "displaydelight:block/bowl2"
 	},
@@ -110,12 +109,12 @@
 			"to": [8.5, 7, 11],
 			"rotation": {"angle": 22.5, "axis": "x", "origin": [8.5, 4, 10]},
 			"faces": {
-				"north": {"uv": [3, 9, 4, 13], "texture": "#2"},
-				"east": {"uv": [3, 11, 4, 15], "rotation": 180, "texture": "#2"},
-				"south": {"uv": [3, 9, 4, 13], "texture": "#2"},
-				"west": {"uv": [3, 9, 4, 13], "rotation": 180, "texture": "#2"},
-				"up": {"uv": [3, 1, 4, 2], "texture": "#2"},
-				"down": {"uv": [2, 1, 3, 2], "texture": "#2"}
+				"north": {"uv": [15, 8, 16, 12], "texture": "#4"},
+				"east": {"uv": [15, 10, 16, 14], "rotation": 180, "texture": "#4"},
+				"south": {"uv": [15, 8, 16, 12], "texture": "#4"},
+				"west": {"uv": [15, 8, 16, 12], "rotation": 180, "texture": "#4"},
+				"up": {"uv": [15, 0, 16, 1], "texture": "#4"},
+				"down": {"uv": [14, 0, 15, 1], "texture": "#4"}
 			}
 		},
 		{
@@ -176,12 +175,14 @@
 		{
 			"name": "group",
 			"origin": [8, 8, 8],
+			"scope": 0,
 			"color": 0,
 			"children": [2, 3, 4, 5, 6]
 		},
 		{
 			"name": "group",
 			"origin": [8, 8, 8],
+			"scope": 0,
 			"color": 0,
 			"children": []
 		},

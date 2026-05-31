@@ -4,9 +4,9 @@
 	"parent": "displaydelight:block/parent_bowl",
 	"texture_size": [8, 8],
 	"textures": {
-		"1": "farmers3d/salmon_roll",
-		"bowl": "farmers3d/small_plate",
-		"particle": "farmers3d/salmon_roll"
+		"1": "displaydelight:block/salmon_roll",
+		"bowl": "displaydelight:block/small_plate",
+		"particle": "displaydelight:block/small_plate"
 	},
 	"elements": [
 		{

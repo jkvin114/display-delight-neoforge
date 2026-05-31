@@ -5,10 +5,11 @@
 	"ambientocclusion": false,
 	"render_type": "cutout",
 	"textures": {
+		"4": "displaydelight:block/cabbage",
 		"5": "displaydelight:block/acd_rollmops",
-		"6": "displaydelight:block/grilled_salmon",
 		"tray_top": "farmers3d/tray_top",
-		"tray_bottom": "farmers3d/tray_bottom"
+		"tray_bottom": "farmers3d/tray_bottom",
+		"particle": "displaydelight:block/cabbage"
 	},
 	"elements": [
 		{
@@ -25,27 +26,28 @@
 			}
 		},
 		{
-			"from": [4.5, 2.1, 7],
-			"to": [12.5, 2.1, 14],
-			"rotation": {"angle": 0, "axis": "y", "origin": [8.44975, 2.1, 10.87868]},
-			"faces": {
-				"up": {"uv": [4, 3.75, 0, 0], "texture": "#6"},
-				"down": {"uv": [4, 0, 0, 3.75], "texture": "#6"}
-			}
-		},
-		{
 			"from": [3.5, 2.2, 1.5],
 			"to": [11.5, 2.2, 8.5],
 			"rotation": {"angle": 0, "axis": "y", "origin": [9.5, 2, 0.5]},
 			"faces": {
-				"up": {"uv": [4, 3.5, 0, 0], "texture": "#6"},
-				"down": {"uv": [4, 0, 0, 3.5], "texture": "#6"}
+				"up": {"uv": [8, 8, 0, 1], "texture": "#4"},
+				"down": {"uv": [8, 1, 0, 8], "texture": "#4"}
+			}
+		},
+		{
+			"from": [4.5, 2.1, 7.5],
+			"to": [12.5, 2.1, 14.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8.5, 2.2, 11]},
+			"faces": {
+				"up": {"uv": [8, 8, 0, 1], "rotation": 180, "texture": "#4"},
+				"down": {"uv": [8, 1, 0, 8], "rotation": 180, "texture": "#4"}
 			}
 		},
 		{
 			"from": [11, 3, 8.5],
 			"to": [13, 3, 8.5],
 			"rotation": {"angle": 0, "axis": "y", "origin": [11, 3, 7.5]},
+			"color": 0,
 			"faces": {
 				"north": {"uv": [0, 0, 2, 0], "texture": "#missing"},
 				"east": {"uv": [1, 0, 1, 0], "texture": "#missing"},
@@ -173,6 +175,7 @@
 		{
 			"name": "group",
 			"origin": [14.5, 7.375, 9],
+			"scope": 0,
 			"color": 0,
 			"children": [6, 7, 8]
 		}

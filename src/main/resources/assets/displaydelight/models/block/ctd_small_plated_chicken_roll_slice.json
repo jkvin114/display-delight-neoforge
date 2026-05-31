@@ -6,7 +6,7 @@
 	"textures": {
 		"2": "displaydelight:block/ctd_chicken_roll",
 		"particle": "displaydelight:block/ctd_chicken_roll",
-		"bowl": "farmers3d/small_plate"
+		"bowl": "displaydelight:block/small_plate"
 	},
 	"elements": [
 		{

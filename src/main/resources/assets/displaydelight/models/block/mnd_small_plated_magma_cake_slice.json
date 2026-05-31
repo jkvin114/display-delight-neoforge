@@ -5,7 +5,7 @@
 	"ambientocclusion": false,
 	"textures": {
 		"5": "displaydelight:block/mnd_magma_cake",
-		"bowl": "farmers3d/small_plate"
+		"bowl": "displaydelight:block/small_plate"
 	},
 	"elements": [
 		{

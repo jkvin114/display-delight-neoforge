@@ -5,7 +5,7 @@
 	"texture_size": [8, 8],
 	"textures": {
 		"2": "displaydelight:block/ctd_midori_roll",
-		"bowl": "farmers3d/small_plate"
+		"bowl": "displaydelight:block/small_plate"
 	},
 	"elements": [
 		{

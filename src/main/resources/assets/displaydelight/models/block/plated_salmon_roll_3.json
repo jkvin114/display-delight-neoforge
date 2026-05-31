@@ -3,7 +3,7 @@
 	"credit": "Made with Blockbench",
 	"parent": "displaydelight:block/parent_bowl",
 	"textures": {
-		"0": "farmers3d/salmon_roll",
+		"0": "displaydelight:block/salmon_roll",
 		"tray_top": "farmers3d/tray_top",
 		"tray_bottom": "farmers3d/tray_bottom"
 	},

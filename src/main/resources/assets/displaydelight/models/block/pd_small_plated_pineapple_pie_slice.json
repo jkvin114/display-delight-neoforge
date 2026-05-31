@@ -5,7 +5,7 @@
 	"texture_size": [8, 8],
 	"textures": {
 		"3": "displaydelight:block/plated_pineapple_cake_slice",
-		"bowl": "farmers3d/small_plate",
+		"bowl": "displaydelight:block/small_plate",
 		"particle": "displaydelight:block/plated_pineapple_cake_slice"
 	},
 	"elements": [
