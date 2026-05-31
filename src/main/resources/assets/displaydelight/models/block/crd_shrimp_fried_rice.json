@@ -7,8 +7,7 @@
 		"3": "displaydelight:block/bowl2",
 		"4": "displaydelight:block/bacon_and_eggs",
 		"6": "displaydelight:block/crd_clawster",
-		"particle": "displaydelight:block/fried_rice",
-		"rice": "displaydelight:block/bowl2"
+		"particle": "displaydelight:block/fried_rice"
 	},
 	"elements": [
 		{
@@ -124,11 +123,11 @@
 			"to": [11, 4.5, 11],
 			"rotation": {"angle": 0, "axis": "y", "origin": [9, 1.5, 5]},
 			"faces": {
-				"north": {"uv": [0, 0, 6, 1], "texture": "#rice"},
-				"east": {"uv": [7, 0, 8, 6], "rotation": 270, "texture": "#rice"},
-				"south": {"uv": [0, 7, 6, 8], "texture": "#rice"},
-				"west": {"uv": [0, 0, 1, 6], "rotation": 270, "texture": "#rice"},
-				"up": {"uv": [0, 0, 6, 6], "rotation": 90, "texture": "#rice"}
+				"north": {"uv": [0, 0, 6, 1], "texture": "#particle"},
+				"east": {"uv": [7, 0, 8, 6], "rotation": 270, "texture": "#particle"},
+				"south": {"uv": [0, 7, 6, 8], "texture": "#particle"},
+				"west": {"uv": [0, 0, 1, 6], "rotation": 270, "texture": "#particle"},
+				"up": {"uv": [0, 0, 6, 6], "rotation": 90, "texture": "#particle"}
 			}
 		},
 		{
@@ -137,11 +136,11 @@
 			"to": [10.5, 5.5, 10.5],
 			"rotation": {"angle": 0, "axis": "y", "origin": [9, 2.5, 5]},
 			"faces": {
-				"north": {"uv": [0, 0, 5, 1], "texture": "#rice"},
-				"east": {"uv": [5, 0, 6, 5], "rotation": 270, "texture": "#rice"},
-				"south": {"uv": [0, 5, 5, 6], "texture": "#rice"},
-				"west": {"uv": [0, 0, 1, 5], "rotation": 270, "texture": "#rice"},
-				"up": {"uv": [0, 0, 5, 5], "texture": "#rice"}
+				"north": {"uv": [0, 0, 5, 1], "texture": "#particle"},
+				"east": {"uv": [5, 0, 6, 5], "rotation": 270, "texture": "#particle"},
+				"south": {"uv": [0, 5, 5, 6], "texture": "#particle"},
+				"west": {"uv": [0, 0, 1, 5], "rotation": 270, "texture": "#particle"},
+				"up": {"uv": [0, 0, 5, 5], "texture": "#particle"}
 			}
 		}
 	],
