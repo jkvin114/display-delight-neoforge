@@ -3,9 +3,9 @@
 	"parent": "displaydelight:block/parent_bowl",
 	"texture_size": [32, 32],
 	"textures": {
-		"1": "farmers3d/tray_bottom",
+		"1": "displaydelight:block/tray_bottom",
 		"6": "displaydelight:block/ctd_avocado_toast",
-		"tray_top": "farmers3d/tray_top"
+		"tray_top": "displaydelight:block/tray_top"
 	},
 	"elements": [
 		{

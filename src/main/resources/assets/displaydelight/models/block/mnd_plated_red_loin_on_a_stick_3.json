@@ -6,8 +6,8 @@
 	"textures": {
 		"2": "displaydelight:block/fungus",
 		"5": "displaydelight:block/mnd_barbeques",
-		"tray_top": "farmers3d/tray_top",
-		"tray_bottom": "farmers3d/tray_bottom",
+		"tray_top": "displaydelight:block/tray_top",
+		"tray_bottom": "displaydelight:block/tray_bottom",
 		"particle": "displaydelight:block/fungus"
 	},
 	"elements": [

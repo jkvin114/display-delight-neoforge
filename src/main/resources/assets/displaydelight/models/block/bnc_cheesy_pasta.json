@@ -3,7 +3,7 @@
 	"credit": "Made with Blockbench",
 	"parent": "displaydelight:block/parent_bowl",
 	"textures": {
-		"tray_bottom": "farmers3d/tray_bottom",
+		"tray_bottom": "displaydelight:block/tray_bottom",
 		"particle": "displaydelight:block/bnc_cheesy_pasta",
 		"tray_top": "displaydelight:block/bnc_cheesy_pasta"
 	},

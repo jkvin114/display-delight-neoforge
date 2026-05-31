@@ -5,8 +5,8 @@
 	"render_type": "cutout",
 	"textures": {
 		"1": "displaydelight:block/crd_stuffed_nautilus_shell",
-		"tray_top": "farmers3d/tray_top",
-		"tray_bottom": "farmers3d/tray_bottom"
+		"tray_top": "displaydelight:block/tray_top",
+		"tray_bottom": "displaydelight:block/tray_bottom"
 	},
 	"elements": [
 		{

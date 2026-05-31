@@ -6,8 +6,8 @@
 	"textures": {
 		"6": "displaydelight:block/grilled_salmon",
 		"8": "displaydelight:block/acd_baked_pollock",
-		"tray_top": "farmers3d/tray_top",
-		"tray_bottom": "farmers3d/tray_bottom"
+		"tray_top": "displaydelight:block/tray_top",
+		"tray_bottom": "displaydelight:block/tray_bottom"
 	},
 	"elements": [
 		{

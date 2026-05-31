@@ -9,8 +9,8 @@
 		"3": "displaydelight:block/nether_vines",
 		"9": "displaydelight:block/fungus",
 		"particle": "displaydelight:block/nether_vines",
-		"tray_top": "farmers3d/tray_top",
-		"tray_bottom": "farmers3d/tray_bottom"
+		"tray_top": "displaydelight:block/tray_top",
+		"tray_bottom": "displaydelight:block/tray_bottom"
 	},
 	"elements": [
 		{

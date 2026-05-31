@@ -7,8 +7,8 @@
 		"3": "displaydelight:block/crd_barbeque",
 		"4": "displaydelight:block/barbecue_on_stick",
 		"particle": "displaydelight:block/crd_barbeque",
-		"tray_top": "farmers3d/tray_top",
-		"tray_bottom": "farmers3d/tray_bottom"
+		"tray_top": "displaydelight:block/tray_top",
+		"tray_bottom": "displaydelight:block/tray_bottom"
 	},
 	"elements": [
 		{

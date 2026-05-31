@@ -3,9 +3,9 @@
 	"credit": "Made with Blockbench",
 	"parent": "displaydelight:block/parent_bowl",
 	"textures": {
-		"tray_top": "farmers3d/tray_top",
-		"tray_bottom": "farmers3d/tray_bottom",
-		"particle": "farmers3d/tray_bottom",
+		"tray_top": "displaydelight:block/tray_top",
+		"tray_bottom": "displaydelight:block/tray_bottom",
+		"particle": "displaydelight:block/tray_bottom",
 		"food": "displaydelight:block/kelp_roll"
 	},
 	"elements": [

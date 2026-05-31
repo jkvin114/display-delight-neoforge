@@ -4,9 +4,9 @@
 	"parent": "displaydelight:block/parent_bowl",
 	"textures": {
 		"0": "displaydelight:block/cod_roll",
-		"particle": "farmers3d/tray_bottom",
-		"tray_top": "farmers3d/tray_top",
-		"tray_bottom": "farmers3d/tray_bottom"
+		"particle": "displaydelight:block/tray_bottom",
+		"tray_top": "displaydelight:block/tray_top",
+		"tray_bottom": "displaydelight:block/tray_bottom"
 	},
 	"elements": [
 		{

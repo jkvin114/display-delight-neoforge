@@ -6,8 +6,8 @@
 		"5": "displaydelight:block/chorus",
 		"7": "displaydelight:block/erd_crispy_skewer",
 		"particle": "displaydelight:block/chorus",
-		"tray_top": "farmers3d/tray_top",
-		"tray_bottom": "farmers3d/tray_bottom"
+		"tray_top": "displaydelight:block/tray_top",
+		"tray_bottom": "displaydelight:block/tray_bottom"
 	},
 	"elements": [
 		{

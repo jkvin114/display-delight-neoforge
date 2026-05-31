@@ -7,9 +7,9 @@
 		"4": "displaydelight:block/bacon_and_eggs",
 		"5": "displaydelight:block/mnd_barbeques",
 		"6": "displaydelight:block/mnd_breakfast_sampler",
-		"particle": "farmers3d/tray_top",
-		"tray_top": "farmers3d/tray_top",
-		"tray_bottom": "farmers3d/tray_bottom"
+		"particle": "displaydelight:block/tray_top",
+		"tray_top": "displaydelight:block/tray_top",
+		"tray_bottom": "displaydelight:block/tray_bottom"
 	},
 	"elements": [
 		{

@@ -3,7 +3,7 @@
 	"parent": "displaydelight:block/parent_bowl",
 	"textures": {
 		"6": "displaydelight:block/ed_asparagus_and_bacon_cheesy",
-		"tray_bottom": "farmers3d/tray_bottom",
+		"tray_bottom": "displaydelight:block/tray_bottom",
 		"particle": "displaydelight:block/ed_asparagus_pasta",
 		"tray_top": "displaydelight:block/ed_asparagus_pasta"
 	},

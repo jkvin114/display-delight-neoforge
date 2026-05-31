@@ -6,8 +6,8 @@
 	"texture_size": [32, 32],
 	"textures": {
 		"5": "displaydelight:block/acd_halibut_with_tartar_sauce",
-		"tray_bottom": "farmers3d/tray_bottom",
-		"tray_top": "farmers3d/tray_top"
+		"tray_bottom": "displaydelight:block/tray_bottom",
+		"tray_top": "displaydelight:block/tray_top"
 	},
 	"elements": [
 		{

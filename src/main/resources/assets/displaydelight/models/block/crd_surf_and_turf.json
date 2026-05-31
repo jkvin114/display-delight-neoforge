@@ -7,8 +7,8 @@
 	"textures": {
 		"5": "displaydelight:block/steak",
 		"6": "displaydelight:block/crd_clawster",
-		"tray_bottom": "farmers3d/tray_bottom",
-		"tray_top": "farmers3d/tray_top",
+		"tray_bottom": "displaydelight:block/tray_bottom",
+		"tray_top": "displaydelight:block/tray_top",
 		"particle": "displaydelight:block/crd_clawster"
 	},
 	"elements": [

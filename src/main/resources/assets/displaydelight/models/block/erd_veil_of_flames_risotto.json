@@ -7,7 +7,7 @@
 		"3": "displaydelight:block/erd_soups",
 		"8": "displaydelight:block/erd_shulker_tray_bottom",
 		"9": "displaydelight:block/erd_veil_of_flames_risotto",
-		"tray_bottom": "farmers3d/tray_bottom",
+		"tray_bottom": "displaydelight:block/tray_bottom",
 		"particle": "displaydelight:block/erd_veil_of_flames_risotto"
 	},
 	"elements": [

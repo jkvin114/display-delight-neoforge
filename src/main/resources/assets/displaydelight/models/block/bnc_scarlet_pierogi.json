@@ -4,10 +4,10 @@
 	"parent": "displaydelight:block/parent_bowl",
 	"texture_size": [32, 32],
 	"textures": {
-		"1": "farmers3d/tray_bottom",
+		"1": "displaydelight:block/tray_bottom",
 		"3": "displaydelight:block/bnc_pierogi",
 		"particle": "displaydelight:block/bnc_pierogi",
-		"tray_top": "farmers3d/tray_top"
+		"tray_top": "displaydelight:block/tray_top"
 	},
 	"elements": [
 		{

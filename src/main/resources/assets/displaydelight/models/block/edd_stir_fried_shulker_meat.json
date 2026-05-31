@@ -7,8 +7,8 @@
 		"4": "displaydelight:block/edd_dragon_steak",
 		"5": "displaydelight:block/chorus",
 		"7": "displaydelight:block/edd_grilled_shulker",
-		"tray_top": "farmers3d/tray_top",
-		"tray_bottom": "farmers3d/tray_bottom",
+		"tray_top": "displaydelight:block/tray_top",
+		"tray_bottom": "displaydelight:block/tray_bottom",
 		"particle": "displaydelight:block/fungus"
 	},
 	"elements": [

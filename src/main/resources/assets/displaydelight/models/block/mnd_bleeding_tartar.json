@@ -3,8 +3,8 @@
 	"credit": "Made with Blockbench",
 	"render_type": "cutout",
 	"textures": {
-		"1": "farmers3d/tray_bottom",
-		"2": "farmers3d/tray_top",
+		"1": "displaydelight:block/tray_bottom",
+		"2": "displaydelight:block/tray_top",
 		"7": "displaydelight:block/mnd_grilled_strider",
 		"particle": "displaydelight:block/mnd_bleeding_tartar",
 		"egg": "displaydelight:block/mnd_bleeding_tartar"

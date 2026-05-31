@@ -5,8 +5,8 @@
 	"render_type": "cutout",
 	"textures": {
 		"8": "displaydelight:block/mnd_scotch_egg",
-		"tray_top": "farmers3d/tray_top",
-		"tray_bottom": "farmers3d/tray_bottom",
+		"tray_top": "displaydelight:block/tray_top",
+		"tray_bottom": "displaydelight:block/tray_bottom",
 		"particle": "displaydelight:block/mnd_scotch_egg"
 	},
 	"elements": [

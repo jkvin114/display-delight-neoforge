@@ -6,7 +6,7 @@
 	"texture_size": [32, 32],
 	"textures": {
 		"4": "displaydelight:block/acd_tuna_spagetti",
-		"tray_bottom": "farmers3d/tray_bottom",
+		"tray_bottom": "displaydelight:block/tray_bottom",
 		"tray_top": "displaydelight:block/acd_rollmops"
 	},
 	"elements": [

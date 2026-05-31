@@ -7,9 +7,9 @@
 	"textures": {
 		"2": "displaydelight:block/fungus",
 		"3": "displaydelight:block/hamburger",
-		"4": "farmers3d/tray_bottom",
+		"4": "displaydelight:block/tray_bottom",
 		"particle": "displaydelight:block/fungus",
-		"tray_top": "farmers3d/tray_top",
+		"tray_top": "displaydelight:block/tray_top",
 		"tray_bottom": "displaydelight:block/mnd_nether_burger"
 	},
 	"elements": [

@@ -2,9 +2,9 @@
 	"format_version": "1.9.0","render_type":"cutout","ambientocclusion": false,
 	"credit": "Made with Blockbench",
 	"textures": {
-		"1": "farmers3d/tray_bottom",
+		"1": "displaydelight:block/tray_bottom",
 		"3": "displaydelight:block/mnd_hotdog",
-		"4": "farmers3d/tray_top",
+		"4": "displaydelight:block/tray_top",
 		"5": "displaydelight:block/egg_sandwich"
 	},
 	"elements": [

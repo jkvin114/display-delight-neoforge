@@ -3,8 +3,8 @@
 	"credit": "Made with Blockbench","render_type": "cutout",
 	"textures": {
 		"0": "displaydelight:block/mnd_bullet_pepper",
-		"1": "farmers3d/tray_bottom",
-		"2": "farmers3d/tray_top",
+		"1": "displaydelight:block/tray_bottom",
+		"2": "displaydelight:block/tray_top",
 		"4": "displaydelight:block/mnd_spicy_cotten",
 		"5": "displaydelight:block/mnd_barbeques",
 		"particle": "displaydelight:block/mnd_bullet_pepper"
