@@ -129,3 +129,11 @@
 - Updated to support 1.21.1 port of Large Meals
 - Food blocks that aren't placed on 'sturdy' top face shows support table below the food block.
   - Exceptions can be configured in block tags `displaydelight:support_exceptions`
+
+### 1.6.0
+- Added new foods for Farmer's Delight 1.3
+  - Gleaming salad, onion soup, pumpkin pie slice
+### 1.6.1
+- Retextured salad bowls and plates to match FD 1.3
+- Rearrange assets folder structure
+- Removed some logging
