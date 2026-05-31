@@ -160,7 +160,7 @@ public class DisplayDelight {
         public static void onClientSetup(FMLClientSetupEvent event)
         {
             // Some client setup code
-            L//OGGER.info("HELLO FROM CLIENT SETUP");
+            //OGGER.info("HELLO FROM CLIENT SETUP");
             //LOGGER.info("MINECRAFT NAME >> {}", Minecraft.getInstance().getUser().getName());
         }
     }
