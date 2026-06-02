@@ -6,7 +6,7 @@
 	"texture_size": [32, 32],
 	"textures": {
 		"3": "displaydelight:block/stuffed_pumpkin",
-		"4": "displaydelight:block/bowl2",
+		"4": "displaydelight:block/spoon",
 		"14": "displaydelight:block/fruit_salad",
 		"particle": "displaydelight:block/fruit_salad",
 		"salad_bowl": "displaydelight:block/salad_bowl"

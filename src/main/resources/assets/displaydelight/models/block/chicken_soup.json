@@ -4,7 +4,7 @@
 	"parent": "displaydelight:block/parent_bowl",
 	"render_type": "cutout",
 	"textures": {
-		"4": "displaydelight:block/bowl2",
+		"4": "displaydelight:block/spoon",
 		"5": "displaydelight:block/chicken_soup",
 		"particle": "displaydelight:block/salad_bowl",
 		"salad_bowl": "displaydelight:block/salad_bowl"

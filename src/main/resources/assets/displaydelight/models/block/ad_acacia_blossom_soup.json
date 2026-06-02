@@ -5,7 +5,7 @@
 	"texture_size": [32, 32],
 	"textures": {
 		"3": "displaydelight:block/ad_acacia_blossom_soup",
-		"4": "displaydelight:block/bowl2",
+		"4": "displaydelight:block/spoon",
 		"particle": "displaydelight:block/ad_acacia_blossom_soup",
 		"salad_bowl": "displaydelight:block/salad_bowl"
 	},

@@ -46,19 +46,19 @@ public class DisplayEvents {
             placed= InterationManager.tryTakeItemWithBareHand(event.getEntity(), level, event.getHitVec());
         }
 
-        if(!placed && event.getItemStack().is(ItemTags.AXES))
+        if(!placed && event.getItemStack().is(ItemTags.AXES)&& !DisplayConfig.DISABLE_HIDE_PLATE_INTERACTION.get())
         {
             placed=InterationManager.tryTakePlateWithAxe(event.getEntity(), level, event.getHitVec());
             if(placed) event.getEntity().swing(event.getHand(), true);
         }
 
-        if(!placed && event.getItemStack().getItem() == DisplayItems.PLATE.get())
+        if(!placed && event.getItemStack().getItem() == DisplayItems.PLATE.get() && !DisplayConfig.DISABLE_PUT_PLATE_INTERACTION.get())
         {
             placed=InterationManager.tryInsertPlate(event.getEntity(), level, event.getHitVec(), event.getHand());
             if(placed) event.getEntity().swing(event.getHand(), true);
         }
 
-        if(!placed && event.getItemStack().getItem() == DisplayItems.SMALL_PLATE.get())
+        if(!placed && event.getItemStack().getItem() == DisplayItems.SMALL_PLATE.get() && !DisplayConfig.DISABLE_PUT_PLATE_INTERACTION.get())
         {
             placed=InterationManager.tryInsertSmallPlate(event.getEntity(), level, event.getHitVec(), event.getHand());
             if(placed) event.getEntity().swing(event.getHand(), true);

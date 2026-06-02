@@ -5,7 +5,7 @@
 	"render_type": "cutout",
 	"texture_size": [32, 32],
 	"textures": {
-		"4": "displaydelight:block/bowl2",
+		"4": "displaydelight:block/spoon",
 		"6": "displaydelight:block/pumpkin_soup",
 		"14": "displaydelight:block/fruit_salad",
 		"particle": "displaydelight:block/fruit_salad",

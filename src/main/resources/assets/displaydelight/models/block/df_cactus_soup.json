@@ -4,7 +4,7 @@
 	"parent": "displaydelight:block/parent_bowl",
 	"textures": {
 		"3": "displaydelight:block/df_cactus_soup",
-		"4": "displaydelight:block/bowl2",
+		"4": "displaydelight:block/spoon",
 		"particle": "displaydelight:block/df_cactus_soup",
 		"salad_bowl": "displaydelight:block/salad_bowl"
 	},

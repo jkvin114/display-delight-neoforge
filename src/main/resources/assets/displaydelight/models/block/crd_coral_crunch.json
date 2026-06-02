@@ -3,7 +3,7 @@
 	"credit": "Made with Blockbench",
 	"parent": "displaydelight:block/parent_bowl",
 	"textures": {
-		"4": "displaydelight:block/bowl2",
+		"4": "displaydelight:block/spoon",
 		"5": "displaydelight:block/crd_coral_crunch",
 		"particle": "displaydelight:block/crd_coral_crunch",
 		"salad_bowl": "displaydelight:block/salad_bowl"

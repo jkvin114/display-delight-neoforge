@@ -5,7 +5,7 @@
 	"textures": {
 		"4": "displaydelight:block/acd_poor_fisher_chowder",
 		"5": "displaydelight:block/egg_sandwich",
-		"particle": "displaydelight:block/bowl2",
+		"particle": "displaydelight:block/salad_bowl",
 		"salad_bowl": "displaydelight:block/salad_bowl"
 	},
 	"elements": [

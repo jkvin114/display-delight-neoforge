@@ -4,7 +4,7 @@
 	"parent": "displaydelight:block/bowl",
 	"textures": {
 		"2": "displaydelight:block/mushroom_stew",
-		"particle": "displaydelight:block/bowl2",
+		"particle": "displaydelight:block/salad_bowl",
 		"salad_bowl": "displaydelight:block/salad_bowl"
 	},
 	"elements": [
