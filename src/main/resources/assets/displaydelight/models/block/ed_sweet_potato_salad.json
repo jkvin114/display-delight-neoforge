@@ -5,7 +5,6 @@
 	"textures": {
 		"2": "displaydelight:block/ed_sweet_potato_salad",
 		"4": "displaydelight:block/bowl2",
-		"particle": "displaydelight:block/bowl2",
 		"salad_bowl": "displaydelight:block/salad_bowl"
 	},
 	"elements": [

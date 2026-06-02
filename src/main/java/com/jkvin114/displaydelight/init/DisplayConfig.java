@@ -13,6 +13,7 @@ public class DisplayConfig {
     public static final ModConfigSpec.BooleanValue MESSAGE;
     public static final ModConfigSpec.BooleanValue DISABLE_VANILLA_FOODS;
     public static final ModConfigSpec.BooleanValue DISABLE_EATING_ANIMATION_FIX;
+    public static final ModConfigSpec.BooleanValue DISABLE_CREATIVE_TAB_ITEMS;
     static {
         BUILDER.push("Features");
         DISABLE_VANILLA_FOODS = BUILDER.comment("Disable Vanila Food(mushroom stew,rabbit stew,beetroot soup) Placement. Set to true if vanila food placement conflicts with other mods").define("Disable-Vanila-Food-Placement", false);
@@ -26,6 +27,8 @@ public class DisplayConfig {
         WANDERING_TRADER_FOOD_BLOCK_ITEMS = BUILDER.comment("Should wandering traders sell food block items that are unobtainable in survival due to missing compat?")
                 .define("WanderingTraderSellFoodBlock", true);
 
+        DISABLE_CREATIVE_TAB_ITEMS = BUILDER.comment("Should creative tab items disabled? Try turning this on if this mod's items take too much space in JEI")
+                .define("DisableCreativeTabItems", false);
         BUILDER.pop();
         CONFIG = BUILDER.build();
     }

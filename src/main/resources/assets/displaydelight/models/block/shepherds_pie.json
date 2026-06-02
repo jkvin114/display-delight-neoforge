@@ -5,9 +5,9 @@
 	"render_type": "cutout",
 	"texture_size": [32, 32],
 	"textures": {
-		"1": "displaydelight:block/bowl",
 		"2": "displaydelight:block/shepherds_pie",
-		"particle": "displaydelight:block/bowl"
+		"particle": "displaydelight:block/feast_plate",
+		"salad_bowl": "displaydelight:block/salad_bowl"
 	},
 	"elements": [
 		{
@@ -25,30 +25,29 @@
 		},
 		{
 			"name": "bottom",
-			"from": [4, 0, 4],
-			"to": [12, 1, 12],
-			"rotation": {"angle": 0, "axis": "y", "origin": [6, 0, 7]},
-			"faces": {
-				"north": {"uv": [0, 15, 8, 16], "texture": "#1"},
-				"east": {"uv": [0, 15, 8, 16], "texture": "#1"},
-				"south": {"uv": [0, 15, 8, 16], "texture": "#1"},
-				"west": {"uv": [0, 15, 8, 16], "texture": "#1"},
-				"up": {"uv": [8, 0, 16, 8], "texture": "#1"},
-				"down": {"uv": [16, 8, 8, 16], "texture": "#1", "cullface": "down"}
-			}
-		},
-		{
-			"name": "bottom",
 			"from": [3, 1, 3],
 			"to": [13, 2, 13],
 			"rotation": {"angle": 0, "axis": "y", "origin": [5, 1, 6]},
 			"faces": {
-				"north": {"uv": [6, 7, 16, 8], "texture": "#1"},
-				"east": {"uv": [6, 8, 16, 9], "texture": "#1"},
-				"south": {"uv": [0, 8, 8, 9], "texture": "#1"},
-				"west": {"uv": [6, 6, 16, 7], "texture": "#1"},
+				"north": {"uv": [0, 10, 10, 11], "texture": "#salad_bowl"},
+				"east": {"uv": [0, 11, 10, 12], "texture": "#salad_bowl"},
+				"south": {"uv": [0, 9, 10, 10], "texture": "#salad_bowl"},
+				"west": {"uv": [0, 9, 10, 10], "texture": "#salad_bowl"},
 				"up": {"uv": [0, 0, 10, 10], "texture": "#2"},
-				"down": {"uv": [0, 0, 10, 10], "texture": "#1"}
+				"down": {"uv": [0, 0, 10, 10], "texture": "#salad_bowl"}
+			}
+		},
+		{
+			"name": "bottom",
+			"from": [4, 0, 4],
+			"to": [12, 1, 12],
+			"faces": {
+				"north": {"uv": [9, 13, 1, 14], "texture": "#salad_bowl"},
+				"east": {"uv": [4, 14, 12, 15], "texture": "#salad_bowl"},
+				"south": {"uv": [2, 13, 10, 14], "texture": "#salad_bowl"},
+				"west": {"uv": [0, 14, 8, 15], "texture": "#salad_bowl"},
+				"up": {"uv": [8, 0, 16, 8], "texture": "#salad_bowl"},
+				"down": {"uv": [0, 0, 8, 8], "texture": "#salad_bowl", "cullface": "down"}
 			}
 		}
 	],
@@ -95,9 +94,11 @@
 		{
 			"name": "group",
 			"origin": [8, 8, 8],
+			"scope": 0,
 			"color": 0,
-			"children": [1]
+			"children": []
 		},
+		1,
 		2
 	]
 }

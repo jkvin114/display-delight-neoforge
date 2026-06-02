@@ -4,11 +4,10 @@
 	"parent": "displaydelight:block/parent_bowl",
 	"render_type": "cutout",
 	"textures": {
-		"1": "displaydelight:block/bowl",
 		"2": "displaydelight:block/mnd_stuffed_hoglin_ham",
 		"3": "displaydelight:block/nether_vines",
 		"4": "displaydelight:block/mnd_stuffed_hoglin_snout",
-		"particle": "displaydelight:block/bowl"
+		"salad_bowl": "displaydelight:block/salad_bowl"
 	},
 	"elements": [
 		{
@@ -17,26 +16,12 @@
 			"to": [13, 2, 13],
 			"rotation": {"angle": 0, "axis": "y", "origin": [5, 1, 6]},
 			"faces": {
-				"north": {"uv": [0, 0, 10, 1], "texture": "#1"},
-				"east": {"uv": [0, 2, 10, 3], "texture": "#1"},
-				"south": {"uv": [0, 1, 10, 2], "texture": "#1"},
-				"west": {"uv": [0, 6, 10, 7], "texture": "#1"},
+				"north": {"uv": [0, 9, 10, 10], "texture": "#salad_bowl"},
+				"east": {"uv": [0, 11, 10, 12], "texture": "#salad_bowl"},
+				"south": {"uv": [0, 10, 10, 11], "texture": "#salad_bowl"},
+				"west": {"uv": [0, 11, 10, 12], "texture": "#salad_bowl"},
 				"up": {"uv": [0, 0, 10, 10], "texture": "#4"},
-				"down": {"uv": [0, 0, 10, 10], "texture": "#4"}
-			}
-		},
-		{
-			"name": "bottom",
-			"from": [4, 0, 4],
-			"to": [12, 1, 12],
-			"rotation": {"angle": 0, "axis": "y", "origin": [6, 0, 7]},
-			"faces": {
-				"north": {"uv": [0, 8, 8, 9], "texture": "#1"},
-				"east": {"uv": [0, 8, 8, 9], "texture": "#1"},
-				"south": {"uv": [0, 8, 8, 9], "texture": "#1"},
-				"west": {"uv": [0, 8, 8, 9], "texture": "#1"},
-				"up": {"uv": [8, 0, 16, 8], "texture": "#1"},
-				"down": {"uv": [8, 8, 16, 16], "texture": "#1"}
+				"down": {"uv": [0, 0, 10, 10], "texture": "#salad_bowl"}
 			}
 		},
 		{
@@ -129,6 +114,19 @@
 				"up": {"uv": [0, 0, 0, 8], "texture": "#3"},
 				"down": {"uv": [0, 0, 0, 8], "texture": "#3"}
 			}
+		},
+		{
+			"name": "bottom",
+			"from": [4, 0, 4],
+			"to": [12, 1, 12],
+			"faces": {
+				"north": {"uv": [9, 13, 1, 14], "texture": "#salad_bowl"},
+				"east": {"uv": [4, 14, 12, 15], "texture": "#salad_bowl"},
+				"south": {"uv": [2, 13, 10, 14], "texture": "#salad_bowl"},
+				"west": {"uv": [0, 11, 8, 12], "texture": "#salad_bowl"},
+				"up": {"uv": [8, 0, 16, 8], "texture": "#salad_bowl"},
+				"down": {"uv": [0, 0, 8, 8], "texture": "#salad_bowl", "cullface": "down"}
+			}
 		}
 	],
 	"display": {
@@ -171,13 +169,14 @@
 	},
 	"groups": [
 		0,
-		1,
 		{
 			"name": "group",
 			"origin": [0, 3.75, 8.75],
+			"scope": 0,
 			"color": 0,
-			"children": [2, 3, 4, 5, 6]
+			"children": [1, 2, 3, 4, 5]
 		},
+		6,
 		7,
 		8
 	]

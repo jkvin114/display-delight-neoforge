@@ -79,6 +79,8 @@ public class DisplayDelight {
             .icon(() -> new ItemStack(DisplayItems.GRILLED_SALMON))
             //Add your items to the tab.
             .displayItems((params, output) -> {
+                if(DisplayConfig.DISABLE_CREATIVE_TAB_ITEMS.get()) return;
+
                 Iterable<Item> items = DisplayItems.GetAll();
                 for(Item item:items){
                     output.accept(item);
@@ -112,6 +114,8 @@ public class DisplayDelight {
         // Register the Deferred Register to the mod event bus so items get registered
       //  ITEMS.register(modEventBus);
         // Register the Deferred Register to the mod event bus so tabs get registered
+
+
         CREATIVE_TABS.register(modEventBus);
 
         // Register ourselves for server and other game events we are interested in.
