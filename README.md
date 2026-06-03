@@ -27,6 +27,9 @@
 - aquaculture delight : ACD
 - nether's delight : ND
 - crabber's delight : CRD
+- Abnormals Delight: ABD
+- Farmers Respite : FR
+- Miners Delight : MD
 ## Naming rules
 --- 
 - Naming rules for all food blocks/items in this mod :
