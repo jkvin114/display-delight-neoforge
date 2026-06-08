@@ -1,0 +1,6 @@
+{
+	"parent": "displaydelight:block/plated_cookie_3",
+	"textures": {
+		"4": "displaydelight:block/abd_cherry_cookie"
+	}
+}

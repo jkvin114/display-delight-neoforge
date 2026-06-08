@@ -1,0 +1,63 @@
+{
+ "multipart": [
+  {
+   "apply": {
+    "model": "displaydelight:block/wood_support"
+   },
+   "when": {
+    "support": "true"
+   }
+  },
+  {
+   "apply": {
+    "model": "displaydelight:block/md_vegan_steak_and_potatoes"
+   },
+   "when": {
+    "AND": [
+     {
+      "facing": "north"
+     }
+    ]
+   }
+  },
+  {
+   "apply": {
+    "model": "displaydelight:block/md_vegan_steak_and_potatoes",
+    "y": 180
+   },
+   "when": {
+    "AND": [
+     {
+      "facing": "south"
+     }
+    ]
+   }
+  },
+  {
+   "apply": {
+    "model": "displaydelight:block/md_vegan_steak_and_potatoes",
+    "y": 270
+   },
+   "when": {
+    "AND": [
+     {
+      "facing": "west"
+     }
+    ]
+   }
+  },
+  {
+   "apply": {
+    "model": "displaydelight:block/md_vegan_steak_and_potatoes",
+    "y": 90
+   },
+   "when": {
+    "AND": [
+     {
+      "facing": "east"
+     }
+    ]
+   }
+  }
+ ]
+}

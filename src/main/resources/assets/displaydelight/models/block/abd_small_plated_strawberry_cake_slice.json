@@ -1,0 +1,6 @@
+{
+	"parent": "displaydelight:block/pd_small_plated_pineapple_cake_slice",
+	"textures": {
+		"2": "displaydelight:block/abd_strawberry_cake"
+	}
+}

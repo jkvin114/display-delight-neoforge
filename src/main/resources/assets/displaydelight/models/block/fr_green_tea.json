@@ -1,0 +1,6 @@
+{
+	"parent": "displaydelight:block/fr_black_tea",
+	"textures": {
+		"6": "displaydelight:block/fr_green_tea"
+	}
+}

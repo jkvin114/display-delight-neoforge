@@ -1,0 +1,63 @@
+{
+ "multipart": [
+  {
+   "apply": {
+    "model": "displaydelight:block/wood_support"
+   },
+   "when": {
+    "support": "true"
+   }
+  },
+  {
+   "apply": {
+    "model": "displaydelight:block/md_glow_ink_pasta"
+   },
+   "when": {
+    "AND": [
+     {
+      "facing": "north"
+     }
+    ]
+   }
+  },
+  {
+   "apply": {
+    "model": "displaydelight:block/md_glow_ink_pasta",
+    "y": 180
+   },
+   "when": {
+    "AND": [
+     {
+      "facing": "south"
+     }
+    ]
+   }
+  },
+  {
+   "apply": {
+    "model": "displaydelight:block/md_glow_ink_pasta",
+    "y": 270
+   },
+   "when": {
+    "AND": [
+     {
+      "facing": "west"
+     }
+    ]
+   }
+  },
+  {
+   "apply": {
+    "model": "displaydelight:block/md_glow_ink_pasta",
+    "y": 90
+   },
+   "when": {
+    "AND": [
+     {
+      "facing": "east"
+     }
+    ]
+   }
+  }
+ ]
+}

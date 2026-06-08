@@ -89,6 +89,12 @@ public class DisplayBlocks {
     public static final DeferredBlock<Block> ED_APPLE_JUICE = createDrinkFoodBlock("ed_apple_juice");
     public static final DeferredBlock<Block> ED_SWEET_BERRY_JUICE = createDrinkFoodBlock("ed_sweet_berry_juice");
     public static final DeferredBlock<Block> ED_GLOW_BERRY_JUICE = createDrinkFoodBlock("ed_glow_berry_juice");
+
+    public static final DeferredBlock<Block> ED_ASPARAGUS_FRITTATA = createFoodBlock("ed_asparagus_frittata");
+
+    public static final DeferredBlock<Block> ED_CHILI_PEPPER_SALMON = createFoodBlock("ed_chili_pepper_salmon");
+    public static final DeferredBlock<Block> ED_GOAT_CHEESE_BEETROOT_SALAD = createFoodBlock("ed_goat_cheese_beetroot_salad");
+
 //delightful
 
     public static final DeferredBlock<Block> DF_MATCHA_ICE_CREAM = createFoodBlock("df_matcha_ice_cream");
@@ -263,6 +269,46 @@ public class DisplayBlocks {
     public static final DeferredBlock<Block> ND_GRILLED_STRIDER = createWideFoodBlock("nd_grilled_strider");
 
 
+
+    public static final DeferredBlock<Block> ABD_CHERRY_CREAM_SODA = createDrinkFoodBlock("abd_cherry_cream_soda");
+    public static final DeferredBlock<Block> ABD_DUCK_NOODLES = createWideFoodBlock("abd_duck_noodles");
+    public static final DeferredBlock<Block> ABD_DUNE_PLATTER = createWideFoodBlock("abd_dune_platter");
+    public static final DeferredBlock<Block> ABD_PASSION_ALOE_NECTAR = createDrinkFoodBlock("abd_passion_aloe_nectar");
+    public static final DeferredBlock<Block> ABD_PASSION_FRUIT_GLAZED_DUCK = createWideFoodBlock("abd_passion_fruit_glazed_duck");
+    public static final DeferredBlock<Block> ABD_PERCH_WITH_MUSHROOMS = createWideFoodBlock("abd_perch_with_mushrooms");
+    public static final DeferredBlock<Block> ABD_PICKERELWEED_JUICE = createDrinkFoodBlock("abd_pickerelweed_juice");
+    public static final DeferredBlock<Block> ABD_PIKE_WITH_BEETROOT = createWideFoodBlock("abd_pike_with_beetroot");
+    public static final DeferredBlock<Block> ABD_SLABDISH = createFoodBlock("abd_slabdish");
+    public static final DeferredBlock<Block> ABD_VENISON_WITH_BAMBOO_SHOOTS = createWideFoodBlock("abd_venison_with_bamboo_shoots");
+
+    public static final DeferredBlock<Block> FR_BLACK_COD = createFoodBlock("fr_black_cod");
+    public static final DeferredBlock<Block> FR_BLACK_TEA = createHotDrinkFoodBlock("fr_black_tea");
+    public static final DeferredBlock<Block> FR_BLAZING_CHILI = createFieryFoodBlock("fr_blazing_chili");
+    public static final DeferredBlock<Block> FR_COFFEE = createHotDrinkFoodBlock("fr_coffee");
+    public static final DeferredBlock<Block> FR_DANDELION_TEA = createHotDrinkFoodBlock("fr_dandelion_tea");
+    public static final DeferredBlock<Block> FR_GAMBLERS_TEA = createHotDrinkFoodBlock("fr_gamblers_tea");
+    public static final DeferredBlock<Block> FR_GREEN_TEA = createHotDrinkFoodBlock("fr_green_tea");
+
+    public static final DeferredBlock<Block> FR_PURULENT_TEA = createHotDrinkFoodBlock("fr_purulent_tea");
+    public static final DeferredBlock<Block> FR_ROSE_HIP_TEA = createHotDrinkFoodBlock("fr_rose_hip_tea");
+
+    public static final DeferredBlock<Block> FR_TEA_CURRY = createFoodBlock("fr_tea_curry");
+    public static final DeferredBlock<Block> FR_YELLOW_TEA = createHotDrinkFoodBlock("fr_yellow_tea");
+
+  //  public static final DeferredBlock<Block> MD_BAT_SOUP = createFoodBlock("md_bat_soup");
+    public static final DeferredBlock<Block> MD_BOWL_OF_STUFFED_SQUID = createFoodBlock("md_bowl_of_stuffed_squid");
+    public static final DeferredBlock<Block> MD_CAVE_SOUP = createFoodBlock("md_cave_soup");
+    public static final DeferredBlock<Block> MD_GLOW_INK_PASTA = createWideFoodBlock("md_glow_ink_pasta");
+   //public static final DeferredBlock<Block> MD_INSECT_STEW = createFoodBlock("md_insect_stew");
+    public static final DeferredBlock<Block> MD_PASTA_WITH_VEGGIEBALLS = createWideFoodBlock("md_pasta_with_veggieballs");
+    public static final DeferredBlock<Block> MD_PLATE_OF_FAKE_MEATLOAF = createFoodBlock("md_plate_of_fake_meatloaf");
+
+
+    public static final DeferredBlock<Block> MD_PLATE_OF_GLAZED_ARACHNID_LIMBS = createFoodBlock("md_plate_of_glazed_arachnid_limbs");
+   // public static final DeferredBlock<Block> MD_SEASONED_ARTHROPODS = createFoodBlock("md_seasoned_arthropods");
+    public static final DeferredBlock<Block> MD_TAKOYAKI = createWideFoodBlock("md_takoyaki");
+    public static final DeferredBlock<Block> MD_VEGAN_STEAK_AND_POTATOES = createWideFoodBlock("md_vegan_steak_and_potatoes");
+
     public static Block[] getAll() {
         return new Block[]{
                 NETHER_SALAD.get(),  FRUIT_SALAD.get(),  GLOW_BERRY_CUSTARD.get(), COOKED_RICE.get(), MIXED_SALAD.get(),
@@ -319,8 +365,12 @@ public class DisplayBlocks {
                 MND_STRIDER_WITH_GRILLED_FUNGUS.get(),MND_SCOTCH_EGGS.get(),MND_GIANT_TAKOYAKI.get(),MND_BLUE_TENDERLOIN_STEAK.get(),
                 MND_CRIMSON_STROGANOFF.get(),MND_SPICY_CURRY.get(),MND_BLEEDING_TARTAR.get(),MND_HOT_WINGS.get(),MND_PLATE_OF_GHASTA_WITH_CREAM.get(),
                 MND_PLATE_OF_STUFFED_HOGLIN_SNOUT.get(),MND_PLATE_OF_STUFFED_HOGLIN_HAM.get(),MND_PLATE_OF_STUFFED_HOGLIN.get(),
-                MND_PLATE_OF_COLD_STRIDERLOAF.get(),MND_PLATE_OF_STRIDERLOAF.get()
+                MND_PLATE_OF_COLD_STRIDERLOAF.get(),MND_PLATE_OF_STRIDERLOAF.get(),
+                MD_BOWL_OF_STUFFED_SQUID.get(),MD_CAVE_SOUP.get(),MD_PASTA_WITH_VEGGIEBALLS.get(),MD_PLATE_OF_FAKE_MEATLOAF.get(),MD_PLATE_OF_GLAZED_ARACHNID_LIMBS.get(),MD_VEGAN_STEAK_AND_POTATOES.get(),MD_TAKOYAKI.get(),MD_GLOW_INK_PASTA.get(),
 
+                ABD_DUCK_NOODLES.get(),ABD_DUNE_PLATTER.get(),ABD_PASSION_ALOE_NECTAR.get(),ABD_PASSION_FRUIT_GLAZED_DUCK.get(),ABD_PERCH_WITH_MUSHROOMS.get(),ABD_PICKERELWEED_JUICE.get(),ABD_PIKE_WITH_BEETROOT.get(),ABD_SLABDISH.get(),ABD_VENISON_WITH_BAMBOO_SHOOTS.get(),ABD_CHERRY_CREAM_SODA.get(),
+
+            FR_BLAZING_CHILI.get(),FR_BLACK_COD.get(),FR_TEA_CURRY.get(),FR_BLACK_TEA.get(),FR_COFFEE.get(),FR_PURULENT_TEA.get(),FR_DANDELION_TEA.get(),FR_GAMBLERS_TEA.get(),FR_GREEN_TEA.get(),FR_YELLOW_TEA.get(),FR_ROSE_HIP_TEA.get(),
         };
     }
     private  static BlockBehaviour.Properties baseProps(){

@@ -119,7 +119,13 @@
 ,"block.displaydelight.ed_small_plated_sweet_roll": "Small Plated Sweet Roll Block"
 ,"block.displaydelight.ed_sweet_berry_juice": "Sweet Berry Juice Block"
 ,"block.displaydelight.ed_sweet_potato_salad": "Sweet Potato Salad Block"
-,"block.displaydelight.fd_christmas_tea": "Christmas Tea Block"
+
+  ,"block.displaydelight.ed_asparagus_frittata":"Asparagus Frittata Block"
+,"block.displaydelight.ed_chili_pepper_salmon":"Chili Pepper Salmon Block"
+,"block.displaydelight.ed_goat_cheese_beetroot_salad":"Goat Cheese Beetroot Salad Block"
+  ,"block.displaydelight.ed_plated_cranberry_jelly_sandwich":"Plated Cranberry Jelly Sandwich Block",
+
+  "block.displaydelight.fd_christmas_tea": "Christmas Tea Block"
 ,"block.displaydelight.fd_festive_chicken": "Plate of Festive Chicken Block"
 ,"block.displaydelight.fd_salmon_verrines": "Salmon Verrines Block"
 ,"block.displaydelight.fish_stew": "Fish Stew Block"
@@ -347,8 +353,65 @@
 "block.displaydelight.nd_plate_of_stuffed_hoglin_roast" : "Plate Of Stuffed Hoglin Roast Block",
 "block.displaydelight.nd_plate_of_stuffed_hoglin_snout" : "Plate Of Stuffed Hoglin Snout Block",
 "block.displaydelight.nd_strider_moss_stew": "Strider Moss Stew Block",
-"block.displaydelight.nd_warped_moldy_meat": "Warped Moldy Meat Block",
+"block.displaydelight.nd_warped_moldy_meat": "Warped Moldy Meat Block"
 
+  ,"block.displaydelight.fr_blazing_chili":"Blazing Chili Block"
+,"block.displaydelight.fr_black_cod":"Black Cod Block"
+,"block.displaydelight.fr_tea_curry":"Tea Curry Block"
+,"block.displaydelight.fr_black_tea":"Black Tea Block"
+,"block.displaydelight.fr_coffee":"Coffee Block"
+,"block.displaydelight.fr_purulent_tea":"Purulent Tea Block"
+,"block.displaydelight.fr_dandelion_tea":"Dandelion Tea Block"
+,"block.displaydelight.fr_gamblers_tea":"Gamblers Tea Block"
+,"block.displaydelight.fr_green_tea":"Green Tea Block"
+,"block.displaydelight.fr_yellow_tea":"Yellow Tea Block"
+,"block.displaydelight.fr_rose_hip_tea":"Rose Hip Tea Block"
+,"block.displaydelight.fr_plated_green_tea_cookie":"Plated Green Tea Cookie Block"
+,"block.displaydelight.fr_small_plated_coffee_cake_slice":"Small Plated Coffee Cake Slice Block"
+
+,"block.displaydelight.fr_small_plated_rose_hip_pie_slice":"Small Plated Rose Hip Pie Slice Block"
+  ,
+  "block.displaydelight.abd_duck_noodles":"Duck Noodles Block"
+,"block.displaydelight.abd_dune_platter":"Dune Platter Block"
+,"block.displaydelight.abd_passion_aloe_nectar":"Passion Aloe Nectar Block"
+,"block.displaydelight.abd_passion_fruit_glazed_duck":"Passion Fruit Glazed Duck Block"
+,"block.displaydelight.abd_perch_with_mushrooms":"Perch With Mushrooms Block"
+,"block.displaydelight.abd_pickerelweed_juice":"Pickerelweed Juice Block"
+,"block.displaydelight.abd_pike_with_beetroot":"Pike With Beetroot Block"
+,"block.displaydelight.abd_slabdish":"Slabdish Block"
+,"block.displaydelight.abd_venison_with_bamboo_shoots":"Venison With Bamboo Shoots Block"
+,"block.displaydelight.abd_cherry_cream_soda":"Cherry Cream Soda Block"
+,"block.displaydelight.abd_plated_cherry_cookie":"Plated Cherry Cookie Block"
+,"block.displaydelight.abd_plated_mulberry_cookie":"Plated Mulberry Cookie Block"
+,"block.displaydelight.abd_plated_maple_cookie":"Plated Maple Cookie Block"
+,"block.displaydelight.abd_plated_escargot":"Plated Escargot Block"
+,"block.displaydelight.abd_small_plated_adzuki_cake_slice":"Small Plated Adzuki Cake Slice Block"
+,"block.displaydelight.abd_small_plated_banana_cake_slice":"Small Plated Banana Cake Slice Block"
+,"block.displaydelight.abd_small_plated_chocolate_cake_slice":"Small Plated Chocolate Cake Slice Block"
+,"block.displaydelight.abd_small_plated_mint_cake_slice":"Small Plated Mint Cake Slice Block"
+,"block.displaydelight.abd_small_plated_strawberry_cake_slice":"Small Plated Strawberry Cake Slice Block"
+,"block.displaydelight.abd_small_plated_vanilla_cake_slice":"Small Plated Vanilla Cake Slice Block"
+,"block.displaydelight.abd_small_plated_yucca_gateau_slice":"Small Plated Yucca Gateau Slice Block"
+
+  ,"block.displaydelight.md_bat_soup":"Bat Soup Block"
+,"block.displaydelight.md_bowl_of_stuffed_squid":"Bowl Of Stuffed Squid Block"
+,"block.displaydelight.md_cave_soup":"Cave Soup Block"
+,"block.displaydelight.md_insect_stew":"Insect Stew Block"
+,"block.displaydelight.md_pasta_with_veggieballs":"Pasta With Veggieballs Block"
+,"block.displaydelight.md_plate_of_fake_meatloaf":"Plate Of Fake Meatloaf Block"
+,"block.displaydelight.md_plate_of_glazed_arachnid_limbs":"Plate Of Glazed Arachnid Limbs Block"
+,"block.displaydelight.md_vegan_steak_and_potatoes":"Vegan Steak And Potatoes Block"
+,"block.displaydelight.md_takoyaki":"Takoyaki Block"
+,"block.displaydelight.md_glow_ink_pasta":"Glow Ink Pasta Block"
+,"block.displaydelight.md_seasoned_arthropods":"Seasoned Arthropods Block"
+,"block.displaydelight.md_plated_vegan_wrap":"Plated Vegan Wrap Block"
+,"block.displaydelight.md_plated_cave_hamburger":"Plated Cave Hamburger Block"
+,"block.displaydelight.md_plated_insect_sandwich":"Plated Insect Sandwich Block"
+,"block.displaydelight.md_plated_insect_wrap":"Plated Insect Wrap Block"
+,"block.displaydelight.md_plated_squid_sandwich":"Plated Squid Sandwich Block"
+,"block.displaydelight.md_plated_tentacles_on_a_stick":"Plated Tentacles On A Stick Block"
+,"block.displaydelight.md_plated_improvised_barbecue_stick":"Plated Improvised Barbecue Stick Block"
+,"block.displaydelight.md_plated_vegan_hamburger":"Plated Vegan Hamburger Block",
 
   "displaydelight.jei.info.foodblockitems": "Food block items can be obtained by breaking placed food blocks with silk touch tools, or buying from wandering trader.",
 

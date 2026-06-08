@@ -176,6 +176,15 @@
     },{
       "id": "expandeddelight:sweet_berry_juice",
       "required": false
+    },{
+      "id": "expandeddelight:asparagus_frittata",
+      "required": false
+    },{
+      "id": "expandeddelight:chili_pepper_salmon",
+      "required": false
+    },{
+      "id": "expandeddelight:goat_cheese_beetroot_salad",
+      "required": false
     }
 
   ,{
@@ -723,6 +732,108 @@
       "required": false
     },{
       "id": "nethersdelight:grilled_strider",
+      "required": false
+    }
+
+  ,{
+      "id": "abnormals_delight:duck_noodles",
+      "required": false
+    },{
+      "id": "abnormals_delight:dune_platter",
+      "required": false
+    },{
+      "id": "abnormals_delight:passion_aloe_nectar",
+      "required": false
+    },{
+      "id": "abnormals_delight:passion_fruit_glazed_duck",
+      "required": false
+    },{
+      "id": "abnormals_delight:perch_with_mushrooms",
+      "required": false
+    },{
+      "id": "abnormals_delight:pickerelweed_juice",
+      "required": false
+    },{
+      "id": "abnormals_delight:pike_with_beetroot",
+      "required": false
+    },{
+      "id": "abnormals_delight:slabdish",
+      "required": false
+    },{
+      "id": "abnormals_delight:venison_with_bamboo_shoots",
+      "required": false
+    },{
+      "id": "abnormals_delight:cherry_cream_soda",
+      "required": false
+    }
+
+  ,{
+      "id": "minersdelight:bat_soup",
+      "required": false
+    },{
+      "id": "minersdelight:bowl_of_stuffed_squid",
+      "required": false
+    },{
+      "id": "minersdelight:cave_soup",
+      "required": false
+    },{
+      "id": "minersdelight:insect_stew",
+      "required": false
+    },{
+      "id": "minersdelight:pasta_with_veggieballs",
+      "required": false
+    },{
+      "id": "minersdelight:plate_of_fake_meatloaf",
+      "required": false
+    },{
+      "id": "minersdelight:plate_of_glazed_arachnid_limbs",
+      "required": false
+    },{
+      "id": "minersdelight:vegan_steak_and_potatoes",
+      "required": false
+    },{
+      "id": "minersdelight:takoyaki",
+      "required": false
+    },{
+      "id": "minersdelight:glow_ink_pasta",
+      "required": false
+    },{
+      "id": "minersdelight:seasoned_arthropods",
+      "required": false
+    }
+
+  ,{
+      "id": "farmersrespite:blazing_chili",
+      "required": false
+    },{
+      "id": "farmersrespite:black_cod",
+      "required": false
+    },{
+      "id": "farmersrespite:tea_curry",
+      "required": false
+    },{
+      "id": "farmersrespite:black_tea",
+      "required": false
+    },{
+      "id": "farmersrespite:coffee",
+      "required": false
+    },{
+      "id": "farmersrespite:purulent_tea",
+      "required": false
+    },{
+      "id": "farmersrespite:dandelion_tea",
+      "required": false
+    },{
+      "id": "farmersrespite:gamblers_tea",
+      "required": false
+    },{
+      "id": "farmersrespite:green_tea",
+      "required": false
+    },{
+      "id": "farmersrespite:yellow_tea",
+      "required": false
+    },{
+      "id": "farmersrespite:rose_hip_tea",
       "required": false
     }
   ]

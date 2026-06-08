@@ -136,6 +136,8 @@ public class DisplayItems {
 
     public static final DeferredHolder<Item,Item> ED_PEANUT_SALAD = block(DisplayBlocks.ED_PEANUT_SALAD);
     public static final DeferredHolder<Item,Item> ED_SWEET_POTTATO_SALAD = block(DisplayBlocks.ED_SWEET_POTTATO_SALAD);
+    public static final DeferredHolder<Item,Item> ED_GOAT_CHEESE_BEETROOT_SALAD = block(DisplayBlocks.ED_GOAT_CHEESE_BEETROOT_SALAD);
+
     public static final DeferredHolder<Item,Item> ED_CINNAMON_RICE = block(DisplayBlocks.ED_CINNAMON_RICE);
     public static final DeferredHolder<Item,Item> ED_CINNAMON_APPLES = block(DisplayBlocks.ED_CINNAMON_APPLES);
 
@@ -144,12 +146,14 @@ public class DisplayItems {
     public static final DeferredHolder<Item,Item> ED_CRANBERRY_CHICKEN = block(DisplayBlocks.ED_CRANBERRY_CHICKEN);
     public static final DeferredHolder<Item,Item> ED_ASPARAGUS_MUSHROOM_PASTA = block(DisplayBlocks.ED_ASPARAGUS_MUSHROOM_PASTA);
     public static final DeferredHolder<Item,Item> ED_SWEET_POTATO_CASSEROLE = block(DisplayBlocks.ED_SWEET_POTATO_CASSEROLE);
-
+    public static final DeferredHolder<Item,Item> ED_ASPARAGUS_FRITTATA = block(DisplayBlocks.ED_ASPARAGUS_FRITTATA);
+    public static final DeferredHolder<Item,Item> ED_CHILI_PEPPER_SALMON = block(DisplayBlocks.ED_CHILI_PEPPER_SALMON);
 
     public static final DeferredHolder<Item,Item> ED_PEANUT_BUTTER_SANDWICH = block(PlatedBlocks.ED_PEANUT_BUTTER_SANDWICH);
     public static final DeferredHolder<Item,Item> ED_PEANUT_BUTTER_AND_HONEY_SANDWICH = block(PlatedBlocks.ED_PEANUT_BUTTER_AND_HONEY_SANDWICH);
     public static final DeferredHolder<Item,Item> ED_GLOW_BERRY_JELLY_SANDWICH = block(PlatedBlocks.ED_GLOW_BERRY_JELLY_SANDWICH);
     public static final DeferredHolder<Item,Item> ED_SWEET_BERRY_JELLY_SANDWICH = block(PlatedBlocks.ED_SWEET_BERRY_JELLY_SANDWICH);
+    public static final DeferredHolder<Item,Item> ED_PLATED_CRANBERRY_JELLY_SANDWICH = block(PlatedBlocks.ED_PLATED_CRANBERRY_JELLY_SANDWICH);
 
     public static final DeferredHolder<Item,Item> ED_CHEESE_SANDWICH = block(PlatedBlocks.ED_CHEESE_SANDWICH);
     public static final DeferredHolder<Item,Item> ED_GRILLED_CHEESE = block(PlatedBlocks.ED_GRILLED_CHEESE);
@@ -162,6 +166,9 @@ public class DisplayItems {
     public static final DeferredHolder<Item,Item> ED_SWEET_ROLL =  block(PlatedBlocks.ED_SWEET_ROLL);
     public static final DeferredHolder<Item,Item> ED_BERRY_SWEET_ROLL =  block(PlatedBlocks.ED_BERRY_SWEET_ROLL);
     public static final DeferredHolder<Item,Item> ED_GLOW_BERRY_SWEET_ROLL =  block(PlatedBlocks.ED_GLOW_BERRY_SWEET_ROLL);
+
+
+
 
 
     public static final DeferredHolder<Item,Item> ED_SMALL_PLATED_CRANBERRY_COBBLER_SLICE = block(SmallPlatedBlocks.ED_SMALL_PLATED_CRANBERRY_COBBLER_SLICE);
@@ -473,7 +480,83 @@ public class DisplayItems {
     public static final DeferredHolder<Item,Item> ND_PLATE_OF_STUFFED_HOGLIN_HAM =  blockNoCreativeTab(DisplayBlocks.ND_PLATE_OF_STUFFED_HOGLIN_HAM);
     public static final DeferredHolder<Item,Item> ND_PLATE_OF_STUFFED_HOGLIN_ROAST =  blockNoCreativeTab(DisplayBlocks.ND_PLATE_OF_STUFFED_HOGLIN_ROAST);
     public static final DeferredHolder<Item,Item> ND_NETHER_SKEWER =  blockNoCreativeTab(PlatedBlocks.ND_NETHER_SKEWER);
-    
+
+
+    public static final DeferredHolder<Item,Item> ABD_CHERRY_CREAM_SODA = drinkblock(DisplayBlocks.ABD_CHERRY_CREAM_SODA);
+    public static final DeferredHolder<Item,Item> ABD_PICKERELWEED_JUICE = drinkblock(DisplayBlocks.ABD_PICKERELWEED_JUICE);
+    public static final DeferredHolder<Item,Item> ABD_PASSION_ALOE_NECTAR = drinkblock(DisplayBlocks.ABD_PASSION_ALOE_NECTAR);
+
+    public static final DeferredHolder<Item,Item> ABD_DUCK_NOODLES = block(DisplayBlocks.ABD_DUCK_NOODLES);
+    public static final DeferredHolder<Item,Item> ABD_DUNE_PLATTER = block(DisplayBlocks.ABD_DUNE_PLATTER);
+    public static final DeferredHolder<Item,Item> ABD_PASSION_FRUIT_GLAZED_DUCK = block(DisplayBlocks.ABD_PASSION_FRUIT_GLAZED_DUCK);
+    public static final DeferredHolder<Item,Item> ABD_PERCH_WITH_MUSHROOMS = block(DisplayBlocks.ABD_PERCH_WITH_MUSHROOMS);
+    public static final DeferredHolder<Item,Item> ABD_VENISON_WITH_BAMBOO_SHOOTS = block(DisplayBlocks.ABD_VENISON_WITH_BAMBOO_SHOOTS);
+    public static final DeferredHolder<Item,Item> ABD_PIKE_WITH_BEETROOT = block(DisplayBlocks.ABD_PIKE_WITH_BEETROOT);
+    public static final DeferredHolder<Item,Item> ABD_SLABDISH = block(DisplayBlocks.ABD_SLABDISH);
+
+
+    public static final DeferredHolder<Item,Item> ABD_PLATED_CHERRY_COOKIE = block(PlatedBlocks.ABD_PLATED_CHERRY_COOKIE);
+    public static final DeferredHolder<Item,Item> ABD_PLATED_MAPLE_COOKIE = block(PlatedBlocks.ABD_PLATED_MAPLE_COOKIE);
+    public static final DeferredHolder<Item,Item> ABD_PLATED_MULBERRY_COOKIE = block(PlatedBlocks.ABD_PLATED_MULBERRY_COOKIE);
+    public static final DeferredHolder<Item,Item> ABD_PLATED_ESCARGOT = block(PlatedBlocks.ABD_PLATED_ESCARGOT);
+
+    public static final DeferredHolder<Item,Item> ABD_SMALL_PLATED_ADZUKI_CAKE_SLICE = block(SmallPlatedBlocks.ABD_SMALL_PLATED_ADZUKI_CAKE_SLICE);
+    public static final DeferredHolder<Item,Item> ABD_SMALL_PLATED_BANANA_CAKE_SLICE = block(SmallPlatedBlocks.ABD_SMALL_PLATED_BANANA_CAKE_SLICE);
+    public static final DeferredHolder<Item,Item> ABD_SMALL_PLATED_CHOCOLATE_CAKE_SLICE = block(SmallPlatedBlocks.ABD_SMALL_PLATED_CHOCOLATE_CAKE_SLICE);
+    public static final DeferredHolder<Item,Item> ABD_SMALL_PLATED_MINT_CAKE_SLICE = block(SmallPlatedBlocks.ABD_SMALL_PLATED_MINT_CAKE_SLICE);
+    public static final DeferredHolder<Item,Item> ABD_SMALL_PLATED_STRAWBERRY_CAKE_SLICE = block(SmallPlatedBlocks.ABD_SMALL_PLATED_STRAWBERRY_CAKE_SLICE);
+    public static final DeferredHolder<Item,Item> ABD_SMALL_PLATED_VANILLA_CAKE_SLICE = block(SmallPlatedBlocks.ABD_SMALL_PLATED_VANILLA_CAKE_SLICE);
+    public static final DeferredHolder<Item,Item> ABD_SMALL_PLATED_YUCCA_GATEAU_SLICE = block(SmallPlatedBlocks.ABD_SMALL_PLATED_YUCCA_GATEAU_SLICE);
+
+
+
+    public static final DeferredHolder<Item,Item> FR_BLACK_TEA = drinkblock(DisplayBlocks.FR_BLACK_TEA);
+    public static final DeferredHolder<Item,Item> FR_COFFEE = drinkblock(DisplayBlocks.FR_COFFEE);
+    public static final DeferredHolder<Item,Item> FR_DANDELION_TEA = drinkblock(DisplayBlocks.FR_DANDELION_TEA);
+    public static final DeferredHolder<Item,Item> FR_GAMBLERS_TEA = drinkblock(DisplayBlocks.FR_GAMBLERS_TEA);
+    public static final DeferredHolder<Item,Item> FR_GREEN_TEA = drinkblock(DisplayBlocks.FR_GREEN_TEA);
+    public static final DeferredHolder<Item,Item> FR_PURULENT_TEA = drinkblock(DisplayBlocks.FR_PURULENT_TEA);
+    public static final DeferredHolder<Item,Item> FR_ROSE_HIP_TEA = drinkblock(DisplayBlocks.FR_ROSE_HIP_TEA);
+    public static final DeferredHolder<Item,Item> FR_YELLOW_TEA = drinkblock(DisplayBlocks.FR_YELLOW_TEA);
+
+
+    public static final DeferredHolder<Item,Item> FR_TEA_CURRY = block(DisplayBlocks.FR_TEA_CURRY);
+    public static final DeferredHolder<Item,Item> FR_BLAZING_CHILI = block(DisplayBlocks.FR_BLAZING_CHILI);
+    public static final DeferredHolder<Item,Item> FR_BLACK_COD = block(DisplayBlocks.FR_BLACK_COD);
+
+    public static final DeferredHolder<Item,Item> FR_PLATED_GREEN_TEA_COOKIE = block(PlatedBlocks.FR_PLATED_GREEN_TEA_COOKIE);
+    public static final DeferredHolder<Item,Item> FR_SMALL_PLATED_COFFEE_CAKE_SLICE = block(SmallPlatedBlocks.FR_SMALL_PLATED_COFFEE_CAKE_SLICE);
+    public static final DeferredHolder<Item,Item> FR_SMALL_PLATED_ROSE_HIP_PIE_SLICE = block(SmallPlatedBlocks.FR_SMALL_PLATED_ROSE_HIP_PIE_SLICE);
+
+
+  //  public static final DeferredHolder<Item,Item> MD_BAT_SOUP = block(DisplayBlocks.MD_BAT_SOUP);
+    public static final DeferredHolder<Item,Item> MD_CAVE_SOUP = block(DisplayBlocks.MD_CAVE_SOUP);
+   // public static final DeferredHolder<Item,Item> MD_INSECT_STEW = block(DisplayBlocks.MD_INSECT_STEW);
+
+    public static final DeferredHolder<Item,Item> MD_GLOW_INK_PASTA = block(DisplayBlocks.MD_GLOW_INK_PASTA);
+    public static final DeferredHolder<Item,Item> MD_PASTA_WITH_VEGGIEBALLS = block(DisplayBlocks.MD_PASTA_WITH_VEGGIEBALLS);
+
+   // public static final DeferredHolder<Item,Item> MD_SEASONED_ARTHROPODS = block(DisplayBlocks.MD_SEASONED_ARTHROPODS);
+    public static final DeferredHolder<Item,Item> MD_TAKOYAKI = block(DisplayBlocks.MD_TAKOYAKI);
+    public static final DeferredHolder<Item,Item> MD_VEGAN_STEAK_AND_POTATOES = block(DisplayBlocks.MD_VEGAN_STEAK_AND_POTATOES);
+
+    public static final DeferredHolder<Item,Item> MD_BOWL_OF_STUFFED_SQUID = block(DisplayBlocks.MD_BOWL_OF_STUFFED_SQUID);
+    public static final DeferredHolder<Item,Item> MD_PLATE_OF_FAKE_MEATLOAF = block(DisplayBlocks.MD_PLATE_OF_FAKE_MEATLOAF);
+    public static final DeferredHolder<Item,Item> MD_PLATE_OF_GLAZED_ARACHNID_LIMBS = block(DisplayBlocks.MD_PLATE_OF_GLAZED_ARACHNID_LIMBS);
+
+    public static final DeferredHolder<Item,Item> MD_PLATED_CAVE_HAMBURGER = block(PlatedBlocks.MD_PLATED_CAVE_HAMBURGER);
+    public static final DeferredHolder<Item,Item> MD_PLATED_VEGAN_HAMBURGER = block(PlatedBlocks.MD_PLATED_VEGAN_HAMBURGER);
+   // public static final DeferredHolder<Item,Item> MD_PLATED_INSECT_SANDWICH = block(PlatedBlocks.MD_PLATED_INSECT_SANDWICH);
+    public static final DeferredHolder<Item,Item> MD_PLATED_SQUID_SANDWICH = block(PlatedBlocks.MD_PLATED_SQUID_SANDWICH);
+
+   // public static final DeferredHolder<Item,Item> MD_PLATED_TENTACLES_ON_A_STICK = block(PlatedBlocks.MD_PLATED_TENTACLES_ON_A_STICK);
+   // public static final DeferredHolder<Item,Item> MD_PLATED_IMPROVISED_BARBECUE_STICK = block(PlatedBlocks.MD_PLATED_IMPROVISED_BARBECUE_STICK);
+
+   // public static final DeferredHolder<Item,Item> MD_PLATED_INSECT_WRAP = block(PlatedBlocks.MD_PLATED_INSECT_WRAP);
+    public static final DeferredHolder<Item,Item> MD_PLATED_VEGAN_WRAP = block(PlatedBlocks.MD_PLATED_VEGAN_WRAP);
+
+
+
     private static DeferredHolder<Item, Item> plateblock(DeferredHolder<Block, Block> block) {
         DeferredHolder<Item, Item> item = REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
         items.add(item);

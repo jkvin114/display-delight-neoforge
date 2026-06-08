@@ -64,7 +64,17 @@ public class SmallPlatedBlocks {
     public static final DeferredBlock<Block> EDD_SMALL_PLATED_CHORUS_FRUIT_PIE_SLICE = createPlatedBlock("edd_small_plated_chorus_fruit_pie_slice");
     public static final DeferredBlock<Block> MND_SMALL_PLATED_MAGMA_CAKE_SLICE = createFieryPlatedBlock("mnd_small_plated_magma_cake_slice");
 
+    public static final DeferredBlock<Block> ABD_SMALL_PLATED_ADZUKI_CAKE_SLICE = createPlatedBlock("abd_small_plated_adzuki_cake_slice");
+    public static final DeferredBlock<Block> ABD_SMALL_PLATED_BANANA_CAKE_SLICE = createPlatedBlock("abd_small_plated_banana_cake_slice");
+    public static final DeferredBlock<Block> ABD_SMALL_PLATED_CHOCOLATE_CAKE_SLICE = createPlatedBlock("abd_small_plated_chocolate_cake_slice");
+    public static final DeferredBlock<Block> ABD_SMALL_PLATED_MINT_CAKE_SLICE = createPlatedBlock("abd_small_plated_mint_cake_slice");
+    public static final DeferredBlock<Block> ABD_SMALL_PLATED_STRAWBERRY_CAKE_SLICE = createPlatedBlock("abd_small_plated_strawberry_cake_slice");
+    public static final DeferredBlock<Block> ABD_SMALL_PLATED_VANILLA_CAKE_SLICE = createPlatedBlock("abd_small_plated_vanilla_cake_slice");
+    public static final DeferredBlock<Block> ABD_SMALL_PLATED_YUCCA_GATEAU_SLICE = createPlatedBlock("abd_small_plated_yucca_gateau_slice");
 
+    public static final DeferredBlock<Block> FR_SMALL_PLATED_COFFEE_CAKE_SLICE = createPlatedBlock("fr_small_plated_coffee_cake_slice");
+
+    public static final DeferredBlock<Block> FR_SMALL_PLATED_ROSE_HIP_PIE_SLICE = createPlatedBlock("fr_small_plated_rose_hip_pie_slice");
     private static BlockBehaviour.Properties baseProps() {
         return BlockBehaviour.Properties.of().noOcclusion()
                 .noTerrainParticles().instabreak().pushReaction(PushReaction.DESTROY).mapColor(MapColor.COLOR_BROWN);
@@ -98,7 +108,9 @@ public class SmallPlatedBlocks {
                 CTD_TROPICAL_ROLL.get(),  CTD_EGG_ROLL.get(), CTD_CALAMARI_ROLL.get(), CTD_CUT_PICKLE.get(),
 
                 BNC_SMALL_PLATED_QUICHE_SLICE.get(),ED_SMALL_PLATED_CRANBERRY_COBBLER_SLICE.get(),ED_SMALL_PLATED_HONEYED_GOAT_CHEESE_TART_SLICE.get(),ACD_SMALL_PLATED_RAW_FISH_FILLET_ROLL.get(),
-                ACD_SMALL_PLATED_FRIED_PERCH_ROLL.get(),ERD_SMALL_PLATED_CHORUS_PIE_SLICE.get(),EDD_SMALL_PLATED_CHORUS_FRUIT_PIE_SLICE.get(),MND_SMALL_PLATED_MAGMA_CAKE_SLICE.get()
+                ACD_SMALL_PLATED_FRIED_PERCH_ROLL.get(),ERD_SMALL_PLATED_CHORUS_PIE_SLICE.get(),EDD_SMALL_PLATED_CHORUS_FRUIT_PIE_SLICE.get(),MND_SMALL_PLATED_MAGMA_CAKE_SLICE.get(),
+                ABD_SMALL_PLATED_ADZUKI_CAKE_SLICE.get(),ABD_SMALL_PLATED_BANANA_CAKE_SLICE.get(),ABD_SMALL_PLATED_CHOCOLATE_CAKE_SLICE.get(),ABD_SMALL_PLATED_MINT_CAKE_SLICE.get(),ABD_SMALL_PLATED_STRAWBERRY_CAKE_SLICE.get(),ABD_SMALL_PLATED_VANILLA_CAKE_SLICE.get(),ABD_SMALL_PLATED_YUCCA_GATEAU_SLICE.get(),
+                FR_SMALL_PLATED_COFFEE_CAKE_SLICE.get(),
         };
     }
 }

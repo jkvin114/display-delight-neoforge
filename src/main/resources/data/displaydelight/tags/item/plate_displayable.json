@@ -97,6 +97,9 @@
     },{
       "id": "expandeddelight:peanut_butter_sandwich",
       "required": false
+    },{
+      "id": "expandeddelight:cranberry_jelly_sandwich",
+      "required": false
     }
   ,{
       "id": "expandeddelight:chocolate_cookie",
@@ -336,6 +339,50 @@
       "required": false
     },{
       "id": "nethersdelight:nether_skewer",
+      "required": false
+    }
+  ,{
+      "id": "abnormals_delight:cherry_cookie",
+      "required": false
+    },{
+      "id": "abnormals_delight:mulberry_cookie",
+      "required": false
+    },{
+      "id": "abnormals_delight:maple_cookie",
+      "required": false
+    },{
+      "id": "abnormals_delight:escargot",
+      "required": false
+    }
+
+  ,{
+      "id": "minersdelight:vegan_wrap",
+      "required": false
+    },{
+      "id": "minersdelight:cave_hamburger",
+      "required": false
+    },{
+      "id": "minersdelight:insect_sandwich",
+      "required": false
+    },{
+      "id": "minersdelight:insect_wrap",
+      "required": false
+    },{
+      "id": "minersdelight:squid_sandwich",
+      "required": false
+    },{
+      "id": "minersdelight:tentacles_on_a_stick",
+      "required": false
+    },{
+      "id": "minersdelight:improvised_barbecue_stick",
+      "required": false
+    },{
+      "id": "minersdelight:vegan_hamburger",
+      "required": false
+    }
+
+  ,{
+      "id": "farmersrespite:green_tea_cookie",
       "required": false
     }
   ]

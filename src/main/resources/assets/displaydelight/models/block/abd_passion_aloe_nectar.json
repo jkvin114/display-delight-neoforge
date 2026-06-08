@@ -1,0 +1,6 @@
+{
+	"parent": "displaydelight:block/apple_cider",
+	"textures": {
+		"6": "displaydelight:block/abd_passion_aloe_nectar"
+	}
+}

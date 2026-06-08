@@ -56,6 +56,7 @@ public class PlatedBlocks {
     public static final DeferredBlock<Block> ED_CHOCOLATE_COOKIE = createStackablePlatedBlock("ed_plated_chocolate_cookie",4);
     public static final DeferredBlock<Block> ED_SUGAR_COOKIE = createStackablePlatedBlock("ed_plated_sugar_cookie",4);
     public static final DeferredBlock<Block> ED_SNICKERDOODLE = createStackablePlatedBlock("ed_plated_snickerdoodle",4);
+    public static final DeferredBlock<Block> ED_PLATED_CRANBERRY_JELLY_SANDWICH = createPlatedBlock("ed_plated_cranberry_jelly_sandwich");
 
     public static final DeferredBlock<Block> ED_SWEET_ROLL =  createStackablePlatedBlock("ed_plated_sweet_roll",4);
     public static final DeferredBlock<Block> ED_BERRY_SWEET_ROLL =  createStackablePlatedBlock("ed_plated_berry_sweet_roll",4);
@@ -138,6 +139,23 @@ public class PlatedBlocks {
     public static final DeferredBlock<Block> CRD_FISH_STICK = createPlatedBlock("crd_plated_fish_stick");
     public static final DeferredBlock<Block> CRD_STUFFED_NAUTILUS_SHELL = createPlatedBlock("crd_plated_stuffed_nautilus_shell");
 
+    public static final DeferredBlock<Block> ABD_PLATED_CHERRY_COOKIE = createStackablePlatedBlock("abd_plated_cherry_cookie",4);
+    public static final DeferredBlock<Block> ABD_PLATED_ESCARGOT = createPlatedBlock("abd_plated_escargot");
+    public static final DeferredBlock<Block> ABD_PLATED_MAPLE_COOKIE = createStackablePlatedBlock("abd_plated_maple_cookie",4);
+    public static final DeferredBlock<Block> ABD_PLATED_MULBERRY_COOKIE = createStackablePlatedBlock("abd_plated_mulberry_cookie",4);
+
+    public static final DeferredBlock<Block> FR_PLATED_GREEN_TEA_COOKIE = createStackablePlatedBlock("fr_plated_green_tea_cookie",4);
+
+
+    public static final DeferredBlock<Block> MD_PLATED_CAVE_HAMBURGER = createPlatedBlock("md_plated_cave_hamburger");
+    //public static final DeferredBlock<Block> MD_PLATED_IMPROVISED_BARBECUE_STICK = createStackablePlatedBlock("md_plated_improvised_barbecue_stick",2);
+   // public static final DeferredBlock<Block> MD_PLATED_INSECT_SANDWICH = createPlatedBlock("md_plated_insect_sandwich");
+   // public static final DeferredBlock<Block> MD_PLATED_INSECT_WRAP = createStackablePlatedBlock("md_plated_insect_wrap",2);
+    public static final DeferredBlock<Block> MD_PLATED_SQUID_SANDWICH = createStackablePlatedBlock("md_plated_squid_sandwich",2);
+   // public static final DeferredBlock<Block> MD_PLATED_TENTACLES_ON_A_STICK = createStackablePlatedBlock("md_plated_tentacles_on_a_stick",2);
+    public static final DeferredBlock<Block> MD_PLATED_VEGAN_HAMBURGER = createPlatedBlock("md_plated_vegan_hamburger");
+    public static final DeferredBlock<Block> MD_PLATED_VEGAN_WRAP = createStackablePlatedBlock("md_plated_vegan_wrap",2);
+
 
     private static BlockBehaviour.Properties baseProps(){
         return BlockBehaviour.Properties.of().noOcclusion()
@@ -208,8 +226,10 @@ public class PlatedBlocks {
                 ERD_PLATED_CRISPY_SKEWER.get(),ERD_PLATED_STRANGE_ECLAIR.get(),ERD_PLATED_CRAWLING_SANDWICH.get(),EDD_PLATED_STUFFED_RICE_CAKE.get(),EDD_PLATED_CHORUS_FLOWER_PIE.get(),
                 EDD_PLATED_ENDER_BAMBOO_RICE.get(),EDD_PLATED_CHORUS_FRUIT_POPSICLE.get(),EDD_PLATED_END_BARBECUE_STICK.get(),MND_PLATED_STUFFED_PEPPER.get(),MND_PLATED_HOTDOG_WITH_MIXED_SALAD.get(),
                 MND_PLATED_HOTDOG_WITH_NETHER_SALAD.get(),MND_PLATED_CHILIDOG.get(),MND_PLATED_SPICY_COTTON.get(),MND_PLATED_FRIES_GHASTA.get(),MND_PLATED_SPICY_SKEWER.get(),
-                MND_PLATED_RED_LOIN_ON_A_STICK.get(),MND_PLATED_NETHER_BURGER.get(),MND_PLATED_BACON_WRAPPED_SAUSAGE_STICK.get()
-
+                MND_PLATED_RED_LOIN_ON_A_STICK.get(),MND_PLATED_NETHER_BURGER.get(),MND_PLATED_BACON_WRAPPED_SAUSAGE_STICK.get(),
+                ABD_PLATED_CHERRY_COOKIE.get(),ABD_PLATED_MULBERRY_COOKIE.get(),ABD_PLATED_MAPLE_COOKIE.get(),ABD_PLATED_ESCARGOT.get(),
+                FR_PLATED_GREEN_TEA_COOKIE.get(),
+                MD_PLATED_VEGAN_WRAP.get(),MD_PLATED_CAVE_HAMBURGER.get(),MD_PLATED_SQUID_SANDWICH.get(),MD_PLATED_VEGAN_HAMBURGER.get(),
         };
     };
 

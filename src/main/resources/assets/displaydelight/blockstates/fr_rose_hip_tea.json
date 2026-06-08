@@ -1,0 +1,63 @@
+{
+ "multipart": [
+  {
+   "apply": {
+    "model": "displaydelight:block/wood_support"
+   },
+   "when": {
+    "support": "true"
+   }
+  },
+  {
+   "apply": {
+    "model": "displaydelight:block/fr_rose_hip_tea"
+   },
+   "when": {
+    "AND": [
+     {
+      "facing": "north"
+     }
+    ]
+   }
+  },
+  {
+   "apply": {
+    "model": "displaydelight:block/fr_rose_hip_tea",
+    "y": 180
+   },
+   "when": {
+    "AND": [
+     {
+      "facing": "south"
+     }
+    ]
+   }
+  },
+  {
+   "apply": {
+    "model": "displaydelight:block/fr_rose_hip_tea",
+    "y": 270
+   },
+   "when": {
+    "AND": [
+     {
+      "facing": "west"
+     }
+    ]
+   }
+  },
+  {
+   "apply": {
+    "model": "displaydelight:block/fr_rose_hip_tea",
+    "y": 90
+   },
+   "when": {
+    "AND": [
+     {
+      "facing": "east"
+     }
+    ]
+   }
+  }
+ ]
+}

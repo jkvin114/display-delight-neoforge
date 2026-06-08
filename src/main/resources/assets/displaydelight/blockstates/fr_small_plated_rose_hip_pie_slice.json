@@ -1,0 +1,63 @@
+{
+ "multipart": [
+  {
+   "apply": {
+    "model": "displaydelight:block/wood_support"
+   },
+   "when": {
+    "support": "true"
+   }
+  },
+  {
+   "apply": {
+    "model": "displaydelight:block/fr_small_plated_rose_hip_pie_slice"
+   },
+   "when": {
+    "AND": [
+     {
+      "facing": "north"
+     }
+    ]
+   }
+  },
+  {
+   "apply": {
+    "model": "displaydelight:block/fr_small_plated_rose_hip_pie_slice",
+    "y": 180
+   },
+   "when": {
+    "AND": [
+     {
+      "facing": "south"
+     }
+    ]
+   }
+  },
+  {
+   "apply": {
+    "model": "displaydelight:block/fr_small_plated_rose_hip_pie_slice",
+    "y": 270
+   },
+   "when": {
+    "AND": [
+     {
+      "facing": "west"
+     }
+    ]
+   }
+  },
+  {
+   "apply": {
+    "model": "displaydelight:block/fr_small_plated_rose_hip_pie_slice",
+    "y": 90
+   },
+   "when": {
+    "AND": [
+     {
+      "facing": "east"
+     }
+    ]
+   }
+  }
+ ]
+}

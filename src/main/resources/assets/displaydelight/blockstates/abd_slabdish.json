@@ -1,0 +1,63 @@
+{
+ "multipart": [
+  {
+   "apply": {
+    "model": "displaydelight:block/wood_support"
+   },
+   "when": {
+    "support": "true"
+   }
+  },
+  {
+   "apply": {
+    "model": "displaydelight:block/abd_slabdish"
+   },
+   "when": {
+    "AND": [
+     {
+      "facing": "north"
+     }
+    ]
+   }
+  },
+  {
+   "apply": {
+    "model": "displaydelight:block/abd_slabdish",
+    "y": 180
+   },
+   "when": {
+    "AND": [
+     {
+      "facing": "south"
+     }
+    ]
+   }
+  },
+  {
+   "apply": {
+    "model": "displaydelight:block/abd_slabdish",
+    "y": 270
+   },
+   "when": {
+    "AND": [
+     {
+      "facing": "west"
+     }
+    ]
+   }
+  },
+  {
+   "apply": {
+    "model": "displaydelight:block/abd_slabdish",
+    "y": 90
+   },
+   "when": {
+    "AND": [
+     {
+      "facing": "east"
+     }
+    ]
+   }
+  }
+ ]
+}

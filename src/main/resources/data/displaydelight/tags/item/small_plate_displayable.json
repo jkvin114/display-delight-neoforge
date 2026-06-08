@@ -128,5 +128,36 @@
       "id": "mynethersdelight:magma_cake_slice",
       "required": false
     }
+
+  ,{
+      "id": "abnormals_delight:adzuki_cake_slice",
+      "required": false
+    },{
+      "id": "abnormals_delight:banana_cake_slice",
+      "required": false
+    },{
+      "id": "abnormals_delight:chocolate_cake_slice",
+      "required": false
+    },{
+      "id": "abnormals_delight:mint_cake_slice",
+      "required": false
+    },{
+      "id": "abnormals_delight:strawberry_cake_slice",
+      "required": false
+    },{
+      "id": "abnormals_delight:vanilla_cake_slice",
+      "required": false
+    },{
+      "id": "abnormals_delight:yucca_gateau_slice",
+      "required": false
+    }
+
+  ,{
+      "id": "farmersrespite:coffee_cake_slice",
+      "required": false
+    },{
+      "id": "farmersrespite:rose_hip_pie_slice",
+      "required": false
+    }
   ]
 }
