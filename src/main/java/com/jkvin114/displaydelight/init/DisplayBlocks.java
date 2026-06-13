@@ -280,8 +280,8 @@ public class DisplayBlocks {
     public static final DeferredBlock<Block> ABD_PIKE_WITH_BEETROOT = createWideFoodBlock("abd_pike_with_beetroot");
     public static final DeferredBlock<Block> ABD_SLABDISH = createFoodBlock("abd_slabdish");
     public static final DeferredBlock<Block> ABD_VENISON_WITH_BAMBOO_SHOOTS = createWideFoodBlock("abd_venison_with_bamboo_shoots");
-
-    public static final DeferredBlock<Block> FR_BLACK_COD = createFoodBlock("fr_black_cod");
+    public static final DeferredBlock<Block> ABD_SEARED_VENSION = createWideFoodBlock("abd_seared_venison");
+    public static final DeferredBlock<Block> FR_BLACK_COD = createWideFoodBlock("fr_black_cod");
     public static final DeferredBlock<Block> FR_BLACK_TEA = createHotDrinkFoodBlock("fr_black_tea");
     public static final DeferredBlock<Block> FR_BLAZING_CHILI = createFieryFoodBlock("fr_blazing_chili");
     public static final DeferredBlock<Block> FR_COFFEE = createHotDrinkFoodBlock("fr_coffee");
@@ -367,7 +367,7 @@ public class DisplayBlocks {
                 MND_PLATE_OF_STUFFED_HOGLIN_SNOUT.get(),MND_PLATE_OF_STUFFED_HOGLIN_HAM.get(),MND_PLATE_OF_STUFFED_HOGLIN.get(),
                 MND_PLATE_OF_COLD_STRIDERLOAF.get(),MND_PLATE_OF_STRIDERLOAF.get(),
                 MD_BOWL_OF_STUFFED_SQUID.get(),MD_CAVE_SOUP.get(),MD_PASTA_WITH_VEGGIEBALLS.get(),MD_PLATE_OF_FAKE_MEATLOAF.get(),MD_PLATE_OF_GLAZED_ARACHNID_LIMBS.get(),MD_VEGAN_STEAK_AND_POTATOES.get(),MD_TAKOYAKI.get(),MD_GLOW_INK_PASTA.get(),
-
+                ABD_SEARED_VENSION.get(),
                 ABD_DUCK_NOODLES.get(),ABD_DUNE_PLATTER.get(),ABD_PASSION_ALOE_NECTAR.get(),ABD_PASSION_FRUIT_GLAZED_DUCK.get(),ABD_PERCH_WITH_MUSHROOMS.get(),ABD_PICKERELWEED_JUICE.get(),ABD_PIKE_WITH_BEETROOT.get(),ABD_SLABDISH.get(),ABD_VENISON_WITH_BAMBOO_SHOOTS.get(),ABD_CHERRY_CREAM_SODA.get(),
 
             FR_BLAZING_CHILI.get(),FR_BLACK_COD.get(),FR_TEA_CURRY.get(),FR_BLACK_TEA.get(),FR_COFFEE.get(),FR_PURULENT_TEA.get(),FR_DANDELION_TEA.get(),FR_GAMBLERS_TEA.get(),FR_GREEN_TEA.get(),FR_YELLOW_TEA.get(),FR_ROSE_HIP_TEA.get(),

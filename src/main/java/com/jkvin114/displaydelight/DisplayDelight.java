@@ -141,8 +141,7 @@ public class DisplayDelight {
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
-        if (event.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS
-            || event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+        if (event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
             event.accept(DisplayItems.PLATE.get());
             event.accept(DisplayItems.SMALL_PLATE.get());
         }

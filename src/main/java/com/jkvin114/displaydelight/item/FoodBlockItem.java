@@ -34,7 +34,7 @@ public class FoodBlockItem extends BlockItem {
     @Override
     public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
         if(!requiredModName.isEmpty())
-            tooltipComponents.add(Component.translatable("item.displaydelight.tooltip.from_mod",requiredModName).withStyle(ChatFormatting.DARK_BLUE));
+            tooltipComponents.add(Component.translatable("item.displaydelight.tooltip.from_mod",requiredModName).withStyle(ChatFormatting.BLUE));
 
         super.appendHoverText(stack, context,tooltipComponents,tooltipFlag);
     }

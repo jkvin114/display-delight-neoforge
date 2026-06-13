@@ -6,6 +6,7 @@ import net.minecraft.core.registries.Registries;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -492,6 +493,7 @@ public class DisplayItems {
     public static final DeferredHolder<Item,Item> ABD_PERCH_WITH_MUSHROOMS = block(DisplayBlocks.ABD_PERCH_WITH_MUSHROOMS);
     public static final DeferredHolder<Item,Item> ABD_VENISON_WITH_BAMBOO_SHOOTS = block(DisplayBlocks.ABD_VENISON_WITH_BAMBOO_SHOOTS);
     public static final DeferredHolder<Item,Item> ABD_PIKE_WITH_BEETROOT = block(DisplayBlocks.ABD_PIKE_WITH_BEETROOT);
+    public static final DeferredHolder<Item,Item> ABD_SEARED_VENSION = block(DisplayBlocks.ABD_SEARED_VENSION);
     public static final DeferredHolder<Item,Item> ABD_SLABDISH = block(DisplayBlocks.ABD_SLABDISH);
 
 

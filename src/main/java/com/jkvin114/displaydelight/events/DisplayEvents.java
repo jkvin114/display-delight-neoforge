@@ -7,6 +7,7 @@ import com.jkvin114.displaydelight.init.*;
 import net.minecraft.network.protocol.game.ClientboundBlockUpdatePacket;
 import net.minecraft.tags.ItemTags;
 import net.minecraft.world.InteractionResult;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.Items;
 
 import net.minecraft.world.item.ItemStack;
@@ -17,6 +18,7 @@ import net.minecraft.world.level.block.CopperBulbBlock;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.neoforge.client.event.EntityRenderersEvent;
+import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 import net.neoforged.neoforge.event.entity.player.PlayerInteractEvent;
 import net.neoforged.neoforge.event.level.LevelEvent;
 import net.neoforged.neoforge.registries.datamaps.builtin.Waxable;
@@ -81,6 +83,13 @@ public class DisplayEvents {
 
         }
 
+    }
+    @SubscribeEvent
+    public static void addCreativeTabItems(BuildCreativeModeTabContentsEvent event) {
+        if (event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
+            event.accept(DisplayItems.PLATE.get());
+            event.accept(DisplayItems.SMALL_PLATE.get());
+        }
     }
     @SubscribeEvent
     public static void onWorldLoad(LevelEvent.Load event) {

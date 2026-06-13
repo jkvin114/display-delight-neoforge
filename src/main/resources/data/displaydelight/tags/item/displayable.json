@@ -765,6 +765,9 @@
     },{
       "id": "abnormals_delight:cherry_cream_soda",
       "required": false
+    },{
+      "id": "abnormals_delight:seared_venison",
+      "required": false
     }
 
   ,{

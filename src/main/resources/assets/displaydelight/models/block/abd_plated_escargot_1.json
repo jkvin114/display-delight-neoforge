@@ -5,9 +5,9 @@
 	"render_type": "cutout",
 	"textures": {
 		"2": "displaydelight:block/tray_bottom",
+		"particle": "displaydelight:block/tray_bottom",
 		"tray_top": "displaydelight:block/tray_top",
-		"tray_bottom": "displaydelight:block/abd_escargot",
-		"particle": "displaydelight:block/tray_bottom"
+		"tray_bottom": "displaydelight:block/abd_escargot"
 	},
 	"elements": [
 		{
@@ -24,9 +24,9 @@
 			}
 		},
 		{
-			"from": [3, 2, 4.5],
-			"to": [12, 5, 12.5],
-			"rotation": {"angle": 0, "axis": "y", "origin": [7, 3.25, 6]},
+			"from": [3.5, 2, 4.5],
+			"to": [12.5, 5, 12.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.5, 3.25, 6]},
 			"faces": {
 				"north": {"uv": [8, 0, 11, 9], "rotation": 270, "texture": "#tray_bottom"},
 				"east": {"uv": [14, 12, 6, 9], "texture": "#tray_bottom"},
@@ -37,9 +37,9 @@
 			}
 		},
 		{
-			"from": [3, 2, 3.5],
-			"to": [7, 5, 4.5],
-			"rotation": {"angle": 0, "axis": "y", "origin": [3, 2, 2.5]},
+			"from": [3.5, 2, 3.5],
+			"to": [7.5, 5, 4.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [3.5, 2, 2.5]},
 			"faces": {
 				"north": {"uv": [8, 5, 11, 9], "rotation": 90, "texture": "#tray_bottom"},
 				"east": {"uv": [10, 9, 11, 12], "texture": "#tray_bottom"},
