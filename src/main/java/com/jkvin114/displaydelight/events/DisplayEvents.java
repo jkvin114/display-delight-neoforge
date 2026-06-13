@@ -84,13 +84,7 @@ public class DisplayEvents {
         }
 
     }
-    @SubscribeEvent
-    public static void addCreativeTabItems(BuildCreativeModeTabContentsEvent event) {
-        if (event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
-            event.accept(DisplayItems.PLATE.get());
-            event.accept(DisplayItems.SMALL_PLATE.get());
-        }
-    }
+
     @SubscribeEvent
     public static void onWorldLoad(LevelEvent.Load event) {
         if (event.getLevel() instanceof ServerLevel lvl) {
