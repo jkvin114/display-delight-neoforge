@@ -140,3 +140,10 @@
 - Retextured salad bowls and plates to match FD 1.3
 - Rearrange assets folder structure
 - Removed some logging
+- Added config to disable interactions and creative tab
+### 1.7.0
+- Updated License
+- Added 4 more foods for Expanded delight
+- Added 22 foods from Abnormals delight
+- Added 12 foods from Miners delight
+- Added 14 foods from Farmers respite
